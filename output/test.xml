@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="test" version="0.8.2" generator="pynlpl.formats.folia-v0.8.2.25">
+  <metadata type="native">
+    <annotations>
+      <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-en"/>
+      <correction-annotation set="fowltset"/>
+      <errordetection-annotation set="fowltset"/>
+    </annotations>
+  </metadata>
+  <text xml:id="test.text">
+    <p xml:id="test.p.1">
+      <s xml:id="test.p.1.s.1">
+        <w xml:id="test.p.1.s.1.w.1" class="WORD">
+          <t>I</t>
+          <correction xml:id="test.p.1.s.1.w.1.correction.1" annotator="errorlist" annotatortype="auto" class="bekende-fout" datetime="2012-09-20T16:44:05">
+            <suggestion auth="no">
+              <t></t>
+            </suggestion>
+          </correction>
+        </w>
+        <w xml:id="test.p.1.s.1.w.2" class="WORD">
+          <t>make</t>
+          <correction xml:id="test.p.1.s.1.w.2.correction.1" annotator="errorlist" annotatortype="auto" class="bekende-fout" datetime="2012-09-20T16:44:05">
+            <suggestion auth="no">
+              <t></t>
+            </suggestion>
+          </correction>
+        </w>
+        <w xml:id="test.p.1.s.1.w.3" class="WORD">
+          <t>misakes</t>
+          <correction xml:id="test.p.1.s.1.w.3.correction.1" annotator="errorlist" annotatortype="auto" class="bekende-fout" datetime="2012-09-20T16:44:05">
+            <suggestion auth="no">
+              <t>mistakes</t>
+            </suggestion>
+            <suggestion auth="no">
+              <t></t>
+            </suggestion>
+          </correction>
+        </w>
+        <w xml:id="test.p.1.s.1.w.4" space="no" class="PUNCTUATION">
+          <t>.</t>
+          <correction xml:id="test.p.1.s.1.w.4.correction.1" annotator="errorlist" annotatortype="auto" class="bekende-fout" datetime="2012-09-20T16:44:05">
+            <suggestion auth="no">
+              <t></t>
+            </suggestion>
+          </correction>
+        </w>
+      </s>
+    </p>
+  </text>
+</FoLiA>
