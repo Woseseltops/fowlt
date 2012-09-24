@@ -1,2 +1,3 @@
 * Errorlistcheckermodule doet lege suggesties.
+* Volgens de log probeert ie voor elk woord correcties toe te voegen, zelfs als er geen correcties zijn. Is dit goed?
 * WOPR toevoegen.
