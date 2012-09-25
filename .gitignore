@@ -1,0 +1,5 @@
+*~
+*.out
+*.inst
+lexiconchecker/lexicon_checker
+output/*
