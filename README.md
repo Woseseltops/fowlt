@@ -9,15 +9,15 @@ Fowlt.net is the English version of the Dutch context based spell checker Valkui
 
 INSTALLATION
 
-1. Downloading Fowlt
+1. __Downloading Fowlt__
 Fowlt can be used on any computer with Python 2. To obtain Fowlt from GitHub:
 
   $ git clone git://github.com/Woseseltops/fowlt.git
 
-2. Installing PyNLPl
+2. __Installing PyNLPl__
 Fowlt makes use of the PyNLPl Python library, which can be installed with '$ easy_install pynlpl'. In case you don't have permission to use easy_install, you can also clone PyNLPl from GitHub into the Fowlt directory (https://github.com/proycon/pynlpl).
 
-3. Compiling modules
+3. __Compiling modules__
 Several modules need to be compiled before use. This can be done automatically by doing a make command from the main directory.
 
 UPDATING
