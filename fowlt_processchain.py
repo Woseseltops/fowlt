@@ -156,10 +156,10 @@ class ErrorListModule(AbstractModule):
         if self.done:
             #Reading module output and integrating in FoLiA document
             for word, fields in self.readcolumnedoutput(self.outputdir + 'errorlist_comparison.test.out'):                                            
-                if len(fields) >= 1:
+                if len(fields) > 1:
                     #Add correction suggestion
                     #(The last field holds the suggestion? (assumption, may differ per module))
-                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:]], cls='bekende-fout', annotator=self.NAME)
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:]], cls='Frequent-mistake', annotator=self.NAME)
             f.close()        
             
     def run(self):
