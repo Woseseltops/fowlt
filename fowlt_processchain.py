@@ -180,7 +180,11 @@ class LexiconModule(AbstractModule):
                 if len(fields) >= 2:
                     #Add correction suggestion
                     #(The last field holds the suggestion? (assumption, may differ per module))
-                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:]], cls='Looked-like-frequent-word', annotator=self.NAME)
+		    suggs = [];
+		    for x in fields[1:]:
+                        if str(x.strip()) != str(word):
+                            suggs.append(x.strip());
+                    self.addcorrection(word, suggestions=suggs, cls='Looked-like-frequent-word', annotator=self.NAME)
             f.close()                  
     
     
