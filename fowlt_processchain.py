@@ -150,12 +150,12 @@ class AbstractModule(object): #Do not modify
 #################### MODULE DEFINITIONS #################################
 
 class ErrorListModule(AbstractModule):
-    NAME = "errorlist"
+    NAME = "errorlistmodule"
     
     def process_result(self):                
         if self.done:
             #Reading module output and integrating in FoLiA document
-            for word, fields in self.readcolumnedoutput(self.outputdir + 'errorlist_comparison.test.out'):                                            
+            for word, fields in self.readcolumnedoutput(self.outputdir + 'errorlist_checker.test.out'):                                            
                 if len(fields) > 1:
                     #Add correction suggestion
                     #(The last field holds the suggestion? (assumption, may differ per module))
@@ -166,7 +166,7 @@ class ErrorListModule(AbstractModule):
         self.errout("MODULE: " + self.NAME)
                 
         #Call module and ask it to produce output
-        self.runcmd('python ' + self.rootdir + 'errorlistchecker/errorlistchecker.py ' + self.rootdir + 'output/input.tok.txt ' + self.rootdir + 'errorlistchecker/pyerrorlist ' + self.outputdir + 'errorlist_comparison.test.out')
+        self.runcmd('python ' + self.rootdir + 'errorlistchecker/errorlist_checker.py ' + self.rootdir + 'output/input.tok.txt ' + self.rootdir + 'errorlistchecker/pyerrorlist ' + self.outputdir + 'errorlist_checker.test.out')
 
 # --- Add new module classes here, and don't forget to declare them in the list below: ---
 
