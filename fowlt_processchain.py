@@ -170,12 +170,29 @@ class ErrorListModule(AbstractModule):
 
 # --- Add new module classes here, and don't forget to declare them in the list below: ---
 
+class LexiconModule(AbstractModule):
+    NAME = "lexiconmodule"
+    
+    def process_result(self):
+        if self.done:
+            #Reading module output and integrating in FoLiA document
+            for word, fields in self.readcolumnedoutput(self.outputdir + 'lexicon_checker.test.out'):                                            
+                if len(fields) >= 2:
+                    #Add correction suggestion
+                    #(The last field holds the suggestion? (assumption, may differ per module))
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:]], cls='Looked-like-frequent-word', annotator=self.NAME)
+            f.close()                  
+    
+    
+    def run(self):                
+        #Call module and ask it to produce output
+        self.runcmd(self.rootdir + 'lexiconchecker/lexicon_checker ' + self.rootdir + 'lexiconchecker/freqlist_google_formatted ' + self.outputdir + 'input.tok.txt > ' + self.outputdir + 'lexicon_checker.test.out')
 
 ###################### MODULE DECLARATION  ###############################################
 
 #Add all desired modules classes here here:
 
-modules = [ErrorListModule]
+modules = [ErrorListModule,LexiconModule]
 
 ##########################################################################################
 
