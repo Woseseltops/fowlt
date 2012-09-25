@@ -45,10 +45,10 @@ for w in words:
     if len(w) > 1 and '<utt>' not in w:
 
         if w in errors:
-            output += w + ' ' + ' '.join(corrections[w]) + ' \n';
+            output += w + ' ' + ' '.join(corrections[w]) + '\n';
             continue;
     
-    output += w + ' \n';
+    output += w + '\n';
 
 #Write output
 f = open(outputfile,'w');
