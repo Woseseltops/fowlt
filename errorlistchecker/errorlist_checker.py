@@ -48,7 +48,8 @@ for w in words:
             output += w + ' ' + ' '.join(corrections[w]) + '\n';
             continue;
     
-    output += w + '\n';
+    if len(w) > 0:
+        output += w + '\n';
 
 #Write output
 f = open(outputfile,'w');
