@@ -1,2 +1,2 @@
-* Andere contextvrije modules toevoegen
+* Zowel errorlistchecker als runonchecker kunnen onjuist spatiegebruik vinden, maar geven dat op een andere manier aan in de xml.
 * WOPR toevoegen.

@@ -232,11 +232,27 @@ class SplitCheckerModule(AbstractModule): #(merges in FoLiA terminology)
         #Call module and ask it to produce output
         self.runcmd(self.rootdir + 'splitchecker/split_checker ' + self.rootdir + 'lexiconchecker/freqlist_google_formatted ' + self.rootdir + 'splitchecker/exceptions ' + self.outputdir + 'input.tok.txt > ' + self.outputdir + 'split_checker.test.out')
 
+class RunOnCheckerModule(AbstractModule): #(splits in FoLiA terminology)
+    NAME = "runoncheckermodule"
+
+    def process_result(self):
+        if self.done:
+            #Reading module output and integrating in FoLiA document
+            for word, fields in self.readcolumnedoutput(self.outputdir + 'runon_checker.test.out'):
+                if len(fields) > 2:
+                    self.splitcorrection(word, fields[1:], cls='space-error', annotator=self.NAME)
+            f.close()                  
+    
+    
+    def run(self):                
+        #Call module and ask it to produce output
+        self.runcmd(self.rootdir + 'runonchecker/runon_checker ' + self.rootdir + 'lexiconchecker/freqlist_google_formatted ' + self.rootdir + 'runonchecker/exceptions ' + self.outputdir + 'input.tok.txt > ' + self.outputdir + 'runon_checker.test.out')
+
 ###################### MODULE DECLARATION  ###############################################
 
 #Add all desired modules classes here here:
 
-modules = [ErrorListModule,LexiconModule,SplitCheckerModule]
+modules = [ErrorListModule,LexiconModule,SplitCheckerModule,RunOnCheckerModule]
 
 ##########################################################################################
 
