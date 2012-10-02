@@ -25,3 +25,16 @@ UPDATING
 To keep Fowlt up to date, regularly check back on GitHub for changes and obtain the latest using a simple:
 
   fowlt$ git pull
+
+EXPANDING
+
+If you want, you can add your own confusible checker modules to Fowlt. This is done as follows:
+
+1. __Make sure you have a file with lots of text to Fowlt on__
+The British National Corpus was used for the modules included in the standard Fowlt installation.
+
+2. __Create a language model__
+This can be done automatically by running 'confusible_trainer/confusible_trainer.py [word1,word2,word3] [corpus]'. Three files will be created: and instance file (the training material), an IGTree file and IGTree.wgt file (the actual language model created by Timbl).
+
+3. __Add your new your new module to Fowlt__
+You have to add your new module both to the Fowlt server and the Fowlt client server. More info on this will added later.
