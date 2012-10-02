@@ -1,4 +1,10 @@
 import sys
+import subprocess
+
+def command(command):
+    command = command.split(' ');
+    result = subprocess.Popen(command, stdout=subprocess.PIPE).communicate()[0].decode();
+    print(result);
 
 def provide_window(position,words_around):
     new_position = position + 3;
@@ -6,6 +12,8 @@ def provide_window(position,words_around):
     right = words_around[new_position+1:new_position+4];
 
     return ' '.join(left) + ' ' + ' '.join(right);
+
+###### Script starts here #######
     
 #Get input files
 try:
@@ -19,7 +27,7 @@ try:
 
     print('Looking for '+str(searchstrings));
 except:
-    print('cofusible.py [searchstring1,searchstring2,searchstring3] [corpus]');
+    print('confusible.py [searchstring1,searchstring2,searchstring3] [corpus]');
     quit();
 
 lines = open(corpus,'r').readlines();
@@ -54,7 +62,11 @@ for nl, l in enumerate(lines):
                 window = provide_window(nw,words_around);               
                 output += window + ' ' + w + ' ' + '\n';
 
-open(outputfile,'w').write(output);
+#Save the instances
+open(outputfile+'.inst','w').write(output);
+print('Instance file saved');
 
-#TODO
-# Bij inputregels korter dan drie woorden raakt ie in de problemen
+#Train with Timbl
+print('Starting up Timbl');
+command('timbl -f '+outputfile+'.inst -a1 +D +vdb -I '+outputfile+'.IGTree');
+print('Done');

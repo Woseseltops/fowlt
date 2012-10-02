@@ -2,3 +2,4 @@
 * Bij inputregels van minder dan 3 woorden raakt confusible_trainer.py in paniek.
 * Optie toevoegen bij confusible_trainer.py: automatisch tokenizeren.
 * Kopje EXPANDING in the readme verder uitwerken: hoe voeg je een nieuwe module toe, en hoe zit het met testen en thresholds?
+* confusible_trainer.py geeft niet voor alle regels 7 woorden
