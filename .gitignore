@@ -1,5 +1,10 @@
 *~
 *.out
 *.inst
-lexiconchecker/lexicon_checker
 output/*
+*.o
+lexiconchecker/lexicon_checker
+confusiblechecker/confusible_checker
+runonchecker/runon_checker
+splitchecker/split_checker
+test
