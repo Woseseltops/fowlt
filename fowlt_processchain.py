@@ -248,11 +248,28 @@ class RunOnCheckerModule(AbstractModule): #(splits in FoLiA terminology)
         #Call module and ask it to produce output
         self.runcmd(self.rootdir + 'runonchecker/runon_checker ' + self.rootdir + 'lexiconchecker/freqlist_google_formatted ' + self.rootdir + 'runonchecker/exceptions ' + self.outputdir + 'input.tok.txt > ' + self.outputdir + 'runon_checker.test.out')
 
+class LoseLooseModule(AbstractModule):
+    NAME = "loseloosemodule"
+
+    def process_result(self):
+        if self.done:
+            #Reading module output and integrating in FoLiA document
+            for word, fields in self.readcolumnedoutput(self.outputdir + 'loseloose.test.out'):
+                if len(fields) >= 2:
+                    #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:]], cls='Well-known-mistake', annotator=self.NAME)
+            f.close()                      
+    
+    
+    def run(self):                
+        #Call module and ask it to produce output
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker lose loose ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'loseloose.test.out')
+
 ###################### MODULE DECLARATION  ###############################################
 
 #Add all desired modules classes here here:
 
-modules = [ErrorListModule,LexiconModule,SplitCheckerModule,RunOnCheckerModule]
+modules = [ErrorListModule,LexiconModule,SplitCheckerModule,RunOnCheckerModule,LoseLooseModule]
 
 ##########################################################################################
 
@@ -307,7 +324,7 @@ else:
     try:
         threshold = int(sys.argv[3])
     except:
-        threshold = 0.95
+        threshold = 0.50
     rootdir = ''
     outputdir = 'output/' #stdout
     statusfile = '/tmp/fowltstatus'
