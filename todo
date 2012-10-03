@@ -1,4 +1,3 @@
-* It's wordt door ucto uit elkaar getrokken: it 's
 * Bij inputregels van minder dan 3 woorden raakt confusible_trainer.py in paniek.
 * confusible_trainer.py geeft niet voor alle regels 7 woorden
 * Alle modules testen en de threshold goed instellen.

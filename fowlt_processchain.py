@@ -369,7 +369,7 @@ else:
     if sys.argv[1] == 'clam':
         os.system(bindir + 'ucto -c /var/www/etc/ucto/tokconfig-nl -x ' + id + ' ' + inputfile + ' > ' + outputdir + id + '.xml')
     else:
-        os.system(bindir + 'ucto -L en -x ' + id + ' ' + inputfile + ' > ' + outputdir + id + '.xml')
+        os.system(bindir + 'ucto -c ./tokconfig-fowlt -x ' + id + ' ' + inputfile + ' > ' + outputdir + id + '.xml')
 
     errout("Tokeniser finished")
 
