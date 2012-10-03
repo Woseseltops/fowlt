@@ -4,3 +4,12 @@
 * Zowel errorlistchecker als runonchecker kunnen onjuist spatiegebruik vinden, maar geven dat op een andere manier aan in de xml.
 * Kopje EXPANDING in the readme verder uitwerken: hoe voeg je een nieuwe module toe, en hoe zit het met testen en thresholds?
 * Optie toevoegen bij confusible_trainer.py: automatisch tokenizeren.
+
+==
+Confusibles to add:
+* than then
+* don't doesn't
+* who which that
+* effect affect
+* weather whether
+* lay lie

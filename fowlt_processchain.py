@@ -282,6 +282,22 @@ class YoureYourModule(AbstractModule):
         #Call module and ask it to produce output
         self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker you\\\'re your ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'youreyour.test.out')
 
+class ThanThenModule(AbstractModule):
+    NAME = "thanthenmodule"
+
+    def process_result(self):
+        if self.done:
+            #Reading module output and integrating in FoLiA document
+            for word, fields in self.readcolumnedoutput(self.outputdir + 'thanthen.test.out'):
+                if len(fields) >= 2:
+                    #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:]], cls='Well-known-mistake', annotator=self.NAME)
+            f.close()                         
+    
+    def run(self):                
+        #Call module and ask it to produce output
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker than then ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'thanthen.test.out')
+
 class LoseLooseModule(AbstractModule):
     NAME = "loseloosemodule"
 
@@ -303,7 +319,7 @@ class LoseLooseModule(AbstractModule):
 
 #Add all desired modules classes here here:
 
-modules = [ErrorListModule,LexiconModule,SplitCheckerModule,RunOnCheckerModule,ItsItsModule,YoureYourModule,LoseLooseModule]
+modules = [ErrorListModule,LexiconModule,SplitCheckerModule,RunOnCheckerModule,ItsItsModule,YoureYourModule,ThanThenModule, LoseLooseModule]
 
 ##########################################################################################
 
