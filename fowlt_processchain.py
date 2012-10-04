@@ -122,6 +122,14 @@ class AbstractModule(object): #Do not modify
         )    
         
     def splitcorrection(self, word, newwords,**kwargs):
+
+	str_newwords = '';
+
+	for nw in newwords:
+	    str_newwords += str(nw)+' ';
+
+        self.errout("Splitting " + str(word) + " into " + str_newwords);
+
         sentence = word.sentence()
         newwords = [ folia.Word(self.doc, generate_id_in=sentence, text=w) for w in newwords ]        
         kwargs['suggest'] = True
@@ -132,6 +140,14 @@ class AbstractModule(object): #Do not modify
         )
         
     def mergecorrection(self, newword, originalwords, **kwargs):
+
+	str_originalwords = '';
+
+	for ow in originalwords:
+	    str_originalwords += str(ow)+' ';
+
+        self.errout("Merging " + str_originalwords + " into " + newword);
+
         sentence = originalwords[0].sentence()
         if not sentence:
             raise Exception("Expected sentence for " + str(repr(originalwords[0])) + ", got " + str(repr(sentence)))
@@ -319,7 +335,7 @@ class LoseLooseModule(AbstractModule):
 
 #Add all desired modules classes here here:
 
-modules = [ErrorListModule,LexiconModule,SplitCheckerModule,RunOnCheckerModule,ItsItsModule,YoureYourModule,ThanThenModule, LoseLooseModule]
+modules = [ErrorListModule,LexiconModule,ItsItsModule,YoureYourModule,ThanThenModule, LoseLooseModule,SplitCheckerModule,RunOnCheckerModule]
 
 ##########################################################################################
 
