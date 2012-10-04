@@ -13,6 +13,8 @@ overall accuracy:        0.906162  (26575/29327)
 0.975	abstaining:   9209 out of   9323 correct = 0.987772
 0.990	abstaining:   2324 out of   2348 correct = 0.989779
 
+{"it'sIts": 2, "it'sIT'S": 1, "it'sIt's": 169, 'itsIts': 6, "ITSIT'S": 1, "IT'Sits": 16, "it'sITS": 1, "itsIt's": 17, "Itsit's": 10, "It'sit's": 288, "IT'Sit's": 4, "ItsIt's": 260, "it'sits": 702, "ITSIt's": 2, "It'sIts": 43, ',yeah': 1, "IT'SIt's": 11, 'ITSits': 12, "It'sits": 140, "itsit's": 1040, 'Itsits': 24, 'beautiful.': 1}
+
 YOU'RE YOUR
 
 overall accuracy:        0.906162  (26575/29327)
@@ -27,6 +29,8 @@ overall accuracy:        0.906162  (26575/29327)
 0.950	abstaining:  13885 out of  14126 correct = 0.982939
 0.975	abstaining:   9209 out of   9323 correct = 0.987772
 0.990	abstaining:   2324 out of   2348 correct = 0.989779
+
+{"youryou're": 589, 'Youryour': 121, 'yourYour': 26, "You'reyour": 33, "YourYou're": 129, "YOU'REyour": 1, 'YourYOUR': 3, "You'reYour": 52, "you'reYou're": 32, "yourYou're": 13, "YOURyou're": 1, "you're,": 1, 'YOURyour': 27, "You'reyou're": 40, 'YOURYour': 17, "Youryou're": 21, "you'reyour": 438, "you'reYour": 5, 'yourYOUR': 2, "YOU'REYOUR": 1}
 
 THAN THEN
 
@@ -58,3 +62,4 @@ overall accuracy:        0.901776  (863/957)
 0.975	abstaining:    404 out of    418 correct = 0.966507
 0.990	abstaining:     85 out of     86 correct = 0.988372
 
+{'looselose': 68, 'Looselose': 3, 'Loselose': 3, 'loseLoose': 1, 'loseloose': 14, 'looseLose': 1, 'loseLose': 1, 'LOSElose': 1, 'Looseloose': 2}
