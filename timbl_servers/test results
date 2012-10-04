@@ -63,3 +63,49 @@ overall accuracy:        0.901776  (863/957)
 0.990	abstaining:     85 out of     86 correct = 0.988372
 
 {'looselose': 68, 'Looselose': 3, 'Loselose': 3, 'loseLoose': 1, 'loseloose': 14, 'looseLose': 1, 'loseLose': 1, 'LOSElose': 1, 'Looseloose': 2}
+
+EFFECT AFFECT
+
+overall accuracy:        0.944954  (2678/2834)
+0.500	abstaining:   2499 out of   2623 correct = 0.952726
+0.600	abstaining:   2489 out of   2611 correct = 0.953275
+0.700	abstaining:   2479 out of   2598 correct = 0.954196
+0.750	abstaining:   2462 out of   2581 correct = 0.953894
+0.800	abstaining:   2443 out of   2558 correct = 0.955043
+0.850	abstaining:   2164 out of   2203 correct = 0.982297
+0.900	abstaining:   2060 out of   2087 correct = 0.987063
+0.925	abstaining:   1999 out of   2025 correct = 0.987160
+0.950	abstaining:   1937 out of   1959 correct = 0.988770
+0.975	abstaining:   1676 out of   1692 correct = 0.990544
+0.990	abstaining:    483 out of    486 correct = 0.993827
+
+WHETHER WEATHER
+
+overall accuracy:        0.964790  (4028/4175)
+0.500	abstaining:   3758 out of   3882 correct = 0.968058
+0.600	abstaining:   3748 out of   3868 correct = 0.968976
+0.700	abstaining:   3733 out of   3850 correct = 0.969610
+0.750	abstaining:   3732 out of   3848 correct = 0.969854
+0.800	abstaining:   2300 out of   2343 correct = 0.981647
+0.850	abstaining:   2289 out of   2332 correct = 0.981561
+0.900	abstaining:   2270 out of   2310 correct = 0.982684
+0.925	abstaining:   2142 out of   2176 correct = 0.984375
+0.950	abstaining:   1886 out of   1907 correct = 0.988988
+0.975	abstaining:   1661 out of   1675 correct = 0.991642
+0.990	abstaining:    733 out of    735 correct = 0.997279
+
+LIE LAY
+
+overall accuracy:        0.771782  (1187/1538)
+0.500	abstaining:    910 out of   1131 correct = 0.804598
+0.600	abstaining:    832 out of   1007 correct = 0.826216
+0.700	abstaining:    374 out of    432 correct = 0.865741
+0.750	abstaining:    298 out of    333 correct = 0.894895
+0.800	abstaining:    195 out of    209 correct = 0.933014
+0.850	abstaining:    143 out of    152 correct = 0.940789
+0.900	abstaining:    102 out of    107 correct = 0.953271
+0.925	abstaining:     86 out of     87 correct = 0.988506
+0.950	abstaining:     73 out of     73 correct = 1.000000
+0.975	abstaining:     24 out of     24 correct = 1.000000
+0.990	abstaining:      0 out of      0 correct =     -nan
+
