@@ -48,4 +48,4 @@ The British National Corpus was used for the modules included in the standard Fo
 This can be done automatically by running 'confusible_trainer/confusible_trainer.py [word1,word2,word3] [corpus]'. The first argument is a comma-separated list of words you want to train your module on, the second argument is the corpus you selected. Three files will be created: and instance file (the training material), an IGTree file and IGTree.wgt file (the actual language model created by Timbl).
 
 3. __Add your new module to Fowlt__.
-You have to add your new module both to the Fowlt server and the Fowlt client server. More info on this will added later.
+You have to add your new module both to the Fowlt server and the Fowlt client. The server can be updated by adding the line 'confusible1-confusible2="-a1 +vdb +D -i timbl_servers/confusible1,confusible2.IGTree"' to timbl_servers/confusibles.conf (and replace 'confusible1' and 'confusible2' with the actual confusibles you trained for, obviously). The client can be updated by subclassing AbstractModule in fowlt_processchain.py.

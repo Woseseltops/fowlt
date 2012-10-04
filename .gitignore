@@ -8,3 +8,4 @@ confusiblechecker/confusible_checker
 runonchecker/runon_checker
 splitchecker/split_checker
 test
+confusible_trainer/*
