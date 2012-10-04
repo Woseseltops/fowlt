@@ -6,6 +6,15 @@ def command(command):
     result = subprocess.Popen(command, stdout=subprocess.PIPE).communicate()[0].decode();
     print(result);
 
+def clean(string):
+    while '  ' in string:
+        string = string.replace('  ',' ');
+    
+    if string[-1] == ' ':
+        string = string[:-1];
+
+    return string.replace('\n','');
+
 def add_three_words_right(lines,nl):
     wordpointer = 0;
     linepointer = 1;
@@ -13,11 +22,11 @@ def add_three_words_right(lines,nl):
 
     while len(next_line) < 3:
        
-        words_to_investigate = lines[nl + linepointer].replace('\n','').split(' ');
+        words_to_investigate = clean(lines[nl + linepointer]).split(' ');
 
         if len(words_to_investigate) == wordpointer:
             linepointer+= 1;
-            words_to_investigate = lines[nl + linepointer].replace('\n','').split(' ');       
+            words_to_investigate = clean(lines[nl + linepointer]).split(' ');       
             wordpointer = 0;
 
         next_line.append(words_to_investigate[wordpointer]);    
@@ -32,11 +41,11 @@ def add_three_words_left(lines,nl):
 
     while len(previous_line) < 3:
        
-        words_to_investigate = lines[nl - linepointer].replace('\n','').split(' ');
+        words_to_investigate = clean(lines[nl - linepointer]).split(' ');
 
         if len(words_to_investigate) == wordpointer-1:
             linepointer+= 1;
-            words_to_investigate = lines[nl - linepointer].replace('\n','').split(' ');       
+            words_to_investigate = clean(lines[nl - linepointer]).split(' ');       
             wordpointer = 1;
 
         previous_line.insert(0,words_to_investigate[-wordpointer]);    
@@ -76,7 +85,7 @@ output = '';
 
 #Walk through the lines
 for nl, l in enumerate(lines):
-    l = l.replace('\n','');
+    l = clean(l);
   
     words = l.split(' ');
 
