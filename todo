@@ -1,3 +1,9 @@
+* Woprcorpus maken en problemn met wopr oplossen
+* 3confusible_checker.c maken
+* confusible_trainer.py -balanced optie
+* Stop_servers.py
+* Kijken naar uctoprobleem
+* Splitcheckermodule voegt linebreaks toe?
 * Zowel errorlistchecker als runonchecker kunnen onjuist spatiegebruik vinden, maar geven dat op een andere manier aan in de xml.
 * Kopje EXPANDING in the readme verder uitwerken: hoe zit het met testen en thresholds?
 * Optie toevoegen bij confusible_trainer.py: automatisch tokenizeren.
