@@ -14,22 +14,25 @@ Fowlt can be used on any Linux pc with Python 2. To obtain Fowlt from GitHub:
 
   $ git clone git://github.com/Woseseltops/fowlt.git
 
-2. __Instal PyNLPl__.
+2. __Install PyNLPl__.
 Fowlt makes use of the PyNLPl Python library, which can be installed with '$ easy_install pynlpl'. In case you don't have permission to use easy_install, you can also clone PyNLPl from GitHub into the Fowlt directory (https://github.com/proycon/pynlpl).
 
-3. __Install ucto, timbl and timblserver and tell the setting where you installed them__.
-Fowlt makes use of already existing NLP and machine learning software. Ucto (http://ilk.uvt.nl/ucto/), timbl and timblserver (http://ilk.uvt.nl/timbl/) can be installed easily. At the moment, only timblserver can be installed at an alternative location. Whether you do so or not, please make sure the setting 'timblserver_location' in the file 'server settings' (in the main directory) points to the right place.
+3. __Install ucto, timbl, timblserver and WOPR__.
+Fowlt makes use of already existing NLP and machine learning software. Ucto (http://ilk.uvt.nl/ucto/), timbl and timblserver (http://ilk.uvt.nl/timbl/) can be installed easily. Wopr (http://ilk.uvt.nl/wopr/) has to be compiled by the user.
 
 4. __Compile the modules__.
 Several modules need to be compiled before use. This can be done automatically by doing a make command from the main directory.
 
+5. __Configure the settings__.
+You can tell the program where Timblserver and WOPR are installed by editing the file 'server settings'. This file also has the option 'wopr_large_corpus' set to 0, which means that only a small training set will be used (10000 lines of text). If you are running Fowlt from a place with a lot of memory, you can use the large training set (1000000 lines of text) by setting this option to 1.
+
 **HOW TO USE**
 
 1. __Start the servers__.
-Fowlt currently makes uses of a timblserver that should be running on localhost. You can start this timblserver (if timblserver is installed) by running start_servers.py.
+For its context-based modules Fowlt uses two servers that should be running on the localhost. One server is for the so-called WoprCheckerModule, the other is for all modules that check for confusibles. These servers can be started by running start_woprserver.py and start_timbleserver.py respectively. If you don't start these servers, Fowlt will run, but without its most important functionality.
 
 2. __Start the processchain__.
-Once the servers are running, you can use Fowlt itself by running fowlt_processchain.py. This script currently takes only one argument, which can be any document that contains plain UTF-8 text.
+Once the servers are running, you can use Fowlt itself by running fowlt_processchain.py. This script currently takes only one argument, which is the name of the document you want to correct. This can be any document that contains plain UTF-8 text.
 
 **HOW TO UPDATE**
 
