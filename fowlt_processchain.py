@@ -331,11 +331,44 @@ class LoseLooseModule(AbstractModule):
         #Call module and ask it to produce output
         self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker lose loose ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'loseloose.test.out')
 
+class WhoWhichThatModule(AbstractModule):
+    NAME = "whowhichthatmodule"
+
+    def process_result(self):
+        if self.done:
+            #Reading module output and integrating in FoLiA document
+            for word, fields in self.readcolumnedoutput(self.outputdir + 'whowhichthat.test.out'):
+                if len(fields) >= 2:
+                    #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:]], cls='Well-known-mistake', annotator=self.NAME)
+            f.close()                      
+    
+    
+    def run(self):                
+        #Call module and ask it to produce output
+        self.runcmd(self.rootdir + 'confusiblechecker/3confusible_checker who which that ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'whowhichthat.test.out')
+
+class WOPRChecker(AbstractModule):
+    NAME = "woprcheckermodule"
+
+    def process_result(self):
+        if self.done:
+            #Reading module output and integrating in FoLiA document
+            for word, fields in self.readcolumnedoutput(self.outputdir + 'wopr_checker.test.out'):
+                if len(fields) >= 2:
+                    #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:]], cls='onwaarschijnlijk-woord', annotator=self.NAME)
+            f.close()                      
+        
+    def run(self):                
+        #Call module and ask it to produce output
+        self.runcmd(self.rootdir + 'woprchecker/wopr_checker ' + self.rootdir + 'woprchecker/wopr_exceptions ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'wopr_checker.test.out')
+
 ###################### MODULE DECLARATION  ###############################################
 
 #Add all desired modules classes here here:
 
-modules = [ErrorListModule,LexiconModule,ItsItsModule,YoureYourModule,ThanThenModule, LoseLooseModule,SplitCheckerModule,RunOnCheckerModule]
+modules = [ErrorListModule,LexiconModule,ItsItsModule,YoureYourModule,ThanThenModule,LoseLooseModule,WhoWhichThatModule,SplitCheckerModule,RunOnCheckerModule]
 
 ##########################################################################################
 
