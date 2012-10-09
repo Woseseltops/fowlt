@@ -348,7 +348,7 @@ class WhoWhichThatModule(AbstractModule):
         #Call module and ask it to produce output
         self.runcmd(self.rootdir + 'confusiblechecker/3confusible_checker who which that ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'whowhichthat.test.out')
 
-class WOPRChecker(AbstractModule):
+class WoprCheckerModule(AbstractModule):
     NAME = "woprcheckermodule"
 
     def process_result(self):
@@ -368,7 +368,7 @@ class WOPRChecker(AbstractModule):
 
 #Add all desired modules classes here here:
 
-modules = [ErrorListModule,LexiconModule,ItsItsModule,YoureYourModule,ThanThenModule,LoseLooseModule,WhoWhichThatModule,SplitCheckerModule,RunOnCheckerModule]
+modules = [WoprCheckerModule,ErrorListModule,LexiconModule,ItsItsModule,YoureYourModule,ThanThenModule,LoseLooseModule,WhoWhichThatModule,SplitCheckerModule,RunOnCheckerModule]
 
 ##########################################################################################
 
