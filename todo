@@ -1,4 +1,7 @@
-* Woprcorpus maken en problemn met wopr oplossen
+* Krijg heel fowlt werkend op Scylla
+* Ucto cleanen nav gesprek Maarten
+* start_woprserver.py nette foutmelding geven
+* Heel Fowlt testen op Scylla
 * WhoWhichThat testen
 * confusible_trainer.py -balanced optie
 * Stop_servers.py
