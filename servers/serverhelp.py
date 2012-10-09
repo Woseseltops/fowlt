@@ -1,10 +1,11 @@
 import subprocess
 
-def command(command):
-#    command = command.split(' ');
-#    for n,i in enumerate(command):
-#        command[n] = i.replace('__',' ');
-    result = subprocess.Popen(command, shell=True).communicate()[0].decode();
+def command(command,piped = False):
+
+    if piped:
+        result = subprocess.Popen(command, shell=True,stdout=subprocess.PIPE).communicate()[0].decode();
+    else:
+        result = subprocess.Popen(command, shell=True).communicate()[0].decode();
     print(result);
 
 def get_settings():
