@@ -1,9 +1,9 @@
-* Krijg heel fowlt werkend op Scylla
 * Ucto cleanen nav gesprek Maarten
 * start_woprserver.py nette foutmelding geven
 * WhoWhichThat testen
 * confusible_trainer.py -balanced optie
 * Stop_servers.py
+* serverfunctionaliteit netjes scheiden
 * Kijken naar uctoprobleem
 * Splitcheckermodule voegt linebreaks toe?
 * Zowel errorlistchecker als runonchecker kunnen onjuist spatiegebruik vinden, maar geven dat op een andere manier aan in de xml.
@@ -14,7 +14,6 @@
 Confusibles to add:
 * they're their there
 * don't doesn't
-* who which that
 * effect affect
 * weather whether
 * lay lie

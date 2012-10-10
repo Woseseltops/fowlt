@@ -9,7 +9,7 @@ def command(command,piped = False):
     print(result);
 
 def get_settings():
-    raw_settings = open('./server settings','r').readlines();
+    raw_settings = open('./server_settings','r').readlines();
     settings = {};
 
     for i in raw_settings:

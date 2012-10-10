@@ -109,3 +109,17 @@ overall accuracy:        0.771782  (1187/1538)
 0.975	abstaining:     24 out of     24 correct = 1.000000
 0.990	abstaining:      0 out of      0 correct =     -nan
 
+WHO WHICH THAT
+
+overall accuracy:        0.807477  (132863/164541)
+0.500	abstaining: 109454 out of 125968 correct = 0.868903
+0.600	abstaining: 101113 out of 112165 correct = 0.901467
+0.700	abstaining:  82188 out of  87483 correct = 0.939474
+0.750	abstaining:  79209 out of  83522 correct = 0.948361
+0.800	abstaining:  74462 out of  77702 correct = 0.958302
+0.850	abstaining:  68688 out of  70906 correct = 0.968719
+0.900	abstaining:  62109 out of  63536 correct = 0.977540
+0.925	abstaining:  57160 out of  58170 correct = 0.982637
+0.950	abstaining:  50624 out of  51233 correct = 0.988113
+0.975	abstaining:  41064 out of  41396 correct = 0.991980
+0.990	abstaining:  26493 out of  26597 correct = 0.996090

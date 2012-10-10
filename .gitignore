@@ -3,6 +3,7 @@
 *.inst
 output/*
 *.o
+*.pyc
 lexiconchecker/lexicon_checker
 confusiblechecker/confusible_checker
 runonchecker/runon_checker
