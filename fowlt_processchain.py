@@ -331,6 +331,57 @@ class LoseLooseModule(AbstractModule):
         #Call module and ask it to produce output
         self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker lose loose ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'loseloose.test.out')
 
+class EffectAffectModule(AbstractModule):
+    NAME = "effectaffectmodule"
+
+    def process_result(self):
+        if self.done:
+            #Reading module output and integrating in FoLiA document
+            for word, fields in self.readcolumnedoutput(self.outputdir + 'effectaffect.test.out'):
+                if len(fields) >= 2:
+                    #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:]], cls='Well-known-mistake', annotator=self.NAME)
+            f.close()                      
+    
+    
+    def run(self):                
+        #Call module and ask it to produce output
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker effect affect ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'effectaffect.test.out')
+
+class LieLayModule(AbstractModule):
+    NAME = "lielaymodule"
+
+    def process_result(self):
+        if self.done:
+            #Reading module output and integrating in FoLiA document
+            for word, fields in self.readcolumnedoutput(self.outputdir + 'lielay.test.out'):
+                if len(fields) >= 2:
+                    #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:]], cls='Well-known-mistake', annotator=self.NAME)
+            f.close()                      
+    
+    
+    def run(self):                
+        #Call module and ask it to produce output
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker lie lay ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'lielay.test.out')
+
+class WhetherWeatherModule(AbstractModule):
+    NAME = "whetherweathermodule"
+
+    def process_result(self):
+        if self.done:
+            #Reading module output and integrating in FoLiA document
+            for word, fields in self.readcolumnedoutput(self.outputdir + 'whetherweather.test.out'):
+                if len(fields) >= 2:
+                    #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:]], cls='Well-known-mistake', annotator=self.NAME)
+            f.close()                      
+    
+    
+    def run(self):                
+        #Call module and ask it to produce output
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker whether weather ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'whetherweather.test.out')
+
 class WhoWhichThatModule(AbstractModule):
     NAME = "whowhichthatmodule"
 
@@ -368,7 +419,7 @@ class WoprCheckerModule(AbstractModule):
 
 #Add all desired modules classes here here:
 
-modules = [WoprCheckerModule,ErrorListModule,LexiconModule,ItsItsModule,YoureYourModule,ThanThenModule,LoseLooseModule,WhoWhichThatModule,SplitCheckerModule,RunOnCheckerModule]
+modules = [ErrorListModule,LexiconModule,ItsItsModule,YoureYourModule,ThanThenModule,LoseLooseModule,WhoWhichThatModule,WhetherWeatherModule,LieLayModule,EffectAffectModule,SplitCheckerModule,RunOnCheckerModule]
 
 ##########################################################################################
 
