@@ -24,12 +24,12 @@ Fowlt makes use of already existing NLP and machine learning software. Ucto (htt
 Several modules need to be compiled before use. This can be done automatically by doing a make command from the main directory.
 
 5. __Configure the settings__.
-You can tell the program where Timblserver and WOPR are installed by editing the file 'server settings'. This file also has the option 'wopr_large_corpus' set to 0, which means that only a small training set will be used (10000 lines of text). If you are running Fowlt from a place with a lot of memory, you can use the large training set (1000000 lines of text) by setting this option to 1.
+You can tell the program where Timblserver and WOPR are installed by editing the file servers/server_settings. This file also has the option 'wopr_large_corpus' set to 0, which means that only a small training set will be used (10000 lines of text). If you are running Fowlt from a place with a lot of memory, you can use the large training set (1000000 lines of text) by setting this option to 1.
 
 **HOW TO USE**
 
 1. __Start the servers__.
-For its context-based modules Fowlt uses two servers that should be running on the localhost. One server is for the so-called WoprCheckerModule, the other is for all modules that check for confusibles. These servers can be started by running start_woprserver.py and start_timbleserver.py respectively. If you don't start these servers, Fowlt will run, but without its most important functionality.
+For its context-based modules Fowlt uses two servers that should be running on the localhost. One server is for the so-called WoprCheckerModule, the other is for all modules that check for confusibles. These servers can be started by running servers/start_woprserver.py and servers/start_timbleserver.py respectively. If you don't start these servers, Fowlt will run, but without its most important functionality.
 
 2. __Start the processchain__.
 Once the servers are running, you can use Fowlt itself by running fowlt_processchain.py. This script currently takes only one argument, which is the name of the document you want to correct. This can be any document that contains plain UTF-8 text.
@@ -51,4 +51,4 @@ The British National Corpus was used for the modules included in the standard Fo
 This can be done automatically by running 'confusible_trainer/confusible_trainer.py [word1,word2,word3] [corpus]'. The first argument is a comma-separated list of words you want to train your module on, the second argument is the corpus you selected. Three files will be created: and instance file (the training material), an IGTree file and IGTree.wgt file (the actual language model created by Timbl).
 
 3. __Add your new module to Fowlt__.
-You have to add your new module both to the Fowlt server and the Fowlt client. The server can be updated by adding the line 'confusible1-confusible2="-a1 +vdb +D -i timbl_servers/confusible1,confusible2.IGTree"' to timbl_servers/confusibles.conf (and replace 'confusible1' and 'confusible2' with the actual confusibles you trained for, obviously). The client can be updated by subclassing AbstractModule in fowlt_processchain.py.
+You have to add your new module both to the Fowlt server and the Fowlt client. The server can be updated by adding the line 'confusible1-confusible2="-a1 +vdb +D -i timbl_servers/confusible1,confusible2.IGTree"' to servers/timblservers/confusibles.conf (and replace 'confusible1' and 'confusible2' with the actual confusibles you trained for, obviously). The client can be updated by subclassing AbstractModule in fowlt_processchain.py.

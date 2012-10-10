@@ -1,10 +1,6 @@
-* Ucto cleanen nav gesprek Maarten
-* start_woprserver.py nette foutmelding geven
-* WhoWhichThat testen
 * confusible_trainer.py -balanced optie
 * Stop_servers.py
-* serverfunctionaliteit netjes scheiden
-* Kijken naar uctoprobleem
+* Uctoprobleem op Tilburgservers fixen
 * Splitcheckermodule voegt linebreaks toe?
 * Zowel errorlistchecker als runonchecker kunnen onjuist spatiegebruik vinden, maar geven dat op een andere manier aan in de xml.
 * Kopje EXPANDING in the readme verder uitwerken: hoe zit het met testen en thresholds?
