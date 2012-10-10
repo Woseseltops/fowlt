@@ -29,10 +29,13 @@ You can tell the program where Timblserver and WOPR are installed by editing the
 **HOW TO USE**
 
 1. __Start the servers__.
-For its context-based modules Fowlt uses two servers that should be running on the localhost. One server is for the so-called WoprCheckerModule, the other is for all modules that check for confusibles. These servers can be started by running servers/start_woprserver.py and servers/start_timbleserver.py respectively. If you don't start these servers, Fowlt will run, but without its most important functionality.
+For its context-based modules Fowlt uses two servers that should be running on the localhost. One server is for the so-called WoprCheckerModule, the other is for all modules that check for confusibles. These servers can be started by running servers/start_woprserver.py and servers/start_timblserver.py respectively. If you don't start these servers, Fowlt will run, but without its most important functionality.
 
 2. __Start the processchain__.
 Once the servers are running, you can use Fowlt itself by running fowlt_processchain.py. This script currently takes only one argument, which is the name of the document you want to correct. This can be any document that contains plain UTF-8 text.
+
+3. __If you're ready, stop the servers__.
+The Woprserver stops automatically if you interrupt the program in one way or the other, but the Timblserver has to be killed actively. This can be done by running servers/stoptimblserver.py.
 
 **HOW TO UPDATE**
 

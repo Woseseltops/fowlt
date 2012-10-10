@@ -6,7 +6,9 @@ output/*
 *.pyc
 lexiconchecker/lexicon_checker
 confusiblechecker/confusible_checker
+confusiblechecker/3confusible_checker
 runonchecker/runon_checker
 splitchecker/split_checker
 test
 confusible_trainer/*
+servers/pid
