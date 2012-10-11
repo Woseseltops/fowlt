@@ -1,6 +1,30 @@
 import sys
 import subprocess
 
+class Buff():
+    def __init__(self,searchstrings):
+        self.buff = {};
+        self.searchstrings = searchstrings;
+
+        for ss in self.searchstrings:
+            self.buff[ss] = [];
+
+    def add_output(self,output,searchword):
+        self.buff[searchword].append(output);
+        all_filled = True;
+        return_string = '';
+
+        for ss in self.buff:
+            if len(self.buff[ss]) == 0:
+                all_filled = False;
+                break;
+
+        if all_filled:
+            for ss in self.buff:
+                return_string+= self.buff[ss].pop();
+
+        return return_string;
+
 def command(command):
     command = command.split(' ');
     result = subprocess.Popen(command, stdout=subprocess.PIPE).communicate()[0].decode();
@@ -72,9 +96,21 @@ try:
 
     corpus = sys.argv[2];
 
-    print('Looking for '+str(searchstrings));
+    try:
+        if sys.argv[3] == '-balanced':
+            balanced = True;
+        else:
+            balanced = False;
+    except:
+            balanced = False;
+
+    if balanced:
+        print('Creating a balanced instance file with '+str(searchstrings));
+    else:
+        print('Creating a non-balanced instance file with '+str(searchstrings));    
+    
 except:
-    print('confusible.py [searchstring1,searchstring2,searchstring3] [corpus]');
+    print('confusible.py [searchstring1,searchstring2,searchstring3] [corpus] [[-balanced]]');
     quit();
 
 lines = ['_ _ _'] + open(corpus,'r').readlines() + ['_ _ _'];
@@ -82,6 +118,8 @@ lines = ['_ _ _'] + open(corpus,'r').readlines() + ['_ _ _'];
 #Prepare output
 outputfile = sys.argv[1];
 output = '';
+
+sentence_buffer = Buff(searchstrings);
 
 #Walk through the lines
 for nl, l in enumerate(lines):
@@ -99,8 +137,12 @@ for nl, l in enumerate(lines):
                 next_line = add_three_words_right(lines,nl);
                 words_around = previous_line + words + next_line;
 
-                window = provide_window(nw,words_around);               
-                output += window + ' ' + w + ' ' + '\n';
+                window = provide_window(nw,words_around);
+
+                if not balanced:
+                    output += window + ' ' + w + ' ' + '\n';
+                else:
+                    output += sentence_buffer.add_output(window + ' ' + w + ' ' + '\n',ss.lower());
 
 #Save the instances
 open(outputfile+'.inst','w').write(output);
