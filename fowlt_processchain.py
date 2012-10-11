@@ -451,7 +451,7 @@ bindir = ''
 try:
     sys.argv[1];
 except:
-    print >>sys.stderr, "Syntax: processchain.py inputfile [id] [responsivity-threshold]";
+    print >>sys.stderr, "Syntax: processchain.py [inputfile]";
     quit();
 
 if sys.argv[1] == 'clam':
@@ -478,16 +478,23 @@ if sys.argv[1] == 'clam':
 else:
     standalone = True
     try:
-        inputfile = sys.argv[1]
+        inputfile = sys.argv[1];
         if len(sys.argv) >= 3:
             id = sys.argv[2]
     except:
-        print >>sys.stderr, "Syntax: processchain.py inputfile [id] [responsivity-threshold]"
+        print >>sys.stderr, "Syntax: processchain.py [inputfile]"
         sys.exit(1)
     try:
         threshold = int(sys.argv[3])
     except:
         threshold = 0.50
+
+    try:
+        open(inputfile);
+    except:
+        print >>sys.stderr, "Input file does not exist";
+        sys.exit(1);
+
     rootdir = ''
     outputdir = 'output/' #stdout
     statusfile = '/tmp/fowltstatus'
@@ -495,8 +502,6 @@ else:
 #detect ID from filename
 if not id:
     id = os.path.basename(inputfile).split('.',1)[0].replace(' ','_')
-
-
 
 def errout(msg):
     print >>sys.stderr,  "[" + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + '] PROCESSING-CHAIN: ' + msg
