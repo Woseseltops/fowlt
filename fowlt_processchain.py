@@ -175,7 +175,21 @@ class ErrorListModule(AbstractModule):
                 if len(fields) > 1:
                     #Add correction suggestion
                     #(The last field holds the suggestion? (assumption, may differ per module))
-                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:]], cls='Frequent-mistake', annotator=self.NAME)
+                    suggs = [];
+                    splits = [];
+                    for x in fields[1:]:
+                        corr = str(x.strip());
+                        if corr != str(word) and '__' not in corr:
+                            suggs.append(corr);
+                        elif '__' in corr: 
+                            splits+= corr.split('__');
+
+                    if len(suggs) > 0:                            
+                        self.addcorrection(word, suggestions=suggs, cls='Frequent-mistake', annotator=self.NAME)
+
+                    if len(splits) > 0:
+                        self.splitcorrection(word, splits, cls='Frequent-mistake', annotator=self.NAME)
+
             f.close()        
             
     def run(self):
@@ -202,7 +216,6 @@ class LexiconModule(AbstractModule):
                             suggs.append(x.strip());
                     self.addcorrection(word, suggestions=suggs, cls='Looked-like-frequent-word', annotator=self.NAME)
             f.close()                  
-    
     
     def run(self):                
         #Call module and ask it to produce output
