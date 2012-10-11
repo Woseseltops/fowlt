@@ -182,7 +182,7 @@ class ErrorListModule(AbstractModule):
         self.errout("MODULE: " + self.NAME)
                 
         #Call module and ask it to produce output
-        self.runcmd('python ' + self.rootdir + 'errorlistchecker/errorlist_checker.py ' + self.rootdir + 'output/input.tok.txt ' + self.rootdir + 'errorlistchecker/pyerrorlist ' + self.outputdir + 'errorlist_checker.test.out')
+        self.runcmd('python ' + self.rootdir + 'errorlistchecker/errorlist_checker.py ' + self.rootdir + 'output/input.tok.txt ' + self.rootdir + 'errorlistchecker/fowlt_errorlist ' + self.outputdir + 'errorlist_checker.test.out')
 
 # --- Add new module classes here, and don't forget to declare them in the list below: ---
 

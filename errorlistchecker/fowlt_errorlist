@@ -1,6 +1,6 @@
 aHigh#high#1
 aN#an#1
-aPLGDP#a PLGDP#8
+aPLGDP#a__PLGDP#8
 aRound#around#1
 aS#as#1
 aT#at#1
@@ -44,7 +44,7 @@ abbreviatred#abbreviated#1
 abd#and#12
 abducated#abdicated#1
 abducton#abduction#1
-abenign#a benign#1
+abenign#a__benign#1
 abense#absence#1
 aberation#aberration#1
 abeting#abetting#1
@@ -71,7 +71,7 @@ abnks#banks#1
 abnnormals#abnormals#1
 abnomal#abnormal#1
 abnomals#abnormals#1
-abnormallosses#abnormal losses#1
+abnormallosses#abnormal__losses#1
 abnorml#abnormal#1
 abnormnals#abnormals#1
 abnornals#abnormals#2
@@ -115,10 +115,10 @@ abouth#about#1
 aboutu#about#1
 abouve#above#2
 abovce#above#1
-aboveall#above all#1
+aboveall#above__all#1
 aboved#above#1
 abover#above#4
-abovethe#above the#1
+abovethe#above__the#1
 abpout#about#1
 abraod#abroad#6
 abroard#abroad#aboard#2
@@ -153,8 +153,8 @@ abvove#above#2
 acadaemy#academy#1
 acadamics#academics#1
 acadmemic#academic#2
-acappella#a cappella#2
-acatalytic#a catalytic#1
+acappella#a__cappella#2
+acatalytic#a__catalytic#1
 acauire#acquire#1
 accademic#academic#2
 acccept#accept#12
@@ -261,7 +261,7 @@ accordanc#accordance#1
 accordig#according#1
 accordiing#according#2
 accordin#according#2
-accordingto#according to#1
+accordingto#according__to#1
 accoridng#according#6
 accorinding#according#1
 accoring#according#4
@@ -277,7 +277,7 @@ accountacy#accountancy#1
 accountantcy#accountancy#1
 accountd#accounted#1
 accountign#accounting#1
-accountingand#accounting and#1
+accountingand#accounting__and#1
 accoustic#acoustic#1
 accoustomed#accustomed#1
 accout#account#7
@@ -329,7 +329,7 @@ acedemia#academia#1
 acedemy#academy#1
 acelerated#accelerated#1
 aceleration#acceleration#1
-acent#a cent#1
+acent#a__cent#1
 acept#accept#1
 aceptable#acceptable#1
 aceptances#acceptances#2
@@ -404,7 +404,7 @@ ackowledged#acknowledged#8
 ackowledgment#acknowledgement#1
 ackyards#backyards#1
 aclaim#acclaim#1
-aclass#a class#1
+aclass#a__class#1
 aclose#close#1
 acocmplice#accomplice#1
 acocording#according#1
@@ -427,7 +427,7 @@ acounted#accounted#9
 acounting#accounting#10
 acounts#accounts#18
 acouting#accounting#2
-acoverage#a coverage#1
+acoverage#a__coverage#1
 acqisition#acquisition#2
 acqisitions#acquisitions#1
 acqiure#acquire#2
@@ -478,7 +478,7 @@ acqusition#acquisition#92
 acqusition-related#acquisition-related#1
 acqusitions#acquisitions#53
 acqustion#acquisition#1
-acreageoff#acreage off#1
+acreageoff#acreage__off#1
 acreditations#accreditations#1
 acredited#accredited#1
 acrerage#acreage#1
@@ -523,7 +523,7 @@ activisits#activists#4
 activitated#activated#1
 activites#activities#74
 activitie#activities#1
-activitiesnil#activities nil#1
+activitiesnil#activities__nil#1
 activitiies#activities#1
 activitis#activities#1
 activitists#activists#9
@@ -531,7 +531,7 @@ activitites#activities#1
 activitities#activities#1
 activitiy#activity#4
 activitry#activity#1
-activityin#activity in#1
+activityin#activity__in#1
 activivists#activists#1
 activivty#activity#1
 activiy#activity#3
@@ -586,16 +586,16 @@ adaquate#adequate#3
 adavance#advance#1
 adavanced#advanced#3
 adavnced#advanced#1
-aday#a day#1
+aday#a__day#1
 adbucted#abducted#3
-addcontext#add context#1
+addcontext#add__context#1
 addd#add#3
 addded#added#30
 addding#adding#8
 adddition#addition#3
 adddress#address#2
 adde#added#2
-added.if#added if#1
+added.if#added__if#1
 addedd#added#1
 addede#added#1
 addeds#added#1
@@ -616,7 +616,7 @@ additiion#addition#4
 additinal#additional#3
 additinoal#additional#1
 additiona#additional#1
-additionalliquidity#additional liquidity#1
+additionalliquidity#additional__liquidity#1
 additionl#additional#1
 additionn#addition#1
 addititional#additional#4
@@ -689,8 +689,8 @@ adjusments#adjustments#1
 adjustble#adjustable#3
 adjustement#adjustment#4
 adjustements#adjustments#2
-adjustmentTAX#adjustment TAX#1
-adjustmentexpenses#adjustment expenses#1
+adjustmentTAX#adjustment__TAX#1
+adjustmentexpenses#adjustment__expenses#1
 adjustmnent#adjustments#1
 admanant#adamant#1
 admended#amended#1
@@ -756,7 +756,7 @@ admortization#amortization#1
 admt#admit#2
 adn#and#15
 adnvance#advance#1
-adollar#a dollar#1
+adollar#a__dollar#1
 adoped#adopted#1
 adopoted#adopted#1
 adorded#adored#2
@@ -833,7 +833,7 @@ afer#after#36
 afernoon#afternoon#2
 afetr#after#2
 afetrnoon#afternoon#1
-afew#a few#1
+afew#a__few#1
 affaIrs#affairs#1
 affacted#affected#2
 affadavit#affidavit#13
@@ -885,10 +885,10 @@ afternon#afternoon#12
 afternoo#afternoon#3
 afternooin#afternoon#1
 afternoonm#afternoon#1
-afternoonon#afternoon on#1
+afternoonon#afternoon__on#1
 afternooon#afternoon#4
 afteroon#afternoon#8
-afterwhich#after which#2
+afterwhich#after__which#2
 aftewards#afterwards#1
 aftger#after#1
 afther#after#1
@@ -910,7 +910,7 @@ againstb#against#1
 againstg#against#3
 againsts#against#2
 againstt#against#1
-againstthe#against the#2
+againstthe#against__the#2
 againsty#against#1
 againt#against#41
 againts#against#6
@@ -940,7 +940,7 @@ agenct#agency#2
 agencts#agents#1
 agencty#agency#1
 agencuy#agency#1
-agencys_aid#agency said#1
+agencys_aid#agency__said#1
 agend#agenda#1
 agenecy#agency#1
 agengies#agencies#1
@@ -995,13 +995,13 @@ aginst#against#32
 aglomerates#agglomerates#1
 agncies#agencies#1
 agnecy#agency#6
-agood#a good#1
+agood#a__good#1
 agorophobia#agoraphobia#1
 agrcultural#agricultural#3
 agrculture#agriculture#1
 agreage#acreage#2
 agred#agreed#7
-agreedfor#agreed for#1
+agreedfor#agreed__for#1
 agreee#agree#1
 agreeed#agreed#8
 agreeement#agreement#58
@@ -1016,7 +1016,7 @@ agreemeents#agreements#2
 agreememnt#agreement#2
 agreememt#agreement#1
 agreemenst#agreements#1
-agreementswith#agreements with#1
+agreementswith#agreements__with#1
 agreemet#agreement#1
 agreemment#agreement#1
 agreemnent#agreement#2
@@ -1100,7 +1100,7 @@ ailrines#airline#1
 aimd#aimed#1
 aimes#aims#1
 aimlessy#aimlessly#1
-aimto#aim to#1
+aimto#aim__to#1
 aince#since#1
 tr_aining#training#1
 aiport#airport#13
@@ -1108,7 +1108,7 @@ aiports#airports#5
 aipport#airport#1
 aiprorts#airports#1
 air-qualtity#air-quality#1
-airOntario#air Ontario#3
+airOntario#air__Ontario#3
 airbone#airborne#1
 aircaft#aircraft#5
 aircarft#aircraft#1
@@ -1120,7 +1120,7 @@ airine's#airline's#1
 airines#airlines#5
 airlfields#airfields#1
 airlifed#airlifted#1
-airlinesreduce#airlines reduce#1
+airlinesreduce#airlines__reduce#1
 airort#airport#1
 airpace#airspace#1
 airpalne#airplane#1
@@ -1168,7 +1168,7 @@ alientating#alienating#1
 aliiance's#alliance's#1
 aliments#ailments#1
 alina#alinea#1
-alisted#a listed#1
+alisted#a__listed#1
 liber_alized#liberalized#5
 alkmost#almost#1
 alkohol#alcohol#2
@@ -1199,7 +1199,7 @@ allgcated#allocated#2
 allged#alleged#1
 allgedly#allegedly#1
 alliace#alliance#1
-allianceto#alliance to#1
+allianceto#alliance__to#1
 allication#allocation#1
 alliegance#allegiance#1
 alliegence#allegiance#2
@@ -1234,16 +1234,16 @@ alloment#allotment#1
 allong#along#1
 alloted#allotted#97
 alloting#allotting#9
-allotmentNil#allotment Nil#1
+allotmentNil#allotment__Nil#1
 allowd#allowed#2
 allowes#allows#1
 allready#already#1
-allsession#all session#1
-allthe#all the#1
+allsession#all__session#1
+allthe#all__the#1
 allthough#although#3
 alluminium#aluminium#2
 almmost#almost#1
-almostexclusively#almost exclusively#1
+almostexclusively#almost__exclusively#1
 almsot#almost#2
 almuni#alumni#1
 alnost#almost#1
@@ -1258,7 +1258,7 @@ alongsside#alongside#1
 alonside#alongside#2
 alos#also#8
 alost#almost#3
-alot#a lot#allot#34
+alot#a__lot#allot#34
 alotted#allotted#1
 alow#allow#7
 alowed#allowed#1
@@ -1272,7 +1272,7 @@ alrady#already#8
 alreaady#already#1
 alread#already#4
 alreading#already#1
-alreadybeen#already been#1
+alreadybeen#already__been#1
 alreadys#already#1
 alreay#already#15
 alreday#already#5
@@ -1281,10 +1281,10 @@ alrerady#already#1
 alrewady#already#1
 alseo#also#1
 alsi#also#1
-alsoannounced#also announced#1
+alsoannounced#also__announced#1
 alsoe#also#1
-alsolooking#also looking#1
-alsotold#also told#1
+alsolooking#also__looking#1
+alsotold#also__told#1
 altenative#alternative#1
 altenatives#alternatives#1
 alterative#alternative#4
@@ -1371,9 +1371,9 @@ amendm_ent#amendment#2
 amendmen_t#amendment#1
 amensty#amnesty#2
 SPament#Parli_ament#1
-amerger#a merger#1
+amerger#a__merger#1
 amerket#market#1
-ametting#a meeting#1
+ametting#a__meeting#1
 amgrily#angrily#1
 amibiguities#ambiguities#1
 amibiguous#ambiguous#1
@@ -1421,7 +1421,7 @@ amoniac#ammoniac#58
 amonium#ammonium#2
 amonmg#among#2
 amont#amount#1
-amonth#a month#2
+amonth#a__month#2
 amonuts#amounts#1
 amoounting#amounting#1
 amopunt#amount#1
@@ -1442,8 +1442,8 @@ amoungst#amongst#1
 amounnts#amounts#1
 amountS#amounts#1
 amountd#amounted#1
-amountmaturity#amount maturity#1
-amountof#amount of#1
+amountmaturity#amount__maturity#1
+amountof#amount__of#1
 amouont#amount#1
 amout#amount#6
 amouts#amounts#1
@@ -1459,7 +1459,7 @@ amunted#amounted#1
 amy#may#any#2
 amything#anything#1
 anaalysts#analysts#1
-anaccelerated#an accelerated#1
+anaccelerated#an__accelerated#1
 anacronism#anachronism#1
 anacronisms#anachronisms#1
 anad#and#2
@@ -1511,7 +1511,7 @@ anaysts#analysts#3
 anb#an#1
 anbd#and#8
 Aanc#ANC#2
-Dance#surs ance#1
+Dance#surs__ance#1
 ancenstral#ancestral#3
 ancentral#ancestral#1
 ancestoral#ancestral#2
@@ -1529,39 +1529,39 @@ ancilliaries#ancillaries#1
 ancilliary#ancillary#5
 ancipated#anticipated#2
 ancticipated#anticipated#1
-andMartin#and Martin#1
-anda#and a#2
-andamortization#and amortization#1
-andannounce#and announce#1
-andbusiness#and business#1
-andcommon#and common#1
-andconstruction#and construction#2
-andcopper#and copper#1
+andMartin#and__Martin#1
+anda#and__a#2
+andamortization#and__amortization#1
+andannounce#and__announce#1
+andbusiness#and__business#1
+andcommon#and__common#1
+andconstruction#and__construction#2
+andcopper#and__copper#1
 andf#and#4
-andincludes#and includes#1
-andis#and is#1
-andit#and it#1
-andits#and its#1
-andmake#and make#1
-andmight#and might#1
+andincludes#and__includes#1
+andis#and__is#1
+andit#and__it#1
+andits#and__its#1
+andmake#and__make#1
+andmight#and__might#1
 andn#and#1
-andof#and of#1
-andother#and other#1
+andof#and__of#1
+andother#and__other#1
 andt#and#2
-andtape#and tape#1
-andthe#and the#1
-andtransport#and transport#1
-andtwo#and two#1
+andtape#and__tape#1
+andthe#and__the#1
+andtransport#and__transport#1
+andtwo#and__two#1
 andvance#advance#1
 andvanced#advanced#1
-andwith#and with#1
+andwith#and__with#1
 andy#and#1
 aneasthetist#anaesthetist#2
 anecdoctal#anecdotal#1
 anectodal#anecdotal#1
 anel#panel#1
 anenomes#anemones#1
-anewspaper#a newspaper#1
+anewspaper#a__newspaper#1
 anf#and#6
 angecy#agency#1
 angerered#angered#1
@@ -1573,7 +1573,7 @@ angy#angry#1
 ani-trust#anti-trust#1
 animiation#animation#1
 animosit#animosity#2
-aninflation#an inflation#1
+aninflation#an__inflation#1
 anit-AIDS#anti-AIDS#2
 anit-aircraft#anti-aircraft#2
 anit-hijacking#anti-hijacking#1
@@ -1640,13 +1640,13 @@ annoucnements#announcements#1
 annoucning#announcing#1
 announbced#announced#1
 announcd#announced#2
-announcedAGENT#announced AGENT#1
+announcedAGENT#announced__AGENT#1
 announcedf#announced#1
-announcedthat#announced that#1
+announcedthat#announced__that#1
 announceed#announced#1
 announceent#announcement#1
 announcemement#announcement#1
-announcement.in#announcement in#1
+announcement.in#announcement__in#1
 announcementds#announcements#1
 announcemet#announcement#1
 announcemnents#announcements#1
@@ -1665,7 +1665,7 @@ announing#announcing#1
 announuced#announced#1
 annouunced#announced#3
 anntenna#antenna#1
-annualincreases#annual increases#9
+annualincreases#annual__increases#9
 annuall#annual#2
 annualy#annual#13
 annula#annual#1
@@ -1686,11 +1686,11 @@ anomymity#anonymity#1
 anonimity#anonymity#7
 anonmyous#anonymous#1
 anonoymous#anonymous#1
-anonymity.he#anonymity he#1
+anonymity.he#anonymity__he#1
 anorectic#anorexic#1
 anotehr#another#1
 anothe#another#4
-anotheone#another one#1
+anotheone#another__one#1
 anothers#another's#1
 anothr#another#1
 anothter#another#1
@@ -1703,7 +1703,7 @@ anounces#announces#1
 anouncing#announcing#2
 anounted#announced#1
 anout#about#3
-anovulation#an ovulation#1
+anovulation#an__ovulation#1
 anquished#anguished#1
 ansd#and#1
 anslyst#analyst#1
@@ -1918,7 +1918,7 @@ appliciations#applications#1
 applics#applies#2
 appliction#application#2
 applictions#applications#1
-applyingfor#applying for#1
+applyingfor#applying__for#1
 appoach#approach#4
 appoached#approached#1
 appoaches#approaches#1
@@ -2058,13 +2058,13 @@ apprroval#approval#1
 appying#applying#1
 apreciated#appreciated#1
 apreciation#appreciation#3
-apremium#a premium#1
+apremium#a__premium#1
 aprliament#parliament#1
 aproach#approach#5
 aproached#approached#2
 aproaches#approaches#1
-aprobe#a probe#1
-aprocess#a process#1
+aprobe#a__probe#1
+aprocess#a__process#1
 apropriate#appropriate#4
 aproval#approval#12
 aprove#approve#2
@@ -2082,7 +2082,7 @@ aprroximately#approximately#2
 aprtment#apartment#1
 aprtments#apartments#2
 apthetic#pathetic#1
-apublic#a public#1
+apublic#a__public#1
 aqction#action#1
 aqcuire#acquire#3
 aqcuired#acquired#1
@@ -2150,31 +2150,31 @@ architertual#architectural#1
 archtiect#architect#1
 archtype#archetype#1
 arcres#acres#2
-areaAugust#area August#1
-areaYield#area Yield#1
+areaAugust#area__August#1
+areaYield#area__Yield#1
 areaa#area#1
-aread#a read#1
+aread#a__read#1
 aready#already#3
 areage#acreage#1
-areal#a real#2
-arealoss#area loss#1
+areal#a__real#2
+arealoss#area__loss#1
 areanas#arenas#1
-areand#are and#1
-areaon#area on#1
-areason#a reason#1
-areconstraining#are constraining#1
-aredated#are dated#1
+areand#are__and#1
+areaon#area__on#1
+areason#a__reason#1
+areconstraining#are__constraining#1
+aredated#are__dated#1
 areement#agreement#5
 areested#arrested#1
-areexpected#are expected#1
-arehampering#are hampering#1
-areno#are no#1
+areexpected#are__expected#1
+arehampering#are__hampering#1
+areno#are__no#1
 areospace#aerospace#3
-areshuffling#are shuffling#1
+areshuffling#are__shuffling#1
 aressed#arrested#1
 arested#arrested#3
 aresult#aresult#1
-arewill#are will#1
+arewill#are__will#1
 arged#argued#2
 argee#agree#2
 argeed#agreed#2
@@ -2224,9 +2224,9 @@ arou3nd#around#1
 aroubd#around#1
 aroud#around#2
 aroun#around#4
-aroundand#around and#1
+aroundand#around__and#1
 arounde#around#1
-aroundor#around or#1
+aroundor#around__or#1
 arounf#around#3
 aroung#around#2
 arragement#arrangement#3
@@ -2240,7 +2240,7 @@ arrangment#arrangement#12
 arrangments#arrangements#20
 arresed#arrested#1
 arrestd#arrested#1
-arrestedon#arrested on#1
+arrestedon#arrested__on#1
 arreted#arrested#1
 arribvals#arrivals#1
 arrid#arid#3
@@ -2315,15 +2315,15 @@ ashphalt-based#asphalt-based#1
 ashphalted#asphalted#1
 ashthma#asthma#1
 ashtma#asthma#2
-asis#as is#1
+asis#as__is#1
 asistance#assistance#2
 askeded#asked#1
 askedl#asked#1
 askig#asking#1
 askinf#asking#1
-askingthat#asking that#1
-aslarge#as large#1
-aslong#as long#1
+askingthat#asking__that#1
+aslarge#as__large#1
+aslong#as__long#1
 aslyum#asylum#2
 asnd#and#3
 asociates#associates#1
@@ -2410,7 +2410,7 @@ assocation#association#29
 assocations#associations#2
 assocciation#association#1
 associat#associate#1
-associatesnil#associates nil#1
+associatesnil#associates__nil#1
 associaties#associates#1
 associaton#association#9
 associte#associate#1
@@ -2462,10 +2462,10 @@ asttack#attack#1
 asume#assume#1
 asumption#assumption#1
 asurances#assurances#1
-asurvey#a survey#1
+asurvey#a__survey#1
 asusme#assume#1
-asweekend#as weekend#1
-aswell#as well#2
+asweekend#as__weekend#1
+aswell#as__well#2
 aswering#answering#1
 asychronous#asynchronous#1
 asylumn#asylum#1
@@ -2478,7 +2478,7 @@ asymetrically-located#asymmetrically-located#3
 atack#attack#2
 atacked#attacked#6
 atacks#attacks#3
-atall#a tall#1
+atall#a__tall#1
 atbitrage#arbitrage#1
 atempt#attempt#3
 atempting#attempting#2
@@ -2501,7 +2501,7 @@ ativities#activities#5
 ativity#activity#1
 atkes#takes#1
 NEatlanta#Atlanta#1
-atleast#at least#3
+atleast#at__least#3
 atlernate#alternate#1
 atlhough#although#1
 atmopshere#atmosphere#8
@@ -2521,7 +2521,7 @@ atractive#attractive#5
 atributable#attributable#1
 atributed#attributed#3
 atricles#articles#1
-atriend#a trend#2
+atriend#a__trend#2
 atrracted#attracted#3
 atrributed#attributed#2
 attacK#attack#1
@@ -2564,7 +2564,7 @@ attenion#attention#1
 attenmpt#attempt#1
 attepted#attempted#1
 attewmpts#attempts#1
-atthe#at the#3
+atthe#at__the#3
 attibutable#attributable#4
 attibuted#attributed#11
 attibuting#attributing#1
@@ -2601,9 +2601,9 @@ attribuable#attributable#1
 attribue#attribute#1
 attribued#attributed#1
 attribuited#attributed#1
-attributablea#attributable a#2
-attributableloss#attributable loss#1
-attributableprofit#attributable profit#1
+attributablea#attributable__a#2
+attributableloss#attributable__loss#1
+attributableprofit#attributable__profit#1
 attributied#attributed#1
 attributrable#attributable#1
 attributtable#attributable#1
@@ -2633,7 +2633,7 @@ aucthorities#authorities#1
 auctign#auction#1
 auctio#auction#2
 auctionned#auctioned#1
-auctionsamount#auctions amount#3
+auctionsamount#auctions__amount#3
 aucton#auction#3
 audiece#audience#1
 audiorvisual#audiovisual#1
@@ -2681,7 +2681,7 @@ authoritive#authoritative#3
 authoritiy#authority#2
 authoritized#authorized#2
 authoritories#authorities#2
-authorityTAX#authority TAX#1
+authorityTAX#authority__TAX#1
 authorizaiton#authorization#1
 authorority#authority#1
 authorties#authorities#12
@@ -2754,8 +2754,8 @@ availabilties#availabilities#7
 availabilty#availability#8
 availabitity#availability#2
 availabl_e#available#1
-availableTK#available TK#1
-availablein#available in#1
+availableTK#available__TK#1
+availablein#available__in#1
 availablility#availability#6
 availablities#availabilities#1
 availablity#availability#18
@@ -2810,11 +2810,11 @@ avisory#advisory#1
 avition#aviation#1
 avlable#available#1
 avodance#avoidance#2
-avoidthe#avoid the#1
+avoidthe#avoid__the#1
 avove#above#1
 avverage#average#2
 awaite#await#2
-awaitinggfurther#awaiting further#1
+awaitinggfurther#awaiting__further#1
 awaitng#awaiting#2
 awaitung#awaiting#1
 awaps#swaps#1
@@ -2828,7 +2828,7 @@ awating#awaiting#2
 awayed#away#1
 aways#always#4
 ?awee#are#were#1
-awild#a wild#1
+awild#a__wild#1
 awited#awaited#1
 awiting#awaiting#1
 awkard#awkward#2
@@ -2875,8 +2875,8 @@ bakchand#backhand#1
 bakruptcy#bankruptcy#1
 balace#balance#3
 balancd#balanced#1
-balanceremained#balance remained#1
-balancesof#balances of#1
+balanceremained#balance__remained#1
+balancesof#balances__of#1
 balane#balance#1
 balanse#balance#1
 balcklist#backlist#1
@@ -2909,7 +2909,7 @@ bankcuptcy#bankruptcy#1
 bankd#banked#1
 bankgin#banking#1
 bankig#banking#2
-bankissued#bank issued#1
+bankissued#bank__issued#1
 bankng#banking#1
 banknig#banking#1
 bankrputcy#bankruptcy#3
@@ -2922,7 +2922,7 @@ bankrupties#bankruptcies#4
 bankrupty#bankruptcy#7
 bankrutpcies#bankruptcies#1
 bankrutpcy#bankruptcy#5
-banks'customers#bank's customers#1
+banks'customers#bank's__customers#1
 banks's#bank's#22
 banksers#bankers#1
 bankss#banks#1
@@ -3011,7 +3011,7 @@ battteries#batteries#1
 baverage#beverage#1
 baverages#beverages#1
 bayonetting#bayoneting#1
-bazaaris#bazaar is#2
+bazaaris#bazaar__is#2
 bcame#became#1
 bcause#because#2
 bckdown#backdown#1
@@ -3022,8 +3022,8 @@ beachead#beachhead#1
 beacuse#because#13
 beak-even#break-even#2
 bearevement#bereavement#1
-bearried#be carried#1
-beassigned#be assigned#1
+bearried#be__carried#1
+beassigned#be__assigned#1
 beatng#beating#1
 beatr#beater#1
 beause#because#14
@@ -3043,7 +3043,7 @@ becaue#because#18
 becaus#because#2
 becausae#because#1
 becaused#because#2
-becauseof#because of#1
+becauseof#because__of#1
 becauser#because#1
 becauses#because#2
 becaushe#because#1
@@ -3062,8 +3062,8 @@ becomining#becoming#1
 becomming#becoming#1
 becomne#become#1
 becomning#becoming#1
-becompleted#be completed#1
-beconsidered#be considered#1
+becompleted#be__completed#1
+beconsidered#be__considered#1
 becooming#becoming#1
 becuase#because#56
 becuause#because#1
@@ -3087,16 +3087,16 @@ beffudled#befuddled#1
 befoe#before#3
 befoere#before#1
 befor#before#4
-beforeFederal#before Federal#1
+beforeFederal#before__Federal#1
 befored#before#1
 beforee#before#5
-beforehis#before his#1
+beforehis#before__his#1
 beforfe#before#1
 befre#before#5
 begAn#began#1
 begain#begin#5
 begand#began#1
-beganin#began in#1
+beganin#began__in#1
 begans#begins#2
 begaviour#behaviour#1
 beggers#beggars#3
@@ -3108,7 +3108,7 @@ begining#beginning#116
 begininng#beginning#3
 beginnig#beginning#2
 beginnin#beginning#2
-beginningVenues#beginning Venues#1
+beginningVenues#beginning__Venues#1
 beginningg#beginning#1
 beginninng#beginning#1
 beginnning#beginning#12
@@ -3166,9 +3166,9 @@ bellwhether#bellwether#16
 belowe#belove#1
 belows#below#2
 belt-tighening#belt-tightening#3
-bemade#be made#1
+bemade#be__made#1
 bemaoned#bemoaned#1
-bemore#be more#1
+bemore#be__more#1
 benchamrk#benchmark#1
 benchark#benchmark#5
 benchmank#benchmark#1
@@ -3180,7 +3180,7 @@ benchmrk#benchmark#1
 benchnmark#benchmark#1
 benchs#benches#1
 bencmark#benchmark#1
-beneathrecent#beneath recent#1
+beneathrecent#beneath__recent#1
 benefector#benefactor#1
 benefeicial#beneficial#1
 beneffited#benefited#1
@@ -3233,7 +3233,7 @@ berween#between#1
 beseiged#besieged#11
 beseiging#besieging#6
 beserk#berserk#6
-besix#be six#1
+besix#be__six#1
 beteen#between#16
 beteer#better#1
 betefore#before#1
@@ -3276,7 +3276,7 @@ beyone#beyond#1
 beyong#beyond#3
 beyound#beyond#4
 bfore#before#3
-bfrzero#bfr zero#1
+bfrzero#bfr__zero#1
 bgean#began#1
 bgoslavia#Yugoslavia#1
 bheavy#heavy#1
@@ -3292,8 +3292,8 @@ biddding#bidding#1
 biddgin#bidding#1
 bideo#video#1
 bidie#birdie#1
-bidslater#bids later#1
-bidwanted#bid wanted#1
+bidslater#bids__later#1
+bidwanted#bid__wanted#1
 bidy#bid#1
 bieng#being#3
 bienium#biennium#14
@@ -3306,7 +3306,7 @@ bigg#big#1
 biggeest#biggest#1
 biggesst#biggest#1
 biggeste#biggest#1
-biggestmoney#biggest money#1
+biggestmoney#biggest__money#1
 bigget#biggest#1
 biggger#bigger#1
 bigggest#biggest#4
@@ -3344,18 +3344,18 @@ billioN#billion#1
 billioin#billion#3
 billioinaire#billionaire#1
 billiom#billion#2
-billion.-Sydney#billion Sydney#1
+billion.-Sydney#billion__Sydney#1
 billionare#billionaire#6
 billionarie#billionaire#1
 billionb#billion#1
 billiones#billions#2
 billionh#billion#1
 billioniare#billionaire#1
-billionin#billion in#1
+billionin#billion__in#1
 billionm#billion#1
 billionn#billion#1
 billionnaire#billionaire#2
-billionvs#billion vs#9
+billionvs#billion__vs#9
 billiuon#billion#1
 billl#bill#1
 billlion#billion#23
@@ -3381,7 +3381,7 @@ biotecnology#biotechnology#1
 bipartisam#bipartisan#1
 bipartisian#bipartisan#1
 biref#brief#1
-Ubishi#?[part of name?]#2
+Ubishi#?[part__of__name?]#2
 bisiness#business#1
 biten#bitten#1
 bith#birth#1
@@ -3445,7 +3445,7 @@ bodygaurds#bodyguards#4
 bodygguard#bodyguard#1
 bodygruards#bodyguards#1
 bodygyards#bodyguards#1
-Aboe#[barrel of oil equivalent]#53
+Aboe#[barrel__of__oil__equivalent]#53
 boeing#Boeing#2
 bofore#before#2
 boisterus#boisterous#1
@@ -3500,20 +3500,20 @@ bostered#bolstered#3
 botanaists#botanists#1
 botantist#botanist#1
 bothe#both#1
-bothfor#both for#1
+bothfor#both__for#1
 botler#bottler#1
 bottlenecksks#bottlenecks#1
 botton#bottom#3
 botttled#bottled#1
 botttom#bottom#2
 boucing#bouncing#1
-boughtin#bought in#2
+boughtin#bought__in#2
 bougth#bought#1
 bougtht#bought#1
 bouhgt#bought#1
 bouight#bought#2
 boundarys#boundary's#1
-boundfor#bound for#1
+boundfor#bound__for#1
 boundray#boundary#1
 bouns#bonus#1
 boutht#bought#1
@@ -3563,7 +3563,7 @@ breakthough#breakthrough#16
 breathrough#breakthrough#5
 breathtakeing#breathtaking#1
 brechin#Brechin#1
-breezesfine#breezes fine#3
+breezesfine#breezes__fine#3
 brefing#briefing#3
 breif#brief#1
 breifing#briefing#2
@@ -3615,7 +3615,7 @@ brodly#broadly#1
 broght#brought#1
 brokage#brokerage#1
 brokeage#brokerage#3
-brokenoff#broken off#1
+brokenoff#broken__off#1
 brokerarages#brokerages#1
 brokererd#brokered#1
 brokerge#brokerage#8
@@ -3624,7 +3624,7 @@ brokrage#brokerage#1
 bronz#bronze#1
 brooke#broke#1
 brorkerage#brokerage#1
-brotherAlister#brother Alister#1
+brotherAlister#brother__Alister#1
 brough#brought#20
 broughts#brought#1
 brougt#brought#2
@@ -3674,7 +3674,7 @@ buidlings#buildings#11
 buienes#business#1
 buil#build#2
 buil.t#built#1
-buildinga#building a#1
+buildinga#building__a#1
 buildling#building#2
 buildngs#buildings#2
 buildong#building#1
@@ -3693,7 +3693,7 @@ buioding#building#1
 buired#buried#1
 buisiness#business#4
 buisinesses#businesses#1
-buisnescalled#business called#1
+buisnescalled#business__called#1
 buisness#business#14
 buisness-like#business-like#1
 buisnesses#businesses#1
@@ -3754,7 +3754,7 @@ burocracy#bureaucracy#2
 burqua#burkha#1
 burried#buried#4
 bushe#bushel#1
-bushelsand#bushels and#1
+bushelsand#bushels__and#1
 bushesl#bushels#1
 busienss#business#6
 busiensses#businesses#3
@@ -3795,17 +3795,17 @@ bussinesman#businessman#1
 bussiness#business#5
 bussinessmen#businessmen#2
 busuiness#business#2
-butstill#but still#1
-butsuppliers#but suppliers#1
-butterJanuary#butter January#1
-butthey#but they#1
+butstill#but__still#1
+butsuppliers#but__suppliers#1
+butterJanuary#butter__January#1
+butthey#but__they#1
 buttresed#buttressed#1
 buuilt#built#1
 buyig#buying#1
 buyilding#building#1
 buyin#buying#7
-buyingin#buying in#1
-buyinginterest#buying interest#1
+buyingin#buying__in#1
+buyinginterest#buying__interest#1
 buyins#buying#1
 buyng#buying#2
 buyoant#buoyant#2
@@ -3819,19 +3819,19 @@ bweteen#between#1
 bxing#boxing#1
 by-elecions#by-elections#1
 by-lections#by-elections#1
-byMay#by May#1
+byMay#by__May#1
 bycking#biking#1
 bycyles#bicycles#2
 bydget#budget#1
 byer#buyer#2
 byers#buyers#1
 bying#buying#5
-bymore#by more#1
-byno#by no#1
+bymore#by__more#1
+byno#by__no#1
 byond#beyond#1
-byonly#by only#1
+byonly#by__only#1
 byphenyls#biphenyls#1
-bythe#by the#2
+bythe#by__the#2
 byu#buy#1
 byuing#buying#1
 NEbyzantine#Byzantine#10
@@ -3885,7 +3885,7 @@ callS#calls#3
 callapsed#collapsed#1
 callibration#calibration#2
 callilng#calling#1
-callingor#calling or#2
+callingor#calling__or#2
 callipers#calipers#1
 callled#called#1
 callling#calling#1
@@ -3928,7 +3928,7 @@ campign#campaign#6
 campionship#championship#1
 camposinos#campesinos#1
 canadidates#candidates#1
-canbe#can be#1
+canbe#can__be#1
 cancelation#cancellation#7
 cancelations#cancellations#3
 cancell#cancel#3
@@ -3966,7 +3966,7 @@ cannout#cannot#1
 canot#cannot#4
 cantral#central#1
 cantrast#contrast#1
-canvasserand#canvasser and#1
+canvasserand#canvasser__and#1
 caoch#coach#2
 caol#coal#1
 caol-fired#coal-fired#2
@@ -3984,7 +3984,7 @@ capablility#capability#1
 capablities#capabilities#1
 capacicty#capacity#2
 capacilities#capabilities#1
-capacityin#capacity in#1
+capacityin#capacity__in#1
 capacityy#capacity#1
 capacties#capacities#1
 capactiy#capacity#3
@@ -4016,7 +4016,7 @@ capitalisisng#capitalising#1
 capitalistion#capitalisation#2
 capitalizaiton#capitalization#1
 capitaliztion#capitalization#1
-capitalratios#capital ratios#1
+capitalratios#capital__ratios#1
 capitalsed#capitalised#1
 capitial#capital#2
 capitialisation#capitalisation#4
@@ -4035,7 +4035,7 @@ capivity#captivity#1
 capoital#capital#1
 cappital#capital#1
 caprain#captain#2
-captainWasim#captain Wasim#1
+captainWasim#captain__Wasim#1
 captal#capital#2
 captalisation#capitalisation#3
 captia#capita#1
@@ -4228,7 +4228,7 @@ celluar#cellular#11
 cellullar#cellular#3
 celluose#cellulose#2
 cellur#cellar#2
-celluse#cell use#1
+celluse#cell__use#1
 cels#cells#5
 celular#cellular#1
 celullar#cellular#5
@@ -4250,13 +4250,13 @@ cens#cents#2
 censensus#consensus#1
 censt#cents#7
 cent-wned#cent-owned#1
-centback#cent back#2
+centback#cent__back#2
 centenery#centenary#1
 centeral#central#2
 centerd#centered#2
 centimentres#centimetres#1
 centners#centers#2
-centper#cent per#1
+centper#cent__per#1
 centr_al#central#1
 centries#centuries#1
 centries-old#centuries-old#1
@@ -4395,7 +4395,7 @@ chaneling#channeling#1
 chanes#chances#51
 chang#change#4
 changd#changed#1
-changesfrom#changes from#1
+changesfrom#changes__from#1
 chaning#changing#2
 channell#channel#1
 channging#changing#1
@@ -4435,7 +4435,7 @@ charirman#chairman#2
 charitible#charitable#1
 charmain#chairman#1
 charman#chairman#6
-charteredaccountants#chartered accountants#2
+charteredaccountants#chartered__accountants#2
 charterering#chartering#1
 chartits#chartists#1
 chartsists#chartists#1
@@ -4456,7 +4456,7 @@ chellenging#challenging#1
 chemcial#chemical#6
 chemcials#chemicals#10
 chemcicals#chemicals#1
-chemicalsMeesPierson#chemicals MeesPierson#1
+chemicalsMeesPierson#chemicals__MeesPierson#1
 chemichal#chemical#2
 chemiclas#chemicals#1
 chemikal#chemical#1
@@ -4508,7 +4508,7 @@ choince#choice#2
 choise#choice#1
 cholesetrol#cholesterol#1
 cholesterlol#cholesterol#1
-cholesterolcould#cholesterol could#1
+cholesterolcould#cholesterol__could#1
 chololate#chocolate#1
 choloride#chloride#1
 cholorination#chlorination#2
@@ -4624,7 +4624,7 @@ claer#clear#1
 claiants#claimants#1
 claimaints#claimants#3
 claimng#claiming#1
-claimsthe#claims the#1
+claimsthe#claims__the#1
 clambored#clambered#1
 clammered#clambered#1
 clammering#clambering#6
@@ -4694,7 +4694,7 @@ clopdiogrel#clopidogrel#1
 closE#close#4
 closd#closed#1
 closded#closed#1
-closedFTSE#closed FTSE#1
+closedFTSE#closed__FTSE#1
 closedd#closed#1
 closeed#closed#2
 closel#closely#1
@@ -4702,14 +4702,14 @@ closelly#closely#1
 closesd#closed#1
 closetted#closeted#1
 closiing#closing#2
-closingat#closing at#2
+closingat#closing__at#2
 closly#closely#3
 clost#close#1
 clost-of-living#cost-of-living#1
 closts#costs#1
 closues#closures#1
-cloudbecoming#cloud becoming#1
-cloudfew#cloud few#1
+cloudbecoming#cloud__becoming#1
+cloudfew#cloud__few#1
 clould#could#1
 clowds#clouds#1
 clsely#closely#1
@@ -4766,7 +4766,7 @@ coaliion#coalition#1
 coaliiton#coalition#1
 coaliotin#coalition#1
 coalitiion#coalition#1
-coalitionin#coalition in#1
+coalitionin#coalition__in#1
 coaliton#coalition#22
 coaltiion#coalition#2
 coaltion#coalition#39
@@ -5027,15 +5027,15 @@ commitement#commitment#1
 commitents#commitments#1
 commiting#committing#23
 commitm#commits#2
-commitmentAchievement#commitment Achievement#2
-commitmentto#commitment to#2
+commitmentAchievement#commitment__Achievement#2
+commitmentto#commitment__to#2
 commitmment#commitment#1
 commitmments#commitments#1
 committ#commit#3
 committe#committee#57
 committede#committed#1
 committeee#committee#12
-committeesdid#committees did#1
+committeesdid#committees__did#1
 committement#commitment#1
 committements#commitments#1
 committemt#commitment#1
@@ -5099,11 +5099,11 @@ commodty#commodity#1
 commom#common#3
 commomn#common#1
 commond#command#3
-commonequivalent#common equivalent#1
+commonequivalent#common__equivalent#1
 commong#common#2
-commonground#common ground#1
-commonman#common man#1
-commonsense#common sense#24
+commonground#common__ground#1
+commonman#common__man#1
+commonsense#common__sense#24
 commonwwealth#commonwealth#2
 commpany#company#3
 commpany's#company's#1
@@ -5140,7 +5140,7 @@ communicatiions#communications#2
 communicatins#communications#1
 communicatioins#communications#1
 communicationa#communications#1
-communicationsup#communications up#1
+communicationsup#communications__up#1
 communicationws#communications#2
 communicatons#communications#4
 communiciations#communications#4
@@ -5198,12 +5198,12 @@ companeis#companies#1
 companes#companies#3
 companie#company#6
 companie's#company's#1
-companies'experience#companies' experience#1
-companies'joint#companies' joint#1
+companies'experience#companies'__experience#1
+companies'joint#companies'__joint#1
 companies's#companies'#3
-companiescharge#companies charge#2
+companiescharge#companies__charge#2
 companiese#companies#1
-companiesnil#companies nil#1
+companiesnil#companies__nil#1
 companiess#companies#1
 companines#companies#4
 companiny#company#1
@@ -5212,16 +5212,16 @@ companmy#company#4
 companmy's#company's#1
 companny#company#1
 companues#companies#1
-companyhad#company had#1
-companyis#company is#1
-companyof#company of#1
-companyresults#company results#2
+companyhad#company__had#1
+companyis#company__is#1
+companyof#company__of#1
+companyresults#company__results#2
 companys#companies#8
 companys's#companies'#2
 companyu#company#1
-companywarned#company warned#1
+companywarned#company__warned#1
 companywide#company-wide#18
-companywill#company will#1
+companywill#company__will#1
 companyy#company#1
 compapy#company#1
 comparabe#comparable#1
@@ -5286,12 +5286,12 @@ competant#competent#2
 competative#competitive#4
 competeitive#competitive#1
 competely#completely#5
-competentmember#competent member#1
+competentmember#competent__member#1
 competetion#competition#4
 competetive#competitive#11
 competetiveness#competitiveness#4
 competetors#competitors#1
-competewith#compete with#1
+competewith#compete__with#1
 competiiton#competition#1
 competiitve#competitive#2
 competion#completion#15
@@ -5299,7 +5299,7 @@ competiotion#competition#1
 competiteveness#competitiveness#4
 competitiion#competition#3
 competitionm#competition#1
-competitionpolicy#competition policy#1
+competitionpolicy#competition__policy#1
 competitior#competitor#7
 competitiors#competitors#11
 competitition#competition#7
@@ -5417,7 +5417,7 @@ compusions#compulsions#1
 compusive#compulsive#1
 computer-controled#computer-controlled#1
 computer-ided#computer-aided#1
-computerused#computer used#1
+computerused#computer__used#1
 computng#computing#1
 computor#computer#6
 computr#computer#1
@@ -5456,7 +5456,7 @@ comuputer#computer#1
 comuputers#computers#1
 comuter#computer#1
 comyany#company#1
-comyet#come yet#1
+comyet#come__yet#1
 conTract#contract#2
 conasortium#consortium#1
 conatainer#container#1
@@ -5490,8 +5490,8 @@ concerete#concrete#2
 conceretes#concretes#1
 concering#concerning#3
 concerm#concern#2
-concernJeff#concern Jeff#1
-concernan#concern an#1
+concernJeff#concern__Jeff#1
+concernan#concern__an#1
 concernced#concerned#2
 concernted#concerned#1
 concersion#concession#1
@@ -6037,7 +6037,7 @@ contast#contrast#1
 contasted#contrasted#1
 contatins#contains#1
 contemptuosly#contemptuously#1
-contenderin#contender in#1
+contenderin#contender__in#1
 conter-cross#counter-cross#1
 conterbalanced#counterbalanced#1
 conterfeit#counterfeit#1
@@ -6087,8 +6087,8 @@ continueing#continuing#2
 continuerd#continued#1
 continuies#continues#1
 continuiing#continuing#2
-continuingin#continuing in#1
-continuingstrong#continuing strong#1
+continuingin#continuing__in#1
+continuingstrong#continuing__strong#1
 continuit#continuity#1
 continumed#continued#1
 continune#continue#1
@@ -6162,7 +6162,7 @@ contribued#contributed#4
 contribuing#contributing#1
 contribuition#contribution#1
 contribuiton#contribution#1
-contributedto#contributed to#1
+contributedto#contributed__to#1
 contributiong#contributing#1
 contributios#contributions#1
 contributons#contributions#1
@@ -6179,11 +6179,11 @@ controil#control#1
 controled#controlled#7
 controling#controlling#20
 controll#control#3
-controlled-Zaire#controlled Zaire#1
+controlled-Zaire#controlled__Zaire#1
 controllled#controlled#7
 controllling#controlling#1
 controlls#controls#1
-controlno#control no#1
+controlno#control__no#1
 controlversy#controversy#3
 controly#control#1
 controntation#confrontation#1
@@ -6282,7 +6282,7 @@ cooach#coach#1
 cooca#cocoa#8
 coodinating#coordinating#1
 cooley#coolly#2
-coolingand#cooling and#1
+coolingand#cooling__and#1
 coolling#cooling#1
 coolonel#colonel#1
 cooly#coolly#8
@@ -6365,7 +6365,7 @@ cordinate#coordinate#1
 cordong#cordon#1
 corduory#corduroy#1
 corection#correction#2
-coreelection#core election#1
+coreelection#core__election#1
 corelation#correlation#3
 corenered#cornered#1
 corespondent#correspondent#5
@@ -6458,7 +6458,7 @@ costlly#costly#3
 costoms#customs#1
 costruction#construction#1
 costrued#construed#1
-costsnil#costs nil#2
+costsnil#costs__nil#2
 costums#costumes#1
 cosumer#consumer#1
 cosumers#consumers#4
@@ -6542,21 +6542,21 @@ countreis#countries#1
 countres#countries#4
 countrie#countries#2
 countriers#countries#1
-countriesin#countries in#1
-countriesloss#countries loss#1
+countriesin#countries__in#1
+countriesloss#countries__loss#1
 countriess#countries#2
 countris#countries#2
 countrpart#counterpart#1
 countrry's#country's#1
-countryon#country on#1
+countryon#country__on#1
 countrys#country's#11
-countrywould#country would#1
+countrywould#country__would#1
 county'a#county's#1
 countyr#country#1
 couontry#country#1
 coupld#could#1
 couplde#coupled#1
-coupleof#couple of#1
+coupleof#couple__of#1
 coupona#coupons#1
 couponn#coupons#1
 courageious#courageous#1
@@ -6570,7 +6570,7 @@ courtesty#courtesy#1
 courtoom#courtroom#4
 courtsey#courtesy#2
 courtsw#courts#1
-courtto#court to#1
+courtto#court__to#1
 coustic#acoustic#1
 couterpart#counterpart#4
 couterparts#counterparts#2
@@ -6669,7 +6669,7 @@ crinimal#criminal#1
 criogenic#cryogenic#2
 cripling#crippling#1
 cripplied#crippled#1
-crisisin#crisis in#1
+crisisin#crisis__in#1
 crisit#crisis#1
 crisus#crises#2
 critcal#critical#1
@@ -6726,7 +6726,7 @@ cross-ownershp#cross-ownership#1
 cross-subsidiation#cross-subsidization#2
 crossses#crosses#1
 crown-denomiated#crown-denominated#1
-crownsin#crowns in#2
+crownsin#crowns__in#2
 crowsn#crowns#1
 crrent#current#1
 crriminally#criminally#1
@@ -6787,7 +6787,7 @@ cuntries#countries#2
 cuntry's#country's#2
 cuota#quota#2
 cupport#support#1
-curbedby#curbed by#1
+curbedby#curbed__by#1
 curch#church#1
 curcuit#circuit#1
 curculation#circulation#2
@@ -6827,7 +6827,7 @@ currentcy#currency#1
 currentl#currently#1
 currentlky#currently#1
 currentlyb#currently#1
-currentperiod#current period#1
+currentperiod#current__period#1
 currentrly#currently#1
 currentt#current#1
 currenty#currency#10
@@ -6867,7 +6867,7 @@ cuthroat#cutthroat#1
 cutomer#customer#1
 cutomers#customers#6
 cutoms#customs#2
-cutsgenerally#cuts generally#1
+cutsgenerally#cuts__generally#1
 cutsomer#customer#1
 cutsoms#customs#1
 cuttnng#cutting#2
@@ -6981,17 +6981,17 @@ deaker#dealer#2
 dealar#dealer#2
 deale#deal#1
 dealeres#dealers#1
-dealersNil#dealers Nil#1
-dealersnil#dealers nil#3
+dealersNil#dealers__Nil#1
+dealersnil#dealers__nil#3
 deales#deals#1
 dealine#deadline#9
 dealines#deadlines#1
-dealingssuspension#dealings suspension#1
-dealis#deal is#1
+dealingssuspension#dealings__suspension#1
+dealis#deal__is#1
 dealock#deadlock#3
 dealr#deal#1
 dealres#dealers#1
-dealsthat#deals that#1
+dealsthat#deals__that#1
 dealyed#delayed#18
 dealys#delays#2
 deamnd#demand#6
@@ -7045,7 +7045,7 @@ decficits#deficits#1
 deciaion#decision#1
 decicion#decision#1
 decidely#decidedly#9
-decidewhat#decide what#1
+decidewhat#decide__what#1
 decidied#decided#2
 decied#decide#6
 decieve#deceive#1
@@ -7114,7 +7114,7 @@ deelegations#delegations#1
 deemd#deemed#2
 deemded#deemed#1
 deemeds#deemed#1
-deemedto#deemed to#1
+deemedto#deemed__to#1
 defandants#defendants#1
 defaud#defraud#1
 defauled#defaulted#1
@@ -7159,7 +7159,7 @@ deficit-plauged#deficit-plagued#2
 deficit-slaShing#deficit-slashing#1
 deficites#deficits#1
 deficitis#deficits#1
-deficitto#deficit to#1
+deficitto#deficit__to#1
 defict#deficit#53
 deficts#deficits#6
 defiencies#deficiencies#1
@@ -7220,7 +7220,7 @@ delai#delay#9
 delapidated#dilapidated#8
 delaration#declaration#3
 delared#declared#6
-delaysin#delays in#1
+delaysin#delays__in#1
 delcare#declare#2
 delcared#declared#3
 delcares#declares#2
@@ -7289,7 +7289,7 @@ demage#damage#1
 demages#damages#1
 deman#demand#6
 demand-suppy#demand-supply#1
-demandfor#demand for#1
+demandfor#demand__for#1
 demandi#demand#1
 demanning#demanding#1
 demaraction#demarcation#1
@@ -7401,7 +7401,7 @@ depeleted#depleted#3
 dependend#depended#1
 dependenecy#dependency#1
 dependibility#dependability#1
-dependon#depend on#2
+dependon#depend__on#2
 depened#depended#5
 depenedence#dependence#1
 depenedency#dependency#1
@@ -7435,7 +7435,7 @@ deprecation#depreciation#3
 deprecations#depreciations#1
 depreciaiton#depreciation#3
 depreciatation#depreciation#1
-depreciationand#depreciation and#1
+depreciationand#depreciation__and#1
 depreciatn#depreciation#1
 depreciaton#depreciation#7
 deprecition#deprecation#2
@@ -7646,7 +7646,7 @@ developmemt#development#1
 developmemts#developments#1
 developmen#development#2
 developmenmt#development#1
-developmentof#development of#2
+developmentof#development__of#2
 developmet#development#1
 developmnent#development#5
 developmnet#development#1
@@ -7770,7 +7770,7 @@ dicussions#discussions#13
 dicusssion#discussion#1
 did't#didn't#1
 didease#disease#1
-didnot#did not#1
+didnot#did__not#1
 didnt#didn't#9
 didvidend#dividend#1
 diected#directed#1
@@ -7802,9 +7802,9 @@ differe#differ#1
 differeence#difference#2
 differeent#different#1
 differees#differences#1
-differenceCREDIT#difference CREDIT#1
-differencesCHARGE#differences CHARGE#1
-differencescharge#differences charge#2
+differenceCREDIT#difference__CREDIT#1
+differencesCHARGE#differences__CHARGE#1
+differencescharge#differences__charge#2
 differencials#differentials#1
 differencies#differences#1
 differenct#different#2
@@ -7927,7 +7927,7 @@ dimissal#dismissal#6
 dimissals#dismissals#1
 dimissed#dismissed#29
 dimissive#dismissive#1
-dimmedin#dimmed in#1
+dimmedin#dimmed__in#1
 dimobilisation#demobilisation#1
 dimsiss#dismiss#2
 dimsissive#dismissive#1
@@ -7999,7 +7999,7 @@ directiv#directive#1
 directived#directives#1
 directlty#directly#1
 directon#direction#4
-directorIan#director Ian#1
+directorIan#director__Ian#1
 directores#directories#1
 directos#directors#1
 directpr#director#1
@@ -8162,7 +8162,7 @@ discusss#discuss#4
 discusssed#discussed#2
 discusssion#discussion#6
 discusssions#discussions#7
-discussthe#discuss the#1
+discussthe#discuss__the#1
 discute#discuss#dispute#1
 discuussion#discussion#1
 disect#dissect#1
@@ -8234,7 +8234,7 @@ dispoal#disposal#1
 dispoasl#disposal#1
 dispopal#disposal#1
 dispos#dispose#1
-disposalsnil#disposals nil#1
+disposalsnil#disposals__nil#1
 disposessed#dispossessed#1
 disposession#dispossession#1
 disposible#disposable#2
@@ -8249,7 +8249,7 @@ dispproved#disapproved#2
 disproprionately#disproportionately#1
 disproprtionate#disproportionate#1
 dispsute#dispute#1
-disputeand#dispute and#1
+disputeand#dispute__and#1
 disqualifed#disqualified#1
 disredit#discredit#1
 disrhythmias#dysrhythmias#1
@@ -8355,7 +8355,7 @@ distribuotion#distribution#1
 distributiona#distribution#1
 distributioon#distribution#1
 distributon#distribution#3
-distributors-Valenti#distributors Valenti#2
+distributors-Valenti#distributors__Valenti#2
 distributror#distributor#1
 distributted#distributed#2
 distributued#distributed#2
@@ -8435,8 +8435,8 @@ dividen#dividend#3
 dividenD#dividend#2
 dividendd#dividend#1
 dividended#dividend#1
-dividendnil#dividend nil#2
-dividendnone#dividend none#1
+dividendnil#dividend__nil#2
+dividendnone#dividend__none#1
 dividened#dividend#2
 dividens#dividend#3
 divident#dividend#5
@@ -8501,10 +8501,10 @@ dollar-denominateed#dollar-denominated#1
 dollar-denominatend#dollar-denominated#1
 dollar-deonominated#dollar-denominated#1
 dollarr#dollar#1
-dollarsAs#dollars As#1
+dollarsAs#dollars__As#1
 dollarst#dollars#1
 dollarv#dollars#1
-dollarvs#dollar vs#1
+dollarvs#dollar__vs#1
 dollat#dollar#1
 dolllar#dollar#6
 dolllars#dollars#3
@@ -8527,7 +8527,7 @@ domicilied#domiciled#1
 domiciliees#domiciles#1
 dominanant#dominant#1
 dominatate#dominate#1
-dominatebusiness#dominate business#1
+dominatebusiness#dominate__business#1
 dominence#dominance#1
 dominer#domineer#1
 dominiated#dominated#1
@@ -8561,10 +8561,10 @@ doubl#double#1
 double-barreled#double-barrelled#4
 double-blined#double-blinded#1
 double-digt#double-digit#1
-doublein#double in#1
+doublein#double__in#1
 doubless#doubtless#1
-doublethat#double that#1
-doublewide#double wide#1
+doublethat#double__that#1
+doublewide#double__wide#1
 doubs#doubts#2
 doubtfull#doubtful#2
 doucle#double#1
@@ -8586,20 +8586,20 @@ dowload#download#1
 dowlside#downside#1
 dowm#down#9
 dowmngraded#downgraded#2
-dowmoves#Dow moves#1
+dowmoves#Dow__moves#1
 downard#downward#17
 downards#downwards#2
 downdraded#downgraded#1
 downdurn#downturn#1
 downgaded#downgraded#1
 downgrad#downgrade#2
-downgradeof#downgrade of#1
+downgradeof#downgrade__of#1
 downgraged#downgraded#1
 downhhill#downhill#1
 downhil#downhill#1
 downl#down#1
 downmhill#downhill#1
-downneutral#down neutral#1
+downneutral#down__neutral#1
 downpoar#downpour#1
 downrade#downgrade#1
 Cdownsteam#downstream#2
@@ -8650,7 +8650,7 @@ drillling#drilling#1
 drinkenness#drunkenness#1
 drited#drifted#1
 drived#derived#1
-drivepast#drive past#1
+drivepast#drive__past#1
 driversp#drivers#1
 drom#from#down#2
 droped#dropped#4
@@ -8685,10 +8685,10 @@ dublication#duplication#2
 dubt#doubt#1
 ducuments#documents#1
 due-dilligence#due-diligence#3
-duein#due in#1
+duein#due__in#1
 duel-fuel#dual-fuel#3
 duel-mode#dual-mode#1
-dueout#due out#1
+dueout#due__out#1
 duget#budget#1
 duing#during#1
 duirng#during#1
@@ -8703,14 +8703,14 @@ durg#drug#1
 durgs#drugs#2
 durig#during#1
 durin#during#1
-duringtheir#during their#1
+duringtheir#during__their#1
 durung#during#2
 duscuss#discuss#1
 duscussion#discussion#1
 dutied#duties#1
 dutring#during#1
 dutues#duties#1
-dutyIncreased#duty Increased#1
+dutyIncreased#duty__Increased#1
 dvertisers#advertisers#1
 dvidend#dividend#1
 dvision#division#1
@@ -8732,15 +8732,15 @@ dynsty#dynasty#1
 dyslipdemia#dyslipidemia#1
 eCOnomist#economist#1
 e_mail#email#1
-eaFeb#ea Feb#1
-eaJan#ea Jan#2
-eaNov#ea Nov#14
+eaFeb#ea__Feb#1
+eaJan#ea__Jan#2
+eaNov#ea__Nov#14
 eac#each#1
 eace#peace#2
 eached#each#3
 eachh#each#1
-eachother#each other#6
-eachothers#each other's#1
+eachother#each__other#6
+eachothers#each__other's#1
 ead#head#5
 eading#heading#1
 eadquarters#headquarters#1
@@ -8796,7 +8796,7 @@ earnigs#earnings#8
 earningS#earning#1
 earningas#earnings#1
 earningns#earnings#3
-earningsloss#earnings loss#1
+earningsloss#earnings__loss#1
 earningss#earnings#1
 earnins#earnings#1
 earniongs#earnings#1
@@ -8809,8 +8809,8 @@ easdtern#eastern#2
 easedd#eased#1
 easeed#eased#1
 easeier#easier#1
-easingdrizzle#easing drizzle#1
-easingshowers#easing showers#1
+easingdrizzle#easing__drizzle#1
+easingshowers#easing__showers#1
 easly#easily#1
 easrly#early#1
 eastates#estates#1
@@ -9091,8 +9091,8 @@ electin#election#1
 electins#elections#3
 electionering#electioneering#1
 electionics#electronics#4
-electionin#election in#2
-electionof#election of#2
+electionin#election__in#2
+electionof#election__of#2
 electiont#election#1
 electiricity#electricity#2
 electiricty#electricity#1
@@ -9163,7 +9163,7 @@ eligble#eligible#1
 eligibile#eligible#3
 eligibilty#eligibility#2
 eligibily#eligibly#1
-eligiblefor#eligible for#1
+eligiblefor#eligible__for#1
 eligiblity#eligibility#2
 eliglible#eligible#1
 elimate#eliminate#3
@@ -9239,13 +9239,13 @@ embracds#embraces#1
 embrago#embargo#1
 embrassing#embarrassing#2
 embroyonic#embryonic#3
-embryosnot#embryos not#1
+embryosnot#embryos__not#1
 emcompasses#encompasses#1
 emegency#emergency#1
 emegred#emerged#2
 emeigrant#emigrant#1
 emereged#emerged#1
-emergingpercent#emerging percent#1
+emergingpercent#emerging__percent#1
 emergnecy#emergency#1
 emergong#emerging#1
 emergy#energy#3
@@ -9310,7 +9310,7 @@ employeees#employees#5
 employeement#employment#1
 employeers#employers#2
 employement#employment#21
-employerpaid#employer paid#1
+employerpaid#employer__paid#1
 employes#employees#30
 employmemnt#employment#1
 employmemt#employment#3
@@ -9396,14 +9396,14 @@ endagered#endangered#2
 endagering#endangering#1
 endavour#endeavour#1
 endding#ending#1
-endedfor#ended for#1
-endedmonths#ended months#4
+endedfor#ended__for#1
+endedmonths#ended__months#4
 endeed#ended#1
 endeing#ending#1
 endicted#indicted#1
 endig#ending#1
 endiing#ending#1
-endingending#ending ending#1
+endingending#ending__ending#1
 endof#endow#1
 endorce#endorse#1
 endorced#endorsed#1
@@ -9422,7 +9422,7 @@ enerating#generating#1
 energines#energies#1
 energt#energy#1
 energym#energy#1
-energyup#energy up#1
+energyup#energy__up#1
 enertainment#entertainment#2
 enertia#inertia#1
 neterd#entered#1
@@ -9458,7 +9458,7 @@ engineeing#engineering#2
 enginering#engineering#11
 enginerred#engineered#1
 enginers#engineers#1
-engineswhile#engines while#1
+engineswhile#engines__while#1
 enginners#engineers#1
 england#England#1
 englarging#enlarging#1
@@ -9577,7 +9577,7 @@ entitities#entities#2
 entititled#entitled#1
 entitlememts#entitlements#1
 entitues#entities#1
-entories#entries#inv entories#2
+entories#entries#inv__entories#2
 entourge#entourage#1
 entrace#entrance#1
 entraced#entranced#1
@@ -9721,7 +9721,7 @@ equites#equities#1
 equitites#equities#2
 equitiy#equity#2
 equitly#equity#1
-equityreturns#equity returns#1
+equityreturns#equity__returns#1
 equivakent#equivalent#1
 equivalant#equivalent#2
 equivalants#equivalents#2
@@ -9741,7 +9741,7 @@ equtiy#equity#1
 equuipment#equipment#1
 equvivalent#equivalent#1
 eqvivalent#equivalent#2
-erage#av erage#1
+erage#av__erage#1
 erald#herald#1
 eralier#earlier#2
 eraly#early#2
@@ -9749,9 +9749,9 @@ eranings#earnings#2
 eratic#erratic#3
 ercenaries#mercenaries#1
 ercent#percent#6
-ercial#comm ercial#1
+ercial#comm__ercial#1
 erdicate#eradicate#1
-erest-rate#int erest-rate#1
+erest-rate#int__erest-rate#1
 erformances#performances#1
 eritrea#Eritrea#2
 erlier#earlier#5
@@ -9761,7 +9761,7 @@ erminal#terminal#2
 erms#terms#germs#1
 ern#earn#1
 ernings#earnings#4
-ernment#gov ernment#1
+ernment#gov__ernment#1
 eroneous#erroneous#1
 erported#reported#1
 erputed#reputed#1
@@ -9877,8 +9877,8 @@ estimaed#estimated#1
 estimaqtes#estimates#1
 estimat#estimate#1
 estimatated#estimated#1
-estimatedSteer#estimated Steer#2
-estimatedthat#estimated that#1
+estimatedSteer#estimated__Steer#2
+estimatedthat#estimated__that#1
 estimater#estimator#1
 estimatre#estimate#1
 estimiated#estimated#1
@@ -9952,9 +9952,9 @@ eveningt#evening#1
 evenng#evening#1
 eventally#eventually#1
 eventaully#eventually#3
-eventhough#even though#10
+eventhough#even__though#10
 evential#eventual#1
-eventof#event of#1
+eventof#event__of#1
 eventuallly#eventually#1
 eventualy#eventually#2
 eventully#eventually#4
@@ -10010,8 +10010,8 @@ ex-comunist#ex-communist#1
 ex-digniataries#ex-dignitaries#1
 ex-g1odowns#ex-godowns#1
 ex-termininal#ex-terminal#1
-ex.items#ex. items#1
-exNOV#ex NOV#2
+ex.items#ex.__items#1
+exNOV#ex__NOV#2
 ex2ected#expected#1
 exacarbated#exacerbated#2
 exaccerbated#exacerbated#1
@@ -10163,7 +10163,7 @@ execuitve#executive#3
 execuive#executive#2
 execurtive#executive#1
 execuse#excuse#3
-executedin#executed in#1
+executedin#executed__in#1
 executice#executive#1
 executieve#executive#1
 executioins#executions#1
@@ -10181,7 +10181,7 @@ exemmpt#exempt#1
 exemp#exempt#1
 exemplfied#exemplified#1
 exend#extend#2
-exended#ex ended#2
+exended#ex__ended#2
 exendin#extending#2
 exenditure#expenditure#1
 exent#extent#3
@@ -10361,7 +10361,7 @@ expendutire#expenditure#1
 expenes#expenses#1
 expeneses#expenses#2
 expens#expense#6
-expensesminus#expenses minus#1
+expensesminus#expenses__minus#1
 expensess#expenses#1
 expensibe#expensive#1
 expensice#expensive#1
@@ -10633,7 +10633,7 @@ faled#failed#1
 falied#failed#1
 faling#failing#3
 falisify#falsify#1
-fallaway#fall away#3
+fallaway#fall__away#3
 fallig#falling#1
 fallling#falling#3
 fallls#falls#2
@@ -10871,7 +10871,7 @@ finacially#financially#1
 finacier#financier#2
 finacing#financing#3
 finaical#financial#1
-finalevent#final event#1
+finalevent#final__event#1
 finaliing#finalizing#1
 finalistion#finalisation#1
 finalk#final#1
@@ -10917,7 +10917,7 @@ findamental#fundamental#1
 finde#find#1
 finded#found#1
 findiing#finding#1
-finemostly#fine mostly#2
+finemostly#fine__mostly#2
 finess#fines#1
 finidngs#findings#1
 fininancing#financing#1
@@ -10943,7 +10943,7 @@ firerworks#fireworks#1
 firey#fiery#2
 firgure#figure#1
 firgures#figures#1
-firmGPA#firm GPA#1
+firmGPA#firm__GPA#1
 firman's#fireman's#1
 firmeer#firmer#1
 firmess#firmness#2
@@ -10955,10 +10955,10 @@ firsat#first#1
 firscal#fiscal#2
 firslt#first#1
 first-#first#1
-firstever#first ever#1
-firstmoves#first moves#1
-firstrun#first run#2
-firstslip#first slip#1
+firstever#first__ever#1
+firstmoves#first__moves#1
+firstrun#first__run#2
+firstslip#first__slip#1
 firt#first#9
 firt-born#first-born#1
 firted#fired#1
@@ -10967,27 +10967,27 @@ firve#five#1
 firworks#fireworks#1
 fisacl#fiscal#1
 fisal#fiscal#8
-fiscalyear#fiscal year#1
+fiscalyear#fiscal__year#1
 fiscnal#fiscal#1
 fishies#fishes#1
 fisrt#first#2
 fistal#fiscal#1
 fith#fifth#4
 fith-placed#fifth-placed#1
-fitout#fit out#1
+fitout#fit__out#1
 fiture#future#1
 fiurther#further#1
 fiv#five#2
 fivbe#five#1
 five-minte#five-minute#1
 five-precent#five-percent#1
-fixDecember#fix December#1
-fixFebruary#fix February#10
-fixJanuary#fix January#6
-fixNovember#fix November#3
+fixDecember#fix__December#1
+fixFebruary#fix__February#10
+fixJanuary#fix__January#6
+fixNovember#fix__November#3
 fixed-maturites#fixed-maturities#1
 fixedS#fixed#1
-fixingrates#fixing rates#2
+fixingrates#fixing__rates#2
 fixs#fixes#2
 fixting#fixating#1
 fixtur#fixture#1
@@ -11135,8 +11135,8 @@ foothhold#foothold#1
 foound#found#1
 fopr#for#4
 foprecasting#forecasting#1
-forGermany#for Germany#1
-forPublic#for Public#8
+forGermany#for__Germany#1
+forPublic#for__Public#8
 forawrd#forward#3
 forbit#forbid#1
 forcast#forecast#49
@@ -11149,8 +11149,8 @@ forceast#forecast#11
 forceasts#forecasts#1
 forcecast#forecast#6
 forcecasters#forecasters#1
-forcertain#for certain#1
-forceshe#forces he#1
+forcertain#for__certain#1
+forceshe#forces__he#1
 forclose#foreclose#1
 forcus#focus#1
 forcused#focused#1
@@ -11227,7 +11227,7 @@ forign#foreign#2
 forin#forint#2
 foring#foreign#1
 forinmt#forint#1
-forinternational#for international#1
+forinternational#for__international#1
 formadehyde#formaldehyde#1
 formaldahyde#formaldehyde#1
 formartion#formation#1
@@ -11258,13 +11258,13 @@ forseeen#foreseen#1
 forseeing#foreseeing#1
 forseen#foreseen#12
 forsees#foresees#26
-forsingle-family#for single-family#1
+forsingle-family#for__single-family#1
 forst#first#4
 forswear#foreswear#1
 fortcoming#forthcoming#1
 forthcoiming#forthcoming#1
 forthcomming#forthcoming#4
-forthe#for the#1
+forthe#for__the#1
 forthiness#frothiness#1
 fortifified#fortified#1
 fortninght#fortnight#1
@@ -11285,8 +11285,8 @@ forwared#forwarded#1
 forwarned#forewarned#1
 forway#foray#1
 forweard#forward#1
-forweek#for week#1
-forwhich#for which#1
+forweek#for__week#1
+forwhich#for__which#1
 forword#foreword#1
 forwrad#forward#1
 fossile#fossil#1
@@ -11309,7 +11309,7 @@ fourth-uarter#fourth-quarter#1
 fourthcoming#forthcoming#1
 fourty#forty#5
 fourty-four#forty-four#1
-fourvs#four vs#1
+fourvs#four__vs#1
 fouth#fourth#8
 fove#five#1
 fove-year#five-year#1
@@ -11375,10 +11375,10 @@ freeeing#freeing#1
 freeeze#freeze#1
 freeign#freeing#1
 freestyl#freestyle#1
-freesubstantial#free substantial#1
+freesubstantial#free__substantial#1
 freewheeeling#freewheeling#1
 freexdom#freedom#1
-freezein#freeze in#1
+freezein#freeze__in#1
 freezng#freezing#1
 freigh#freight#3
 freigher#freighter#2
@@ -11394,7 +11394,7 @@ frequencey#frequency#1
 frequenlty#frequently#1
 frequenly#frequently#1
 frequest#frequent#1
-freshNW#fresh NW#1
+freshNW#fresh__NW#1
 freuqent#frequent#1
 friednly#friendly#1
 frieght#freight#4
@@ -11417,30 +11417,30 @@ frnacs#francs#1
 froced#forced#1
 froeign#foreign#1
 froim#from#5
-fromJuly#from July#4
-fromJune#from June#1
-fromMay#from May#1
-froma#from a#1
-fromcontinuing#from continuing#1
+fromJuly#from__July#4
+fromJune#from__June#1
+fromMay#from__May#1
+froma#from__a#1
+fromcontinuing#from__continuing#1
 frome#from#3
 fromer#former#3
-fromfrom#from from#1
+fromfrom#from__from#1
 fromj#from#2
 fromm#from#1
 fromn#from#7
 fromo#from#1
 froms#forms#1
-fromsaid#from said#1
-fromshareholders#from shareholders#1
+fromsaid#from__said#1
+fromshareholders#from__shareholders#1
 fromt#front#4
-fromthe#from the#1
+fromthe#from__the#1
 fronm#from#1
 front-runers#front-runners#1
 frontunner#frontrunner#1
 froom#from#7
 fropm#from#1
 frorm#form#1
-frownon#frown on#2
+frownon#frown__on#2
 frquency#frequency#1
 frre#fare#1
 frre-on-board#fare-on-board#1
@@ -11514,7 +11514,7 @@ funcations#functions#1
 funcionality#functionality#1
 functio#function#1
 functiong#functioning#1
-functionsin#functions in#1
+functionsin#functions__in#1
 fund-rasing#fund-raising#2
 fundamanetals#fundamentals#1
 fundamantal#fundamental#1
@@ -11526,7 +11526,7 @@ fundamenals#fundamentals#2
 fundamenetal#fundamental#1
 fundamenetals#fundamentals#1
 fundamenta#fundamental#1
-fundamentalistsfor#fundamentalists for#1
+fundamentalistsfor#fundamentalists__for#1
 fundamentalits#fundamentalist#1
 fundamentallly#fundamentally#1
 fundamentally-drivened#fundamentally-driven#1
@@ -11587,7 +11587,7 @@ futue#future#1
 futuers#futures#1
 futues#futures#2
 futur#future#2
-futuractive#future active#2
+futuractive#future__active#2
 futurs#futures#3
 futurtes#futures#1
 futute#future#1
@@ -11606,22 +11606,22 @@ gaine#gained#1
 gainedn#gained#2
 gaineers#gainers#1
 gaines#gainers#5
-gainon#gain on#1
-gainsas#gains as#2
-gainsnil#gains nil#2
+gainon#gain__on#1
+gainsas#gains__as#2
+gainsnil#gains__nil#2
 gainst#against#20
-gainvs#gain vs#1
+gainvs#gain__vs#1
 gaive#give#1
 galavanised#galvanised#2
 galavanting#gallivanting#1
 galf#half#1
 galllon#gallon#2
 gallonr#gallons#1
-gallonsthe#gallons the#1
+gallonsthe#gallons__the#1
 galon#gallon#1
 galvinzed#galvanized#1
 gamblin#gambling#1
-gameand#game and#1
+gameand#game__and#1
 gamimg#gaming#1
 gans#gangs#1
 ganster-backed#gangster-backed#1
@@ -11639,9 +11639,9 @@ garndmother#grandmother#1
 garrrison#garrison#1
 garthering#gathering#1
 gase#gas#1
-gasminus#gas minus#2
+gasminus#gas__minus#2
 gasolin#gasoline#2
-gasolinefor#gasoline for#1
+gasolinefor#gasoline__for#1
 gasolne#gasoline#2
 gastro-entiritis#gastro-enteritis#2
 gastro-intentinal#gastro-intestinal#1
@@ -11683,7 +11683,7 @@ genearally#generally#1
 geneology#genealogy#1
 generL#general#1
 generage#generate#1
-generalcorporate#general corporate#1
+generalcorporate#general__corporate#1
 generall#general#1
 generallly#generally#1
 generallyt#generally#1
@@ -11749,14 +11749,14 @@ giove#give#1
 giovernment#government#1
 gioving#giving#1
 girfriend#girlfriend#1
-girlClinton#girl Clinton#1
+girlClinton#girl__Clinton#1
 Cgirlfried#girlfriend#1
 gitls#girls#1
 givE#give#1
-givenNo#given No#1
-giventhe#given the#1
+givenNo#given__No#1
+giventhe#given__the#1
 givernment#government#1
-givingit#giving it#1
+givingit#giving__it#1
 givne#given#1
 givng#giving#3
 glabal#global#3
@@ -11809,13 +11809,13 @@ gonorrhoea#gonorrhea#1
 goobye#goodbye#1
 good-humored#good-humoured#2
 goodf#good#1
-goodname#good name#1
-goodness'sake#goodness' sake 2#2
-goodprice#good price#1
+goodname#good__name#1
+goodness'sake#goodness'__sake__2#2
+goodprice#good__price#1
 goodss#goods#1
 goodwilll#goodwill#2
-goodwillloss#goodwill loss#1
-goodwork#good work#1
+goodwillloss#goodwill__loss#1
+goodwork#good__work#1
 goood#good#4
 gooodwill#goodwill#1
 goovernment#government#1
@@ -11907,7 +11907,7 @@ governmenment#government#3
 governmenmt#government#3
 governmennt#government#1
 government-apointed#government-appointed#1
-governmentbut#government but#1
+governmentbut#government__but#1
 governmentps#governments#1
 governmentsd#governments#1
 governmet#government#4
@@ -11956,7 +11956,7 @@ graaduating#graduating#1
 grabage#garbage#1
 grabbbing#grabbing#1
 grabbling#grabbing#1
-gracefullypast#gracefully past#1
+gracefullypast#gracefully__past#1
 grad#grade#3
 gradally#gradually#1
 gradaul#gradual#1
@@ -11999,7 +11999,7 @@ grduates#graduates#1
 grean#green#1
 greastest#greatest#1
 greated#greater#1
-greaterfunding#greater funding#1
+greaterfunding#greater__funding#1
 greates#greatest#1
 greatful#grateful#1
 greating#greeting#1
@@ -12033,7 +12033,7 @@ gros#gross#2
 groslly#grossly#1
 grosse#gross#1
 grossi#gross#1
-grossincome#gross income#1
+grossincome#gross__income#1
 grosss#gross#1
 grotwh#growth#2
 grou#group#1
@@ -12048,14 +12048,14 @@ groundstrkes#groundstrikes#1
 grounf#ground#1
 grouo#group#1
 grouop#group#2
-groupand#group and#1
+groupand#group__and#1
 groupn#group#1
 groupo#group#2
-groupof#group of#1
+groupof#group__of#1
 groupping#grouping#1
 groupps#groups#1
 groupsa#groups#1
-groupwould#group would#1
+groupwould#group__would#1
 grout#growth#1
 grouth#growth#1
 grouund#ground#1
@@ -12073,9 +12073,9 @@ growndwork#groundwork#2
 growning#growing#3
 growps#groups#1
 growt#growth#5
-growthgrowth#growth growth#1
-growthhad#growth had#1
-growthover#growth over#1
+growthgrowth#growth__growth#1
+growthhad#growth__had#1
+growthover#growth__over#1
 gruadually#gradually#1
 gruding#grudging#2
 gruop#group#4
@@ -12165,15 +12165,15 @@ haboring#harboring#1
 habour#harbour#2
 habour-master#harbour-master#1
 hada#had#1
-hadbeen#had been#1
+hadbeen#had__been#1
 hadc#had#1
-haddecided#had decided#1
+haddecided#had__decided#1
 hade#had#5
-hadextended#had extended#1
+hadextended#had__extended#1
 hadf#half#1
 hadling#handling#1
 hadns#hands#1
-hadrisen#had risen#1
+hadrisen#had__risen#1
 haed#head#1
 haemmorage#haemorrhage#1
 haemmorhage#haemorrhage#1
@@ -12204,12 +12204,12 @@ haltime#halftime#3
 haltin#halting#1
 hamered#hammered#1
 han#than#2
-handand#hand and#1
+handand#hand__and#1
 handcaffed#handcuffed#1
 handerchiefs#handkerchiefs#1
 handfull#handful#2
 handicape#handicap#1
-handlingup#handling up#1
+handlingup#handling__up#1
 handllng#handling#2
 handlng#handling#1
 handwriten#handwritten#1
@@ -12266,14 +12266,14 @@ harsly#harshly#1
 harveted#harvested#1
 harvets#harvest#2
 has't#hasn't#1
-hasbought#has bought#1
+hasbought#has__bought#1
 Nhashimoto#Hashimoto#1
-hashis#has his#1
+hashis#has__his#1
 hasily-arranged#hastily-arranged#1
 hasina#Hasina#1
 hasnt#hasn't#2
 hassel#hassle#1
-hasturned#has turned#1
+hasturned#has__turned#1
 hath#had#1
 hatr-trick#hat-trick#1
 hatrick#hat-trick#1
@@ -12283,8 +12283,8 @@ hava#have#1
 havaing#having#1
 havce#have#1
 have't#haven't#1
-havealready#have already#1
-havecovered#have covered#1
+havealready#have__already#1
+havecovered#have__covered#1
 haveing#having#1
 haveo#have#1
 havest#harvest#3
@@ -12292,7 +12292,7 @@ havested#harvested#5
 havew#have#1
 havily#heavily#1
 havin#having#1
-havingbeen#having been#1
+havingbeen#having__been#1
 haviung#having#1
 havn't#hasn't#4
 havng#having#1
@@ -12312,12 +12312,12 @@ headches#headaches#1
 headig#heading#1
 headines#headlines#2
 Cheadlinen#headlines#1
-headon#head on#1
+headon#head__on#1
 headqarters#headquarters#5
 headqaurters#headquarters#1
 headquarers#headquarters#1
 headquareters#headquarters#1
-headquarteredin#headquartered in#1
+headquarteredin#headquartered__in#1
 headquartes#headquarter#1
 headquarthers#headquarters#1
 headquartrs#headquarters#1
@@ -12345,7 +12345,7 @@ hearald#herald#1
 hearbeat#heartbeat#2
 heards#herds#1
 heared#heard#3
-hearin#hear in#1
+hearin#hear__in#1
 hearins#hearing#1
 heartbeart#heartbeat#1
 hearvest#harvest#1
@@ -12361,14 +12361,14 @@ heavilly#heavily#2
 heavly#heavily#3
 heavweight#heavyweight#2
 heavyeight#heavyweight#1
-heavyrain#heavy rain#1
+heavyrain#heavy__rain#1
 heavywieghts#heavyweights#1
 heavywights#heavyweights#3
 heayweight#heavyweight#2
-heblamed#he blamed#2
+heblamed#he__blamed#2
 hecares#hectares#2
 hecatres#hectares#2
-hecrashed#he crashed#1
+hecrashed#he__crashed#1
 hectacres#hectares#2
 hectar#hectare#1
 hectars#hectares#4
@@ -12380,7 +12380,7 @@ hectres#hectares#4
 heded#heeded#headed#1
 hedquarters#headquarters#1
 heeed#heed#2
-?heen#have been#1
+?heen#have__been#1
 heeps#heaps#4
 hegemon#hegemony#1
 hegemons#hegemony#1
@@ -12471,10 +12471,10 @@ high-yeilder#high-yielder#2
 highe#high#9
 higher-qualilty#higher-quality#2
 higher-than-excpectbucked#higher-than-expected#1
-higheron#higher on#1
+higheron#higher__on#1
 higherr#higher#1
-higherthan#higher than#1
-highertoo#higher too#1
+higherthan#higher__than#1
+highertoo#higher__too#1
 highhest#highest#1
 highighted#highlighted#1
 highlghts#highlights#2
@@ -12483,7 +12483,7 @@ highlightining#highlighting#1
 highligted#highlighted#1
 highligthed#highlighted#1
 highlow#high-low#1
-highof#high of#1
+highof#high__of#1
 highre#higher#1
 highrr#higher#1
 highsest#highest#1
@@ -12494,8 +12494,8 @@ hightest#highest#2
 hightlighted#highlighted#1
 hightlights#highlights#1
 hightly#highly#4
-highwall#high wall#1
-highwater#high water#1
+highwall#high__wall#1
+highwater#high__water#1
 highwway#highway#1
 higiher#higher#1
 higland#highland#1
@@ -12522,7 +12522,7 @@ hinering#hindering#1
 hinese#Chinese#1
 hiogher#higher#1
 hird#third#1
-hisPakistan#his Pakistan#2
+hisPakistan#his__Pakistan#2
 historiaclly#historically#1
 historial#historical#2
 historially#historically#1
@@ -12552,7 +12552,7 @@ hoiday#holiday#1
 hoilday#holiday#1
 hoipstial#hospital#1
 NEhoki#Hoki#1
-holdand#hold and#1
+holdand#hold__and#1
 holday#holiday#4
 holdays#holidays#2
 holde#hold#1
@@ -12575,7 +12575,7 @@ homegeneity#homogeneity#4
 homelss#homeless#1
 Chomesexual#homosexual#1
 homestaed#homestead#1
-homestrongly#home strongly#1
+homestrongly#home__strongly#1
 homewoners#homeowners#2
 homicde#homicide#1
 hommage#homage#5
@@ -12648,7 +12648,7 @@ houseolds#households#3
 housewifes#housewives#1
 houshold#household#8
 housholds#households#3
-housing)there#housing there#1
+housing)there#housing__there#1
 houst#house#1
 housting#housing?#1
 houswife#housewife#2
@@ -12673,7 +12673,7 @@ hrynias#hryvnias#1
 hryvna#hryvnia#78
 hryvna's#hryvnia's#5
 hryvnas#hryvnias#1
-hryvnianot#hryvnia not#1
+hryvnianot#hryvnia__not#1
 hsi#his#2
 hsis#hiss#1
 hsotage#hostage#1
@@ -12687,7 +12687,7 @@ huband#husband#5
 hudreds#hundreds#1
 huges#huge#1
 hugh#huge#9
-?hulless#hull-less 4#1
+?hulless#hull-less__4#1
 humaitarian#humanitarian#3
 humamn#human#1
 humaniatarian#humanitarian#2
@@ -12810,7 +12810,7 @@ icrease#increase#1
 icreased#increased#1
 icreasing#increasing#2
 icreasingly#increasingly#1
-ideaMarket#idea Market#2
+ideaMarket#idea__Market#2
 idealogies#ideologies#1
 idealogue#ideologue#3
 idealogues#ideologues#3
@@ -12855,10 +12855,10 @@ idustrial#industrial#3
 idustrialised#industrialised#1
 Aiea#IEA#1
 ifferences#differences#1
-ifit#if it#1
+ifit#if__it#1
 iformation#information#1
 ift#lift#1
-ifthe#if the#1
+ifthe#if__the#1
 ight#eight#4
 iginted#ignited#1
 ignal#signal#1
@@ -12959,8 +12959,8 @@ immediatee#immediate#1
 immediatel#immediately#1
 immediatelly#immediately#6
 immediatelty#immediately#1
-immediatelyand#immediately and#1
-immediatelyknown#immediately known#1
+immediatelyand#immediately__and#1
+immediatelyknown#immediately__known#1
 immediateoly#immediately#1
 immediaterly#immediately#2
 immediatlely#immediately#1
@@ -13085,7 +13085,7 @@ implict#implicit#1
 implicted#implicated#1
 implictly#implicitly#2
 implie#implied#1
-impliedby#implied by#1
+impliedby#implied__by#1
 impliment#implement#1
 implimentation#implementation#2
 implimented#implemented#1
@@ -13116,9 +13116,9 @@ importaqnt#important#1
 importatnt#important#1
 importnat#important#3
 importors#importers#1
-imports,.something#imports something#1
-importsexports#imports exports#2
-importsthis#imports this#1
+imports,.something#imports__something#1
+importsexports#imports__exports#2
+importsthis#imports__this#1
 importy#imports#1
 imporve#improve#2
 imporved#improved#1
@@ -13163,7 +13163,7 @@ improsonment#imprisonment#1
 improtant#important#7
 improters#importers#1
 improv#improve#2
-improved0company#improved company#1
+improved0company#improved__company#1
 improvem#improve#3
 improvemnet#improvement#3
 improvemnets#improvements#1
@@ -13171,7 +13171,7 @@ improvemnts#improvements#1
 improverished#impoverished#2
 improverishment#impoverishment#1
 improverments#improvements#1
-improvetheir#improve their#1
+improvetheir#improve__their#1
 improvig#improving#1
 improvished#improvised#2
 improvmeent#improvement#1
@@ -13200,15 +13200,15 @@ imune#immune#1
 imunity#immunity#1
 in-biult#in-built#1
 inClination#inclination#1
-inNovember#in November#1
-inTV#in TV#4
-ina#in a#5
+inNovember#in__November#1
+inTV#in__TV#4
+ina#in__a#5
 inabilty#inability#2
 inacccurate#inaccurate#1
 inaccuraetly#inaccurately#1
 inacurate#inaccurate#3
 inadaquate#inadequate#1
-inaddition#in addition#1
+inaddition#in__addition#1
 inadeqate#inadequate#2
 inadeqaute#inadequate#1
 inadequeate#inadequate#1
@@ -13270,7 +13270,7 @@ incentivies#incentives#2
 incerease#increase#2
 incestments#investments#1
 incetives#incentives#1
-incharge#in charge#2
+incharge#in__charge#2
 incidated#indicated#2
 incidcated#indicated#1
 inclde#include#1
@@ -13315,12 +13315,12 @@ incme#income#3
 incolude#include#1
 incom#income#1
 income-to-expenes#income-to-expenses#1
-incomeRevenues#income Revenues#2
-incomecharge#income charge#1
+incomeRevenues#income__Revenues#2
+incomecharge#income__charge#1
 incomee#income#1
 incomensurate#incommensurate#2
-incomepercent#income percent#2
-incomeprofit#income profit#1
+incomepercent#income__percent#2
+incomeprofit#income__profit#1
 incomess#incomes#3
 incomming#incoming#1
 incompatability#incompatibility#3
@@ -13373,13 +13373,13 @@ increas#increase#1
 increasaed#increased#1
 increasaes#increases#1
 increasd#increased#3
-increaseat#increase at#1
+increaseat#increase__at#1
 increasec#increase#1
-increasedto#increased to#1
+increasedto#increased__to#1
 increasees#increases#1
-increasein#increase in#1
+increasein#increase__in#1
 increaseing#increasing#2
-increasesales#increase sales#1
+increasesales#increase__sales#1
 increasesd#increased#1
 increasigly#increasingly#2
 increasily#increasingly#2
@@ -13431,7 +13431,7 @@ indciated#indicated#1
 indcluded#included#1
 indcrease#increase#1
 indebetedness#indebtedness#1
-indebtednessTAX#indebtedness TAX#1
+indebtednessTAX#indebtedness__TAX#1
 indebtednss#indebtedness#1
 indebtness#indebtedness#10
 indebtnesses#indebtednesses#1
@@ -13487,7 +13487,7 @@ indepenently#independently#1
 indepent#independent#2
 indepently#independently#1
 indepndent#independent#1
-indepth#in depth#3
+indepth#in__depth#3
 indequate#inadequate#1
 indequately#inadequately#1
 indescretions#indiscretions#1
@@ -13503,8 +13503,8 @@ indicati#indicate#5
 indicatior#indicator#1
 indicatiors#indications#2
 indicatiosn#indication#1
-indicativeprevious#indicative previous#168
-indicatorswere#indicators were#1
+indicativeprevious#indicative__previous#168
+indicatorswere#indicators__were#1
 indice's#indices#1
 indicent#indecent#3
 indicents#indicants#1
@@ -13619,7 +13619,7 @@ indvidual#individual#2
 indvidually#individually#1
 indviduals#individuals#1
 indx#index#1
-inearly#in early#1
+inearly#in__early#1
 ineffecient#inefficient#1
 ineffecutal#ineffectual#1
 inefficency#inefficiency#3
@@ -13699,7 +13699,7 @@ inflitrating#infiltrating#1
 inflitration#infiltration#1
 inflitrators#infiltrators#2
 inflowa#inflows#1
-inflowsstock#inflows stock#1
+inflowsstock#inflows__stock#1
 infltaion#inflation#1
 infludenced#influenced#1
 influeced#influenced#1
@@ -13767,7 +13767,7 @@ infrigement#infringement#2
 infringment#infringement#9
 infrnge#infringe#1
 infromation#information#2
-infront#in front#4
+infront#in__front#4
 infrstructure#infrastructure#1
 infrustructure#infrastructure#3
 inftrastructure#infrastructure#1
@@ -13807,7 +13807,7 @@ inifada#intifada#1
 iniflation-indexed#inflation-indexed#1
 inihibitors#inhibitors#1
 iniitally#initially#1
-inindustry#in industry#1
+inindustry#in__industry#1
 inings#innings#2
 ininngs#innings#3
 ininovation#innovation#1
@@ -13901,7 +13901,7 @@ inneffective#ineffective#1
 inneundo#innuendo#1
 innevitable#inevitable#4
 innevitably#inevitably#2
-inningsand#innings and#1
+inningsand#innings__and#1
 innins#innings#1
 innngs#innings#1
 innnings#innings#3
@@ -13921,15 +13921,15 @@ innundation#inundation#1
 inocent#innocent#2
 inolved#involved#4
 inome#income#3
-inopening#in opening#1
-inorder#in order#3
+inopening#in__opening#1
+inorder#in__order#3
 inovation#innovation#1
 inpact#impact#2
-inpan#in pan#1
+inpan#in__pan#1
 inpectors#inspectors#1
 inpetus#impetus#1
 inpired#inspired#1
-inplace#in place#1
+inplace#in__place#1
 inport#import#1
 inportance#importance#1
 inports#imports#1
@@ -13938,9 +13938,9 @@ inpossible#impossible#1
 inprecise#imprecise#1
 inpression#impression#1
 inprisonment#imprisonment#4
-inprivate#in private#1
-inprize#in prize#1
-inprocess#in process#1
+inprivate#in__private#1
+inprize#in__prize#1
+inprocess#in__process#1
 inproivement#improvement#1
 inproved#improved#2
 inprovement#improvement#3
@@ -13953,11 +13953,11 @@ inqury#inquiry#1
 inrease#increase#2
 inreased#increased#1
 inreasing#increasing#4
-inresponse#in response#1
+inresponse#in__response#1
 inroduced#introduced#1
 inroducing#introducing#1
 inrtevene#intervene#1
-inrush#in rush#1
+inrush#in__rush#1
 insallation#installation#1
 inscludes#includes#2
 inscrutible#inscrutable#3
@@ -14000,7 +14000,7 @@ insovent#insolent#1
 inspIring#inspiring#1
 inspcectors#inspectors#1
 inspid#insipid#3
-inspite#in spite#23
+inspite#in__spite#23
 insprirational#inspirational#1
 insprired#inspired#1
 insrance#insurance#2
@@ -14017,10 +14017,10 @@ installaton#installation#1
 installemtns#installments#1
 instals#installs#1
 instantanously#instantaneously#1
-instatement#in statement#1
+instatement#in__statement#1
 insteadn#instead#1
-insteadof#instead of#1
-insteady#in steady#2
+insteadof#instead__of#1
+insteady#in__steady#2
 instense#ins-tense#2
 instensify#intensify#1
 instensive#intensive#1
@@ -14052,7 +14052,7 @@ institutinal#institutional#1
 institutioanl#institutional#3
 institution-#institution#1
 institutionaly#institutionally#1
-institutionas#institution as#1
+institutionas#institution__as#1
 institutionl#institutional#1
 institutionlised#institutionalised#1
 institutionnal#institutional#2
@@ -14068,13 +14068,13 @@ instiution#institution#1
 instiutionally-managed#institutionally-managed#1
 instiutions#institutions#3
 instiutute#institute#1
-instore#in store#2
+instore#in__store#2
 instotutions#institutions#1
 instransigence#intransigence#3
 instrinic#intrinsic#1
 instrinsically#intrinsically#1
-instrong#in strong#1
-instructure#in structure#1
+instrong#in__strong#1
+instructure#in__structure#1
 instrumenation#instrumentation#1
 instrumnents#instruments#2
 instrumnets#instruments#1
@@ -14093,7 +14093,7 @@ instututional#institutional#2
 instututions#institutions#4
 insuarnce#insurance#2
 insubordiation#insubordination#2
-insubstance#in substance#1
+insubstance#in__substance#1
 insuer#insure#1
 insufficent#insufficient#15
 insufficiecy#insufficiency#1
@@ -14114,11 +14114,11 @@ insureance#insurance#1
 insurerance#insurance#1
 insurere#insurers#1
 insurerers#insurers#1
-insurersin#insurers in#1
+insurersin#insurers__in#1
 insurgtency#insurgency#1
 insurnace#insurance#1
 insurnce#insurance#1
-insustainable#in sustainable#unsustainable#1
+insustainable#in__sustainable#unsustainable#1
 intall#install#6
 intallations#installations#2
 intalled#installed#1
@@ -14216,13 +14216,13 @@ interesest#interest#1
 intereset#interest#1
 interesi#interest#1
 interess#interests#2
-interestEPS#interest EPS#1
+interestEPS#interest__EPS#1
 interestd#interested#1
 intereste#interested#1
 interestes#interests#1
 interestin#interesting#1
-interestrate#interest rate#2
-interestsminus#interests minus#1
+interestrate#interest__rate#2
+interestsminus#interests__minus#1
 interestss#interests#1
 interestts#interests#1
 intereted#interested#1
@@ -14252,7 +14252,7 @@ intergrating#integrating#2
 intergration#integration#20
 intergrator#integrator#7
 intergrators#integrators#4
-SPintergrators-Heavy#integrators Heavy#2
+SPintergrators-Heavy#integrators__Heavy#2
 intergrity#integrity#5
 interiew#interview#2
 interim-managment#interim-management#1
@@ -14269,7 +14269,7 @@ interment#internment#2
 intermim#interim#2
 intermision#intermission#1
 intermittant#intermittent#3
-interms#in terms#3
+interms#in__terms#3
 internaatioal#international#1
 internaional#international#7
 internaitonal#international#5
@@ -14315,7 +14315,7 @@ interrpeter#interpreter#1
 interrruption#interruption#1
 interruptable#interruptible#1
 interrupte#interrupted#1
-interruptis#interrupt is#1
+interruptis#interrupt__is#1
 intersate#interstate#1
 intersectiopn#intersection#1
 intersest#interest#2
@@ -14357,7 +14357,7 @@ intevention#intervention#2
 inteview#interview#10
 intgrant#integrant#1
 intgrated#integrated#1
-inthe#in the#19
+inthe#in__the#19
 intial#initial#51
 intially#initially#25
 intials#initials#2
@@ -14400,8 +14400,8 @@ intitution#institution#8
 intitutional#institutional#1
 intitutions#institutions#2
 intnernational#international#1
-intoLos#into Los#1
-intocompany#into company#1
+intoLos#into__Los#1
+intocompany#into__company#1
 intoduce#introduce#1
 intoduced#introduced#2
 intoduction#introduction#2
@@ -14411,7 +14411,7 @@ intracranal#intracranial#1
 intractible#intractable#3
 intrad-day#intra-day#1
 intransegience#intransigence#1
-intransfers#in transfers#1
+intransfers#in__transfers#1
 intrasigence#intransigence#2
 intravavenously#intravenously#1
 intraveinous#intravenous#2
@@ -14544,7 +14544,7 @@ investmenet#investment#1
 investmens#investments#1
 investmented#invested#1
 investmenting#investing#1
-investmentof#investment of#1
+investmentof#investment__of#1
 investmetn#investment#1
 investmets#investments#1
 investmnents#investments#1
@@ -14591,7 +14591,7 @@ invitiation#invitation#5
 invitiations#invitations#1
 invitied#invited#2
 invititation#invitation#1
-invitro#in vitro#2
+invitro#in__vitro#2
 invlolving#involving#1
 invloved#involved#8
 invluded#included#1
@@ -14602,7 +14602,7 @@ involes#involves#1
 involevement#involvement#1
 involovement#involvement#1
 involoving#involving#1
-involvedin#involved in#1
+involvedin#involved__in#1
 involvemnt#involvement#1
 involvment#involvement#26
 involvoed#involved#2
@@ -14623,7 +14623,7 @@ iobligation#obligation#1
 iomplement#implement#1
 iomportance#importance#1
 iomproved#improved#1
-Fionalite#nat ionalite#1
+Fionalite#nat__ionalite#1
 ioncorporated#incorporated#1
 ioncreased#increased#1
 ioncreases#increases#1
@@ -14663,37 +14663,37 @@ irrreversible#irreversible#1
 irrversible#irreversible#1
 irst#first#1
 Nirving#Irving#1
-isAugust#is August#1
-isBed#is Bed#1
-isDollar#is Dollar#1
-isFamily#is Family#2
-isHot#is Hot#1
-isMay#is May#1
-isNational#is National#2
-isReed#is Reed#1
-isRose's#is Rose's#3
-isRyan's#is Ryan's#1
-isSears#is Sears#1
+isAugust#is__August#1
+isBed#is__Bed#1
+isDollar#is__Dollar#1
+isFamily#is__Family#2
+isHot#is__Hot#1
+isMay#is__May#1
+isNational#is__National#2
+isReed#is__Reed#1
+isRose's#is__Rose's#3
+isRyan's#is__Ryan's#1
+isSears#is__Sears#1
 isalnd's#island's#1
 iscal#fiscal#1
 ischarging#discharging#1
 iscovered#discovered#1
-isexpected#is expected#1
-isfour#is four#1
-islandsand#islands and#1
-islittle#is little#1
+isexpected#is__expected#1
+isfour#is__four#1
+islandsand#islands__and#1
+islittle#is__little#1
 isloated#isolated#2
 isnt#isn't#1
 isoalation#isolation#1
 isophtalic#isophthalic#2
 isopropy#isopropyl#1
 isoprpyl#isopropyl#1
-isphase#is phase#1
-isprepared#is prepared#1
+isphase#is__phase#1
+isprepared#is__prepared#1
 Nisrael#Israel#12
 Nisrael's#Israel's#2
 israreli#Israeli#1
-isreserving#is reserving#1
+isreserving#is__reserving#1
 isse#issue#4
 issed#issued#7
 isses#issues#2
@@ -14705,8 +14705,8 @@ isssues#issues#16
 issud#issued#1
 issueance#issuance#1
 issueing#issuing#1
-issuesboth#issues both#1
-issuesis#issues is#1
+issuesboth#issues__both#1
+issuesis#issues__is#1
 issuesm#issues#2
 issurance#insurance#3
 issurers#insurers#1
@@ -14736,16 +14736,16 @@ italy's#Italy's#1
 itas#its#1
 itelf#itself#3
 itemds#items#1
-itemsCHARGE#items CHARGE#9
-itemsCREDIT#items CREDIT#2
-itemsEPS#items EPS#1
-itemsLOSS#items LOSS#1
-itemscharge#items charge#36
-itemsgain#items gain#4
-itemsloss#items loss#7
-itemsnil#items nil#57
-itemsnilvs#items nil vs#3
-itemsprofit#items profit#12
+itemsCHARGE#items__CHARGE#9
+itemsCREDIT#items__CREDIT#2
+itemsEPS#items__EPS#1
+itemsLOSS#items__LOSS#1
+itemscharge#items__charge#36
+itemsgain#items__gain#4
+itemsloss#items__loss#7
+itemsnil#items__nil#57
+itemsnilvs#items__nil__vs#3
+itemsprofit#items__profit#12
 itended#intended#1
 itensify#intensify#1
 itensive#intensive#1
@@ -14757,7 +14757,7 @@ iterview#interview#1
 ites#items#1
 itesm#items#1
 itesms#items#1
-ithas#it has#1
+ithas#it__has#1
 ithe#the#1
 ither#either#1
 ithin#within#1
@@ -14766,16 +14766,16 @@ iting#waiting#1
 itizen#citizen#1
 itmes#items#3
 ito#into#4
-itrejected#it rejected#1
-itsBritish#its British#1
-itsfactory#its factory#1
-itshighest#its highest#2
+itrejected#it__rejected#1
+itsBritish#its__British#1
+itsfactory#its__factory#1
+itshighest#its__highest#2
 itslef#itself#1
 itslf#itself#1
 itsr#its#1
 itss#its#2
-itsshares#its shares#1
-itwith#it with#1
+itsshares#its__shares#1
+itwith#it__with#1
 itwo#two#1
 iuncreased#increased#1
 ivaded#invaded#1
@@ -14789,7 +14789,7 @@ ivolving#involving#1
 iwth#with#2
 Nizetbegovic#Izetbegovic#1
 jANUARY#January#1
-jackassess#jack assess#1
+jackassess#jack__assess#1
 jacknifed#jackknifed#2
 Njacquard#Jacquard#7
 Njacques#Jacques#2
@@ -14848,7 +14848,7 @@ joblesness#joblessness#1
 joblessless#joblessness#1
 joblessnss#joblessness#1
 jobn#job#1
-jobsin#jobs in#1
+jobsin#jobs__in#1
 jockying#jockeying#1
 jodphur#jodhpur#1
 joepardised#jeopardised#1
@@ -14953,8 +14953,8 @@ Nkansas#Kansas#1
 karachi#Karachi#1
 Nkatowice#Katowice#1
 Nkazakhstan#Kazakhstan#2
-keells#keels 0#1
-keento#keen to#1
+keells#keels__0#1
+keento#keen__to#1
 keepinga#keeping#1
 keepingg#keeping#1
 keept#kept#2
@@ -14969,7 +14969,7 @@ keroseines#kerosenes#1
 kerosine#kerosene#8
 kersoene#kerosene#1
 ketcup#ketchup#1
-keyboardand#keyboard and#1
+keyboardand#keyboard__and#1
 kidnappping#kidnapping#1
 kiel#keel#1
 NEkiet#Kiet#1
@@ -14981,7 +14981,7 @@ kiled#killed#3
 kilimanjaro#Kilimanjaro#1
 kiling#killing#2
 kilings#killings#1
-killedinstantly#killed instantly#1
+killedinstantly#killed__instantly#1
 killied#killed#1
 killig#killing#1
 killin#killing#1
@@ -15048,7 +15048,7 @@ lacal#local#1
 lackluste#lackluster#1
 lacklusture#lackluster#1
 lacklutre#lackluster#4
-lackof#lack of#1
+lackof#lack__of#1
 lacksadaisical#lackadaisical#1
 lackustre#lackluster#2
 ladden#laden#5
@@ -15134,10 +15134,10 @@ last-ditcH#last-ditch#1
 lastd#lasted#1
 lastet#lasted#1
 lastt#last#1
-lastyear#last year#1
+lastyear#last__year#1
 latern-kicking#lantern-kicking#1
 laterst#latest#1
-laterthis#later this#1
+laterthis#later__this#1
 lates#latest#3
 latet#latest#1
 latform#platform#1
@@ -15159,7 +15159,7 @@ lauerls#laurels#1
 launced#launched#13
 launces#launches#1
 launcheers#launchers#1
-launchingfund#launching fund#1
+launchingfund#launching__fund#1
 launchs#launches#1
 launcing#launching#1
 laundary#laundry#1
@@ -15203,13 +15203,13 @@ leadig#leading#1
 leadin#leading#3
 leadind#leading#1
 leadint#leading#1
-leadon#lead on#1
+leadon#lead__on#1
 leadong#leading#1
 leadr#leader#1
 leadreship#leadership#1
 leadsership#leadership#2
 leadst#least#1
-leadto#lead to#1
+leadto#lead__to#1
 leagal#legal#1
 leage#league#2
 leagye#league#1
@@ -15219,10 +15219,10 @@ leaque#league#2
 learbs#learns#1
 learly#clearly#1
 leasst#least#1
-leastone#least one#1
+leastone#least__one#1
 leat#least#2
 leauge#league#1
-leaveson#leaves on#1
+leaveson#leaves__on#1
 lebels#labels#1
 lecense#license#1
 lecturns#lectures#4
@@ -15238,7 +15238,7 @@ leels#levels#2
 lefist#leftist#3
 lefitst#leftist#1
 lefstist#leftist#1
-leftand#left and#1
+leftand#left__and#1
 leftander#left-hander#1
 leftsit#leftist#3
 lega#legal#1
@@ -15313,7 +15313,7 @@ levals#levels#1
 Cleve#Feleve#level#7
 leveals#reveals#1
 leveied#leveled#1
-levelby#level by#1
+levelby#level__by#1
 levelm#levels#1
 leveraved#leveraged#1
 leverged#leveraged#2
@@ -15424,7 +15424,7 @@ likeliehood#likelihood#1
 likelihod#likelihood#1
 likeloy#likely#1
 likelty#likely#4
-likelyTiming#likely Timing#6
+likelyTiming#likely__Timing#6
 likelyhood#likelihood#6
 liketly#likely#1
 likewly#likely#1
@@ -15439,7 +15439,7 @@ lilely#likely#1
 liley-livered#lily-livered#1
 lilkely#likely#1
 lilttle#little#1
-limiterson#limiters on#2
+limiterson#limiters__on#2
 limites#limits#4
 limitewd#limited#1
 limitiations#limitations#1
@@ -15456,7 +15456,7 @@ lincensed#licensed#1
 lincenses#licenses#2
 lincensing#licensing#2
 lincensors#licensors#1
-linewith#linewidth#line with#1
+linewith#linewidth#line__with#1
 linguisitc#linguistic#1
 lingustic#linguistic#1
 linited#limited#1
@@ -15528,13 +15528,13 @@ litter-stren#litter-strewn#1
 littled#little#2
 littre#litre#1
 litttle#little#2
-livehog#live hog#2
+livehog#live__hog#2
 livig#living#1
-livingAugustJuly#living August July#4
-livingDecember#living December#4
-livingNov#living Nov#2
-livingOctober#living October#1
-livingSeptember#living September#4
+livingAugustJuly#living__August__July#4
+livingDecember#living__December#4
+livingNov#living__Nov#2
+livingOctober#living__October#1
+livingSeptember#living__September#4
 livlier#livelier#1
 livlihood#livelihood#2
 livstock#livestock#3
@@ -15557,14 +15557,14 @@ lng-fired#long-fired#1
 lnger#longer#2
 loaading#loading#1
 loaction#location#1
-loadMalaysia#load Malaysia#1
+loadMalaysia#load__Malaysia#1
 loadded#loaded#1
 loadi#loading#1
 loadiing#loading#1
 loading-shippin#loading-shipping#2
 loanding#loading#1
 loanns#loans#2
-loanscommercial#loans commercial#1
+loanscommercial#loans__commercial#1
 loaqn#loan#1
 loayalist#loyalist#2
 lobal#global#1
@@ -15573,7 +15573,7 @@ lobbys#lobby#1
 locaation#location#1
 locaed#located#1
 localy#locally#1
-locatedin#located in#1
+locatedin#located__in#1
 locaters#locators#1
 loccal#local#1
 locel#local#1
@@ -15610,7 +15610,7 @@ long-runnning#long-running#2
 long-tem#long-term#2
 long-termal#long-term#1
 long_term#long-term#1
-longerterm#longer term#1
+longerterm#longer__term#1
 longitutde#longitude#1
 longtitude#longitude#2
 longtiude#longitude#1
@@ -15636,7 +15636,7 @@ losening#loosening#1
 loseses#losses#1
 losess#losses#2
 lossC#loss#1
-lossLowest#loss Lowest#1
+lossLowest#loss__Lowest#1
 lossa#loss#1
 losse#loses#4
 lossely#loosely#1
@@ -15646,7 +15646,7 @@ lossers#losers#3
 lossess#losses#4
 losss#losses#9
 lossses#losses#4
-lossvs#loss vs#4
+lossvs#loss__vs#4
 Nlouis#Louis#3
 lounch#launch#1
 louspeaker#loudspeaker#1
@@ -15656,16 +15656,16 @@ low-volatge#low-voltage#1
 lowa-based#Iowa-based#1
 lower-pricd#lower-priced#1
 lower-than-expeccted#lower-than-expected#1
-loweras#lower as#1
+loweras#lower__as#1
 lowerd#lowered#1
 lowereing#lowering#2
 lowerr#lower#1
 lowerst#lowest#1
-lowerthan#lower than#1
-lowgood#low good#1
+lowerthan#lower__than#1
+lowgood#low__good#1
 lowring#lowering#1
-lowrisk#low risk#1
-lowsGreek#lows Greek#2
+lowrisk#low__risk#1
+lowsGreek#lows__Greek#2
 lowst#lowest#1
 lowsuits#lawsuits#1
 lowwer#lower#2
@@ -15839,15 +15839,15 @@ majojrity#majority#1
 majong#mahjong#3
 majorites#majorities#1
 majority-wned#majority-owned#1
-majorsurgery#major surgery#1
-majortrading#major trading#1
+majorsurgery#major__surgery#1
+majortrading#major__trading#1
 majorty#majority#2
 majory#majority#1
 mak#make#2
 makde#made#2
 makee#makes#1
 makesf#makes#1
-makesmagnetic#makes magnetic#1
+makesmagnetic#makes__magnetic#1
 maket#market#27
 maket-leader#market-leader#1
 maketer#marketer#1
@@ -16042,9 +16042,9 @@ manufactureer#manufacturer#2
 manufacturere#manufacturer#2
 manufacturered#manufactured#7
 manufactureres#manufacturers#4
-manufacturersboth#manufacturers both#1
+manufacturersboth#manufacturers__both#1
 manufacturiing#manufacturing#2
-manufacturingproduction#manufacturing production#2
+manufacturingproduction#manufacturing__production#2
 manufacturs#manufactures#4
 manufacturter#manufacturer#1
 manufacturuers#manufacturers#1
@@ -16071,7 +16071,7 @@ manufucturers#manufacturers#1
 manufucturing#manufacturing#3
 manuracturers#manufacturers#1
 manuverability#maneuverability#2
-manyhorticultural#many horticultural#1
+manyhorticultural#many__horticultural#1
 maount#amount#1
 maountainous#mountainous#1
 mappping#mapping#1
@@ -16116,7 +16116,7 @@ mark-demonimated#mark-denominated#1
 marke#make#14
 markeT#market#2
 markeat#market#1
-marked-to-market#market-to-market 4#4
+marked-to-market#market-to-market__4#4
 markeet#market#1
 markeeting#marketing#2
 markeets#markets#1
@@ -16126,11 +16126,11 @@ markeplace#marketplace#1
 markert#market#1
 markerts#markets#1
 markes#markets#9
-market2are#market are#3
-marketafter#market after#1
+market2are#market__are#3
+marketafter#market__after#1
 marketeable#marketable#1
 marketiung#marketing#1
-marketperform#market perform#1
+marketperform#market__perform#1
 marketplce#marketplace#1
 marketrs#markets#3
 markett#market#1
@@ -16147,7 +16147,7 @@ markleting#marketing#2
 marklets#markets#1
 markmanship#marksmanship#2
 markret#market#1
-marksin#marks in#1
+marksin#marks__in#1
 marksmanl#marksman#1
 markst#market#1
 markt#market#5
@@ -16155,7 +16155,7 @@ markt's#market's#1
 markteplace#marketplace#1
 markter#marketer#1
 marktes#markets#2
-markthree-year#mark three-year#1
+markthree-year#mark__three-year#1
 markting#marketing#2
 markts#markets#2
 marlet#market#2
@@ -16193,10 +16193,10 @@ masterminiding#masterminding#1
 masures#measures#1
 matc#match#1
 match-riging#match-rigging#2
-matchagainst#match against#1
+matchagainst#match__against#1
 matcheted#macheted#1
 matchin#matching#1
-matchthe#match the#1
+matchthe#match__the#1
 materalize#materialize#1
 materalized#materialized#1
 materally#materially#1
@@ -16224,7 +16224,7 @@ maturiites#maturities#1
 maturites#maturities#7
 maturiting#maturating#1
 maturitues#maturities#1
-maturityJan#maturity Jan#1
+maturityJan#maturity__Jan#1
 maturng#maturing#1
 matururing#maturing#1
 maturuties#maturities#1
@@ -16274,7 +16274,7 @@ meaing#meaning#2
 meanhile#meanwhile#3
 meaningul#meaningful#1
 meannwhile#meanwhile#1
-meanspirited#mean spirited#4
+meanspirited#mean__spirited#4
 meanwell#meanwhile#1
 meanwhiile#meanwhile#1
 meared#neared#smeared#1
@@ -16282,7 +16282,7 @@ measrue#measure#1
 measuers#measures#5
 measureable#measurable#6
 measureably#measurably#1
-measurebillions#measure billions#5
+measurebillions#measure__billions#5
 measureed#measured#1
 measuremets#measurements#1
 measuries#measures#1
@@ -16317,7 +16317,7 @@ mediaitor#mediator#1
 medial#medical#17
 mediatied#mediated#1
 mediatiors#mediators#1
-medicaljournal#medical journal#1
+medicaljournal#medical__journal#1
 medicial#medicinal#4
 medicinial#medicinal#1
 mediocer#mediocre#1
@@ -16338,12 +16338,12 @@ meeetings#meetings#2
 meeets#meets#1
 meeing#meeting#6
 meest#meets#1
-meethe#meet he#1
+meethe#meet__he#1
 meetiengs#meetings#1
 meetign#meeting#1
 meetiing#meeting#1
 meetingn#meeting#1
-meetingsto#meetings to#2
+meetingsto#meetings__to#2
 meetins#meetings#1
 meetng#meeting#3
 meetting#meeting#1
@@ -16519,10 +16519,10 @@ micrprocessor#microprocessor#1
 micrprocessors#microprocessors#3
 mid-Decmember#mid-December#1
 mid-Febraury#mid-February#1
-mid-February.pk#mid-February pk#1
+mid-February.pk#mid-February__pk#1
 mid-Febuary#mid-February#1
 mid-Feburary#mid-February#1
-mid-Januaryon#mid-January on#1
+mid-Januaryon#mid-January__on#1
 mid-Januray#mid-January#1
 mid-Janyary#mid-January#1
 mid-Septmeber#mid-September#1
@@ -16550,7 +16550,7 @@ midnignt#midnight#1
 midrop#midcrop?#1
 midsesssion#midsession#3
 midslides#mudslides#1
-midthe#mid the#1
+midthe#mid__the#1
 midtream#midstream#1
 midwetern#midwestern#1
 mif#mid?#1
@@ -16599,12 +16599,12 @@ military-apppointed#military-appointed#2
 military-baced#military-backed#1
 militas#militias#4
 militay#military#1
-militiamena#militiamen a#1
+militiamena#militiamen__a#1
 militiary#military#1
 militiia#militia#1
 militray#military#3
 militry#military#1
-milledSugar#milled Sugar#24
+milledSugar#milled__Sugar#24
 millenia#millennia#3
 millenium#millennium#149
 millenium-related#millennium-related#1
@@ -16621,30 +16621,30 @@ millio#million#15
 millioin#million#3
 milliom#million#9
 milliona#millions#2
-millionand#million and#1
+millionand#million__and#1
 millionare#millionaire#1
 millionares#millionaires#1
-millioncost#million cost#2
+millioncost#million__cost#2
 millioner#millionaire#1
 milliong#million#2
-milliongain#million gain#4
-millionin#million in#1
+milliongain#million__gain#4
+millionin#million__in#1
 millionl#million#1
-millionlast#million last#1
-millionlei#million lei#4
-millionloss#million loss#13
+millionlast#million__last#1
+millionlei#million__lei#4
+millionloss#million__loss#13
 millionm#million#6
 millionn#million#2
-millionn.a#millionn .a#1
-millionn.a.#millionn .a.#2
-millionof#million of#1
-millionprofit#million profit#1
-millionpunts#million punts#1
+millionn.a#millionn__.a#1
+millionn.a.#millionn__.a.#2
+millionof#million__of#1
+millionprofit#million__profit#1
+millionpunts#million__punts#1
 millionr#million#1
-millionrand#million Rand#1
-millionstg#million stg#1
-millionto#million to#1
-millionvs#million vs#26
+millionrand#million__Rand#1
+millionstg#million__stg#1
+millionto#million__to#1
+millionvs#million__vs#26
 millioun#million#1
 millitancy#militancy#1
 millitary#military#6
@@ -16683,7 +16683,7 @@ minature#miniature#2
 minatures#miniatures#1
 mineralied#mineralized#1
 mineralisatioon#mineralisation#1
-miners'leaders#miners' leaders#1
+miners'leaders#miners'__leaders#1
 Aminfin#Minfin#4
 Aminfins#Minfins#2
 ?minging#mingling#1
@@ -16730,7 +16730,7 @@ ministr#minister#1
 ministreal#ministerial#1
 ministrel#minstrel#1
 ministrial#ministerial#2
-ministryremoved#ministry removed#1
+ministryremoved#ministry__removed#1
 ministsry#ministry#1
 ministy#ministry#3
 miniter#minister#5
@@ -16866,7 +16866,7 @@ mmorning#morning#1
 mmovement#movement#1
 mmunications#communications#3
 mmutual#mutual#1
-Ammvoe#mmboe[barrels of oil equivalent]#1
+Ammvoe#mmboe[barrels__of__oil__equivalent]#1
 mnajor#major#1
 mnajority#majority#1
 mnake#make#1
@@ -16992,7 +16992,7 @@ monetray#monetary#3
 monetry#monetary#3
 money-lossing#money-losing#1
 moneym#money#1
-moneyto#money to#1
+moneyto#money__to#1
 monhs#months#1
 monhts#months#1
 moninees#nominees#1
@@ -17017,7 +17017,7 @@ monoploy#monopoly#3
 monoply#monopoly#4
 monopoliy#monopoly#1
 monopoloy#monopoly#6
-monopolyof#monopoly of#1
+monopolyof#monopoly__of#1
 monopolyt#monopoly#1
 monotoring#monitoring#1
 monpolies#monopolies#1
@@ -17034,26 +17034,26 @@ monteary#monetary#1
 montening#mounting?#maintaining?#1
 montetary#monetary#2
 month-on-moonth#month-on-month#1
-monthApril#month April#1
-monthNine#month Nine#1
-monthago#month ago#2
+monthApril#month__April#1
+monthNine#month__Nine#1
+monthago#month__ago#2
 monthballed#mothballed#1
 monthe#month#2
-monthend#month end#1
+monthend#month__end#1
 monthoy#monthly#1
-monthsFor#months For#2
-monthsFull#months Full#1
-monthsNine#months Nine#8
-monthsPercent#months Percent#1
-monthsQtr#months Qtr#1
-monthsSix#months Six#1
-monthsThree#months Three#2
-monthsTwelve#months Twelve#1
-monthsYear#months Year#2
-monthsYears#months Years#1
-monthsas#months as#2
+monthsFor#months__For#2
+monthsFull#months__Full#1
+monthsNine#months__Nine#8
+monthsPercent#months__Percent#1
+monthsQtr#months__Qtr#1
+monthsSix#months__Six#1
+monthsThree#months__Three#2
+monthsTwelve#months__Twelve#1
+monthsYear#months__Year#2
+monthsYears#months__Years#1
+monthsas#months__as#2
 monthsm#months#1
-monthsto#months to#1
+monthsto#months__to#1
 monthy#monthly#11
 montly#monthly#17
 montoring#monitoring#3
@@ -17061,15 +17061,15 @@ Nmontreal-based#Montreal-based#1
 montrhs#months#1
 monts#months#5
 mony#many#4
-moodGreek#mood Greek#2
+moodGreek#mood__Greek#2
 moonson#monsoon#3
 moonsoon#monsoon#2
 moonsson#monsoon#1
 moooring#mooring#2
-moorat#moor at#12
+moorat#moor__at#12
 moorning#morning#1
 mopnths#months#1
-mopup#mop up#1
+mopup#mop__up#1
 mor#more#4
 Cmorale-boosing#morale-boosting#2
 morars#mortars#1
@@ -17078,11 +17078,11 @@ moratiorium#moratorium#1
 moratium#moratorium#1
 moratoriumon#moratorium#1
 moratrium#moratorium#1
-moreacceptance#more acceptance#1
+moreacceptance#more__acceptance#1
 mored#more#moored#1
 moree#more#2
-moreso#more so#3
-morethan#more than#1
+moreso#more__so#3
+morethan#more__than#1
 morgage#mortgage#3
 morgages#mortgages#1
 Nmorgan#Morgan#2
@@ -17108,7 +17108,7 @@ mortages#mortgages#12
 mortalilty#mortality#1
 morter#mortar#1
 mortgadge#mortgage#1
-mortgageoriented#mortgage oriented#1
+mortgageoriented#mortgage__oriented#1
 mortgagge#mortgage#1
 mortgate#mortgage#3
 mortion#motion#1
@@ -17130,7 +17130,7 @@ mosquities#mosquitoes#1
 Cmosquito-born#mosquito-borne#1
 mosquitos#mosquitoes#13
 mossive#massive#1
-mostlymoderate#mostly moderate#2
+mostlymoderate#mostly__moderate#2
 mosty#mostly#2
 Cmot#not#most#2
 motar#mortar#2
@@ -17198,7 +17198,7 @@ Nmubarak#Mubarak#6
 mucch-needed#much-needed#1
 much-anticpated#much-anticipated#1
 much-meeded#much-needed#1
-muchvaunted#much vaunted#1
+muchvaunted#much__vaunted#1
 Cmuck-racking#muck-raking#2
 muclear#nuclear#1
 muder#murder#1
@@ -17507,7 +17507,7 @@ negatiated#negotiated#1
 negatiating#negotiating#1
 negatiations#negotiations#1
 negatiive#negative#2
-negativeimplications#negative implications#3
+negativeimplications#negative__implications#3
 negativness#negativeness#1
 negelectd#neglected#1
 negelected#neglected#1
@@ -17638,11 +17638,11 @@ netowrk#network#6
 netowrks#networks#2
 netrual#neutral#1
 netscape#Netscape#1
-nettedin#netted in#1
+nettedin#netted__in#1
 nettes#nettles#1
 netural#neutral#10
 networke#network#1
-networkedPC#networked PC#1
+networkedPC#networked__PC#1
 netwroks#networks#1
 neuclear#nuclear#1
 neuorological#neurological#1
@@ -17657,7 +17657,7 @@ nevetheless#nevertheless#2
 nevetherless#nevertheless#3
 nevr#never#1
 newSpaper#newspaper#2
-newadmissions#new admissions#1
+newadmissions#new__admissions#1
 newar#near#2
 newaroom#newsroom#1
 newdroom#newsroom#1
@@ -17666,7 +17666,7 @@ newdsesk#newsdesk#2
 newespapers#newspapers#1
 newesroom#newsroom#3
 newletter#newsletter#3
-newold#new old#1
+newold#new__old#1
 newpaper#newspaper#48
 newpaper's#newspaper's#1
 newpapers#newspapers#12
@@ -17692,9 +17692,9 @@ newspaer#newspaper#2
 newspapaer#newspaper#1
 newspapaper#newspaper#1
 newspapapers#newspapers#1
-newspaperon#newspaper on#1
-newspapers-March#newspapers March#2
-newspapers-Oct#newspapers Oct#2
+newspaperon#newspaper__on#1
+newspapers-March#newspapers__March#2
+newspapers-Oct#newspapers__Oct#2
 newspaprs#newspapers#1
 newsparer#newspaper#1
 newspasper#newspaper#1
@@ -17727,9 +17727,9 @@ newtorks#networks#1
 newwsroom#newsroom#2
 nex#next#3
 nexct#next#1
-nextfew#next few#1
+nextfew#next__few#1
 nextg#next#1
-nextyear#next year#1
+nextyear#next__year#1
 nexxt#next#1
 nexy#next#2
 ngative#negative#3
@@ -17762,7 +17762,7 @@ nimgnht's#night's#1
 nimum#minimum#1
 ?nin#nine#1
 Cnine-moth#nine-month#1
-nineper#nine per#1
+nineper#nine__per#1
 nineth#ninth#4
 ninght#night#1
 ninistry#ministry#1
@@ -17811,7 +17811,7 @@ nominess#nominees#2
 nominination#nomination#2
 non-Amerians#non-Americans#1
 non-Inidan#non-Indian#1
-non-U.S.citizens#non-U.S. citizens#1
+non-U.S.citizens#non-U.S.__citizens#1
 non-agression#non-aggression#1
 non-agresssion#non-aggression#1
 non-alchoholic#non-alcoholic#1
@@ -17846,18 +17846,18 @@ non-perfoming#non-performing#1
 non-precipitious#non-precipitous#1
 non-prolifiration#non-proliferation#1
 non-recuring#non-recurring#1
-non-recurringtransactions#non-recurring transactions#1
+non-recurringtransactions#non-recurring__transactions#1
 non-reglated#non-regulated#1
 non-renounnceable#non-renounceable#1
 non-resisdential#non-residential#1
 non-resisential#non-residential#1
 non-seasonally-adusted#non-seasonally-adjusted#2
-non-subscriptionchannel#non-subscription channel#1
+non-subscriptionchannel#non-subscription__channel#1
 non-tournment#non-tournament#1
 non-transcational#non-transactional#1
 non-transfareable#non-transferable#1
 non-transferrable#non-transferable#2
-non-votingJuly#non-voting July#1
+non-votingJuly#non-voting__July#1
 non_agricultural#non-agricultural#1
 nonaccural#non-accrual#1
 nonchantly#nonchalantly#1
@@ -17870,7 +17870,7 @@ nonethless#nonetheless#3
 nonexistant#nonexistent#2
 nonimal#nominal#1
 nonimated#nominated#1
-noninvasiveand#noninvasive and#1
+noninvasiveand#noninvasive__and#1
 nonplused#nonplussed#1
 nonsecure#non-secure#1
 nonsecurities#non-securities#1
@@ -17922,12 +17922,12 @@ notedd#noted#1
 noteds#noted#1
 noteed#noted#1
 noterd#noted#1
-notesSR#notes SR#7
-notesTAX#notes TAX#4
-notesin#notes in#1
+notesSR#notes__SR#7
+notesTAX#notes__TAX#4
+notesin#notes__in#1
 noteworty#noteworthy#1
 noth#north#1
-nothave#not have#1
+nothave#not__have#1
 notheast#northeast#2
 notheastern#northeastern#1
 nothern#northern#48
@@ -17942,20 +17942,20 @@ noticible#noticeable#1
 noticies#notices#1
 notifed#notified#7
 notificiation#notification#2
-notinclude#not include#1
+notinclude#not__include#1
 notine#noting#1
 notionel#notional#1
 notm#not#2
-notmake#not make#1
-notnot#not not#1
+notmake#not__make#1
+notnot#not__not#1
 notoriet#notoriety#1
 notorius#notorious#5
 notorized#notarized#2
-notpeople#not people#1
-notrade#no trade#1
+notpeople#not__people#1
+notrade#no__trade#1
 notte#notate#1
 notting#nothing#1
-notvouch#not vouch#1
+notvouch#not__vouch#1
 nough#enough#1
 nounting#mounting#1
 noveliest#novelist#1
@@ -18063,9 +18063,9 @@ obligataions#obligations#1
 obligati#obligati_on#1
 obligatiion#obligation#1
 obligatio#obligation#1
-obligationTAX#obligation TAX#2
-obligationbonds#obligation bonds#2
-obligations''for#obligations for#1
+obligationTAX#obligation__TAX#2
+obligationbonds#obligation__bonds#2
+obligations''for#obligations__for#1
 obligaton#obligation#1
 obligatons#obligations#2
 obligtion#obligation#3
@@ -18104,7 +18104,7 @@ obtacle#obstacle#2
 obtacles#obstacles#1
 obtaind#obtained#1
 obtaine_d#obtained#1
-obtainingthe#obtaining the#1
+obtainingthe#obtaining__the#1
 obtstacle#obstacle#1
 obudsman#ombudsman#1
 obverse#observe#1
@@ -18162,7 +18162,7 @@ ocurred#occurred#9
 ocurring#occurring#2
 ocused#focused#1
 od#of#12
-Fodalites#m odalites#2
+Fodalites#m__odalites#2
 oddds#odds#4
 oddysey#odyssey#1
 odel#m_odel#1
@@ -18186,26 +18186,26 @@ oeprators#operators#1
 oer#over#5
 oercent#percent#1
 oestensibly#ostensibly#1
-of-control#of control#1
-of-interests#of interests#1
-ofAs#of As#2
-ofBalance#of Balance#1
-ofBelle#of Belle#1
-ofCharles#of Charles#1
+of-control#of__control#1
+of-interests#of__interests#1
+ofAs#of__As#2
+ofBalance#of__Balance#1
+ofBelle#of__Belle#1
+ofCharles#of__Charles#1
 ofEnded#offended#1
-ofFrench#of French#1
-ofMontreal#of Montreal#1
-ofPrincipal#of Principal#1
-ofPrincipalYear#of Principal Year#4
-ofSale#of Sale#2
-ofSeptember#of September#2
-ofSomers#of Somers#1
-ofStaff#of Staff#1
-ofautomatic#of automatic#1
-ofbank#of bank#1
-ofbooks#of books#1
-ofclassification#of classification#1
-ofcurrent#of current#4
+ofFrench#of__French#1
+ofMontreal#of__Montreal#1
+ofPrincipal#of__Principal#1
+ofPrincipalYear#of__Principal__Year#4
+ofSale#of__Sale#2
+ofSeptember#of__September#2
+ofSomers#of__Somers#1
+ofStaff#of__Staff#1
+ofautomatic#of__automatic#1
+ofbank#of__bank#1
+ofbooks#of__books#1
+ofclassification#of__classification#1
+ofcurrent#of__current#4
 ofd#of#2
 ofen#often#1
 ofences#offences#1
@@ -18220,11 +18220,11 @@ offcial#official#30
 offcials#officials#8
 offcicial#official#1
 offcie#office#1
-offcourse#off course#1
+offcourse#off__course#1
 offendng#offending#1
 offensces#offenses#1
 offenseive#offensive#1
-offerbetter#offer better#1
+offerbetter#offer__better#1
 offerd#offered#9
 offereings#offerings#1
 offererd#offered#1
@@ -18236,7 +18236,7 @@ offerred#offered#9
 offerring#offering#2
 offerrings#offerings#1
 offerrs#offers#1
-offerthe#offer the#2
+offerthe#offer__the#2
 offest#offset#oftenest?#5
 offet#offset#1
 offfensively#offensively#1
@@ -18280,7 +18280,7 @@ officlas#officials#2
 officr#officer#1
 offics#offices#1
 officuial#official#1
-offield#of field#1
+offield#of__field#1
 offier#officer#6
 offiials#officials#1
 offiical#official#2
@@ -18298,8 +18298,8 @@ offshoire#offshore#1
 offshort#offshore#1
 offshsore#offshore#1
 offttake#offtake#1
-ofhat#of what#1
-ofhow#of how#1
+ofhat#of__what#1
+ofhow#of__how#1
 ofice#office#7
 oficer#officer#4
 oficers#officers#3
@@ -18308,36 +18308,36 @@ oficial#official#11
 oficialls#officials#1
 oficials#officials#17
 ofiicial#official#1
-ofimmunity#of immunity#1
-ofincome#of income#1
-ofinterest#of interest#1
-ofits#of its#2
+ofimmunity#of__immunity#1
+ofincome#of__income#1
+ofinterest#of__interest#1
+ofits#of__its#2
 oflfice#office#1
-ofmerger#of merger#1
+ofmerger#of__merger#1
 ?ofn#of#3
-ofnormal#of normal#1
+ofnormal#of__normal#1
 ?ofo#of#4
-?ofof#of of#2
-ofone#of one#1
-ofopposition#of opposition#1
-ofother#of other#1
-ofpParliament#of Parliament#1
-ofproductivity#of productivity#1
+?ofof#of__of#2
+ofone#of__one#1
+ofopposition#of__opposition#1
+ofother#of__other#1
+ofpParliament#of__Parliament#1
+ofproductivity#of__productivity#1
 ?ofr#for#2
-ofraw#of raw#1
-ofraws#of raws#1
+ofraw#of__raw#1
+ofraws#of__raws#1
 ofset#offset#1
 ofsetting#offsetting#1
 oftake#offtake#1
-oftechnical#of technical#1
+oftechnical#of__technical#1
 often-perfomed#often-performed#1
-oftendisrupted#often disrupted#1
+oftendisrupted#often__disrupted#1
 oftened#softened#1
 oftens#often#1
 oftern#often#1
-ofthe#of the#8
+ofthe#of__the#8
 ofund#fund#1
-ofunderwriters#of underwriters#1
+ofunderwriters#of__underwriters#1
 ofur-week#four-week#1
 oganisations#organisations#1
 oganisers#organisers#1
@@ -18352,22 +18352,22 @@ oif#of#3
 oiffices#offices#1
 oiginally#originally#1
 oii#oil#1
-oilArabia#oil Arabia#1
-oilFeb#oil Feb#53
-oilGrade#oil Grade#2
-oilGudang#oil Gudang#1
-oilMar#oil Mar#17
-oilN.A.#oil N.A.#1
-oilNov#oil Nov#15
-oilOct#oil Oct#11
-oilSep#oil Sep#11
-oilSept#oil Sept#3
+oilArabia#oil__Arabia#1
+oilFeb#oil__Feb#53
+oilGrade#oil__Grade#2
+oilGudang#oil__Gudang#1
+oilMar#oil__Mar#17
+oilN.A.#oil__N.A.#1
+oilNov#oil__Nov#15
+oilOct#oil__Oct#11
+oilSep#oil__Sep#11
+oilSept#oil__Sept#3
 oilfeild#oilfield#1
 oilfeilds#oilfields#1
 oilfied#oilfield#1
 oilfieds#oilfields#1
 oill#oil#1
-oilmin#oil min#2
+oilmin#oil__min#2
 oilseeeds#oilseeds#1
 oin#coin#3
 oins#coins#1
@@ -18375,7 +18375,7 @@ oir-for-food#oil-for-food#2
 oither#other#1
 oiut#out#1
 ojet#jet#1
-okayfor#okay for#2
+okayfor#okay__for#2
 okeeper#keeper#1
 okeys#okays#2
 oktobar#oktober#1
@@ -18386,7 +18386,7 @@ olbiged#obliged#1
 olbligation#obligation#1
 olded#older#1
 oldendorff#Oldendorff#1
-oleinMar#olein Mar#2
+oleinMar#olein__Mar#2
 ollar#dollar#1
 ollowing#following#2
 olp#to#1
@@ -18420,24 +18420,24 @@ ompetition#competition#1
 ompetitive#competitive#2
 Cust_oms#Customs#1
 on't#don't#1
-on2Friday#on Friday#1
-onFriday#on Friday#2
-onInfrastructure#on Infrastructure#7
-onMonday#on Monday#2
-onThursday#on Thursday#1
-onTuesday#on Tuesday#2
-onWednesday#on Wednesday#1
-ona#on a#1
+on2Friday#on__Friday#1
+onFriday#on__Friday#2
+onInfrastructure#on__Infrastructure#7
+onMonday#on__Monday#2
+onThursday#on__Thursday#1
+onTuesday#on__Tuesday#2
+onWednesday#on__Wednesday#1
+ona#on__a#1
 onal#regi_onal#1
-onan#on a#1
-onany#on any#1
+onan#on__a#1
+onany#on__any#1
 onathan#Jonathan#1
 onbe#once#1
 once-decribed#once-described#1
 onced#once#1
 oncern#concern#1
-onchip#on chip#1
-oncourt#on court#2
+onchip#on__chip#1
+oncourt#on__court#2
 onday#Monday#1
 ondon#London#1
 one-hundreth#one-hundredth#4
@@ -18449,14 +18449,14 @@ one-tine#one-time#1
 one-tiome#one-time#1
 one-yuear#one-year#1
 onece#once#1
-oneeanalyst#one analyst#1
+oneeanalyst#one__analyst#1
 onely#only#lonely#1
 oner#one#1
 onerus#onerous#1
-onexpansion#on expansion#1
+onexpansion#on__expansion#1
 oney#money#1
-onfield#on field#2
-onforwarding#on forwarding#1
+onfield#on__field#2
+onforwarding#on__forwarding#1
 onging#ongoing#3
 ongiong#ongoing#2
 ongoging#ongoing#1
@@ -18464,10 +18464,10 @@ ongoig#ongoing#1
 ongong#ongoing#2
 ongoning#ongoing#2
 onjections#injections#1
-onka#on a#1
+onka#on__a#1
 onlyb#only#1
 onlyl#only#1
-onmarket#on market#1
+onmarket#on__market#1
 onment#Envir_onment#2
 ?onn#on#one#4
 onne#tonne#2
@@ -18484,7 +18484,7 @@ onsumer#consumer#1
 ont-half#one-half#1
 ontact#contact#1
 ontainers#containers#2
-onthe#on the#7
+onthe#on__the#7
 ontract#contract#1
 onumerous#numerous#1
 onvernight#overnight#2
@@ -18530,7 +18530,7 @@ Nopel#Opel#1
 open-acess#open-access#1
 openening#opening#1
 openess#openness#15
-openingclose#opening close#1
+openingclose#opening__close#1
 openion#opinion#1
 openiong#opening#1
 openning#opening#3
@@ -18559,8 +18559,8 @@ operatiog#operation#1
 operationaal#operational#1
 operationg#operating#3
 operationing#operating#1
-operationof#operation of#2
-operationsprofit#operations profit#2
+operationof#operation__of#2
+operationsprofit#operations__profit#2
 operatios#operations#1
 operatons#operations#4
 operatore#operator#1
@@ -18710,7 +18710,7 @@ oprice#price#1
 oprices#prices#1
 opthamologist#opthalmologist#3
 opthamology#opthalmology#2
-opticalmemory#optical memory#1
+opticalmemory#optical__memory#1
 optimial#optimal#1
 optimimistic#optimistic#1
 optimimum#optimum#1
@@ -18744,7 +18744,7 @@ oraginser#organiser#2
 oragnised#organised#1
 orally-administerd#orally-administered#1
 orangatangs#orang-utangs#1
-orbetter#or better#1
+orbetter#or__better#1
 orced#forced#1
 ordchestrating#orchestrating#1
 orderd#ordered#2
@@ -18855,7 +18855,7 @@ oroginal#original#1
 oround#around#1
 orperating#operating#1
 orrginally#originally#1
-orrisk#or risk#1
+orrisk#or__risk#1
 orrowing#b_orrowing#1
 ors#Audit_ors#1
 orth#north#1
@@ -18891,14 +18891,14 @@ othe#other#5
 otherb#other#1
 otherdn#other#1
 otherewise#otherwise#1
-othergear#other gear#1
-otherhand#other hand#2
+othergear#other__gear#1
+otherhand#other__hand#2
 otherise#otherwise#1
-othersin#others in#2
-otherstates#other states#1
+othersin#others__in#2
+otherstates#other__states#1
 otherswise#otherwise#1
 otherthrow#overthrow#1
-otherwards#other words#1
+otherwards#other__words#1
 otherwide#otherwise#1
 otherwised#otherwise#1
 otherwisee#otherwise#1
@@ -18940,14 +18940,14 @@ oulook#outlook#10
 oulook's#outlook's#1
 oumnces#ounces#1
 ouncs#ounces#1
-Nounter#counter?[ounter continental shelf]#1
+Nounter#counter?[ounter__continental__shelf]#1
 ountry#country#1
 ?oup#coup#out#1
 oupaces#outpaces#1
 oupatient#outpatient#1
 ouptut#output#16
 ouput#output#42
-ourbalance#our balance#1
+ourbalance#our__balance#1
 ourney#journey#1
 ourseleves#ourselves#3
 ourselve#ourselves#1
@@ -18977,7 +18977,7 @@ oustspoken#outspoken#1
 out-of-fom#out-of-form#1
 outag#outage#2
 outbrea#outbreak#1
-outbreakof#outbreak of#1
+outbreakof#outbreak__of#1
 outbreeak#outbreak#2
 outdside#outside#2
 outdstanding#outstanding#1
@@ -19002,7 +19002,7 @@ outmanouvered#outmanoeuvered#1
 outnubmered#outnumbered#2
 outnumberd#outnumbered#2
 outoging#outgoing#1
-outon#out on#1
+outon#out__on#1
 outook#outlook#3
 outpacted#outpaced#1
 outpeform#outperform#1
@@ -19022,14 +19022,14 @@ outpoken#outspoken#1
 Coutpout#output#3
 outpreforming#outperforming#1
 outpspoken#outspoken#1
-outputby#output by#1
+outputby#output__by#1
 outrageuos#outrageous#1
 outragous#outrageous#1
 outrbeak#outbreak#1
 outrcy#outcry#1
 outreak#outbreak#2
-outrebounded#out rebounded#7
-outrightright#outright right#1
+outrebounded#out__rebounded#7
+outrightright#outright__right#1
 outrskirts#outskirts#1
 outry#outcry#5
 outsde#outside#1
@@ -19057,7 +19057,7 @@ outweighting#outweighing#1
 outwieghs#outweighs#1
 ouur#our#2
 ovEr#over#1
-ovationfrom#ovation from#1
+ovationfrom#ovation__from#1
 ovder#order#1
 ove#over#6
 ovedr#over#2
@@ -19074,7 +19074,7 @@ overal#overall#17
 overalloments#overallotments#1
 overaseas#overseas#1
 overawsed#overawed#1
-overcapacitynearly#overcapacity nearly#1
+overcapacitynearly#overcapacity__nearly#1
 overcapcity#overcapacity#2
 overcapicity#overcapacity#1
 overcollaterization#overcollateralization#1
@@ -19090,9 +19090,9 @@ overeas#overseas#4
 overees#oversees#1
 overesas#overseas#2
 overeseeing#overseeing#1
-overground#over ground#4
+overground#over__ground#4
 overhelming#overwhelming#1
-overhere#over here#2
+overhere#over__here#2
 overhual#overhaul#1
 overhwelming#overwhelming#1
 overhwhelming#overwhelming#1
@@ -19100,7 +19100,7 @@ overhwleming#overwhelming#1
 overide#override#3
 overiding#overriding#2
 overight#oversight#3
-overin#over in#1
+overin#over__in#1
 overisght#oversight#2
 overliquity#overliquidity#1
 overloard#overboard#overload#1
@@ -19112,7 +19112,7 @@ overnigt#overnight#1
 overninght#overnight#1
 overnment#government#4
 overnments#governments#1
-overover#over over#1
+overover#over__over#1
 overproducton#overproduction#1
 overrection#overreaction#1
 overridding#overriding#1
@@ -19133,7 +19133,7 @@ overshadowned#overshadowed#1
 oversignt#oversight#2
 oversse#oversee#1
 overstetched#overstretched#1
-overstoked#over stoked#3
+overstoked#over__stoked#3
 overstreached#overreached#1
 oversubcribed#oversubscribed#5
 oversubcription#oversubscription#3
@@ -19145,8 +19145,8 @@ oversubsctiption#oversubscription#1
 oversubsrcibed#oversubscribed#1
 oversubsribed#oversubscribed#6
 oversuppy#oversupply#1
-overthe#over the#1
-overthere#over there#1
+overthe#over__the#1
+overthere#over__there#1
 overthow#overthrow#4
 overthown#overthrown#1
 overule#overrule#1
@@ -19154,7 +19154,7 @@ overun#overrun#2
 overvauled#overhauled#3
 overvlaued#overvalued#1
 overwehelmed#overwhelmed#1
-overweighed#over weighed#1
+overweighed#over__weighed#1
 overwelming#overwhelming#2
 overwelmingly#overwhelmingly#2
 overwheleming#overwhelming#1
@@ -19227,12 +19227,12 @@ pacckaging#packaging#1
 pacients#patients#4
 pacificist#pacifist#2
 packagages#packages#1
-packagingdivisions#packaging divisions#1
+packagingdivisions#packaging__divisions#1
 packgage#package#2
 packges#packages#1
 packging#packaging#2
 packjage#package#1
-paddelsteamer#paddle steamer#1
+paddelsteamer#paddle__steamer#1
 pademic#pandemic#1
 padeophile#paedophile#1
 padeophiles#paedophiles#1
@@ -19247,7 +19247,7 @@ pagent#pageant#6
 paharmaceutical#pharmaceutical#2
 pahse#phase#1
 ?pai#paid#2
-paidnil#paid nil#1
+paidnil#paid__nil#1
 painfull#painful#2
 paing#paying#1
 paintngs#paintings#1
@@ -19296,7 +19296,7 @@ pappillomavirus#papillomavirus#1
 paprticularly#particularly#1
 Npapua#Papua#2
 parLiament#parliament#1
-parMATURITY#par MATURITY#3
+parMATURITY#par__MATURITY#3
 parachure#parachute#1
 paraellel#parallel#2
 parafinnic#paraffinic#3
@@ -19446,7 +19446,7 @@ participans#participant#1
 participartion#participation#1
 participatiaon#participation#1
 participatiing#participating#2
-participationscharge#participations charge#1
+participationscharge#participations__charge#1
 participatipation#participation#1
 participaton#participation#1
 participiation#participation#1
@@ -19477,8 +19477,8 @@ particullary#particularly#1
 particuraly#particularly#1
 particurlarly#particularly#1
 partiers#parties#1
-parties'leaders#parties' leaders#1
-parties'submissions#parties' submissions#1
+parties'leaders#parties'__leaders#1
+parties'submissions#parties'__submissions#1
 partipants#participants#2
 partipate#participate#1
 partipated#participated#1
@@ -19538,7 +19538,7 @@ passorts#passports#1
 asssenger#passenger#4
 asssengers#passengers#2
 assses#asses#1
-pastdecade#past decade#1
+pastdecade#past__decade#1
 pasteral#pastoral#1
 ?pasties#pastries#2
 pastrol#patrol#3
@@ -19574,8 +19574,8 @@ Npavel#Pavel#1
 pavillion#pavilion#14
 pawnship#pawnshop#1
 pay-as-you-ga#pay-as-you-go#1
-payableMarch#payable March#2
-payableOctober#payable October#3
+payableMarch#payable__March#2
+payableOctober#payable__October#3
 payament#payment#1
 payamnet#payment#1
 paybable#payable#2
@@ -19586,7 +19586,7 @@ payemnts#payments#2
 paymend#payment#1
 paymenets#payments#1
 paymenst#payments#2
-paymentsOct#payments Oct#5
+paymentsOct#payments__Oct#5
 paymetns#payments#1
 paymets#payments#2
 paymnent#payment#1
@@ -19600,7 +19600,7 @@ payount#payout#1
 pazteurization#pasteurization#1
 pcercent#percent#2
 pckage#package#1
-Apctpayment#pct payment#2
+Apctpayment#pct__payment#2
 pdayrolls#payrolls#1
 peacably#peaceably#3
 peaceepers#peacekeepers#1
@@ -19730,12 +19730,12 @@ peosos#pesos#2
 pepare#prepare#1
 pepared#prepared#1
 peple#people#8
-perHop#per Hop#1
+perHop#per__Hop#1
 NperU#Peru#1
 perameters#parameters#1
 perating#operating#2
 percantage#percentage#1
-percapita#per capita#3
+percapita#per__capita#3
 perccent#percent#3
 perccnt#percent#1
 percdent#percent#2
@@ -19754,17 +19754,17 @@ percennt#percent#2
 percenption#perception#1
 percenrt#percent#1
 percentange#percentage#5
-percentbelow#percent below#1
-percentdiscount#percent discount#1
+percentbelow#percent__below#1
+percentdiscount#percent__discount#1
 percentf#percent#1
 percentg#percent#1
 percentge#percentage#2
-percentin#percent in#4
-percentlower#percent lower#1
+percentin#percent__in#4
+percentlower#percent__lower#1
 percentm#percent#1
-percentof#percent of#3
+percentof#percent__of#3
 Cpercentrage#percentage#3
-?percentrange#percent range#1
+?percentrange#percent__range#1
 percenty#percent#2
 percepion#perception#1
 percernt#percent#4
@@ -19841,7 +19841,7 @@ perimieter#perimeter#1
 perimiter#perimeter#1
 perimum#premium#1
 period'd#period's#1
-periodsgain#periods gain#1
+periodsgain#periods__gain#1
 periof#period#1
 perior#period#2
 periously#perilously#1
@@ -19884,7 +19884,7 @@ permited#permitted#1
 permiting#permitting#2
 ?permittable#permissible?#1
 permium#premium#2
-permonth#per month#1
+permonth#per__month#1
 permot#permit#1
 permsision#permission#1
 pernament#permanent#1
@@ -19921,7 +19921,7 @@ perserpective#perspective#1
 perserved#preserved#1
 perserverance#perseverance#1
 perservering#persevering#1
-pershare#per share#1
+pershare#per__share#1
 persidency#presidency#1
 persidential#presidential#1
 persihables#perishables#1
@@ -19965,7 +19965,7 @@ NEperuan#Peruvian#1
 NEperuvian#Peruvian#1
 pervious#previous#23
 perviously#previously#3
-peryear#per year#1
+peryear#per__year#1
 pesented#presented#1
 pesestas#pesetas#1
 pesimistic#pessimistic#2
@@ -19977,9 +19977,9 @@ peso-denomimated#peso-denominated#1
 peso-denoniminated#peso-denominated#1
 pesonal#personal#1
 pesonnel#personnel#7
-pesosin#pesos in#1
+pesosin#pesos__in#1
 pesosn#pesos#1
-pesoswas#pesos was#2
+pesoswas#pesos__was#2
 pespective#perspective#1
 pessimisitc#pessimistic#3
 pessimitic#pessimistic#2
@@ -20092,7 +20092,7 @@ philosphies#philosophies#1
 philosphy#philosophy#3
 philospohy#philosophy#1
 philospophy#philosophy#1
-phindex#Ph index#2
+phindex#Ph__index#2
 phisical#physical#1
 phongraph#phonograph#1
 phopheric#phosphoric#1
@@ -20179,7 +20179,7 @@ pivotol#pivotal#1
 plaants#plants#1
 placd#placed#1
 place-kicing#place-kicking#1
-placeas#place as#1
+placeas#place__as#1
 placees#places#2
 placemant#placement#1
 placememnt#placement#1
@@ -20226,7 +20226,7 @@ playd#plaid#played#1
 playeras#players#1
 playes#players#4
 playets#players#1
-playof#play of#playoff#1
+playof#play__of#playoff#1
 plce#plc#place#3
 pldeges#pledges#1
 pldge#pledge#1
@@ -20300,7 +20300,7 @@ poinsed#pointed#1
 poinst#points#4
 pointedy#pointedly#1
 pointly#pointedly#2
-pointor#point or#1
+pointor#point__or#1
 pointsd#points#1
 pointss#points#2
 pointsz#points#1
@@ -20343,7 +20343,7 @@ polict#policy#1
 polictical#political#1
 policty#policy#1
 policy-mkaing#policy-making#1
-policyand#policy and#1
+policyand#policy__and#1
 poliethylene#polyethylene#4
 poliices#policies#3
 polilticians#politicians#1
@@ -20619,7 +20619,7 @@ post-holdiay#post-holiday#1
 post-morten#post-mortem#1
 post-partheid#post-apartheid#1
 post-privatisaion#post-privatisation#1
-postedagainst#posted against#2
+postedagainst#posted__against#2
 postiion#position#2
 postin#posting#1
 postion#position#29
@@ -20672,8 +20672,8 @@ pottasic#potassic#1
 pouinds#pounds#1
 poulation#population#2
 poulty#poultry#3
-poundand#pound and#1
-poundsfrom#pounds from#1
+poundand#pound__and#1
+poundsfrom#pounds__from#1
 pounfd#pound#1
 poungs#pounds#1
 pounishment#punishment#1
@@ -20752,7 +20752,7 @@ pre-abormal#pre-abnormal#2
 pre-acquistion#pre-acquisition#1
 pre-clinicial#pre-clinical#1
 pre-elction#pre-election#1
-pre-exceptionalprofit#pre-exceptional profit#2
+pre-exceptionalprofit#pre-exceptional__profit#2
 Apre-excps#pre-exceptional#3
 pre-execptional#pre-exceptional#2
 pre-exep#pre-except#4
@@ -20791,7 +20791,7 @@ precentages#percentages#1
 preception#perception#2
 precints#precincts#4
 preciouse#precious#1
-preciousmetals#precious metals#1
+preciousmetals#precious__metals#1
 precipate#precipitate#1
 precipation#precipitation#1
 precipes#recipes#1
@@ -20867,7 +20867,7 @@ prefernce#preference#1
 preferntial#preferential#2
 preferrable#preferable#9
 preferrably#preferably#2
-preferrednone#preferred none#1
+preferrednone#preferred__none#1
 preferreed#preferred#1
 preferrence#preference#1
 preferrential#preferential#5
@@ -21028,7 +21028,7 @@ pressaged#presaged#1
 pressence#presence#1
 pressent#present#1
 pressire#pressure#1
-presson#press on#1
+presson#press__on#1
 presss#press#1
 presssue#pressure#1
 presssure#pressure#10
@@ -21061,13 +21061,13 @@ preveious#previous#1
 prevelance#prevalence#2
 prevelant#prevalent#1
 preven#prevent#1
-preventdehydration#prevent dehydration#1
+preventdehydration#prevent__dehydration#1
 preventible#preventable#1
 preventiive#preventive#1
 preventitive#preventive#2
 preventon#prevention#1
 preversion#perversion#1
-Aprevi#[The Japanese company previ INTERRUPTED]#1
+Aprevi#[The__Japanese__company__previ__INTERRUPTED]#1
 previious#previous#1
 previlages#privileges#1
 previleges#privileges#1
@@ -21082,7 +21082,7 @@ previoulsy#previously#5
 previouos#previous#1
 previousc#previous#1
 previously-annnounced#previously-announced#1
-previousrevised#previous revised#4
+previousrevised#previous__revised#4
 previouvs#previous#1
 previsions#provisions#2
 previsouly#previously#1
@@ -21119,10 +21119,10 @@ pric#price#3
 pricd#priced#1
 price-senstitive#price-sensitive#1
 pricecs#prices#1
-pricefrom#price from#1
+pricefrom#price__from#1
 ?pricel#price#1
 pricesd#prices#1
-priceson#prices on#1
+priceson#prices__on#1
 pricesr#prices#1
 pricess#princess#3
 pricies#prices#3
@@ -21222,7 +21222,7 @@ privatsation#privatisation#1
 privatsations#privatisations#2
 privatsiation#privatisation#2
 privatsied#privatised#2
-privatterms#private terms#1
+privatterms#private__terms#1
 priveledged#privileged#1
 privelege#privilege#2
 priveleged#privileged#2
@@ -21336,7 +21336,7 @@ procesosor#processor#1
 processe#process#1
 processer#processor#15
 processers#processors#3
-processingfully#processing fully#1
+processingfully#processing__fully#1
 processiong#processing#1
 processs#process#4
 processsed#processed#1
@@ -21396,12 +21396,12 @@ producter#producer#1
 producting#producing#14
 productio#production#1
 productioin#production#1
-productionJune#production June#1
-productionMay#production May#1
-productionexpected#production expected#1
-productionfell#production fell#1
+productionJune#production__June#1
+productionMay#production__May#1
+productionexpected#production__expected#1
+productionfell#production__fell#1
 productiont#production#1
-productis#product is#1
+productis#product__is#1
 productised#productized#1
 productitivy#productivity#1
 productivitity#productivity#1
@@ -21411,8 +21411,8 @@ productivyity#productivity#1
 productized#produced#1
 producton#production#4
 productors#producers#1
-productsloss#products loss#2
-productsprices#products prices#1
+productsloss#products__loss#2
+productsprices#products__prices#1
 productuon#production#1
 productvity#productivity#1
 producution#production#1
@@ -21477,7 +21477,7 @@ profist#profits#1
 profit-drioven#profit-driven#1
 profit-takiing#profit-taking#1
 profit-takling#profit-taking#1
-profitReal#profit Real#1
+profitReal#profit__Real#1
 profitS#profits#2
 profita#profits#1
 profitabiility#profitability#1
@@ -21505,13 +21505,13 @@ profitiabilty#profitability#2
 profitibality#profitability#2
 profitibility#profitability#10
 profitibilty#profitability#2
-profitloss#profit loss#8
-profitnil#profit nil#1
-profiton#profit on#1
-profitsbetween#profits between#1
+profitloss#profit__loss#8
+profitnil#profit__nil#1
+profiton#profit__on#1
+profitsbetween#profits__between#1
 profitted#profited#5
 profitting#profiting#6
-profroma#pro forma#1
+profroma#pro__forma#1
 profssional#professional#1
 proft#profit#7
 proft-takers#profit-takers#1
@@ -21544,7 +21544,7 @@ programes#programmes#4
 programing#programming#3
 programm#programme#8
 programmble#programmable#1
-programmeit#programme it#1
+programmeit#programme__it#1
 programmess#programmes#1
 programmme#programme#3
 programmmes#programmes#2
@@ -21585,7 +21585,7 @@ projecticles#projectiles#1
 projectons#projections#1
 projectos#projects#1
 projectss#projects#1
-projectwill#project will#1
+projectwill#project__will#1
 projetcs#projects#1
 projject#project#1
 projuect#project#1
@@ -21681,7 +21681,7 @@ proportiion#proportion#1
 proportinate#proportionate#1
 proposa#proposal#1
 proposad#proposal#1
-proposalsto#proposals to#1
+proposalsto#proposals__to#1
 proposasl#proposals#1
 proposeals#proposals#1
 proposeed#proposed#1
@@ -21758,7 +21758,7 @@ prospec#prospect#1
 prospecive#prospective#1
 prospectcus#prospectus#1
 prospectiove#prospective#1
-prospectof#prospect of#1
+prospectof#prospect__of#1
 prospecution#prosecution#1
 prospersous#prosperous#1
 prosperty#prosperity#1
@@ -21855,7 +21855,7 @@ provinical#provincial#4
 provinicial#provincial#2
 provional#provisional#1
 provisinnal#provisional#1
-provisionis#provision is#1
+provisionis#provision__is#1
 provisision#provision#1
 provisisions#provisions#1
 provison#provision#7
@@ -21980,7 +21980,7 @@ publicy#publicly#2
 publilshed#published#1
 publised#published#4
 publishd#published#1
-publishedtheir#published their#1
+publishedtheir#published__their#1
 publishinbg#publishing#1
 publising#publishing#4
 publlic#public#1
@@ -22040,7 +22040,7 @@ purpoes#purposes#1
 purpooses#purposes#1
 purporse#purpose#2
 purportedy#purportedly#1
-purposeTAX#purpose TAX#1
+purposeTAX#purpose__TAX#1
 purposesf#purposes#1
 purposse#purpose#1
 purposses#purposes#1
@@ -22135,9 +22135,9 @@ qualfying#qualifying#2
 qualifed#qualified#16
 qualifer#qualifier#19
 qualifers#qualifiers#1
-qualificationOctober#qualification October#1
+qualificationOctober#qualification__October#1
 qualificatios#qualifications#1
-qualifieron#qualifier on#1
+qualifieron#qualifier__on#1
 qualifing#qualifying#1
 qualifiy#qualify#1
 qualifiying#qualifying#1
@@ -22175,13 +22175,13 @@ quarer#quarter#9
 quareter#quarter#2
 quarrantine#quarantine#2
 quartely#quarterly#9
-quarterFor#quarter For#1
-quarterNine#quarter Nine#1
-quarterYear#quarter Year#2
-quarterYr#quarter Yr#1
+quarterFor#quarter__For#1
+quarterNine#quarter__Nine#1
+quarterYear#quarter__Year#2
+quarterYr#quarter__Yr#1
 quarterley#quarterly#1
 quarterr#quarter#1
-quartersFor#quarters For#1
+quartersFor#quarters__For#1
 quartertly#quarterly#1
 quartery#quarterly#1
 quarthers#quarters#1
@@ -22256,7 +22256,7 @@ quorom#quorum#4
 quorom-blocking#quorum-blocking#1
 quorted#quoted#1
 quorterly#quarterly#23
-quotedthat#quoted that#1
+quotedthat#quoted__that#1
 quotid#quoted#2
 quqrter#quarter#2
 qurater#quarter#2
@@ -22279,7 +22279,7 @@ rabi#rabid#rabbi#9
 rach#reach#2
 raching#reaching#2
 raci#racy#1
-racialequality#racial equality#1
+racialequality#racial__equality#1
 ?racio#ratio#1
 racionalization#rationalization#1
 racits#racist#1
@@ -22294,7 +22294,7 @@ radicial#radical#1
 radio-telmetry#radio-telemetry#1
 radioctive#radioactive#2
 radiod#radioed#1
-radiosurgerysystem#radiosurgery system#1
+radiosurgerysystem#radiosurgery__system#1
 radiotor#radiator#1
 radious#radius#2
 ?radley#Bradley#1
@@ -22304,7 +22304,7 @@ rae#are#ray#3
 raffirm#reaffirm#2
 rafinery#refinery#2
 Nrafiqul#Rafiqul#1
-raftedmin#rafted min#1
+raftedmin#rafted__min#1
 ragne#range#7
 ragnge#range#2
 rahter#rather#1
@@ -22322,7 +22322,7 @@ rain-interupted#rain-interrupted#1
 rain-saoked#rain-soaked#1
 rainful#rainfall#painful#1
 raings#ratings#1
-?rainrain#rain rain#1
+?rainrain#rain__rain#1
 raio#radio#2
 raipdly#rapidly#1
 raisd#raised#1
@@ -22353,7 +22353,7 @@ rane#range#crane#1
 rang-bound#range-bound#1
 rangE#range#1
 range-tradeed#range-traded#1
-rangesurveyed#range surveyed#1
+rangesurveyed#range__surveyed#1
 rangge#range#1
 ranghe#range#1
 rangiong#ranging#1
@@ -22397,14 +22397,14 @@ rasised#raised#1
 rasom#ransom#1
 rasor#razor#1
 ratched#ratchet#scratched#5
-rateRejects#rate Rejects#1
-rateas#rate as#1
-rateof#rate of#1
-ratesLatest#rates Latest#2
-ratescould#rates could#1
-ratesnow#rates now#1
+rateRejects#rate__Rejects#1
+rateas#rate__as#1
+rateof#rate__of#1
+ratesLatest#rates__Latest#2
+ratescould#rates__could#1
+ratesnow#rates__now#1
 ratess#rates#1
-ratessaying#rates saying#2
+ratessaying#rates__saying#2
 rathern#rather#7
 rathher#rather#2
 ratiang#rating#1
@@ -22412,7 +22412,7 @@ ratifcation#ratification#2
 ratifiying#ratifying#1
 ratingg#rating#7
 ratingsA#ratings#1
-ratingwatch#rating watch#8
+ratingwatch#rating__watch#8
 ratinn#rating#4
 ratinng#rating#3
 ratioalisation#rationalisation#1
@@ -22505,7 +22505,7 @@ realease#release#3
 realeased#released#4
 realected#reelected#1
 realesed#released#1
-realestate#real estate#1
+realestate#real__estate#1
 realiability#reliability#1
 realignements#realignments#1
 realilsation#realisation#2
@@ -22517,8 +22517,8 @@ realites#realities#1
 realizatin#realization#1
 reallly#really#2
 reallociation#reallocation#1
-reallyis#really is#1
-realpersonal#real personal#1
+reallyis#really__is#1
+realpersonal#real__personal#1
 realsim#realism#2
 realsistic#realistic#1
 realted#related#1
@@ -22565,7 +22565,7 @@ reasonaly#reasonably#1
 reasonbably#reasonably#1
 reasonble#reasonable#2
 reasonbly#reasonably#1
-reasonwere#reason were#1
+reasonwere#reason__were#1
 reasos#reasons#1
 reassed#reassessed#1
 reasses#reassess#2
@@ -22607,7 +22607,7 @@ rebeles#rebels#2
 rebeliion#rebellion#1
 rebelious#rebellious#1
 rebelloius#rebellious#1
-?rebelsnued#rebels continued#1
+?rebelsnued#rebels__continued#1
 rebls#rebels#2
 rebnels#rebels#1
 rebount#rebound#1
@@ -22650,12 +22650,12 @@ receied#received#1
 receieved#received#7
 receipient#recipient#2
 receipients#recipients#2
-receiptsnot#receipts not#1
+receiptsnot#receipts__not#1
 receiveable#receivable#3
 receiveables#receivables#1
 receiveal#receival#1
-receivedAmount#received Amount#18
-receivedvs#received vs#1
+receivedAmount#received__Amount#18
+receivedvs#received__vs#1
 receiveed#received#1
 receiveing#receiving#2
 receivinfg#receiving#1
@@ -22795,7 +22795,7 @@ recoved#recovered#1
 recovene#reconvene#3
 recovenes#reconvenes#1
 recoverd#recovered#10
-recoveryin#recovery in#1
+recoveryin#recovery__in#1
 recoverying#recovering#3
 recoving#recovering#1
 recpetions#receptions#1
@@ -22844,7 +22844,7 @@ redeptions#receptions#redemptions#1
 rederal#federal#1
 redevance#relevance#1
 redeveloment#redevelopment#1
-redevelopmentTAX#redevelopment TAX#1
+redevelopmentTAX#redevelopment__TAX#1
 rediness#readiness#1
 reding#reading#7
 redio#radio#1
@@ -22861,7 +22861,7 @@ redresss#redress#3
 reducee#reduce#1
 reduciton#reduction#1
 reducs#reduces#1
-reductionin#reduction in#1
+reductionin#reduction__in#1
 reducton#reduction#1
 reducution#reduction#1
 redudancy#redundancy#1
@@ -22932,7 +22932,7 @@ refernce#reference#1
 referndum#referendum#3
 referrence#reference#1
 referrendum#referendum#5
-referringto#referring to#1
+referringto#referring__to#1
 referrring#referring#4
 referundum#referendum#4
 refex#reflex#1
@@ -23002,8 +23002,8 @@ refugeees#refugees#5
 refugess#refugees#9
 refuing#refuting#refueling#1
 refuling#refueling#2
-refundingTAX#refunding TAX#2
-refusingto#refusing to#1
+refundingTAX#refunding__TAX#2
+refusingto#refusing__to#1
 refuss#refuses#1
 regading#regarding#1
 regaing#regain#1
@@ -23278,7 +23278,7 @@ remainider#remainder#1
 remainig#remaining#1
 remainign#remaining#1
 remaininder#remainder#1
-remainingindependent#remaining independent#1
+remainingindependent#remaining__independent#1
 remainining#remaining#1
 remaininng#remaining#3
 remainiong#remaining#1
@@ -23324,7 +23324,7 @@ remours#rumours#1
 removate#renovate#1
 removating#renovating#1
 removeable#removable#1
-removedLikely#removed Likely#1
+removedLikely#removed__Likely#1
 remployment#reemployment#1
 remporary#temporary#1
 remprimand#reprimand#1
@@ -23368,7 +23368,7 @@ renovatios#renovation#2
 renowed#renowned#3
 renowing#renewing#1
 renstatement#reinstatement#1
-rentalTAX#rental TAX#1
+rentalTAX#rental__TAX#1
 rential#rental#1
 rentry#reentry#1
 Crenumeration#remuneration#8
@@ -23484,15 +23484,15 @@ reporganizing#reorganizing#1
 reporing#reporting#1
 reporrted#reported#1
 repors#reports#1
-report-Kremlin#report Kremlin#2
+report-Kremlin#report__Kremlin#2
 reportd#reported#2
-reported-third#reported third#1
-reportedTaiwan#reported Taiwan#1
+reported-third#reported__third#1
+reportedTaiwan#reported__Taiwan#1
 reporteded#reported#1
 reportedv#reported#1
 reportely#reportedly#1
 reporters's#reporter's#2
-?reporters.a#reporters a#1
+?reporters.a#reporters__a#1
 reportes#reporters#3
 reportly#reportedly#1
 reportoire#repertoire#1
@@ -23544,7 +23544,7 @@ representatatives#representatives#1
 representatitve#representative#2
 representatitves#representatives#1
 representatiuve#representative#1
-representativesattending#representatives attending#1
+representativesattending#representatives__attending#1
 representaton#representation#1
 representatves#representatives#2
 representiatives#representatives#1
@@ -23700,7 +23700,7 @@ resereve#reserve#2
 reseroir#reservoir#1
 reservatons#reservations#1
 reserveds#reserves#1
-reservescharge#reserves charge#2
+reservescharge#reserves__charge#2
 reservior#reservoir#4
 reserviors#reservoirs#1
 reservs#reserves#1
@@ -23716,7 +23716,7 @@ resgination#resignation#1
 resgined#resigned#1
 resgtrictive#restrictive#1
 reshuffeling#reshuffling#2
-reshuffleand#reshuffle and#1
+reshuffleand#reshuffle__and#1
 reshuflles#reshuffles#1
 resiatance#resistance#1
 Cresidencee#residence#1
@@ -23826,7 +23826,7 @@ responsibile#responsible#9
 responsibilies#responsibilities#2
 responsibililties#responsibilities#1
 responsibilites#responsibilities#19
-responsibilitiesand#responsibilities and#2
+responsibilitiesand#responsibilities__and#2
 responsibiliy#responsibility#2
 responsibilties#responsibilities#8
 responsibiltiy#responsibility#3
@@ -23917,7 +23917,7 @@ restricions#restrictions#2
 restricitons#restrictions#1
 restricitve#restrictive#3
 restrictiong#restricting#2
-restrictionsare#restrictions are#4
+restrictionsare#restrictions__are#4
 restrictons#restrictions#1
 restrictve#restrictive#1
 ?restriculation#restriction#recirculation?#1
@@ -23981,14 +23981,14 @@ resuling#resulting#2
 resulitng#resulting#1
 resullt#result#1
 resuls#results#2
-resultLOSS#result LOSS#1
+resultLOSS#result__LOSS#1
 resultd#resulted#1
 resulte#result#1
-resultfirst#result first#1
-resultminus#result minus#1
+resultfirst#result__first#1
+resultminus#result__minus#1
 resultng#resulting#1
-resultpayout#result payout#1
-resultsin#results in#1
+resultpayout#result__payout#1
+resultsin#results__in#1
 resulution#resolution#3
 resulutions#resolutions#1
 resumpion#resumption#1
@@ -24008,7 +24008,7 @@ ret#rate?#5
 retai#retail#2
 retailate#retaliate#2
 retailatory#retaliatory#1
-retailer'schair#retailer's chair#1
+retailer'schair#retailer's__chair#1
 retailiate#retaliate#2
 retailiated#retaliated#1
 retailier#retailer#1
@@ -24016,7 +24016,7 @@ retailiers#retailers#1
 retailor#retailer#1
 retailr#retailer#1
 retainng#retaining#1
-retainsa#retains a#1
+retainsa#retains__a#1
 retal#retail#2
 retale#retail#1
 retaled#retailed#1
@@ -24097,7 +24097,7 @@ reusme#resume#1
 reutring#returning#1
 reutrn#return#2
 reutrning#returning#2
-revPARR#rev PARR#1
+revPARR#rev__PARR#1
 Creval#reveal#revival#2
 revaled#revealed#1
 revampted#revamped#1
@@ -24122,9 +24122,9 @@ revennue#revenue#1
 revennues#revenues#2
 revent#prevent#1
 revenu#revenue#2
-revenuein#revenue in#1
-revenuesreturnsnet#revenues returns net#1
-revenueup#revenue up#1
+revenuein#revenue__in#1
+revenuesreturnsnet#revenues__returns__net#1
+revenueup#revenue__up#1
 revenueus#revenues#1
 revenuew#revenues#1
 revenunes#revenues#2
@@ -24153,7 +24153,7 @@ reviewes#reviews#1
 revinvest#reinvest#1
 revious#previous#1
 reviseable#revisable#1
-reviseddown#revised down#1
+reviseddown#revised__down#1
 revisio#revision#1
 revisison#revision#3
 revisisons#revisions#1
@@ -24256,14 +24256,14 @@ risiks#risks#1
 risis#crisis#2
 risising#rising#1
 risisng#rising#2
-risksfor#risks for#1
-risksnil#risks nil#1
+risksfor#risks__for#1
+risksnil#risks__nil#1
 rist#first#1
 ritutal#ritual#1
 riughly#roughly#1
 riules#rules#1
 rivalies#rivalries#1
-rivalsForest#rivals Forest#1
+rivalsForest#rivals__Forest#1
 rivaly#rivalry#2
 rivarly#rivalry#3
 rivate#private#1
@@ -24314,7 +24314,7 @@ roll-onn#roll-on#1
 roll-os#roll-on#1
 rollar-coaster#roller-coaster#3
 rollin#rolling#2
-rollingstock#rolling stock#7
+rollingstock#rolling__stock#7
 rolllover#rollover#1
 rolloever#rollover#1
 Crom#from#rom#8
@@ -24339,7 +24339,7 @@ rorganisation#reorganisation#2
 rorse#rose#1
 ros#rose#3
 rosed#rose#3
-rosein#rose in#1
+rosein#rose__in#1
 rosel#rose#1
 rosenthal#Rosenthal#5
 rosolve#resolve#1
@@ -24428,7 +24428,7 @@ runnning#running#14
 runours#rumours#1
 rupeea#rupees#1
 rupeees#rupees#2
-rupeeson#rupees on#1
+rupeeson#rupees__on#1
 rupeess#rupees#1
 ruperes#rupees#1
 rupes#rupees#9
@@ -24510,24 +24510,24 @@ sahreholders#shareholders#1
 sahres#shares#11
 sai#said#8
 saiad#said#2
-saidAkira#said Akira#1
-saidcentral#said central#1
+saidAkira#said__Akira#1
+saidcentral#said__central#1
 saidd#said#1
 saide#said#1
 saidh#said#1
-saidin#said in#2
+saidin#said__in#2
 ?saiding#siding#1
-saidit#said it#2
-saidits#said its#1
+saidit#said__it#2
+saidits#said__its#1
 saidl#said#1
 saidm#said#1
 saidn#said#1
-saidon#said on#1
-saidrecently#said recently#1
+saidon#said__on#1
+saidrecently#said__recently#1
 saids#said#7
 saidt#said#2
-saidthe#said the#8
-saidthey#said they#1
+saidthe#said__the#8
+saidthey#said__they#1
 saif#said#1
 saiid#said#2
 sailes#sails#1
@@ -24545,7 +24545,7 @@ Ssal#sal#sale#12
 salaies#salaries#1
 salaris#salaries#9
 salarly#salary#1
-salaryAfter#salary After#1
+salaryAfter#salary__After#1
 salavaged#salvaged#5
 salay#salary#1
 Nsalceda#Salceda#1
@@ -24554,8 +24554,8 @@ sale-leaaseback#sale-leaseback#1
 saleas#sales#8
 salem#sale#1
 saleries#salaries#1
-salesfor#sales for#1
-saleswould#sales would#1
+salesfor#sales__for#1
+saleswould#sales__would#1
 NEsalina#Salina#1
 sallest#smallest#1
 Nsally#Sally#7
@@ -24567,7 +24567,7 @@ salwarts#stalwarts#1
 sam#same#Sam#1
 NEsames#Sames#same#5
 NEsames-store#Sames-store#2
-samestore#same store#4
+samestore#same__store#4
 samll#small#2
 samller#smaller#1
 samonella-free#salmonella-free#1
@@ -24663,12 +24663,12 @@ saupport#support#1
 Csave-haven#safe-haven#1
 saveed#saved#1
 C?savesots#savespots#saveslots#1
-savethe#save the#1
+savethe#save__the#1
 savid#saved#1
 savig#saving#1
 savnings#savings#1
 savy#savvy#navy#1
-sawas#saw as#1
+sawas#saw__as#1
 sawe#saw#sawed#1
 sawp#swap#1
 sawps#swaps#1
@@ -24678,15 +24678,15 @@ saxy#say#1
 sayb#say#1
 sayd#said#Sayd#3
 sayin#saying#1
-sayingthey#saying they#1
+sayingthey#saying__they#1
 sayng#saying#1
-saysAustralia#says Australia#1
+saysAustralia#says__Australia#1
 saysing#saying#1
 sayss#says#1
 sazid#said#1
 sbuscribers#subscribers#1
-scale-PaineWebber#scale-Paine Webber#2
-scallopped#scalloped 0#3
+scale-PaineWebber#scale-Paine__Webber#2
+scallopped#scalloped__0#3
 ?scambling#scrambling#3
 scandel#scandal#1
 scandels#scandals#1
@@ -24728,7 +24728,7 @@ schedled#scheduled#1
 schedlued#scheduled#1
 schedued#scheduled#2
 schedulaed#scheduled#1
-scheduleto#schedule to#1
+scheduleto#schedule__to#1
 schedulled#scheduled#1
 schedulred#scheduled#1
 scheldued#scheduled#2
@@ -24818,7 +24818,7 @@ seasion#season#1
 seasn#season#3
 seaso#season#2
 seasoal#seasonal#1
-seasonaladjustment#seasonal adjustment#2
+seasonaladjustment#seasonal__adjustment#2
 seasonalisty#seasonality#1
 seasonall-weak#seasonal-weak#1
 seasonallity#seasonality#1
@@ -24911,15 +24911,15 @@ securitaization#securitization#1
 securiteis#securities#2
 securites#securities#37
 securithy#security#1
-securitieslitigation#securities litigation#1
-securitiesnil#securities nil#2
+securitieslitigation#securities__litigation#1
+securitiesnil#securities__nil#2
 securitiies#securities#1
 securitisiation#securitisation#1
 securitistion#securitisation#1
 securitites#securities#3
 securitities#securities#1
 securitiy#security#2
-security-GCC#security GCC#2
+security-GCC#security__GCC#2
 securiy#security#1
 securizations#securitizations#1
 securred#secured#1
@@ -24944,7 +24944,7 @@ seeemed#seemed#4
 seeemingly#seemingly#1
 seeems#seems#2
 seeen#seen#1
-seeif#see if#1
+seeif#see__if#1
 seein#seeing#1
 seeked#sought#1
 seel#sell#see#4
@@ -24993,7 +24993,7 @@ seleceted#selected#1
 selelctive#selective#1
 seletion#selection#1
 self-adressed#self-addressed#1
-self-annoited#self-anointed 0#1
+self-annoited#self-anointed__0#1
 self-asessment#self-assessment#1
 self-committment#self-commitment#1
 self-descructive#self-destructive#1
@@ -25050,7 +25050,7 @@ sene#seen#1
 senen#seven#1
 senimar#seminar#1
 seniment#sentiment#1
-seniormost#senior most#2
+seniormost#senior__most#2
 seniro#senior#1
 senistive#sensitive#2
 senitment#sentiment#5
@@ -25082,7 +25082,7 @@ sentimentS#sentiments#1
 sentitive#sensitive#1
 sentment#sentiment#2
 sentneced#sentenced#1
-sentorders#sent orders#1
+sentorders#sent__orders#1
 sentors#senators#1
 seocnd#second#1
 seocnd-largest#second-largest#1
@@ -25160,7 +25160,7 @@ serverely#severely#1
 servey#survey#1
 servic#service#5
 serviceS#services#1
-servicfor#service for#1
+servicfor#service__for#1
 servics#services#1
 serviecs#services#1
 servied#serviced#1
@@ -25193,7 +25193,7 @@ sesssion's#session's#1
 setabck#setback#1
 setady#steady#1
 setas#seats#1
-setaside#set aside#2
+setaside#set__aside#2
 setellite#satellite#1
 setencing#sentencing#1
 Lsetentiae#sententiae#2
@@ -25235,7 +25235,7 @@ sevearl#several#1
 sevent#seven#2
 seventn#seventh#1
 severa#several#1
-severalcountries#several countries#1
+severalcountries#several__countries#1
 severence#severance#11
 severences#severances#1
 severl#several#1
@@ -25272,14 +25272,14 @@ shaprly#sharply#1
 shar#share#6
 Nshara#Shara#1
 share-issung#share-issuing#1
-share.m#share .m#1
-shareNA#share NA#1
-sharea#share a#1
-sharebefore#share before#1
+share.m#share__.m#1
+shareNA#share__NA#1
+sharea#share__a#1
+sharebefore#share__before#1
 sharedholders#shareholders#1
 shareeholders#shareholders#1
 sharees#shares#1
-shareheld#share held#1
+shareheld#share__held#1
 sharehholders#shareholders#1
 sharehlder#shareholder#2
 sharehlders#shareholders#4
@@ -25291,7 +25291,7 @@ sharehoholders#shareholders#2
 shareholderd#shareholders#1
 shareholderes#shareholders#1
 shareholderings#shareholdings#1
-shareholders'funds#shareholders' funds#1
+shareholders'funds#shareholders'__funds#1
 shareholders's#shareholders'#3
 shareholdert#shareholders#1
 shareholdes#shareholders#5
@@ -25302,24 +25302,24 @@ shareholdrs#shareholders#1
 shareholeders#shareholers#1
 shareholer#shareholder#1
 shareholers#shareholders#5
-shareissue#share issue#1
+shareissue#share__issue#1
 sharelholders#shareholders#1
 shareolder#shareholder#1
 shareolding#shareholding#1
-shareotal#share total#1
-shareout#share out#8
+shareotal#share__total#1
+shareout#share__out#8
 sharerholder#shareholder#3
 sharesa#shares#1
 sharese#shares#1
 sharesholder#shareholder#2
 sharesholders#shareholders#10
-sharesin#shares in#1
-sharesissues#shares issues#1
-sharesnil#shares nil#1
+sharesin#shares__in#1
+sharesissues#shares__issues#1
+sharesnil#shares__nil#1
 sharesp#shares#1
-sharesrepurchased#shares repurchased#1
+sharesrepurchased#shares__repurchased#1
 sharess#shares#4
-sharewere#share were#1
+sharewere#share__were#1
 sharheolder#sharholder#3
 sharheolders#sharholders#3
 sharholder#shareholder#4
@@ -25362,7 +25362,7 @@ shennanigans#shenanigans#2
 sheparding#shepherding#1
 shere#share#here#shear#1
 sherholders#shareholders#1
-shestill#she still#1
+shestill#she__still#1
 shevles#shelves#1
 shfit#shift#1
 shgares#shares#2
@@ -25390,7 +25390,7 @@ shiping#shipping#1
 NEshipmair#Shipmair#1
 shipmeent#shipment#1
 shipmenmt#shipment#1
-shipmentsNov#shipments Nov#1
+shipmentsNov#shipments__Nov#1
 shipmnet#shipment#1
 shiponwers#shipowners#1
 shipowers#shipowners#1
@@ -25453,7 +25453,7 @@ shoudn't#shouldn't#1
 shoul#should#2
 shoulD#should#1
 should't#shouldn't#1
-shouldbenefit#should benefit#1
+shouldbenefit#should__benefit#1
 shouldnt#shouldn't#2
 shoulds#should#2
 shouls#shoals#1
@@ -25508,7 +25508,7 @@ sicknesws#sickness#1
 sid#said#side?#33
 sidElined#sidelined#2
 siddelines#sidelines#2
-sidehave#side have#1
+sidehave#side__have#1
 sideing#siding#1
 sidelinde#sidelined#1
 sidelinining#sidelining#2
@@ -25695,7 +25695,7 @@ situaiton#situation#1
 situaitons#situation#1
 situatin#situation#1
 situatioin#situation#1
-situationin#situation in#1
+situationin#situation__in#1
 situatioon#situation#2
 situaton#situation#1
 situtaion#situation#1
@@ -25711,8 +25711,8 @@ six-momth#six-month#1
 six-monhtly#six-monthly#1
 six-monmth#six-month#1
 six-montly#six-monthly#1
-sixmillion#six million#1
-sixmonths#six months#1
+sixmillion#six__million#1
+sixmonths#six__months#1
 sizeabble#sizeable#1
 sizeabe#sizeable#1
 sizeble#sizeable#3
@@ -25745,7 +25745,7 @@ slae#sale#1
 slaes#sales#13
 slainn#slain#1
 slaiughter#slaughter#1
-slalomon#slalom on#1
+slalomon#slalom__on#1
 ?sland's#land's#island's#1
 slasing#slashing#1
 legi_slation#legislation#2
@@ -25774,9 +25774,9 @@ sligtly#slightly#4
 Cslipe#slip#slipe#2
 sliped#slipped#8
 slipedd#slipped#1
-slippageFiscal#slippage Fiscal#1
+slippageFiscal#slippage__Fiscal#1
 slippedg#slipped#1
-slippedtwo#slipped two#1
+slippedtwo#slipped__two#1
 slippped#slipped#1
 slippping#slipping#1
 sliver-plated#silver-plated#1
@@ -25839,9 +25839,9 @@ soa#soya#1
 soack#soak#stock#stack#1
 Ssobre#sobre#sober#3
 socal#social#1
-socalled#so called#2
+socalled#so__called#2
 soccar#soccer#1
-soccer-AEK#soccer - AEK#2
+soccer-AEK#soccer__-__AEK#2
 socer#soccer#5
 soceties#societies#1
 socety#society#1
@@ -25864,11 +25864,11 @@ Csoe#some#rose#2
 soecial#social#1
 soem#some#2
 soemthing#something#1
-sofailure#so failure#1
+sofailure#so__failure#1
 softare#software#1
 softe#softer#2
 softed#softened#1
-softenedto#softened to#3
+softenedto#softened__to#3
 softenend#softened#1
 softenening#softening#1
 softeness#softness#1
@@ -25876,7 +25876,7 @@ softler#softer#1
 softned#softened#1
 softning#softening#1
 softwae#software#1
-softwarservice#software service#1
+softwarservice#software__service#1
 Csoftwear#software#1
 sofware#software#14
 soid#said#1
@@ -25921,16 +25921,16 @@ solitictation#solicitation#1
 sollicit#solicit#1
 sollicited#solicited#1
 soluctions#solutions#1
-solutionpreoducts#solution products#1
+solutionpreoducts#solution__products#1
 solvin#solving#1
 Csom#some#som#4
 sombedy#somebody#1
 sombero-wearing#sombrero-wearing#1
 sombody#somebody#1
 somce#since#some#3
-somearginal#some marginal#1
-somehat#somewhat#some hat#2
-somehere#somewhere#some here#1
+somearginal#some__marginal#1
+somehat#somewhat#some__hat#2
+somehere#somewhere#some__here#1
 somehwat#somewhat#1
 somehwere#somewhere#6
 someome#someone#1
@@ -25981,7 +25981,7 @@ Nsophia#Sophia#1
 sophicated#sophisticated#1
 sophisicated#sophisticated#1
 sophisitcated#sophisticated#1
-sophisticatedand#sophisticated and#1
+sophisticatedand#sophisticated__and#1
 sophisticaton#sophistication#1
 sophisticted#sophisticated#1
 sopkesman#spokesman#1
@@ -26012,7 +26012,7 @@ sould#should#11
 soulder#shoulder#1
 soultion#solution#1
 soundess#soundness#1
-soundnessmust#soundness must#1
+soundnessmust#soundness__must#1
 sourcs#sources#1
 sourees#sources#1
 soures#sources#3
@@ -26037,7 +26037,7 @@ southgern#southern#1
 southren#southern#1
 southrn#southern#1
 southweserly#southwesterly#1
-southwestof#southwest of#1
+southwestof#southwest__of#1
 soutwest#southwest#1
 soutwestern#southwestern#1
 soutwestward#southwestward#1
@@ -26058,16 +26058,16 @@ sovernigty#sovereignty#1
 sovreignty#sovereignty#9
 sovrignty#sovereignty#1
 soybeal#soybean#1
-soybeansEurope#soybeans Europe#1
-soybeansOrion#soybeans Orion#1
+soybeansEurope#soybeans__Europe#1
+soybeansOrion#soybeans__Orion#1
 soybeansT#soybeans#1
-soybeansTibagi#soybeans Tibagi#1
-soybeansTropical#soybeans Tropical#1
-soybeansand#soybeans and#1
+soybeansTibagi#soybeans__Tibagi#1
+soybeansTropical#soybeans__Tropical#1
+soybeansand#soybeans__and#1
 soyben#soybean#1
 soybens#soybeans#1
 soyemal#soymeal#1
-soypelletsCargill#soypellets Cargill#1
+soypelletsCargill#soypellets__Cargill#1
 spactacular#spectacular#1
 spaculated#speculated#1
 spagetti#spaghetti#2
@@ -26077,7 +26077,7 @@ sparkeed#sparked#1
 Csparkline#sparkling#1
 spars#sparse#6
 spashed#splashed#1
-spaton#spat on#1
+spaton#spat__on#1
 spawling#sprawling#1
 ?spayers#sayers#1
 speach#speech#6
@@ -26184,7 +26184,7 @@ spirt#spirit#7
 spirtiual#spiritual#1
 spirts#spirits#1
 spirtual#spiritual#5
-spiteof#spite of#1
+spiteof#spite__of#1
 spititual#spiritual#1
 spkesman#spokesman#3
 spkeswoman#spokeswoman#3
@@ -26254,7 +26254,7 @@ sportscaster#sports-caster#21
 sposition#position#1
 sposnorship#sponsorship#1
 spoted#spotted#1
-spotnext#spot next#2
+spotnext#spot__next#2
 sppech#speech#2
 spplies#supplies#1
 spport#support#1
@@ -26391,7 +26391,7 @@ staellite#satellite#2
 staement#statement#6
 staements#statements#2
 staetment#statement#1
-staffaround#staff around#1
+staffaround#staff__around#1
 stagant#stagnant#1
 staggaring#staggering#1
 staggger#stagger#1
@@ -26400,9 +26400,9 @@ stagnent#stagnant#4
 staight#straight#4
 staion#station#4
 staistics#statistics#1
-stakein#stake in#1
-stakeon#stake on#1
-stalledby#stalled by#1
+stakein#stake__in#1
+stakeon#stake__on#1
+stalledby#stalled__by#1
 stament#statement#testament#2
 stanadards#standards#1
 stanards#standards#1
@@ -26413,7 +26413,7 @@ standad#standard#1
 standads#standards#1
 standands#standards#3
 standard-guage#standard-gauge#1
-standardis#standard is#2
+standardis#standard__is#2
 standared#standard#1
 standareds#standards#1
 standarise#standardise#1
@@ -26427,7 +26427,7 @@ standin#standing#1
 standingsP#standings#1
 standins#standings#1
 standinsg#standings#1
-standowns#stand owns#standdowns#1
+standowns#stand__owns#standdowns#1
 standrad#standard#1
 standrds#standards#1
 standrs#stands#1
@@ -26500,7 +26500,7 @@ stater#state#1
 statesment#statement#1
 statesments#statements#1
 statess#states#2
-statesyet#states yet#1
+statesyet#states__yet#1
 statetement#statement#1
 statetents#statements#1
 statetment#statement#2
@@ -26546,7 +26546,7 @@ steadided#steadied#1
 steading#steadying#1
 steadlily#steadily#2
 steadliy#steadily#1
-steadynot#steady not#3
+steadynot#steady__not#3
 Csteamlined#streamlined#6
 steap#step#1
 stear#steer#1
@@ -26638,7 +26638,7 @@ stobbornly#stubbornly#1
 stoc#stock#4
 stocbroker#stockbroker#1
 stochs#stocks#1
-stock-basedcompensation#stock-based compensation#1
+stock-basedcompensation#stock-based__compensation#1
 stockA#stock#1
 stockbrkers#stockbrokers#1
 stockhlders#stockholders#1
@@ -26654,7 +26654,7 @@ stockplies#stockpiles#2
 stockpliling#stockpiling#1
 stocksholders#stockholders#2
 stockss#stocks#1
-stockswill#stocks will#1
+stockswill#stocks__will#1
 stockton#Stockton#1
 stocm#stock#1
 stocx#stock#2
@@ -26664,7 +26664,7 @@ stoggage#stockage#stoppage#1
 stok#stock#stoke#2
 stokcholders#stockholders#1
 stokebrokerage#stockbrokerage#1
-stolenwhen#stolen when#1
+stolenwhen#stolen__when#1
 stone-trowing#stone-throwing#1
 stong#strong#41
 stonger#stronger#19
@@ -26681,9 +26681,9 @@ storag#storage#2
 storagE#storage#2
 storem#storm#1
 storgae#storage#1
-storiesand#stories and#2
-storieshutto#stories Hutto#1
-storiesin#stories in#2
+storiesand#stories__and#2
+storieshutto#stories__Hutto#1
+storiesin#stories__in#2
 stors#stores#2
 stoudamire#Stoudamire#2
 stox#stocks#2
@@ -26821,9 +26821,9 @@ strik#strike#2
 strike-afffected#strike-affected#1
 Cstrike-wary#strike-weary#1
 striken#stricken#4
-strikerAlessandro#striker Alessandro#1
-strikethat#strike that#1
-stringsof#strings of#1
+strikerAlessandro#striker__Alessandro#1
+strikethat#strike__that#1
+stringsof#strings__of#1
 striong#string#3
 strke#strike#1
 strker#striker#1
@@ -26887,7 +26887,7 @@ stubborness#stubbornness#5
 stucture#structure#8
 stucturing#structuring#2
 studend#student#1
-students'grades#students' grades#1
+students'grades#students'__grades#1
 studes#studies#2
 studing#studying#5
 stuf#stuff#1
@@ -26986,7 +26986,7 @@ subscibers#subscribers#9
 subsciption#subscription#3
 subsciptions#subscriptions#2
 subscrber#subscriber#1
-subscribersand#subscribers and#1
+subscribersand#subscribers__and#1
 subscribr#subscriber#1
 subscribtion#subscription#1
 subscripition#subscription#1
@@ -27142,7 +27142,7 @@ sucessive#successive#9
 sucessor#successor#9
 sucessors#successors#1
 sucfessful#successful#1
-suchas#such as#1
+suchas#such__as#1
 suchs#such#13
 sucicide#suicide#1
 sucide#suicide#2
@@ -27186,9 +27186,9 @@ suffiently#sufficiently#2
 suffificient#sufficient#1
 suficient#sufficient#3
 suga#sugar#1
-sugarBangkok#sugar Bangkok#6
-sugarEstinave#sugar Estinave#1
-sugarLachmann#sugar Lachmann#1
+sugarBangkok#sugar__Bangkok#6
+sugarEstinave#sugar__Estinave#1
+sugarLachmann#sugar__Lachmann#1
 suged#surged#2
 sugegsted#suggested#2
 suger#sugar#1
@@ -27414,7 +27414,7 @@ surchargesm#surcharges#1
 surchases#purchases#1
 sured#soared?#2
 surery#surgery#1
-surfCONTROL#surf CONTROL#1
+surfCONTROL#surf__CONTROL#1
 surfacant#surfactant#2
 surfice#suffice#1
 surgar#sugar#1
@@ -27590,7 +27590,7 @@ swifty#swiftly#2
 swiming#swimming#1
 swinged#swung#1
 Nswiss#Swiss#38
-switchor#switch or#1
+switchor#switch__or#1
 switchs#switches#4
 swithced#switched#1
 swithched#switched#1
@@ -27669,7 +27669,7 @@ syria#Syria#5
 syringa#syringe#1
 sysem#system#1
 systematicaly#systematically#1
-systemsloss#systems loss#1
+systemsloss#systems__loss#1
 systen#system#3
 systens#systems#2
 systesm#systems#1
@@ -27731,13 +27731,13 @@ takeonver#takeover#1
 takeovEr#takeover#1
 takeovber#takeover#1
 takeoveer#takeover#1
-takeplace#take place#1
+takeplace#take__place#1
 takever#takeover#5
 takevoer#takeover#4
 takevover#takeover#1
 takin#taking#3
-takingrisks#taking risks#1
-takingup#taking up#1
+takingrisks#taking__risks#1
+takingup#taking__up#1
 takng#taking#1
 takoever#takeover#5
 takover#takeover#32
@@ -27820,7 +27820,7 @@ tax-efficent#tax-efficient#1
 tax-exem#tax-exempt#5
 taxatation#taxation#1
 taxayers#taxpayers#1
-taxedprofit#taxed profit#1
+taxedprofit#taxed__profit#1
 taxess#taxes#3
 taxpapyers#taxpayers#1
 taxs#taxes#1
@@ -27830,7 +27830,7 @@ tbat#that#bat#1
 tbe#the#9
 tclassifying#classifying#1
 te#the#61
-teaand#tea and#1
+teaand#tea__and#1
 teachers's#teacher's#1
 ?teal-coloured#teak-coloured#1
 teammed#teamed#1
@@ -27856,7 +27856,7 @@ techncial#technical#11
 techncially#technically#1
 techncials#technicals#2
 technica#technical#1
-technicaldraw#technical draw#1
+technicaldraw#technical__draw#1
 technicalites#technicalities#1
 technicaly#technically#1
 technican#technician#1
@@ -27955,7 +27955,7 @@ telecommuniocations#telecommunications#1
 telecommunmications#telecommunications#1
 telecommunnications#telecommunications#2
 telecommunters#telecommuters#1
-telecomsloss#telecoms loss#1
+telecomsloss#telecoms__loss#1
 telecomuncations#telecommunications#1
 telecomunication#telecommunication#3
 telecomunications#telecommunications#48
@@ -28081,8 +28081,8 @@ teritorial#territorial#1
 teritories#territories#1
 teritorry#territory#1
 teritory#territory#7
-termLong#term Long#1
-termMedium#term Medium#2
+termLong#term__Long#1
+termMedium#term__Medium#2
 termals#thermals#1
 termendous#tremendous#1
 termial#terminal#1
@@ -28096,7 +28096,7 @@ termns#terms#1
 termor#tremor#1
 termperatures#temperatures#2
 termporary#temporary#1
-termsof#terms of#1
+termsof#terms__of#1
 ternal#in_ternal#2
 ternms#terms#1
 terorism#terrorism#2
@@ -28188,126 +28188,126 @@ than-exected#than-expected#2
 thanm#than#1
 thanr#than#1
 thant#than#2
-thanthe#than the#1
+thanthe#than__the#1
 thaqt#that#2
 thare's#there's#3
 thasn#than#1
 thast#that#2
-thatColes#that Coles#1
-thatDanes#that Danes#1
-thatEgypt#that Egypt#1
+thatColes#that__Coles#1
+thatDanes#that__Danes#1
+thatEgypt#that__Egypt#1
 thata#that#1
-thatdelivered#that delivered#1
+thatdelivered#that__delivered#1
 thath#that#1
-thatin#that in#1
+thatin#that__in#1
 thatm#that#1
 thatn#that#1
 thatr#that#1
 thats#that#6
 thatt#that#1
-thatthrived#that thrived#1
+thatthrived#that__thrived#1
 thaty#that#2
 thave#have#1
 Cthay#than#they#29
 thd#the#3
-the''City#the City#2
+the''City#the__City#2
 the've#they've#1
-theAmount#the Amount#161
-theArc#the Arc#1
-theAt#the At#2
-theCollege#the College#1
-theDecember#the December#1
-theFor#the For#10
-theFord#the Ford#1
-theGerman#the German#1
-theNorthern#the Northern#1
-theTories#the Tories#1
-theZajedno#the Zajedno#1
-theacquisition#the acquisition#1
-theand#the and#1
+theAmount#the__Amount#161
+theArc#the__Arc#1
+theAt#the__At#2
+theCollege#the__College#1
+theDecember#the__December#1
+theFor#the__For#10
+theFord#the__Ford#1
+theGerman#the__German#1
+theNorthern#the__Northern#1
+theTories#the__Tories#1
+theZajedno#the__Zajedno#1
+theacquisition#the__acquisition#1
+theand#the__and#1
 theapeutic#therapeutic#1
 theat#threat#6
 theaten#threaten#1
 theatened#threatened#1
 theatens#threatens#2
 theats#threats#2
-theattack#the attack#2
+theattack#the__attack#2
 theatwes#theatres#1
-thebInternet#the Internet#1
+thebInternet#the__Internet#1
 ?Nthebe#Thebe#113
-thebreak-up#the break-up#1
-thebusiness#the business#1
-thecalculated#the calculated#1
-thecharge#the charge#1
-thecompany#the company#2
-thecontroversial#the controversial#1
-thecountry#the country#1
+thebreak-up#the__break-up#1
+thebusiness#the__business#1
+thecalculated#the__calculated#1
+thecharge#the__charge#1
+thecompany#the__company#2
+thecontroversial#the__controversial#1
+thecountry#the__country#1
 thed#the#3
-thedispute#the dispute#1
+thedispute#the__dispute#1
 thee#three#15
 thee-day#three-day#1
 thee-part#three-part#3
 theeir#their#1
 theems#teams#1
 theemselves#themselves#1
-theend#the end#1
+theend#the__end#1
 theese#these#2
-theexchange#the exchange#1
-theface#the face#1
-thefirm#the firm#1
-thefirst#the first#1
-theformer#the former#2
-thegroup#the group#2
-theguerrilla#the guerrilla#1
-theheavily-armed#the heavily-armed#1
+theexchange#the__exchange#1
+theface#the__face#1
+thefirm#the__firm#1
+thefirst#the__first#1
+theformer#the__former#2
+thegroup#the__group#2
+theguerrilla#the__guerrilla#1
+theheavily-armed#the__heavily-armed#1
 thei#their#2
-theindustry#the industry#1
-theinitial#the initial#1
-theinterpretation#the interpretation#1
-theiraccuracy#their accuracy#1
+theindustry#the__industry#1
+theinitial#the__initial#1
+theinterpretation#the__interpretation#1
+theiraccuracy#their__accuracy#1
 theis#theirs#thesis#1
 theives#thieves#1
-thejoint#the joint#1
-thelapsing#the lapsing#1
-thelatest#the latest#1
+thejoint#the__joint#1
+thelapsing#the__lapsing#1
+thelatest#the__latest#1
 thelr#their#1
 them-park#theme-park#1
-themachines#the machines#1
+themachines#the__machines#1
 themal#thermal#1
-themarket#the market#1
-thematch#the match#1
-themedia#the media#1
+themarket#the__market#1
+thematch#the__match#1
+themedia#the__media#1
 themelves#themselves#4
-themerger#the merger#1
+themerger#the__merger#1
 themeselves#themselves#3
 themeslves#themselves#1
-themfor#them for#1
+themfor#them__for#1
 themn#them#1
-themonring#the morning#2
+themonring#the__morning#2
 themseleves#themselves#1
 themseves#themselves#3
 themsleves#themselves#12
 themslves#themselves#5
 then-incument#then-incumbent#1
-thenew#the new#4
+thenew#the__new#4
 thengs#things#1
-thenight#the night#1
+thenight#the__night#1
 thenmselves#themselves#2
 thenselves#themselves#1
 theorhetically#theoretically#1
-theoriginal#the original#1
+theoriginal#the__original#1
 theoritically#theoretically#3
 theoritician#theoretician#1
-theoutstanding#the outstanding#1
-thepackage#the package#1
-thepast#the past#1
-thephysical#the physical#1
-thepoor#the poor#1
-thepostal#the postal#1
-thepotential#the potential#1
-theprofit#the profit#1
-theproposed#the proposed#1
-thequarter#the quarter#1
+theoutstanding#the__outstanding#1
+thepackage#the__package#1
+thepast#the__past#1
+thephysical#the__physical#1
+thepoor#the__poor#1
+thepostal#the__postal#1
+thepotential#the__potential#1
+theprofit#the__profit#1
+theproposed#the__proposed#1
+thequarter#the__quarter#1
 ther#their#58
 theraby#therapy#1
 therafter#thereafter#1
@@ -28320,16 +28320,16 @@ thereapies#therapies#1
 therefo#therefor#1
 Cthereforce#therefore#3
 therefter#thereafter#2
-theregion#the region#1
-theregular#the regular#1
+theregion#the__region#1
+theregular#the__regular#1
 thereore#therefore#1
 therepy#therapy#1
 therer#there#2
 theres#theirs#1
 therew#there#1
-therewere#there were#1
+therewere#there__were#1
 therfore#therefore#6
-theright#the right#1
+theright#the__right#1
 therir#their#1
 thermial-fired#thermal-fired#3
 therof#thereof#2
@@ -28337,29 +28337,29 @@ therory#theory#1
 therough#thorough#1
 therre#there#1
 theselves#themselves#1
-theside#the side#1
-thesite#the site#1
+theside#the__side#1
+thesite#the__site#1
 thest#these#1
 thet#the#8
-thethird#the third#1
+thethird#the__third#1
 theuir#their#1
-theuntry's#the country's#1
+theuntry's#the__country's#1
 theur#their#1
 theves#thieves#1
 thew#the#7
-theweekened#the weekened#1
+theweekened#the__weekened#1
 thewy#they#1
 they'e#they've#1
 theyn#they#1
 theyr#their#1
-theysaid#they said#1
+theysaid#they__said#1
 theyt#they#1
-theyvwere#they were#1
+theyvwere#they__were#1
 thge#the#4
 thgose#those#1
 thh#the#1
 thhe#the#5
-thheaters#the heaters#2
+thheaters#the__heaters#2
 thhrough#through#2
 thi#this#6
 thia#this#1
@@ -28375,7 +28375,7 @@ thiner#thinner#3
 thiness#thinness#1
 thinik#think#1
 thinish#thinnish#1
-thinkthe#think the#1
+thinkthe#think__the#1
 thir#third#4
 third-quarer#third-quarter#2
 thirdlliners#thirdliners#1
@@ -28383,8 +28383,8 @@ thire#their#1
 thirft#thrift#1
 thirfts#thrifts#1
 thirs#theirs#1
-thisprecious#this precious#1
-thisyear#this year#1
+thisprecious#this__precious#1
+thisyear#this__year#1
 thje#the#4
 thjis#this#1
 thm#the#1
@@ -28406,7 +28406,7 @@ thorought#thorough#1
 thorugh#thorough#28
 thorughout#throughout#4
 thos#those#1
-thosein#those in#1
+thosein#those__in#1
 thost#those#1
 thosuands#thousands#1
 thouands#thousands#1
@@ -28439,7 +28439,7 @@ threatend#threatened#8
 threatended#threatened#3
 threateneed#threatened#1
 threatenes#threatens#1
-threatenthe#threaten the#1
+threatenthe#threaten__the#1
 threater#theater#2
 threathen#threaten#4
 threathened#threatened#7
@@ -28463,10 +28463,10 @@ three-paragrpah#three-paragraph#1
 three-quartes#three-quarters#1
 three-quaters#three-quarters#1
 three-year-olld#three-year-old#1
-threeFor#three For#2
+threeFor#three__For#2
 threee#three#3
 threer-cent#three-cent#1
-threespecialist#three specialist#1
+threespecialist#three__specialist#1
 threholds#thresholds#1
 threough#through#1
 threshhold#threshold#70
@@ -28571,11 +28571,11 @@ tillion#trillion#1
 tilte#title#1
 tim#time#3
 time-ensitive#time-sensitive#1
-timebeing#time being#4
+timebeing#time__being#4
 timechatrer#timecharter#1
 timefram#timeframe#1
-timehe#time he#1
-timein#time in#1
+timehe#time__he#1
+timein#time__in#1
 Ctimerland#timberland#1
 timetible#timetable#1
 timimg#timing#3
@@ -28587,7 +28587,7 @@ timtables#timetables#2
 timte#time#1
 timwe#time#1
 Ctinny#tiny#tinny#1
-tinyradioactive#tiny radioactive#1
+tinyradioactive#tiny__radioactive#1
 tioght#tight#1
 tis#this#5
 titaniam#titanium#1
@@ -28613,45 +28613,45 @@ tmorrow#tomorrow#1
 tneir#their#1
 tnext#next#1
 to-be-constucted#to-be-constructed#1
-toAlan#to Alan#2
-toHalf#to Half#1
-toJune#to June#1
+toAlan#to__Alan#2
+toHalf#to__Half#1
+toJune#to__June#1
 toaday#today#1
 toagether#together#1
 toal#total#7
 toally#totally#1
-toarbitration#to arbitration#1
-toavert#to avert#1
+toarbitration#to__arbitration#1
+toavert#to__avert#1
 tobacca#tobacco#1
 tobaccco#tobacco#3
 tobaco#tobacco#1
 tobacoo#tobacco#2
 tobbaco#tobacco#9
-tobe#to be#2
+tobe#to__be#2
 tocacco#tobbaco#2
 tock#stock#1
-tocombating#to combating#1
+tocombating#to__combating#1
 ?tod#sod#rod#god#toe#2
 todards#towards#1
 todl#told#2
 toea#toes#8
 toegther#together#1
-toeight-week#to eight-week#1
-toend#to end#1
-toextend#to extend#1
+toeight-week#to__eight-week#1
+toend#to__end#1
+toextend#to__extend#1
 tofether#together#1
-tofor#to for#1
+tofor#to__for#1
 togather#together#2
-toget#to get#1
-togo#Togo#to go#2
+toget#to__get#1
+togo#Togo#to__go#2
 togther#together#16
-tohave#to have#1
+tohave#to__have#1
 toild#told#toiled#2
 toilettry#toiletry#3
 ?toing#towing#going#2
-toinstall#to install#1
-toits#to its#1
-toitself#to itself#1
+toinstall#to__install#1
+toits#to__its#1
+toitself#to__itself#1
 tol#told#5
 tolds#told#11
 tolf#told#2
@@ -28659,7 +28659,7 @@ tolod#told#1
 ?tolors#tolars#1
 tolulene#toluene#1
 tomatos#tomatoes#2
-tomiss#to miss#1
+tomiss#to__miss#1
 tommorow#tomorrow#9
 tommorow's#tomorrow's#9
 tommorows#tomorrows#1
@@ -28670,9 +28670,9 @@ tomoorrow#tomorrow#1
 tomororw#tomorrow#1
 tomorow#tomorrow#3
 tomorow's#tomorrow's#1
-tomorrowtemp#tomorrow temp#1
+tomorrowtemp#tomorrow__temp#1
 tomorrrow#tomorrow#1
-tomove#to move#1
+tomove#to__move#1
 tomrrow#tomorrow#2
 ?tonees#tonnes#4
 Ctones#tonnes#tones#119
@@ -28681,12 +28681,12 @@ toness#tonnes#2
 tonmorrow#tomorrow#1
 tonn#ton#tonne#4
 tonneage#tonnage#1
-tonneand#tonne and#1
+tonneand#tonne__and#1
 tonnege#tonnage#1
-tonnesDecember#tonnes December#1
-tonnesFebruary#tonnes February#2
-tonnesFirst#tonnes First#1
-tonnesSecond#tonnes Second#1
+tonnesDecember#tonnes__December#1
+tonnesFebruary#tonnes__February#2
+tonnesFirst#tonnes__First#1
+tonnesSecond#tonnes__Second#1
 tonness#tonnes#2
 tonnges#tonnes#1
 tonnne#tonnes#10
@@ -28696,7 +28696,7 @@ tonns#tonnes#2
 tonsilitis#tonsillitis#3
 Ntony#Tony#7
 toods#toads#tools#1
-toomuch#too much#1
+toomuch#too__much#1
 toon#ton#1
 toones#tonnes#2
 toonnes#tonnes#1
@@ -28708,16 +28708,16 @@ toothpast#toothpaste#1
 top-lin#top-line#1
 top-performaing#top-performing#1
 toping#topping#1
-toplay#to play#1
+toplay#to__play#1
 topor#torpor#1
 toppped#topped#1
 topppy#toppy#1
-topproducing#top producing#1
-toprovide#to provide#1
+topproducing#top__producing#1
+toprovide#to__provide#1
 topsey-turvey#topsy-turvy#1
 ?toques#torques#6
 tor#to#for#tor#12
-torace#to race#1
+torace#to__race#1
 torid#torrid#2
 Moni_toring#Monitoring#1
 tornados#tornados#7
@@ -28729,23 +28729,23 @@ tortiously#tortuously#1
 tortous#tortuous#1
 torturous#tortuous#11
 tortuure#torture#1
-toruble#to ruble#1
+toruble#to__ruble#1
 torusim#tourism#1
 torward#toward#1
 tose#rose#1
-tosell#to sell#2
-toset#to set#1
-toship#to ship#1
+tosell#to__sell#2
+toset#to__set#1
+toship#to__ship#1
 tosn#tons#1
 tospide#topside#1
-tostocks#to stocks#1
+tostocks#to__stocks#1
 Ctot#Dtot#12
 totall#total#1
 totalld#totaled#1
 totalls#totals#2
 totallying#totalling#1
 totaly#totally#3
-tothe#to the#3
+tothe#to__the#3
 totled#totaled#1
 totoal#total#1
 totol#total#1
@@ -28773,12 +28773,12 @@ tourament#tournament#2
 touraments#tournaments#1
 touranment#tournament#1
 tourisim#tourism#51
-tourismseason#tourism season#1
+tourismseason#tourism__season#1
 touristm#tourism#1
 tourmoil#turmoil#1
 tournamant#tournament#3
 tournamemt#tournament#1
-tournamenton#tournament on#1
+tournamenton#tournament__on#1
 tournamernt#tournament#1
 tournamnent#tournament#1
 tournement#tournament#1
@@ -28789,7 +28789,7 @@ toursim#tourism#7
 toursit#tourist#1
 toursits#tourists#1
 tousands#thousands#4
-towardsmending#towards mending#1
+towardsmending#towards__mending#1
 towars#towards#1
 towmorrow#tomorrow#1
 towms#towns#1
@@ -28818,12 +28818,12 @@ tradeds#trades#1
 tradee#trade#1
 tradeed#traded#1
 tradegy#tragedy#1
-traderaffiliated#trader affiliated#4
-traderat#trader at#1
-traderin#trader in#4
-tradersaid#trader said#1
+traderaffiliated#trader__affiliated#4
+traderat#trader__at#1
+traderin#trader__in#4
+tradersaid#trader__said#1
 tradersd#traders#1
-tradeson#trades on#1
+tradeson#trades__on#1
 tradgedy#tragedy#1
 tradh#trade#1
 tradig#trading#1
@@ -28831,8 +28831,8 @@ NEtradigrain#Tradigrain#1
 tradiing#trading#1
 tradiitonal#traditional#3
 tradin#trading#2
-tradingafter#trading after#1
-tradingon#trading on#1
+tradingafter#trading__after#1
+tradingon#trading__on#1
 tradional#traditional#4
 tradionalists#traditionalists#1
 tradionally#traditionally#6
@@ -29051,8 +29051,8 @@ tremedously#tremendously#1
 tremendeous#tremendous#1
 tremours#tremors#2
 tremporarily#temporarily#1
-trendUpward#trend Upward#1
-trendnot#trend not#3
+trendUpward#trend__Upward#1
+trendnot#trend__not#3
 trendr#trend#1
 trensparently#transparently#2
 trepassed#trespassed#1
@@ -29081,7 +29081,7 @@ triatholon#triathlon#1
 tribemen#tribesmen#1
 Ctribesemen#tribesmen#1
 tributuries#tributaries#1
-triedto#tried to#1
+triedto#tried__to#1
 triger#trigger#1
 trigered#triggered#1
 trigerred#triggered#8
@@ -29105,7 +29105,7 @@ trimphal#triumphal#2
 tring#ring#thing#6
 trioka#troika#1
 tripl#triple#1
-triplein#triple in#1
+triplein#triple__in#1
 tripple#triple#2
 tripple-deck#triple-deck#1
 tripple-decker#triple-decker#1
@@ -29134,7 +29134,7 @@ trooops#troops#1
 trops#troops#3
 troubLE#trouble#2
 troubed#troubled#2
-troubledrail#troubled rail#1
+troubledrail#troubled__rail#1
 troublessome#troublesome#1
 troublsome#troublesome#1
 Ctroughout#throughout#1
@@ -29149,11 +29149,11 @@ trtader#trader#1
 trtading#trading#1
 trucheons#truncheons#3
 truck-borme#truck-borne#1
-truckers'dispute#truckers' dispute#1
-truckers'strike#truckers' strike#2
+truckers'dispute#truckers'__dispute#1
+truckers'strike#truckers'__strike#2
 truckin#trucking#1
 truckinG#trucking#2
-truelife#true life#2
+truelife#true__life#2
 truely#truly#4
 truimph#triumph#1
 truimphs#triumphs#1
@@ -29191,7 +29191,7 @@ Ctumulous#tumultuous#2
 tumultous#tumultuous#4
 Utung#Chun_tung#1
 Ntunis#Tunis#1
-tunnelto#tunnel to#1
+tunnelto#tunnel__to#1
 tunnnel#tunnel#3
 tunover#turnover#5
 tunred#turned#1
@@ -29206,7 +29206,7 @@ Nturkmenistan#Turkmenistan#1
 turmoIl#turmoil#2
 turnaronds#turnarounds#1
 turnaroud#turnaround#2
-turnedEurope#turned Europe#1
+turnedEurope#turned__Europe#1
 turnede#turned#2
 turnmoil#turmoil#1
 turnoer#turnover#1
@@ -29242,14 +29242,14 @@ Atwl#two#1
 two-dau#two-day#1
 two-dy#two-day#2
 two-wheeelers#two-wheelers#1
-twoHunan#two Hunan#2
-twoShandong#two Shandong#2
-twoTianjin#two Tianjin#2
+twoHunan#two__Hunan#2
+twoShandong#two__Shandong#2
+twoTianjin#two__Tianjin#2
 twoards#towards#1
 twon#town#1
 twop#two#2
-twoto#two to#1
-twovolume#two volume#1
+twoto#two__to#1
+twovolume#two__volume#1
 twow#two#2
 twp#two#1
 twwo#two#1
@@ -29392,7 +29392,7 @@ unappy#unhappy#1
 unaswered#unanswered#2
 unathorised#unauthorised#3
 unauadited#unaudited#2
-unauditedaudited#unaudited audited#1
+unauditedaudited#unaudited__audited#1
 unauditied#unaudited#1
 unauthoritzed#unauthorised#2
 unautorised#unauthorised#1
@@ -29498,7 +29498,7 @@ unday's#Sunday's#1
 undboutedly#undoubtedly#1
 undcr#under#1
 unde#under#2
-undecidedloss#undecided loss#2
+undecidedloss#undecided__loss#2
 undecisively#indecisively#1
 undedited#unedited#1
 undeer#under#1
@@ -29551,7 +29551,7 @@ undersirable#undesirable#1
 Cunderstable#understandable#1
 understadable#understandable#1
 understading#understanding#5
-understandeach#understand each#1
+understandeach#understand__each#1
 understatment#understatement#1
 understatnding#understanding#1
 understimated#underestimated#1
@@ -29569,7 +29569,7 @@ undertanding#understanding#3
 undertood#understood#1
 undertstated#understated#1
 undervaling#undervaluing#1
-underwhich#under which#1
+underwhich#under__which#1
 underwight#underweight#1
 underwirter#underwriter#1
 underwite#underwrite#2
@@ -29577,8 +29577,8 @@ underwiter#underwriter#1
 underwiters#underwriters#2
 underwitings#underwritings#1
 underwriten#underwritten#2
-underwriterGoldman#underwriter Goldman#1
-underwriterMorgan#underwriter Morgan#1
+underwriterGoldman#underwriter__Goldman#1
+underwriterMorgan#underwriter__Morgan#1
 underwriteres#underwriters#1
 underwritng#underwriting#3
 underwrittend#underwritten#1
@@ -29745,11 +29745,11 @@ unionion#unionism#union#1
 unionisn#unionism#1
 unionsts#unionists#1
 unisclosed#undisclosed#1
-unitcontinued#unit continued#1
+unitcontinued#unit__continued#1
 uniterrupted#uninterrupted#2
 unitil#until#1
 unitl#until#6
-unitlinked#unit linked#1
+unitlinked#unit__linked#1
 univeral#universal#6
 univerisities#universities#1
 univeristy#university#7
@@ -29982,7 +29982,7 @@ upcomming#upcoming#1
 upcomminng#upcoming#1
 updata#update#1
 updation#updating#1
-upday#up day#6
+upday#up__day#6
 updbraided#upbraided#1
 updward#upward#1
 upe#up#dupe#1
@@ -29990,7 +29990,7 @@ uped#upend#duped#2
 uper-level#upper-level#1
 uperannuation#superannuation#1
 uperating#operating#1
-upfollowing#up following#2
+upfollowing#up__following#2
 upgared#upgraded#1
 upgrage#upgrade#1
 upheaveals#upheavals#1
@@ -30016,12 +30016,12 @@ uprgraded#upgraded#1
 uproaor#uproar#1
 uprooar#uproar#1
 upseting#upsetting#1
-upslightly#up slightly#2
+upslightly#up__slightly#2
 upsteam#upstream#1
 upstraem#upstream#1
 upswin#upswing#2
 upternd#uptrend#1
-upthe#up the#1
+upthe#up__the#1
 uptil#until#1
 uptodate#up-to-date#1
 uptrendd#uptrend#1
@@ -30063,7 +30063,7 @@ ussues#issues#1
 ?usted#busted#ousted#1
 ustralia's#Australia's#1
 usuage#usage#1
-usualintervening#usual intervening#1
+usualintervening#usual__intervening#1
 usualy#usually#3
 usuaully#usually#1
 usuing#using#1
@@ -30081,8 +30081,8 @@ utililities#utilities#1
 utilisaition#utilisation#1
 utilisition#utilisation#1
 utilites#utilities#10
-utilities'geographic#utilities' geographic#1
-utilitiesowners#utilities owners#1
+utilities'geographic#utilities'__geographic#1
+utilitiesowners#utilities__owners#1
 utilitised#utilised#1
 utilitites#utilities#1
 utilitiy#utility#2
@@ -30160,9 +30160,9 @@ vallue#value#1
 vally#valley#1
 valuble#valuable#1
 value-addded#value-added#1
-valueCHARGE#value CHARGE#1
+valueCHARGE#value__CHARGE#1
 valueing#valuing#2
-valuesin#values in#1
+valuesin#values__in#1
 valulation#valuation#1
 valutation#valuation#2
 valution#valuation#5
@@ -30236,8 +30236,8 @@ ventiliating#ventilating#1
 ventillation#ventilation#1
 ventrue#venture#2
 ventuer#venture#1
-venturea#venture a#2
-venturesowned#ventures owned#1
+venturea#venture__a#2
+venturesowned#ventures__owned#1
 venure#venture#4
 venutre#venture#2
 venuture#venture#2
@@ -30261,7 +30261,7 @@ versis#versus#1
 verson#version#1
 versupply#oversupply#1
 versuss#versus#1
-versusthe#versus the#1
+versusthe#versus__the#1
 vertfying#verifying#1
 ?vertible#veritable#convertible#1
 verticle#vertical#1
@@ -30269,7 +30269,7 @@ veru#very#1
 verus#versus#13
 verusus#versus#1
 verything#everything#1
-veryvery#very very#1
+veryvery#very__very#1
 veseel#vessel#2
 vesel#vessel#1
 vesels#vessels#2
@@ -30319,7 +30319,7 @@ vice-present#vice-president#1
 vice-presiden#vice-president#1
 vice-presiodent#vice-president#1
 NEvicente#Vicente#1
-viceversa#vice versa#1
+viceversa#vice__versa#1
 ?Sa_vicevic#Savicevic#1
 vicintity#vicinity#1
 vicintiy#vicinity#1
@@ -30407,7 +30407,7 @@ visists#visits#1
 visitbility#visibility#1
 visiti#visit#1
 visitng#visiting#2
-?visitorseived#visitor received#1
+?visitorseived#visitor__received#1
 Fvisons##2
 vist#visit#14
 visted#visited#5
@@ -30480,20 +30480,20 @@ Cvolu#Fvoulu#volume#3
 Cvolue#volume#Fvolue#2
 voluem#volume#3
 volulme#volume#1
-volumeAug#volume Aug#9
-volumeMay#volume May#3
+volumeAug#volume__Aug#9
+volumeMay#volume__May#3
 volumeS#volumes#1
-volumeby#volume by#1
-volumeillion#volume million#1
-volumekt#volume kt#1
+volumeby#volume__by#1
+volumeillion#volume__million#1
+volumekt#volume__kt#1
 volumel#volume#1
-volumeno#volume no#2
-volumeof#volume of#1
+volumeno#volume__no#2
+volumeof#volume__of#1
 volumess#volumes#1
-volumeswere#volumes were#2
+volumeswere#volumes__were#2
 volumet#volume#1
 volumne#volume#1
-volumshares#volume shares#1
+volumshares#volume__shares#1
 volunatarily#voluntarily#1
 volunatary#voluntary#1
 volunatry#voluntary#1
@@ -30523,7 +30523,7 @@ vsels#vessels#1
 vshare#share#1
 vsiiting#visiting#1
 vsiting#visiting#1
-vsnil#vs nil#16
+vsnil#vs__nil#16
 vte-counting#vote-counting#1
 ?vua#via#1
 vulenerable#vulnerable#1
@@ -30546,7 +30546,7 @@ wE'll#we'll#1
 wIth#with#1
 Awa#was#382
 waS#was#1
-Cwaa#was#was a#2
+Cwaa#was#was__a#2
 waarning#warning#2
 ?wabt#want#1
 waether#weather#2
@@ -30568,12 +30568,12 @@ wam-weather#warm-weather#1
 Cwan't#want#wasn't#2
 Cwand#and#wand#27
 wanred#warned#3
-?wantct#want ct#1
+?wantct#want__ct#1
 wantin#wanting#1
 wantsd#wants#1
 warant#warrant#1
 warants#warrants#5
-warby#war by#1
+warby#war__by#1
 warend#warned#1
 warhips#warships#4
 waring#warning#1
@@ -30592,27 +30592,27 @@ warrnats#warrants#1
 warrrant#warrant#1
 warrrants#warrants#1
 ?warry#wary#1
-wasboosted#was boosted#1
-wascommitted#was committed#1
+wasboosted#was__boosted#1
+wascommitted#was__committed#1
 wase#was#vase#1
-wasgood#was good#1
+wasgood#was__good#1
 Nwashington#Washington#3
 wasked#asked#1
-waslaunching#was launching#1
-wasnecessary#was necessary#1
-wasno#was no#1
-wasnot#was not#1
+waslaunching#was__launching#1
+wasnecessary#was__necessary#1
+wasno#was__no#1
+wasnot#was__not#1
 ?wasnts#wants#1
-wasover#was over#1
+wasover#was__over#1
 wass#was#7
 wast#was#2
-wastaken#was taken#2
+wastaken#was__taken#2
 wasteage#wastage#1
-wasterminated#was terminated#1
+wasterminated#was__terminated#1
 wasy#ways#1
 wat#was#what#1
-watch-uncertain#watch uncertain#4
-watchedthe#watched the#1
+watch-uncertain#watch__uncertain#4
+watchedthe#watched__the#1
 watchet#watched#1
 wateering#watering#1
 water-bourne#water-borne#1
@@ -30634,14 +30634,14 @@ waveirng#wavering#1
 Cwavier#waiver#6
 waviers#waivers#1
 wayne#Wayne#1
-Awbe#would be#1
+Awbe#would__be#1
 wbetween#between#1
 wcket#wicket#1
 wckets#wickets#1
 wdespread#widespread#2
 we'er#we're#1
 we'lll#we'll#1
-we'refocusing#we're focusing#1
+we'refocusing#we're__focusing#1
 ?wea#we#2
 weahter#weather#1
 Cweak-on-weak#week-on-week#1
@@ -30668,16 +30668,16 @@ weaponary#weaponry#2
 weapoons#weapons#1
 weapopns#weapons#1
 weapos#weapons#2
-weare#we are#were#1
+weare#we__are#were#1
 wearning#wearing#weaning#1
-weas#was#we as#6
+weas#was#we__as#6
 weaspons#weapons#1
 weast#west#east#1
 Cweat#wheat#west#
 weater-related#wheater-related#1
 weath#weather#wealth#2
 weathe#weather#2
-weathewas#weather was#1
+weathewas#weather__was#1
 weathly#wealthy#1
 weathy#wealthy#1
 Nwebb#Webb#1
@@ -30688,8 +30688,8 @@ weeek#week#10
 weeekend#weekend#5
 weeekly#weekly#3
 weeeks#weeks#5
-week'sreshuffle#week's reshuffle#1
-weekPrevious#week Previous#31
+week'sreshuffle#week's__reshuffle#1
+weekPrevious#week__Previous#31
 weeka#weeks#1
 weekely#weekly#3
 weekemd#weekend#1
@@ -30702,8 +30702,8 @@ weeknd#weekend#1
 Cweekness#weakness#1
 weeks's#week's#7
 weeksd#weeks#1
-weeksthe#weeks the#1
-?weeksweeksweeks#weeks weeks weeks#1
+weeksthe#weeks__the#1
+?weeksweeksweeks#weeks__weeks__weeks#1
 weekv#week#1
 weeky#weekly#1
 weel#well#8
@@ -30743,13 +30743,13 @@ welll#well#1
 wen#when#2
 weould#would#1
 wepaons#weapons#2
-?weparing#was preparing#were preparing#1
+?weparing#was__preparing#were__preparing#1
 wepons#weapons#1
 wer#were#we#9
 wera#were#1
 werec#were#1
-weremade#were made#1
-werepart#were part#1
+weremade#were__made#1
+werepart#were__part#1
 werer#were#2
 weres#were#1
 werew#were#1
@@ -30772,7 +30772,7 @@ wharehouse#warehouse#3
 wharehouses#warehouses#1
 wharve#wharf#1
 whatesoever#whatsoever#1
-whatevery#what every#1
+whatevery#what__every#1
 whathever#whatever#1
 whatosever#whatsoever#1
 whatsover#whatsoever#10
@@ -30782,17 +30782,17 @@ whci#which#1
 whcih#which#15
 whe#when#2
 whear#wheat#1
-wheatFertimport#wheat Fertimport#1
-wheatOrion#wheat Orion#1
-wheatfor#wheat for#1
+wheatFertimport#wheat__Fertimport#1
+wheatOrion#wheat__Orion#1
+wheatfor#wheat__for#1
 wheather#weather#6
-wheatunder#wheat under#1
+wheatunder#wheat__under#1
 whee#where#1
 wheether#whether#1
 whehter#whether#1
 wheile#while#1
 wheir#their#where#1
-whencompared#when compared#1
+whencompared#when__compared#1
 whenver#whenever#1
 wheover#whoever#1
 wher#where#2
@@ -30801,7 +30801,7 @@ wheras#whereas#3
 wherby#whereby#2
 whereabourts#whereabouts#1
 whereever#wherever#3
-wherefrom#where from#1
+wherefrom#where__from#1
 wherewithall#wherewithal#2
 wherther#whether#1
 wheter#whether#4
@@ -30816,14 +30816,14 @@ whic#which#3
 whice#which#1
 whicha#which#1
 whichb#which#1
-whichclosed#which closed#1
+whichclosed#which__closed#1
 whichg#which#1
 whichhunt#witchhunt#1
 whichi#which#1
-whichis#which is#2
+whichis#which__is#2
 whicho#which#2
 whichs#which#1
-whichwill#which will#1
+whichwill#which__will#1
 whick#which#1
 whie#white#while#3
 whiel#while#1
@@ -30834,8 +30834,8 @@ whihc#which#5
 whiich#which#3
 whil#while#1
 whilc#while#2
-whileawareness#while awareness#1
-whileorders#while orders#1
+whileawareness#while__awareness#1
+whileorders#while__orders#1
 ?whilever#while#whichever#1
 whille#while#1
 whilr#while#1
@@ -30857,7 +30857,7 @@ whlesale#wholesale#1
 whlie#while#1
 whn#when#1
 whnn#when#2
-whobeat#who beat#1
+whobeat#who__beat#1
 whoch#which#4
 whoe#who#3
 whoelsale#wholesale#1
@@ -30867,7 +30867,7 @@ wholelsale#wholesale#1
 wholesaleing#wholesaling#2
 Cwholescale#wholesale#1
 wholesesale#wholesale#1
-wholetime#whole time#1
+wholetime#whole__time#1
 wholl#wholly#1
 wholly-owend#wholly-owned#1
 wholsale#wholesale#7
@@ -30899,9 +30899,9 @@ widenened#widened#3
 widenening#widening#2
 widepspread#widespread#1
 widepsread#widespread#3
-widereserve#wide reserve#1
+widereserve#wide__reserve#1
 widespead#widespread#3
-widespreadtariff#widespread tariff#1
+widespreadtariff#widespread__tariff#1
 widespred#widespread#1
 widly#wildly#1
 widpesread#widespread#1
@@ -30941,7 +30941,7 @@ wilil#will#1
 Cwiliness#willingness#1
 Cwiling#willing#2
 wilingness#willingness#1
-willbe#will be#1
+willbe#will__be#1
 willd#willed#1
 willful#wilful#38
 willfully#wilfully#15
@@ -30954,15 +30954,15 @@ willingfully#wilfully#1
 willingnes#willingness#1
 willl#will#16
 willling#willing#2
-willnot#will not#1
+willnot#will__not#1
 willo#will#1
-willrevive#will revive#1
+willrevive#will__revive#1
 wim#whim#2
-winddown#wind down#2
+winddown#wind__down#2
 windonw#window#1
-windown#window#wind down#2
+windown#window#wind__down#2
 winesses#witnesses#1
-winningthe#winning the#1
+winningthe#winning__the#1
 winnner#winner#4
 winnners#winners#1
 winnng#winning#1
@@ -30987,12 +30987,12 @@ witb#with#1
 witchunt#witchhunt#1
 witdrawn#withdrawn#1
 wite#write#1
-with-the#with the#1
-withMelbourne#with Melbourne#1
-withState#with State#1
-withThursday#with Thursday#1
-withViri#with Viri#1
-witha#with a#3
+with-the#with__the#1
+withMelbourne#with__Melbourne#1
+withState#with__State#1
+withThursday#with__Thursday#1
+withViri#with__Viri#1
+witha#with__a#3
 withcraft#witchcraft#3
 withdawals#withdrawals#1
 withdawing#withdrawing#1
@@ -31014,7 +31014,7 @@ withholde-from-sale#withhold-from-sale#1
 withiin#within#1
 withing#within#17
 withiout#without#1
-withjournalists#with journalists#1
+withjournalists#with__journalists#1
 withnesses#witnesses#2
 withoiut#without#1
 withold#withhold#25
@@ -31024,7 +31024,7 @@ withou#without#1
 withould#withhold#1
 withour#without#2
 withouth#without#2
-withprices#with prices#1
+withprices#with__prices#1
 withraw#withdraw#5
 withrawal#withdrawal#1
 withrawals#withdrawals#1
@@ -31038,7 +31038,7 @@ witht#with#6
 withtout#without#1
 withy#with#2
 witin#within#3
-witnessedthe#witnessed the#1
+witnessedthe#witnessed__the#1
 witnesseses#witnesses#2
 witnessess#witnesses#3
 witnessses#witnesses#3
@@ -31077,7 +31077,7 @@ womans#woman's#1
 womanswear#womenswear#1
 wome's#women's#1
 wonded#wounded#wondered#1
-wonfame#won fame#1
+wonfame#won__fame#1
 wonnded#wounded#1
 wont't#won't#1
 woold#would#1
@@ -31099,9 +31099,9 @@ workd's#word's#work's#1
 worke#worker#1
 workeres#workers#1
 workering#working#1
-workers'Union#workers' Union#1
+workers'Union#workers'__Union#1
 workers's#worker's#2
-workerstime#workers' time#1
+workerstime#workers'__time#1
 workes#workers#5
 workfoce#workforce#1
 workfroce#workforce#1
@@ -31135,7 +31135,7 @@ worthwile#worthwhile#8
 wost#worst#1
 woth#with#worth#5
 woud#would#14
-woudbe#would be#1
+woudbe#would__be#1
 woudl#would#4
 woudn't#wouldn't#1
 wouild#would#3
@@ -31143,13 +31143,13 @@ woul#would#4
 would'nt#wouldn't#1
 would't#wouldn't#2
 woulda#would#1
-wouldbe#would be#3
+wouldbe#would__be#3
 wouldl#would#3
 wouldn#wouldn't#3
 wouldnt#wouldn't#3
-wouldrise#would rise#1
+wouldrise#would__rise#1
 woulds#would#3
-wouldturn#would turn#1
+wouldturn#would__turn#1
 woule#would#1
 woull#would#1
 woulld#would#3
@@ -31253,26 +31253,26 @@ yeaer's#year's#1
 yeaer-round#year-round#1
 yealy#yearly#3
 year'sd#year's#1
-year'strong#year strong#1
+year'strong#year__strong#1
 year-earler#year-earlier#1
 year-erlier#year-earlier#1
 year-on-Year#year-on-year#5
 year-on-yaer#year-on-year#2
 year-on-yar#year-on-year#2
 year-ony-ear#year-on-year#1
-yearago#year ago#1
-yearat#year at#2
+yearago#year__ago#1
+yearat#year__at#2
 Cyeard#year#yard#2
-yearfor#year for#1
+yearfor#year__for#1
 yearj#year#1
 yearlier#earlier#1
-yearmay#year may#1
+yearmay#year__may#1
 yearr-end#year-end#1
 years's#year's#8
 yearsd#years#1
-yearsfor#years for#1
+yearsfor#years__for#1
 yeart#year#1
-yearto#year to#2
+yearto#year__to#2
 yeas#year#yeast#3
 yeat#year#2
 yeat=r#year#1
@@ -31348,5 +31348,5 @@ ziz-zagging#zig-zagging#2
 zizagging#zigzagging#1
 zloltys#zlotys#2
 zlots#zlotys#1
-zlotysagainst#zlotys against#1
+zlotysagainst#zlotys__against#1
 zloyts#zlotys#11
