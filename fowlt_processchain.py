@@ -204,10 +204,15 @@ class LexiconModule(AbstractModule):
     NAME = "lexiconmodule"
     
     def process_result(self):
+
+	#Load exceptions
+	exceptions = open('lexiconchecker/exceptions','r').read().strip().split('\n');
+	print(exceptions);
+
         if self.done:
             #Reading module output and integrating in FoLiA document
             for word, fields in self.readcolumnedoutput(self.outputdir + 'lexicon_checker.test.out'):                                            
-                if len(fields) >= 2:
+                if len(fields) >= 2 and str(word).lower() not in exceptions:
                     #Add correction suggestion
                     #(The last field holds the suggestion? (assumption, may differ per module))
 		    suggs = [];
