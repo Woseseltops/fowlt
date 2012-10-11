@@ -1,5 +1,3 @@
-* Betere error als document niet gevonden is
-* Lexiconmodule moet geen hoofdletters gaan verbeteren
 * Alles met cijfers uit het lexicon?
 * Kopje EXPANDING in the readme verder uitwerken: hoe zit het met testen en thresholds?
 * Optie toevoegen bij confusible_trainer.py: automatisch tokenizeren.

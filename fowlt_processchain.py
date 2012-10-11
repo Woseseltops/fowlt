@@ -212,9 +212,12 @@ class LexiconModule(AbstractModule):
                     #(The last field holds the suggestion? (assumption, may differ per module))
 		    suggs = [];
 		    for x in fields[1:]:
-                        if str(x.strip()) != str(word):
+                        
+                        if str(x.strip()).lower() != str(word).lower():
                             suggs.append(x.strip());
-                    self.addcorrection(word, suggestions=suggs, cls='Looked-like-frequent-word', annotator=self.NAME)
+                        
+                    if len(suggs) > 0:
+                        self.addcorrection(word, suggestions=suggs, cls='Looked-like-frequent-word', annotator=self.NAME)
             f.close()                  
     
     def run(self):                
@@ -432,7 +435,7 @@ class WoprCheckerModule(AbstractModule):
 
 #Add all desired modules classes here here:
 
-modules = [ErrorListModule,LexiconModule,ItsItsModule,YoureYourModule,ThanThenModule,LoseLooseModule,WhoWhichThatModule,WhetherWeatherModule,LieLayModule,EffectAffectModule,SplitCheckerModule,RunOnCheckerModule]
+modules = [WoprCheckerModule,ErrorListModule,LexiconModule,ItsItsModule,YoureYourModule,ThanThenModule,LoseLooseModule,WhoWhichThatModule,WhetherWeatherModule,LieLayModule,EffectAffectModule,SplitCheckerModule,RunOnCheckerModule]
 
 ##########################################################################################
 
