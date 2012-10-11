@@ -254,7 +254,7 @@ class SplitCheckerModule(AbstractModule): #(merges in FoLiA terminology)
             f.close()                  
             for i, mergewords in enumerate(merges):
                 #Add correction suggestion
-                newword = text[i]
+                newword = text[i].strip()
                 self.mergecorrection(newword, mergewords, cls='space-error', annotator=self.NAME)    
     
     def run(self):                
