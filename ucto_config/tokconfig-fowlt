@@ -44,7 +44,6 @@ UNKNOWN=.
 [PREFIXES]
 
 [SUFFIXES]
-n't
 'm
 'd
 've
@@ -56,12 +55,15 @@ rd
 th
 
 [TOKENS]
-'t
 you're
 they're
 it's
+doesn't
+don't
 's
 're
+n't
+'t
 
 [UNITS]
 km
