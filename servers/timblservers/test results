@@ -1,0 +1,121 @@
+LOSE LOOSE
+
+overall accuracy:        0.873786  (540/618)
+0.500	abstaining:    344 out of    371 correct = 0.927224
+0.600	abstaining:    341 out of    366 correct = 0.931694
+0.700	abstaining:    315 out of    321 correct = 0.981308
+0.750	abstaining:    314 out of    320 correct = 0.981250
+0.800	abstaining:    313 out of    319 correct = 0.981191
+0.850	abstaining:    307 out of    313 correct = 0.980831
+0.900	abstaining:    290 out of    295 correct = 0.983051
+0.925	abstaining:    282 out of    285 correct = 0.989474
+0.950	abstaining:    255 out of    258 correct = 0.988372
+0.975	abstaining:    112 out of    112 correct = 1.000000
+0.990	abstaining:     77 out of     77 correct = 1.000000
+
+IT'S ITS
+
+overall accuracy:        0.899332  (23433/26056)
+0.500	abstaining:  19182 out of  20778 correct = 0.923188
+0.600	abstaining:  18910 out of  20297 correct = 0.931665
+0.700	abstaining:  17969 out of  19206 correct = 0.935593
+0.750	abstaining:  17749 out of  18913 correct = 0.938455
+0.800	abstaining:  16933 out of  17820 correct = 0.950224
+0.850	abstaining:  15703 out of  16246 correct = 0.966576
+0.900	abstaining:  15031 out of  15492 correct = 0.970243
+0.925	abstaining:  13801 out of  14177 correct = 0.973478
+0.950	abstaining:  12006 out of  12254 correct = 0.979762
+0.975	abstaining:   7644 out of   7757 correct = 0.985433
+0.990	abstaining:   1160 out of   1170 correct = 0.991453
+
+YOU'RE YOUR
+
+overall accuracy:        0.880986  (6788/7705)
+0.500	abstaining:   5327 out of   5927 correct = 0.898768
+0.600	abstaining:   5187 out of   5711 correct = 0.908247
+0.700	abstaining:   5025 out of   5499 correct = 0.913803
+0.750	abstaining:   4882 out of   5313 correct = 0.918878
+0.800	abstaining:   4431 out of   4717 correct = 0.939368
+0.850	abstaining:   3990 out of   4171 correct = 0.956605
+0.900	abstaining:   3525 out of   3646 correct = 0.966813
+0.925	abstaining:   3242 out of   3325 correct = 0.975038
+0.950	abstaining:   2506 out of   2545 correct = 0.984676
+0.975	abstaining:   1892 out of   1910 correct = 0.990576
+0.990	abstaining:    650 out of    653 correct = 0.995406
+
+THAN THEN
+
+overall accuracy:        0.927921  (26404/28455)
+0.500	abstaining:  21542 out of  22313 correct = 0.965446
+0.600	abstaining:  21347 out of  21998 correct = 0.970406
+0.700	abstaining:  21007 out of  21543 correct = 0.975120
+0.750	abstaining:  20770 out of  21233 correct = 0.978194
+0.800	abstaining:  20505 out of  20900 correct = 0.981100
+0.850	abstaining:  20015 out of  20323 correct = 0.984845
+0.900	abstaining:  19564 out of  19808 correct = 0.987682
+0.925	abstaining:  19127 out of  19320 correct = 0.990010
+0.950	abstaining:  18235 out of  18378 correct = 0.992219
+0.975	abstaining:  15920 out of  15998 correct = 0.995124
+0.990	abstaining:  14047 out of  14092 correct = 0.996807
+
+WHO WHICH THAT
+
+overall accuracy:        0.764727  (45463/59450)
+0.500	abstaining:  31114 out of  37383 correct = 0.832303
+0.600	abstaining:  27782 out of  31837 correct = 0.872632
+0.700	abstaining:  24185 out of  26550 correct = 0.910923
+0.750	abstaining:  22550 out of  24330 correct = 0.926839
+0.800	abstaining:  20801 out of  22071 correct = 0.942458
+0.850	abstaining:  19144 out of  20075 correct = 0.953624
+0.900	abstaining:  16600 out of  17204 correct = 0.964892
+0.925	abstaining:  14761 out of  15227 correct = 0.969396
+0.950	abstaining:  11706 out of  11977 correct = 0.977373
+0.975	abstaining:   6292 out of   6373 correct = 0.987290
+0.990	abstaining:   2529 out of   2544 correct = 0.994104
+
+WHETHER WEATHER
+
+overall accuracy:        0.913158  (1041/1140)
+0.500	abstaining:    549 out of    579 correct = 0.948187
+0.600	abstaining:    544 out of    568 correct = 0.957746
+0.700	abstaining:    514 out of    534 correct = 0.962547
+0.750	abstaining:    510 out of    530 correct = 0.962264
+0.800	abstaining:    507 out of    526 correct = 0.963878
+0.850	abstaining:    506 out of    525 correct = 0.963810
+0.900	abstaining:    387 out of    395 correct = 0.979747
+0.925	abstaining:    371 out of    376 correct = 0.986702
+0.950	abstaining:    314 out of    318 correct = 0.987421
+0.975	abstaining:    238 out of    242 correct = 0.983471
+0.990	abstaining:    220 out of    223 correct = 0.986547
+
+EFFECT AFFECT
+
+overall accuracy:        0.917836  (916/998)
+0.500	abstaining:    801 out of    867 correct = 0.923875
+0.600	abstaining:    658 out of    696 correct = 0.945402
+0.700	abstaining:    642 out of    670 correct = 0.958209
+0.750	abstaining:    642 out of    670 correct = 0.958209
+0.800	abstaining:    642 out of    669 correct = 0.959641
+0.850	abstaining:    629 out of    656 correct = 0.958841
+0.900	abstaining:    597 out of    620 correct = 0.962903
+0.925	abstaining:    576 out of    597 correct = 0.964824
+0.950	abstaining:    457 out of    476 correct = 0.960084
+0.975	abstaining:    207 out of    210 correct = 0.985714
+0.990	abstaining:     55 out of     55 correct = 1.000000
+
+LIE LAY
+
+overall accuracy:        0.714422  (748/1047)
+0.500	abstaining:    352 out of    472 correct = 0.745763
+0.600	abstaining:    245 out of    289 correct = 0.847751
+0.700	abstaining:    184 out of    199 correct = 0.924623
+0.750	abstaining:    158 out of    167 correct = 0.946108
+0.800	abstaining:    152 out of    160 correct = 0.950000
+0.850	abstaining:    123 out of    130 correct = 0.946154
+0.900	abstaining:     73 out of     76 correct = 0.960526
+0.925	abstaining:     66 out of     69 correct = 0.956522
+0.950	abstaining:     29 out of     30 correct = 0.966667
+0.975	abstaining:      0 out of      0 correct =     -nan
+0.990	abstaining:      0 out of      0 correct =     -nan
+
+
