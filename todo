@@ -1,3 +1,8 @@
+* Settings standaard uploaden
+* Output uploaden
+* Client settings
+* Retrainen
+* Thresholds
 * Kopje EXPANDING in the readme verder uitwerken: hoe zit het met testen en thresholds?
 * Optie toevoegen bij confusible_trainer.py: automatisch tokenizeren.
 

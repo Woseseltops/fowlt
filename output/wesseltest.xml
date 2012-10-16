@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='utf-8'?>
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="wesseltest" version="0.8.2" generator="pynlpl.formats.folia-v0.8.2.25">
+  <metadata type="native">
+    <annotations>
+      <token-annotation annotator="ucto" annotatortype="auto" set="/home/wessel/Bureaublad/fowlt/ucto_config/tokconfig-fowlt"/>
+      <correction-annotation set="fowltset"/>
+      <errordetection-annotation set="fowltset"/>
+    </annotations>
+  </metadata>
+  <text xml:id="wesseltest.text">
+    <p xml:id="wesseltest.p.1">
+      <s xml:id="wesseltest.p.1.s.1">
+        <w xml:id="wesseltest.p.1.s.1.w.1" class="WORD">
+          <t>I</t>
+        </w>
+        <w xml:id="wesseltest.p.1.s.1.w.2" class="WORD">
+          <t>make</t>
+        </w>
+        <correction xml:id="wesseltest.p.1.s.1.correction.1" annotator="errorlistmodule" class="Frequent-mistake" datetime="2012-10-11T15:55:03">
+          <current>
+            <w xml:id="wesseltest.p.1.s.1.w.3" class="WORD">
+              <t>alot</t>
+              <correction xml:id="wesseltest.p.1.s.1.w.3.correction.1" annotator="errorlistmodule" annotatortype="auto" class="Frequent-mistake" datetime="2012-10-11T15:55:03">
+                <suggestion auth="no">
+                  <t>allot</t>
+                </suggestion>
+              </correction>
+            </w>
+          </current>
+          <suggestion auth="no">
+            <w xml:id="wesseltest.p.1.s.1.w.7">
+              <t>a</t>
+            </w>
+            <w xml:id="wesseltest.p.1.s.1.w.8">
+              <t>lot</t>
+            </w>
+          </suggestion>
+        </correction>
+        <w xml:id="wesseltest.p.1.s.1.w.4" class="WORD">
+          <t>of</t>
+        </w>
+        <correction xml:id="wesseltest.p.1.s.1.correction.2" annotator="runoncheckermodule" class="space-error" datetime="2012-10-11T15:55:03">
+          <current>
+            <w xml:id="wesseltest.p.1.s.1.w.5" class="WORD">
+              <t>largeerrors</t>
+            </w>
+          </current>
+          <suggestion auth="no">
+            <w xml:id="wesseltest.p.1.s.1.w.9">
+              <t>large</t>
+            </w>
+            <w xml:id="wesseltest.p.1.s.1.w.10">
+              <t>errors
+</t>
+            </w>
+          </suggestion>
+        </correction>
+        <w xml:id="wesseltest.p.1.s.1.w.6" class="PUNCTUATION">
+          <t>.</t>
+        </w>
+      </s>
+      <s xml:id="wesseltest.p.1.s.2">
+        <w xml:id="wesseltest.p.1.s.2.w.1" class="WORD">
+          <t>I</t>
+        </w>
+        <correction xml:id="wesseltest.p.1.s.2.correction.1" annotator="splitcheckermodule" class="space-error" datetime="2012-10-11T15:55:03">
+          <current>
+            <w xml:id="wesseltest.p.1.s.2.w.2" class="WORD">
+              <t>somet</t>
+            </w>
+            <w xml:id="wesseltest.p.1.s.2.w.3" class="WORD">
+              <t>imes</t>
+            </w>
+          </current>
+          <suggestion auth="no">
+            <w xml:id="wesseltest.p.1.s.2.w.14">
+              <t>sometimes</t>
+            </w>
+          </suggestion>
+        </correction>
+        <w xml:id="wesseltest.p.1.s.2.w.4" class="WORD">
+          <t>also</t>
+        </w>
+        <w xml:id="wesseltest.p.1.s.2.w.5" class="WORD">
+          <t>forget</t>
+        </w>
+        <w xml:id="wesseltest.p.1.s.2.w.6" class="WORD">
+          <t>to</t>
+        </w>
+        <w xml:id="wesseltest.p.1.s.2.w.7" class="WORD">
+          <t>give</t>
+        </w>
+        <w xml:id="wesseltest.p.1.s.2.w.8" class="WORD">
+          <t>the</t>
+        </w>
+        <correction xml:id="wesseltest.p.1.s.2.correction.2" annotator="splitcheckermodule" class="space-error" datetime="2012-10-11T15:55:03">
+          <current>
+            <w xml:id="wesseltest.p.1.s.2.w.9" class="WORD">
+              <t>textf</t>
+              <correction xml:id="wesseltest.p.1.s.2.w.9.correction.1" annotator="lexiconmodule" annotatortype="auto" class="Looked-like-frequent-word" datetime="2012-10-11T15:55:03">
+                <suggestion auth="no">
+                  <t>text</t>
+                </suggestion>
+              </correction>
+            </w>
+            <w xml:id="wesseltest.p.1.s.2.w.10" class="WORD">
+              <t>ile</t>
+            </w>
+          </current>
+          <suggestion auth="no">
+            <w xml:id="wesseltest.p.1.s.2.w.15">
+              <t>textfile</t>
+            </w>
+          </suggestion>
+        </correction>
+        <w xml:id="wesseltest.p.1.s.2.w.11" class="WORD">
+          <t>some</t>
+        </w>
+        <w xml:id="wesseltest.p.1.s.2.w.12" class="WORD">
+          <t>space</t>
+        </w>
+        <w xml:id="wesseltest.p.1.s.2.w.13" class="PUNCTUATION">
+          <t>.</t>
+        </w>
+      </s>
+      <s xml:id="wesseltest.p.1.s.3">
+        <w xml:id="wesseltest.p.1.s.3.w.1" class="WORD">
+          <t>I</t>
+        </w>
+        <w xml:id="wesseltest.p.1.s.3.w.2" class="WORD">
+          <t>like</t>
+        </w>
+        <w xml:id="wesseltest.p.1.s.3.w.3" class="WORD">
+          <t>pretty</t>
+        </w>
+        <w xml:id="wesseltest.p.1.s.3.w.4" class="WORD">
+          <t>pictures</t>
+        </w>
+        <w xml:id="wesseltest.p.1.s.3.w.5" space="no" class="PUNCTUATION">
+          <t>.</t>
+        </w>
+      </s>
+      <s xml:id="wesseltest.p.1.s.4">
+        <w xml:id="wesseltest.p.1.s.4.w.1" class="WORD">
+          <t>This</t>
+        </w>
+        <w xml:id="wesseltest.p.1.s.4.w.2" class="WORD">
+          <t>happend</t>
+          <correction xml:id="wesseltest.p.1.s.4.w.2.correction.1" annotator="errorlistmodule" annotatortype="auto" class="Frequent-mistake" datetime="2012-10-11T15:55:03">
+            <suggestion auth="no">
+              <t>happened</t>
+            </suggestion>
+          </correction>
+        </w>
+        <w xml:id="wesseltest.p.1.s.4.w.3" class="WORD">
+          <t>in</t>
+        </w>
+        <w xml:id="wesseltest.p.1.s.4.w.4" class="NUMBER">
+          <t>1985</t>
+        </w>
+        <w xml:id="wesseltest.p.1.s.4.w.5" space="no" class="PUNCTUATION">
+          <t>.</t>
+        </w>
+      </s>
+    </p>
+  </text>
+</FoLiA>

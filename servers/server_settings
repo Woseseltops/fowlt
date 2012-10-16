@@ -1,3 +1,3 @@
-timblserver_location ../../timblserver-1.5/src/timblserver
+timblserver_location timblserver
 wopr_location wopr
 wopr_large_corpus 0
