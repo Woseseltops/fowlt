@@ -16,7 +16,7 @@ import pynlpl.formats.folia as folia
 #################### ABSTRACT MODULE  #################################
 
 class AbstractModule(object): #Do not modify
-    def __init__(self, doc, rootdir, outputdir, idmap, threshold):
+    def __init__(self, doc, rootdir, outputdir, idmap, threshold, settings):
         self.doc = doc
         self.rootdir = rootdir
         self.outputdir = outputdir
@@ -24,6 +24,7 @@ class AbstractModule(object): #Do not modify
         self.failed = False
         self.idmap = idmap
         self.threshold = threshold
+	self.settings = settings
         super(AbstractModule, self).__init__()
 
     def errout(self,msg):
@@ -300,7 +301,7 @@ class ItsItsModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker it\\\'s its ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'itsits.test.out')
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker it\\\'s its ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'itsits.test.out ' + self.settings['timblserver_address'])
 
 class YoureYourModule(AbstractModule):
     NAME = "you'reyourmodule"
@@ -317,7 +318,7 @@ class YoureYourModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker you\\\'re your ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'youreyour.test.out')
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker you\\\'re your ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'youreyour.test.out ' + self.settings['timblserver_address'])
 
 class ThanThenModule(AbstractModule):
     NAME = "thanthenmodule"
@@ -333,7 +334,7 @@ class ThanThenModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker than then ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'thanthen.test.out')
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker than then ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'thanthen.test.out ' + self.settings['timblserver_address'])
 
 class LoseLooseModule(AbstractModule):
     NAME = "loseloosemodule"
@@ -350,7 +351,7 @@ class LoseLooseModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker lose loose ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'loseloose.test.out')
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker lose loose ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'loseloose.test.out ' + self.settings['timblserver_address'])
 
 class EffectAffectModule(AbstractModule):
     NAME = "effectaffectmodule"
@@ -367,7 +368,7 @@ class EffectAffectModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker effect affect ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'effectaffect.test.out')
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker effect affect ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'effectaffect.test.out ' + self.settings['timblserver_address'])
 
 class LieLayModule(AbstractModule):
     NAME = "lielaymodule"
@@ -384,7 +385,7 @@ class LieLayModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker lie lay ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'lielay.test.out')
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker lie lay ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'lielay.test.out ' + self.settings['timblserver_address'])
 
 class WhetherWeatherModule(AbstractModule):
     NAME = "whetherweathermodule"
@@ -401,7 +402,7 @@ class WhetherWeatherModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker whether weather ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'whetherweather.test.out')
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker whether weather ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'whetherweather.test.out ' + self.settings['timblserver_address'])
 
 class WhoWhichThatModule(AbstractModule):
     NAME = "whowhichthatmodule"
@@ -418,7 +419,7 @@ class WhoWhichThatModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/3confusible_checker who which that ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'whowhichthat.test.out')
+        self.runcmd(self.rootdir + 'confusiblechecker/3confusible_checker who which that ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'whowhichthat.test.out ' + self.settings['timblserver_address'])
 
 class WoprCheckerModule(AbstractModule):
     NAME = "woprcheckermodule"
@@ -434,7 +435,7 @@ class WoprCheckerModule(AbstractModule):
         
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'woprchecker/wopr_checker ' + self.rootdir + 'woprchecker/wopr_exceptions ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'wopr_checker.test.out')
+        self.runcmd(self.rootdir + 'woprchecker/wopr_checker ' + self.rootdir + 'woprchecker/wopr_exceptions ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'wopr_checker.test.out ' + self.settings['wopr_address'])
 
 ###################### MODULE DECLARATION  ###############################################
 
@@ -485,6 +486,7 @@ if sys.argv[1] == 'clam':
     
 else:
     standalone = True
+
     try:
         inputfile = sys.argv[1];
         if len(sys.argv) >= 3:
@@ -492,16 +494,27 @@ else:
     except:
         print >>sys.stderr, "Syntax: processchain.py [inputfile]"
         sys.exit(1)
+
+    #Get threshold
     try:
         threshold = int(sys.argv[3])
     except:
         threshold = 0.50
 
+    #Get input file
     try:
         open(inputfile);
     except:
         print >>sys.stderr, "Input file does not exist";
         sys.exit(1);
+
+    #Get settings
+    raw_settings = open('client_settings','r').readlines();
+    settings = {};
+
+    for i in raw_settings:
+        key, value = i.split(' ');
+        settings[key] = value[:-1];
 
     rootdir = ''
     outputdir = 'output/' #stdout
@@ -588,7 +601,7 @@ for i in range(threads):
     thread.setDaemon(True)  
     thread.start()  
 
-modules = [ Module(doc,rootdir,outputdir,idmap, threshold) for Module in modules ]
+modules = [ Module(doc,rootdir,outputdir,idmap, threshold, settings) for Module in modules ]
 for module in modules:
     queue.put(module)
 
