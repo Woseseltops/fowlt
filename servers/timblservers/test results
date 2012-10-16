@@ -118,4 +118,47 @@ overall accuracy:        0.714422  (748/1047)
 0.975	abstaining:      0 out of      0 correct =     -nan
 0.990	abstaining:      0 out of      0 correct =     -nan
 
+THEY'RE THEIR THERE
 
+overall accuracy:        0.882664  (6680/7568)
+0.500	abstaining:   4148 out of   4403 correct = 0.942085
+0.600	abstaining:   3964 out of   4175 correct = 0.949461
+0.700	abstaining:   3355 out of   3502 correct = 0.958024
+0.750	abstaining:   3146 out of   3267 correct = 0.962963
+0.800	abstaining:   2712 out of   2802 correct = 0.967880
+0.850	abstaining:   2440 out of   2498 correct = 0.976781
+0.900	abstaining:   2102 out of   2143 correct = 0.980868
+0.925	abstaining:   1907 out of   1940 correct = 0.982990
+0.950	abstaining:   1599 out of   1623 correct = 0.985213
+0.975	abstaining:    899 out of    909 correct = 0.988999
+0.990	abstaining:    436 out of    438 correct = 0.995434
+
+DON'T DOESN'T
+
+overall accuracy:        0.906997  (3189/3516)
+0.500	abstaining:   2377 out of   2487 correct = 0.955770
+0.600	abstaining:   2339 out of   2427 correct = 0.963741
+0.700	abstaining:   2217 out of   2277 correct = 0.973650
+0.750	abstaining:   2184 out of   2231 correct = 0.978933
+0.800	abstaining:   2168 out of   2211 correct = 0.980552
+0.850	abstaining:   2141 out of   2181 correct = 0.981660
+0.900	abstaining:   2018 out of   2040 correct = 0.989216
+0.925	abstaining:   1996 out of   2018 correct = 0.989098
+0.950	abstaining:   1917 out of   1934 correct = 0.991210
+0.975	abstaining:   1777 out of   1792 correct = 0.991629
+0.990	abstaining:    952 out of    955 correct = 0.996859
+
+TO TOO TWO
+
+overall accuracy:        0.894817  (18818/21030)
+0.500	abstaining:  13923 out of  14626 correct = 0.951935
+0.600	abstaining:  13751 out of  14363 correct = 0.957391
+0.700	abstaining:  13512 out of  14041 correct = 0.962325
+0.750	abstaining:  13097 out of  13535 correct = 0.967639
+0.800	abstaining:  12293 out of  12646 correct = 0.972086
+0.850	abstaining:  11359 out of  11611 correct = 0.978296
+0.900	abstaining:   9560 out of   9728 correct = 0.982730
+0.925	abstaining:   8772 out of   8907 correct = 0.984843
+0.950	abstaining:   7190 out of   7279 correct = 0.987773
+0.975	abstaining:   3712 out of   3747 correct = 0.990659
+0.990	abstaining:   1651 out of   1659 correct = 0.995178

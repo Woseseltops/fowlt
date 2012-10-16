@@ -208,7 +208,6 @@ class LexiconModule(AbstractModule):
 
 	#Load exceptions
 	exceptions = open('lexiconchecker/exceptions','r').read().strip().split('\n');
-	print(exceptions);
 
         if self.done:
             #Reading module output and integrating in FoLiA document
