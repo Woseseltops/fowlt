@@ -35,7 +35,7 @@ NUMBER=-?(?:[\.,]?\p{N}+)+
 
 CURRENCY=\p{Sc}
 
-WORD=[\p{L}\p{Mn}]+
+WORD=[\p{L}\p{Mn}]+'?[\p{L}\p{Mn}]+
 
 PUNCTUATION=\p{P}
 
@@ -44,9 +44,6 @@ UNKNOWN=.
 [PREFIXES]
 
 [SUFFIXES]
-'m
-'d
-'ve
 
 [ORDINALS]
 st
@@ -55,15 +52,6 @@ rd
 th
 
 [TOKENS]
-you're
-they're
-it's
-doesn't
-don't
-'s
-'re
-n't
-'t
 
 [UNITS]
 km
