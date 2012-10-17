@@ -23,9 +23,17 @@ class AbstractModule(object): #Do not modify
         self.done = False
         self.failed = False
         self.idmap = idmap
-        self.threshold = threshold
+        self.accuracy_level = self.set_accuracy_level(threshold);
 	self.settings = settings
         super(AbstractModule, self).__init__()
+
+        if threshold in ['SA','A','T']:
+            if self.accuracy_level:
+                self.threshold = self.accuracy_level[threshold];
+            else:
+                self.threshold = 0.5
+        else:            
+            self.threshold = threshold;
 
     def errout(self,msg):
         s = "[" + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + '] PROCESSING-CHAIN ['+self.NAME+']: ' + msg        
@@ -72,6 +80,9 @@ class AbstractModule(object): #Do not modify
             
         f.close()
 
+    def set_accuracy_level(self,threshold):
+
+        return False;
 
     def addcorrection(self, word, **kwargs  ):                
     
@@ -168,7 +179,7 @@ class AbstractModule(object): #Do not modify
 
 class ErrorListModule(AbstractModule):
     NAME = "errorlistmodule"
-    
+ 
     def process_result(self):                
         if self.done:
             #Reading module output and integrating in FoLiA document
@@ -288,6 +299,9 @@ class RunOnCheckerModule(AbstractModule): #(splits in FoLiA terminology)
 class ItsItsModule(AbstractModule):
     NAME = "it'sitsmodule"
 
+    def set_accuracy_level(self,threshold):
+        return {'SA':0.990,'A':0.990,'T':0.8};
+
     def process_result(self):
         if self.done:
             #Reading module output and integrating in FoLiA document
@@ -304,6 +318,9 @@ class ItsItsModule(AbstractModule):
 
 class YoureYourModule(AbstractModule):
     NAME = "you'reyourmodule"
+
+    def set_accuracy_level(self,threshold):
+        return {'SA':0.990,'A':0.975,'T':0.850};
 
     def process_result(self):
         if self.done:
@@ -322,6 +339,9 @@ class YoureYourModule(AbstractModule):
 class ThanThenModule(AbstractModule):
     NAME = "thanthenmodule"
 
+    def set_accuracy_level(self,threshold):
+        return {'SA':0.975,'A':0.925,'T':0.5};
+
     def process_result(self):
         if self.done:
             #Reading module output and integrating in FoLiA document
@@ -337,6 +357,9 @@ class ThanThenModule(AbstractModule):
 
 class LoseLooseModule(AbstractModule):
     NAME = "loseloosemodule"
+
+    def set_accuracy_level(self,threshold):
+        return {'SA':0.990,'A':0.990,'T':0.7};
 
     def process_result(self):
         if self.done:
@@ -355,6 +378,9 @@ class LoseLooseModule(AbstractModule):
 class EffectAffectModule(AbstractModule):
     NAME = "effectaffectmodule"
 
+    def set_accuracy_level(self,threshold):
+        return {'SA':0.990,'A':0.990,'T':0.850};
+
     def process_result(self):
         if self.done:
             #Reading module output and integrating in FoLiA document
@@ -371,6 +397,9 @@ class EffectAffectModule(AbstractModule):
 
 class LieLayModule(AbstractModule):
     NAME = "lielaymodule"
+
+    def set_accuracy_level(self,threshold):
+        return {'SA':0.990,'A':0.990,'T':0.925};
 
     def process_result(self):
         if self.done:
@@ -389,6 +418,9 @@ class LieLayModule(AbstractModule):
 class WhetherWeatherModule(AbstractModule):
     NAME = "whetherweathermodule"
 
+    def set_accuracy_level(self,threshold):
+        return {'SA':0.990,'A':0.990,'T':0.6};
+
     def process_result(self):
         if self.done:
             #Reading module output and integrating in FoLiA document
@@ -405,6 +437,9 @@ class WhetherWeatherModule(AbstractModule):
 
 class WhoWhichThatModule(AbstractModule):
     NAME = "whowhichthatmodule"
+
+    def set_accuracy_level(self,threshold):
+        return {'SA':0.990,'A':0.990,'T':0.850};
 
     def process_result(self):
         if self.done:
@@ -423,6 +458,9 @@ class WhoWhichThatModule(AbstractModule):
 class TheyreTheirThereModule(AbstractModule):
     NAME = "they'retheirtheremodule"
 
+    def set_accuracy_level(self,threshold):
+        return {'SA':0.990,'A':0.990,'T':0.7};
+
     def process_result(self):
         if self.done:
             #Reading module output and integrating in FoLiA document
@@ -440,6 +478,9 @@ class TheyreTheirThereModule(AbstractModule):
 class DontDoesntModule(AbstractModule):
     NAME = "don'tdoesn'tmodule"
 
+    def set_accuracy_level(self,threshold):
+        return {'SA':0.990,'A':0.950,'T':0.5};
+
     def process_result(self):
         if self.done:
             #Reading module output and integrating in FoLiA document
@@ -455,6 +496,9 @@ class DontDoesntModule(AbstractModule):
 
 class ToTooTwoModule(AbstractModule):
     NAME = "twotootwomodule"
+
+    def set_accuracy_level(self,threshold):
+        return {'SA':0.990,'A':0.975,'T':0.5};
 
     def process_result(self):
         if self.done:
@@ -537,17 +581,22 @@ else:
 
     try:
         inputfile = sys.argv[1];
-        if len(sys.argv) >= 3:
-            id = sys.argv[2]
+#        if len(sys.argv) >= 3:
+#            id = sys.argv[2]
     except:
-        print >>sys.stderr, "Syntax: processchain.py [inputfile]"
+        print >>sys.stderr, "Syntax: processchain.py [inputfile] [[threshold/accuracy]]"
         sys.exit(1)
 
     #Get threshold
     try:
-        threshold = int(sys.argv[3])
+        if str(sys.argv[2]) == 'ST':
+            threshold = 0.5
+        elif str(sys.argv[2]) in ['T','A','SA']:
+            threshold = str(sys.argv[2])
+        else:
+            threshold = float(sys.argv[2])
     except:
-        threshold = 0.50
+        threshold = 0.5
 
     #Get input file
     try:
