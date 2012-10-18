@@ -570,6 +570,25 @@ class LessFewerModule(AbstractModule):
         #Call module and ask it to produce output
         self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker less fewer ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'lessfewer.test.out ' + self.settings['timblserver_address'])
 
+class PracticePractiseModule(AbstractModule):
+    NAME = "practicepractisemodule"
+
+    def set_accuracy_level(self,threshold):
+        return False;
+
+    def process_result(self):
+        if self.done:
+            #Reading module output and integrating in FoLiA document
+            for word, fields in self.readcolumnedoutput(self.outputdir + 'practicepractise.test.out'):
+                if len(fields) >= 2:
+                    #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:]], cls='Well-known-mistake', annotator=self.NAME)
+            f.close()                      
+    
+    def run(self):                
+        #Call module and ask it to produce output
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker practice practise ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'practicepractise.test.out ' + self.settings['timblserver_address'])
+
 class WoprCheckerModule(AbstractModule):
     NAME = "woprcheckermodule"
 
@@ -593,7 +612,7 @@ class WoprCheckerModule(AbstractModule):
 modules = [WoprCheckerModule,ErrorListModule,LexiconModule,ItsItsModule,YoureYourModule,ThanThenModule,
            LoseLooseModule,WhoWhichThatModule,WhetherWeatherModule,LieLayModule,EffectAffectModule,
            TheyreTheirThereModule,DontDoesntModule,ToTooTwoModule,AdviceAdviseModule,AnySomeModule,
-           LessFewerModule,
+           LessFewerModule,PracticePractiseModule,ChoseChooseModule,
            SplitCheckerModule,RunOnCheckerModule]
 
 ##########################################################################################
