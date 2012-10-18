@@ -517,7 +517,7 @@ class AdviceAdviseModule(AbstractModule):
     NAME = "adviceadvisemodule"
 
     def set_accuracy_level(self,threshold):
-        return False;
+        return {'SA':0.990,'A':0.990,'T':0.6};
 
     def process_result(self):
         if self.done:
@@ -536,7 +536,7 @@ class AnySomeModule(AbstractModule):
     NAME = "anysomemodule"
 
     def set_accuracy_level(self,threshold):
-        return False;
+        return {'SA':0.990,'A':0.990,'T':0.9};
 
     def process_result(self):
         if self.done:
@@ -555,7 +555,7 @@ class LessFewerModule(AbstractModule):
     NAME = "lessfewermodule"
 
     def set_accuracy_level(self,threshold):
-        return False;
+        return {'SA':0.990,'A':0.990,'T':0.990};
 
     def process_result(self):
         if self.done:
@@ -574,7 +574,7 @@ class PracticePractiseModule(AbstractModule):
     NAME = "practicepractisemodule"
 
     def set_accuracy_level(self,threshold):
-        return False;
+        return {'SA':0.990,'A':0.990,'T':0.950};
 
     def process_result(self):
         if self.done:
@@ -593,7 +593,7 @@ class ChoseChooseModule(AbstractModule):
     NAME = "chosechoosemodule"
 
     def set_accuracy_level(self,threshold):
-        return False;
+        return {'SA':0.990,'A':0.990,'T':0.750};
 
     def process_result(self):
         if self.done:
