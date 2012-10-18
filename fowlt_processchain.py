@@ -680,8 +680,8 @@ else:
 
     try:
         inputfile = sys.argv[1];
-#        if len(sys.argv) >= 3:
-#            id = sys.argv[2]
+#        if len(sys.argv) >= 4:
+#            id = sys.argv[3]
     except:
         print >>sys.stderr, "Syntax: processchain.py [inputfile] [[threshold/accuracy]]"
         sys.exit(1)
