@@ -1,10 +1,2 @@
-Splitcheckermodule:
-* they 've -> they've (ucto problem)
-
-Errorlistmodule:
-* wo -> two/who (like in won't)
-* wouldn -> wouldn't (ucto problem)
-* couldn -> couldn't (ucto problem)
-
-LexiconModule
-* corrects words with dashes for words without dashes
+LexiconModule??
+* son's -> sons

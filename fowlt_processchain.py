@@ -232,7 +232,8 @@ class LexiconModule(AbstractModule):
 		    suggs = [];
 		    for x in fields[1:]:
                         
-                        if str(x.strip()).lower() != str(word).lower():
+			#Make sure the suggestion isn't equal to a uppercase, dashed, etc. version of the word
+                        if raw(str(x)) != raw(str(word)):
                             suggs.append(x.strip());
                         
                     if len(suggs) > 0:
@@ -627,6 +628,12 @@ class WoprCheckerModule(AbstractModule):
         #Call module and ask it to produce output
         self.runcmd(self.rootdir + 'woprchecker/wopr_checker ' + self.rootdir + 'woprchecker/wopr_exceptions ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'wopr_checker.test.out ' + self.settings['wopr_address'])
 
+#################### FUNCTIONS  #################################
+
+def raw(word):
+    """Returns the lowercase, stripped and dashless version of a word"""
+    return word.strip().lower().replace('-','');
+
 ###################### MODULE DECLARATION  ###############################################
 
 #Add all desired modules classes here here:
@@ -638,7 +645,6 @@ modules = [WoprCheckerModule,ErrorListModule,LexiconModule,ItsItsModule,YoureYou
            SplitCheckerModule,RunOnCheckerModule]
 
 ##########################################################################################
-
 
 try:
     import clam.common.data
