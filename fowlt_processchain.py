@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+#-*- coding:utf-8 -*-
+
 #----------------------------------------------
 #   Master script for Fowlt processing chain
 #----------------------------------------------
@@ -767,7 +770,7 @@ if not standalone:
 
 f = open(outputdir + 'input.tok.txt','w')
 for currentword in doc.words():
-    f.write( str(currentword) + ' ')
+    f.write( str(currentword).replace('’','\'') + ' ')
 f.close()
 
 f = open(outputdir + 'agreement_checker.test.inst','w')
