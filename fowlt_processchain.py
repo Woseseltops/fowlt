@@ -19,24 +19,15 @@ import pynlpl.formats.folia as folia
 #################### ABSTRACT MODULE  #################################
 
 class AbstractModule(object): #Do not modify
-    def __init__(self, doc, rootdir, outputdir, idmap, threshold, settings):
+    def __init__(self, doc, rootdir, outputdir, idmap, settings):
         self.doc = doc
         self.rootdir = rootdir
         self.outputdir = outputdir
         self.done = False
         self.failed = False
         self.idmap = idmap
-        self.accuracy_level = self.set_accuracy_level(threshold);
-	self.settings = settings
+        self.settings = settings
         super(AbstractModule, self).__init__()
-
-        if threshold in ['SA','A','T']:
-            if self.accuracy_level:
-                self.threshold = self.accuracy_level[threshold];
-            else:
-                self.threshold = 0.5
-        else:            
-            self.threshold = threshold;
 
     def errout(self,msg):
         s = "[" + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + '] PROCESSING-CHAIN ['+self.NAME+']: ' + msg        
@@ -83,9 +74,19 @@ class AbstractModule(object): #Do not modify
             
         f.close()
 
-    def set_accuracy_level(self,threshold):
+    def get_threshold(NAMEself,name):
 
-        return False;
+        own_threshold = 0;
+
+        if threshold in ['SA','A','T']:
+            if threshold_settings[name]:
+                own_threshold = threshold_settings[name][threshold];
+            else:
+                own_threshold = 0.5
+        else:            
+            own_threshold = threshold;
+
+        return own_threshold
 
     def addcorrection(self, word, **kwargs  ):                
     
@@ -303,9 +304,6 @@ class RunOnCheckerModule(AbstractModule): #(splits in FoLiA terminology)
 class ItsItsModule(AbstractModule):
     NAME = "it'sitsmodule"
 
-    def set_accuracy_level(self,threshold):
-        return {'SA':0.990,'A':0.990,'T':0.8};
-
     def process_result(self):
         if self.done:
             #Reading module output and integrating in FoLiA document
@@ -318,13 +316,10 @@ class ItsItsModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker it\\\'s its ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'itsits.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker it\\\'s its ' + str(self.get_threshold(self.NAME)) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'itsits.test.out ' + self.settings['timblserver_address'])
 
 class YoureYourModule(AbstractModule):
     NAME = "you'reyourmodule"
-
-    def set_accuracy_level(self,threshold):
-        return {'SA':0.990,'A':0.975,'T':0.850};
 
     def process_result(self):
         if self.done:
@@ -338,13 +333,10 @@ class YoureYourModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker you\\\'re your ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'youreyour.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker you\\\'re your ' + str(self.get_threshold(self.NAME)) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'youreyour.test.out ' + self.settings['timblserver_address'])
 
 class ThanThenModule(AbstractModule):
     NAME = "thanthenmodule"
-
-    def set_accuracy_level(self,threshold):
-        return {'SA':0.975,'A':0.925,'T':0.5};
 
     def process_result(self):
         if self.done:
@@ -357,13 +349,10 @@ class ThanThenModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker than then ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'thanthen.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker than then ' + str(self.get_threshold(self.NAME)) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'thanthen.test.out ' + self.settings['timblserver_address'])
 
 class LoseLooseModule(AbstractModule):
     NAME = "loseloosemodule"
-
-    def set_accuracy_level(self,threshold):
-        return {'SA':0.990,'A':0.990,'T':0.7};
 
     def process_result(self):
         if self.done:
@@ -377,13 +366,10 @@ class LoseLooseModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker lose loose ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'loseloose.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker lose loose ' + str(self.get_threshold(self.NAME)) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'loseloose.test.out ' + self.settings['timblserver_address'])
 
 class EffectAffectModule(AbstractModule):
     NAME = "effectaffectmodule"
-
-    def set_accuracy_level(self,threshold):
-        return {'SA':0.990,'A':0.990,'T':0.850};
 
     def process_result(self):
         if self.done:
@@ -397,13 +383,10 @@ class EffectAffectModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker effect affect ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'effectaffect.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker effect affect ' + str(self.get_threshold(self.NAME)) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'effectaffect.test.out ' + self.settings['timblserver_address'])
 
 class LieLayModule(AbstractModule):
     NAME = "lielaymodule"
-
-    def set_accuracy_level(self,threshold):
-        return {'SA':0.990,'A':0.990,'T':0.925};
 
     def process_result(self):
         if self.done:
@@ -417,13 +400,10 @@ class LieLayModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker lie lay ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'lielay.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker lie lay ' + str(self.get_threshold(self.NAME)) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'lielay.test.out ' + self.settings['timblserver_address'])
 
 class WhetherWeatherModule(AbstractModule):
     NAME = "whetherweathermodule"
-
-    def set_accuracy_level(self,threshold):
-        return {'SA':0.990,'A':0.990,'T':0.6};
 
     def process_result(self):
         if self.done:
@@ -437,13 +417,10 @@ class WhetherWeatherModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker whether weather ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'whetherweather.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker whether weather ' + str(self.get_threshold(self.NAME)) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'whetherweather.test.out ' + self.settings['timblserver_address'])
 
 class WhoWhichThatModule(AbstractModule):
     NAME = "whowhichthatmodule"
-
-    def set_accuracy_level(self,threshold):
-        return {'SA':0.990,'A':0.990,'T':0.850};
 
     def process_result(self):
         if self.done:
@@ -457,13 +434,10 @@ class WhoWhichThatModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/3confusible_checker who which that ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'whowhichthat.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/3confusible_checker who which that ' + str(self.get_threshold(self.NAME)) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'whowhichthat.test.out ' + self.settings['timblserver_address'])
 
 class TheyreTheirThereModule(AbstractModule):
     NAME = "they'retheirtheremodule"
-
-    def set_accuracy_level(self,threshold):
-        return {'SA':0.990,'A':0.990,'T':0.7};
 
     def process_result(self):
         if self.done:
@@ -477,13 +451,10 @@ class TheyreTheirThereModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/3confusible_checker they\\\'re their there ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'theyretheirthere.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/3confusible_checker they\\\'re their there ' + str(self.get_threshold(self.NAME)) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'theyretheirthere.test.out ' + self.settings['timblserver_address'])
 
 class DontDoesntModule(AbstractModule):
     NAME = "don'tdoesn'tmodule"
-
-    def set_accuracy_level(self,threshold):
-        return {'SA':0.990,'A':0.950,'T':0.5};
 
     def process_result(self):
         if self.done:
@@ -496,13 +467,10 @@ class DontDoesntModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker don\\\'t doesn\\\'t ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'dontdoesnt.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker don\\\'t doesn\\\'t ' + str(self.get_threshold(self.NAME)) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'dontdoesnt.test.out ' + self.settings['timblserver_address'])
 
 class ToTooTwoModule(AbstractModule):
-    NAME = "twotootwomodule"
-
-    def set_accuracy_level(self,threshold):
-        return {'SA':0.990,'A':0.975,'T':0.5};
+    NAME = "totootwomodule"
 
     def process_result(self):
         if self.done:
@@ -515,13 +483,10 @@ class ToTooTwoModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/3confusible_checker to too two ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'totootwo.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/3confusible_checker to too two ' + str(self.get_threshold(self.NAME)) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'totootwo.test.out ' + self.settings['timblserver_address'])
 
 class AdviceAdviseModule(AbstractModule):
     NAME = "adviceadvisemodule"
-
-    def set_accuracy_level(self,threshold):
-        return {'SA':0.990,'A':0.990,'T':0.6};
 
     def process_result(self):
         if self.done:
@@ -534,13 +499,10 @@ class AdviceAdviseModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker advice advise ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'adviceadvise.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker advice advise ' + str(self.get_threshold(self.NAME)) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'adviceadvise.test.out ' + self.settings['timblserver_address'])
 
 class AnySomeModule(AbstractModule):
     NAME = "anysomemodule"
-
-    def set_accuracy_level(self,threshold):
-        return {'SA':0.990,'A':0.990,'T':0.9};
 
     def process_result(self):
         if self.done:
@@ -553,13 +515,10 @@ class AnySomeModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker any some ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'anysome.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker any some ' + str(self.get_threshold(self.NAME)) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'anysome.test.out ' + self.settings['timblserver_address'])
 
 class LessFewerModule(AbstractModule):
     NAME = "lessfewermodule"
-
-    def set_accuracy_level(self,threshold):
-        return {'SA':0.990,'A':0.990,'T':0.990};
 
     def process_result(self):
         if self.done:
@@ -572,13 +531,10 @@ class LessFewerModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker less fewer ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'lessfewer.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker less fewer ' + str(self.get_threshold(self.NAME)) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'lessfewer.test.out ' + self.settings['timblserver_address'])
 
 class PracticePractiseModule(AbstractModule):
     NAME = "practicepractisemodule"
-
-    def set_accuracy_level(self,threshold):
-        return {'SA':0.990,'A':0.990,'T':0.950};
 
     def process_result(self):
         if self.done:
@@ -591,13 +547,10 @@ class PracticePractiseModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker practice practise ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'practicepractise.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker practice practise ' + str(self.get_threshold(self.NAME)) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'practicepractise.test.out ' + self.settings['timblserver_address'])
 
 class ChoseChooseModule(AbstractModule):
     NAME = "chosechoosemodule"
-
-    def set_accuracy_level(self,threshold):
-        return {'SA':0.990,'A':0.990,'T':0.750};
 
     def process_result(self):
         if self.done:
@@ -610,7 +563,7 @@ class ChoseChooseModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker chose choose ' + str(self.threshold) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'chosechoose.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker chose choose ' + str(self.get_threshold(self.NAME)) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'chosechoose.test.out ' + self.settings['timblserver_address'])
 
 class WoprCheckerModule(AbstractModule):
     NAME = "woprcheckermodule"
@@ -717,9 +670,19 @@ else:
     raw_settings = open('client_settings','r').readlines();
     settings = {};
 
-    for i in raw_settings:
-        key, value = i.split(' ');
+    for l in raw_settings:
+        key, value = l.split(' ');
         settings[key] = value[:-1];
+
+    lines = open('thresholds','r').readlines();
+    threshold_settings = {};
+
+    for l in lines:
+        tokens = l.strip().split('\t');
+        try:
+            threshold_settings[tokens[0]] = {'SA':float(tokens[-3]),'A':float(tokens[-2]),'T':float(tokens[-1])};
+        except:
+            pass;
 
     rootdir = ''
     outputdir = 'output/' #stdout
@@ -806,7 +769,7 @@ for i in range(threads):
     thread.setDaemon(True)  
     thread.start()  
 
-modules = [ Module(doc,rootdir,outputdir,idmap, threshold, settings) for Module in modules ]
+modules = [ Module(doc,rootdir,outputdir,idmap, settings) for Module in modules ]
 for module in modules:
     queue.put(module)
 
