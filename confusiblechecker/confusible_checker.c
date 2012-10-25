@@ -185,8 +185,8 @@ int main(int argc, char *argv[])
 		    {
 		      if (strcmp(category,feats[mid])!=0)
 			{
-			  fprintf(stdout," %s",
-				  category);
+			  fprintf(stdout," %s %6.3f",
+				  category,(max/total));
 			  fprintf(stderr,"corrected %s into %s\n",
 				  feats[mid],category);
 			}
