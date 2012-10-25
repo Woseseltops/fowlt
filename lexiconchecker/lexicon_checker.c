@@ -240,8 +240,8 @@ int main(int argc, char *argv[])
 	      fprintf(stderr,"correction suggestions for %s: ",
 		      word);
 	      for (i=0; i<nrclosest; i++)
-		fprintf(stderr," %s",
-			closestword[i]);
+		fprintf(stderr," %s%6.3f",
+			closestword[i],(1 - ((float)freqthres/(float)FREQFACTOR)/((float)closestfreq[i]/(float)FREQFACTOR)));
 	      fprintf(stderr,"\n");
 	    }
 	}
