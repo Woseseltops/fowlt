@@ -1,4 +1,5 @@
 * Overal worden de zekerheden meegegeven
+* Clean comments processchain
 * Bug: UCTO crasht als " niet matchen
 * Kopje EXPANDING in the readme verder uitwerken: hoe zit het met testen en thresholds?
 * Optie toevoegen bij confusible_trainer.py: automatisch tokenizeren.
