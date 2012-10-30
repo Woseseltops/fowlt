@@ -191,8 +191,7 @@ class ErrorListModule(AbstractModule):
             #Reading module output and integrating in FoLiA document
             for word, fields in self.readcolumnedoutput(self.outputdir + 'errorlist_checker.test.out'):                                            
                 if len(fields) > 1:
-                    #Add correction suggestion
-                    #(The last field holds the suggestion? (assumption, may differ per module))
+                    #Add correction suggestion and confidence (two last fields)
                     suggs = [];
                     splits = [];
                     for x in fields[1:]:
@@ -230,8 +229,7 @@ class LexiconModule(AbstractModule):
             #Reading module output and integrating in FoLiA document
             for word, fields in self.readcolumnedoutput(self.outputdir + 'lexicon_checker.test.out'):                                            
                 if len(fields) >= 2 and str(word).lower() not in exceptions:
-                    #Add correction suggestion
-                    #(The last field holds the suggestion? (assumption, may differ per module))
+                    #Add correction suggestion and confidence (two last fields)
 		    suggs = [];
 		    for x in fields[1:-1]:
                         
@@ -284,7 +282,7 @@ class SplitCheckerModule(AbstractModule): #(merges in FoLiA terminology)
             f.close()                  
 
             for i, mergewords in enumerate(merges):
-                #Add correction suggestion
+                #Add correction suggestion and confidence (two last fields)
                 newword = text[i].strip()
                 self.mergecorrection(newword, mergewords, cls='space-error', annotator=self.NAME, confidence=float(confidence_values[i*2]))  
     
@@ -316,7 +314,7 @@ class ItsItsModule(AbstractModule):
             #Reading module output and integrating in FoLiA document
             for word, fields in self.readcolumnedoutput(self.outputdir + 'itsits.test.out'):
                 if len(fields) >= 2:
-                    #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
+                    #Add correction suggestion and confidence (two last fields)
                     self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
@@ -333,7 +331,7 @@ class YoureYourModule(AbstractModule):
             #Reading module output and integrating in FoLiA document
             for word, fields in self.readcolumnedoutput(self.outputdir + 'youreyour.test.out'):
                 if len(fields) >= 2:
-                    #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
+                    #Add correction suggestion and confidence (two last fields)
                     self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
@@ -350,7 +348,7 @@ class ThanThenModule(AbstractModule):
             #Reading module output and integrating in FoLiA document
             for word, fields in self.readcolumnedoutput(self.outputdir + 'thanthen.test.out'):
                 if len(fields) >= 2:
-                    #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
+                    #Add correction suggestion and confidence (two last fields)
                     self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
             f.close()                         
     
@@ -366,7 +364,7 @@ class LoseLooseModule(AbstractModule):
             #Reading module output and integrating in FoLiA document
             for word, fields in self.readcolumnedoutput(self.outputdir + 'loseloose.test.out'):
                 if len(fields) >= 2:
-                    #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
+                    #Add correction suggestion and confidence (two last fields)
                     self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
@@ -383,7 +381,7 @@ class EffectAffectModule(AbstractModule):
             #Reading module output and integrating in FoLiA document
             for word, fields in self.readcolumnedoutput(self.outputdir + 'effectaffect.test.out'):
                 if len(fields) >= 2:
-                    #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
+                    #Add correction suggestion and confidence (two last fields)
                     self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
@@ -400,7 +398,7 @@ class LieLayModule(AbstractModule):
             #Reading module output and integrating in FoLiA document
             for word, fields in self.readcolumnedoutput(self.outputdir + 'lielay.test.out'):
                 if len(fields) >= 2:
-                    #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
+                    #Add correction suggestion and confidence (two last fields)
                     self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
@@ -417,7 +415,7 @@ class WhetherWeatherModule(AbstractModule):
             #Reading module output and integrating in FoLiA document
             for word, fields in self.readcolumnedoutput(self.outputdir + 'whetherweather.test.out'):
                 if len(fields) >= 2:
-                    #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
+                    #Add correction suggestion and confidence (two last fields)
                     self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
@@ -434,7 +432,7 @@ class WhoWhichThatModule(AbstractModule):
             #Reading module output and integrating in FoLiA document
             for word, fields in self.readcolumnedoutput(self.outputdir + 'whowhichthat.test.out'):
                 if len(fields) >= 2:
-                    #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
+                    #Add correction suggestion and confidence (two last fields)
                     self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
@@ -451,7 +449,7 @@ class TheyreTheirThereModule(AbstractModule):
             #Reading module output and integrating in FoLiA document
             for word, fields in self.readcolumnedoutput(self.outputdir + 'theyretheirthere.test.out'):
                 if len(fields) >= 2:
-                    #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
+                    #Add correction suggestion and confidence (two last fields)
                     self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
@@ -468,7 +466,7 @@ class DontDoesntModule(AbstractModule):
             #Reading module output and integrating in FoLiA document
             for word, fields in self.readcolumnedoutput(self.outputdir + 'dontdoesnt.test.out'):
                 if len(fields) >= 2:
-                    #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
+                    #Add correction suggestion and confidence (two last fields)
                     self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
@@ -484,7 +482,7 @@ class ToTooTwoModule(AbstractModule):
             #Reading module output and integrating in FoLiA document
             for word, fields in self.readcolumnedoutput(self.outputdir + 'totootwo.test.out'):
                 if len(fields) >= 2:
-                    #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
+                    #Add correction suggestion and confidence (two last fields)
                     self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
@@ -500,7 +498,7 @@ class AdviceAdviseModule(AbstractModule):
             #Reading module output and integrating in FoLiA document
             for word, fields in self.readcolumnedoutput(self.outputdir + 'adviceadvise.test.out'):
                 if len(fields) >= 2:
-                    #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
+                    #Add correction suggestion and confidence (two last fields)
                     self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
@@ -516,7 +514,7 @@ class AnySomeModule(AbstractModule):
             #Reading module output and integrating in FoLiA document
             for word, fields in self.readcolumnedoutput(self.outputdir + 'anysome.test.out'):
                 if len(fields) >= 2:
-                    #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
+                    #Add correction suggestion and confidence (two last fields)
                     self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
@@ -532,7 +530,7 @@ class LessFewerModule(AbstractModule):
             #Reading module output and integrating in FoLiA document
             for word, fields in self.readcolumnedoutput(self.outputdir + 'lessfewer.test.out'):
                 if len(fields) >= 2:
-                    #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
+                    #Add correction suggestion and confidence (two last fields)
                     self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
@@ -548,7 +546,7 @@ class PracticePractiseModule(AbstractModule):
             #Reading module output and integrating in FoLiA document
             for word, fields in self.readcolumnedoutput(self.outputdir + 'practicepractise.test.out'):
                 if len(fields) >= 2:
-                    #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
+                    #Add correction suggestion and confidence (two last fields)
                     self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
@@ -564,7 +562,7 @@ class ChoseChooseModule(AbstractModule):
             #Reading module output and integrating in FoLiA document
             for word, fields in self.readcolumnedoutput(self.outputdir + 'chosechoose.test.out'):
                 if len(fields) >= 2:
-                    #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
+                    #Add correction suggestion and confidence (two last fields)
                     self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
@@ -655,17 +653,6 @@ else:
         print >>sys.stderr, "Syntax: processchain.py [inputfile] [[threshold/accuracy]]"
         sys.exit(1)
 
-    #Get threshold
-    try:
-        if str(sys.argv[2]) == 'ST':
-            threshold = 0.5
-        elif str(sys.argv[2]) in ['T','A','SA']:
-            threshold = str(sys.argv[2])
-        else:
-            threshold = float(sys.argv[2])
-    except:
-        threshold = 0.5
-
     #Get input file
     try:
         open(inputfile);
@@ -673,27 +660,38 @@ else:
         print >>sys.stderr, "Input file does not exist";
         sys.exit(1);
 
-    #Get settings
-    raw_settings = open('client_settings','r').readlines();
-    settings = {};
-
-    for l in raw_settings:
-        key, value = l.split(' ');
-        settings[key] = value[:-1];
-
-    lines = open('thresholds','r').readlines();
-    threshold_settings = {};
-
-    for l in lines:
-        tokens = l.strip().split('\t');
-        try:
-            threshold_settings[tokens[0]] = {'SA':float(tokens[-3]),'A':float(tokens[-2]),'T':float(tokens[-1])};
-        except:
-            pass;
-
     rootdir = ''
     outputdir = 'output/' #stdout
     statusfile = '/tmp/fowltstatus'
+
+#Get threshold
+try:
+    if str(sys.argv[2]) == 'ST':
+        threshold = 0.5
+    elif str(sys.argv[2]) in ['T','A','SA']:
+        threshold = str(sys.argv[2])
+    else:
+        threshold = float(sys.argv[2])
+except:
+    threshold = 0.5
+
+#Get settings
+raw_settings = open('client_settings','r').readlines();
+settings = {};
+
+for l in raw_settings:
+    key, value = l.split(' ');
+    settings[key] = value[:-1];
+
+lines = open('thresholds','r').readlines();
+threshold_settings = {};
+
+for l in lines:
+    tokens = l.strip().split('\t');
+    try:
+         threshold_settings[tokens[0]] = {'SA':float(tokens[-3]),'A':float(tokens[-2]),'T':float(tokens[-1])};
+    except:
+         pass;
     
 #detect ID from filename
 if not id:
