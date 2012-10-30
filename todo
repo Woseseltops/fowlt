@@ -1,4 +1,4 @@
-* Overal worden de zekerheden meegegeven
+* Zekerheden afmaken voor lexiconchecker, nog toevoegen voor wopr, runon en split
 * Clean comments processchain
 * Bug: UCTO crasht als " niet matchen
 * Kopje EXPANDING in the readme verder uitwerken: hoe zit het met testen en thresholds?

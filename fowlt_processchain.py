@@ -233,14 +233,14 @@ class LexiconModule(AbstractModule):
                     #Add correction suggestion
                     #(The last field holds the suggestion? (assumption, may differ per module))
 		    suggs = [];
-		    for x in fields[1:]:
+		    for x in fields[1:-1]:
                         
 			#Make sure the suggestion isn't equal to a uppercase, dashed, etc. version of the word
                         if raw(str(x)) != raw(str(word)):
                             suggs.append(x.strip());
                         
                     if len(suggs) > 0:
-                        self.addcorrection(word, suggestions=suggs, cls='Looked-like-frequent-word', annotator=self.NAME, confidence = 1)
+                        self.addcorrection(word, suggestions=suggs, cls='Looked-like-frequent-word', annotator=self.NAME, confidence = fields[-1])
             f.close()                  
     
     def run(self):                

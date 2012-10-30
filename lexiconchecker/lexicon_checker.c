@@ -233,8 +233,8 @@ int main(int argc, char *argv[])
       if (nrclosest>0)
 	{
 	  for (i=0; i<nrclosest; i++)
-	    fprintf(stdout," %s",
-		    closestword[i]);
+	    fprintf(stdout," %s%6.3f",
+		    closestword[i],(1 - ((float)freqthres/(float)FREQFACTOR)/((float)closestfreq[i]/(float)FREQFACTOR)));
 	  if (DEBUG)
 	    {
 	      fprintf(stderr,"correction suggestions for %s: ",
