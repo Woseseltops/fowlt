@@ -34,6 +34,7 @@ int main(int argc, char *argv[])
   unsigned long prevfreq,curfreq,combifreq;
   FILE *context;
   char inlex,inlist,cinlex;
+  float confidence;
 
   /* allocate lexicon */
   lexicon=malloc(sizeof(char*));
@@ -135,8 +136,18 @@ int main(int argc, char *argv[])
 	  ((combifreq>(prevfreq/FREQRATIO))||
 	   (combifreq>(curfreq/FREQRATIO))))
 	{
-	  fprintf(stdout," %s\n%s %s",
+          if (combifreq/(((prevfreq+curfreq)/FREQRATIO)/2) > 0)
+          {
+		  confidence = (1 - 1/((float)combifreq/((((float)prevfreq+(float)curfreq)/(float)FREQRATIO)/(float)2)));
+
+		  fprintf(stdout," %s%6.3f\n%s %s%6.3f",
+		  combitest,confidence, word,combitest,confidence);
+          }
+          else
+          {
+		  fprintf(stdout," %s 0\n%s %s 0",
 		  combitest,word,combitest);
+	  }
 	  if (DEBUG)
 	    fprintf(stderr,"found combi [%s] (freq %ld) of [%s] (freq %ld) and [%s] (freq %ld)\n",
 		    combitest,combifreq,prevword,prevfreq,word,curfreq);

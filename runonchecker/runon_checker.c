@@ -207,8 +207,8 @@ int main(int argc, char *argv[])
 	      word);
       if (runon)
 	{
-	  fprintf(stdout," %s %s",
-		  left,right);
+	  fprintf(stdout," %s %s%6.3f",
+		  left,right, (1- (1 / (((leftfraction+rightfraction)/2)/THRESHOLD))));
 	}
       fprintf(stdout,"\n");
 

@@ -255,19 +255,22 @@ class SplitCheckerModule(AbstractModule): #(merges in FoLiA terminology)
             merges = []
             merge = []
             text = []
+	    confidence_values = []
             prev = ''
             #Reading module output and integrating in FoLiA document
             for word, fields in self.readcolumnedoutput(self.outputdir + 'split_checker.test.out'):           
                 if len(fields) >= 2:
+
+                    confidence_values.append(fields[-1])
                     #Add correction suggestion                
-                    if prev and fields[-1] != prev:
+                    if prev and fields[-2] != prev:
                         if merge: 
                             merges.append(merge)
                             text.append(prev)
                             merge = []
                     else:
                         merge.append(word)
-                    prev = fields[-1]
+                    prev = fields[-2]
                 else:
                     if merge: 
                         merges.append(merge)
@@ -277,11 +280,13 @@ class SplitCheckerModule(AbstractModule): #(merges in FoLiA terminology)
             if merge: 
                 merges.append(merge)      
                 text.append(prev)
+ 	        confidence_values.append(fields[-1])
             f.close()                  
+
             for i, mergewords in enumerate(merges):
                 #Add correction suggestion
                 newword = text[i].strip()
-                self.mergecorrection(newword, mergewords, cls='space-error', annotator=self.NAME)    
+                self.mergecorrection(newword, mergewords, cls='space-error', annotator=self.NAME, confidence=float(confidence_values[i*2]))  
     
     def run(self):                
         #Call module and ask it to produce output
@@ -295,7 +300,7 @@ class RunOnCheckerModule(AbstractModule): #(splits in FoLiA terminology)
             #Reading module output and integrating in FoLiA document
             for word, fields in self.readcolumnedoutput(self.outputdir + 'runon_checker.test.out'):
                 if len(fields) > 2:
-                    self.splitcorrection(word, fields[1:], cls='space-error', annotator=self.NAME)
+                    self.splitcorrection(word, fields[1:-1], cls='space-error', annotator=self.NAME, confidence= fields[-1])
             f.close()                  
     
     
