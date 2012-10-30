@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="nl" >
+    <head>
+        <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8"/>
+        <meta name="author" content="Maarten van Gompel" />
+        <title>VALKUIL.net Spellingcorrector</title>
+        <link rel="StyleSheet" href="/style/valkuil.css" type="text/css" />
+        <link rel="shortcut icon" href="/style/favicon.ico" />
+        <script type="text/javascript" src="/style/jquery-1.5.1.min.js"></script>
+        <script type="text/javascript" src="/style/jquery.scrollTo-min.js"></script>
+        <script type="text/javascript" src="/style/jQueryRotateCompressed.2.1.js"></script>
+        <script type="text/javascript" src="/style/valkuil.js"></script>
+        <script type="text/javascript">
+            errors = {{ errors|safe }};
+            errorcount = {{ errorcount }};
+            $(document).ready( function(){ 
+                initerrors(); cursorto(0); initloader(); 
+                $('#sharethis').click(function() {
+                        $('#veil').show(); 
+                        $('#sharedialog').slideDown();
+                });
+            } );                        
+        </script>        
+    </head>
+    <body>        
+        <div id="stage">
+            <div id="topbar">
+                <ul>
+                    <li><a href="/">Nieuwe invoer</a></li>
+                    <li><span id="classtoggle">Toon fouttype</span></li>
+                    <li><a id="sharethis">Deel deze site!</a></li>
+                    <li><a href="/info">Over VALKUIL.net</a></li>
+                    <li> <a href="http://www.facebook.com/Valkuil"><img src="/style/facebook2.jpg" alt="Valkuil.net op facebook" title="Valkuil.net op facebook!" /></a> <a href="http://www.twitter.com/valkuilnet"><img src="/style/twitter2.png" alt="Valkuil.net op twitter" title="Valkuil.net op twitter!" /></a> </li>
+                    <!--<li><a href="/help">Help</a></li>-->
+                </ul>
+                <!--
+                <table id="expertlegenda">
+                    <tr>
+                        <td class="colcell"><div class="square spellingerror"></div></td>
+                        <td class="label">Bekende spellingsfout</td>
+                        <td class="colcell"><div class="square ddterror"></div></td>
+                        <td class="label">-d/-dt fout</td>
+                        <td class="colcell"><div class="square dterror"></div></td>
+                        <td class="label">-d/-t fout</td>
+                        <td class="colcell"><div class="square uuwerror"></div></td>
+                        <td class="label">u/uw fout</td>
+                        <td class="colcell"><div class="square joujouwerror"></div></td>
+                        <td class="label">jou/jouw fout</td>
+                    </tr>
+                    <tr>
+                        <td class="colcell"><div class="square zeizijerror"></div></td>
+                        <td class="label">Zij/zei fout</td>
+                        <td class="colcell"><div class="square henhunerror"></div></td>
+                        <td class="label">Hen/hun fout</td>
+                        <td class="colcell"><div class="square mijikerror"></div></td>
+                        <td class="label">Mij/ik fout</td>
+                        <td class="colcell"><div class="square ttettenerror"></div></td>
+                        <td class="label">-tte/-tten fout</td>
+                        <td class="colcell"><div class="square beidebeidenerror"></div></td>
+                        <td class="label">beide/beiden fout</td>
+                    </tr>                    
+                </table>
+                -->
+            </div>
+            <div id="sidebar">
+                <div id="logo"></div>
+                <div id="pager">
+                    <button id="cursorleft"><img src="/style/pijl_terug.png" alt="vorige fout" /></button>
+                    <input id="currenterror" />
+                    <button id="cursorright"><img src="/style/pijl_vooruit.png" alt="volgende fout" /></button>
+                </div>
+
+                <div id="suggestionarea">
+                    <label class="head">suggestie(s) voor:</label>
+                    
+                    <div id="errorclass">...</div><div id="error">...</div><div id="ruler"></div>
+                    
+                    
+                    <ul id="suggestions">
+                    </ul>
+                    
+                    <button class="button" id="correctbutton">verbeter</button>                    
+                    
+                    <div id="correctall">
+                        <label>dezelfde fout is <span id="sameerror">x</span> keer gevonden</label>
+                                            
+                        <button class="button" id="correctallbutton">verbeter alle</button>
+                    </div>
+                    
+                    <button class="button" id="ignorebutton">negeer</button>
+                    
+                    <button class="button" id="freecorrectbutton">verbeter handmatig</button>
+                </div>
+                        
+                
+
+            
+                <label>Aantal gevonden fouten</label>
+                <div id="errorcount">{{ errorcount }}</div>
+                            
+                <button class="button" id="downloadbutton">download document</button>
+            </div>
+            
+            
+            
+            <div id="mainarea">
+                <div id="textarea">
+<div id="frontspace"></div>
+{{ text|safe }}                
+                </div>      
+                <div id="backspace"></div>
+                <div id="hint"><ul id="hintsuggestions"></ul></div>
+            </div>
+            <div id="veil"></div>
+            <div id="editdialog">
+                <input id="editword" name="editword" />
+                <button class="button" id="dialogsubmit">verbeter</button>  
+            </div>
+            <div id="downloaddialog">
+                Kies het gewenste downloadformaat:
+                <ul>
+                 <li><a href="text/">Download als platte tekst</a></li>
+                 <li><a href="xml/">Download als FoLiA XML</a></li>
+                </ul>
+            </div>
+            <div id="loaderwrapper">
+                <div id="loader"></div>
+                <div id="loadertext">De spellingcorrector draait, een ogenblik geduld...</div>
+            </div> 
+            <div id="sharedialog">
+                <h3>Deel deze site!</h3>
+                  <ul>
+                    <li><a class="delicious" href="http://del.icio.us/post?url=valkuil.net" title="Bookmark on del.icio.us">Delicious</a>
+                    <li><a class="facebook" href="http://www.facebook.com/sharer.php?u=http://valkuil.net/"  title="Share this on Facebook" >Facebook</a></li>
+                    <li><a class="stumbleupon" href="http://www.stumbleupon.com/submit? url=http://valkuil.net/" title="Stumble This Page" > Stumble</a></li>
+                    <li><a class="twitter" href="http://twitter.com/home?status=Valkuil.net Spellingcorrector - http://valkuil.net/" title="Tweet This Page" >Twitter</a></li>
+                  </ul>
+            </div>            
+            <div id="errordialog">
+                <h3>Oeps! Een fout!</h3>
+                <p></p>
+            </div>
+        </div>     
+        
+    </body>
+</html>

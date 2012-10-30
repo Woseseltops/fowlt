@@ -1,0 +1,53 @@
+/* All classes are without spaces, hyphens and underscores! */
+
+.spellingerror {
+    background: #ff33cc !important;
+    border: 3px solid #ff33cc;
+}
+
+
+.ddterror {
+    background: #ff3366;
+    border: 3px solid #ff3366;
+}
+
+
+.dterror {
+    background: #8A2E2E;
+    border: 3px solid #8A2E2E;
+}
+
+.uuwerror {
+    background: #ff6633;
+    border: 3px solid #ff6633;
+}
+
+.joujouwerror {
+    background: #ffcc33;
+    border: 3px solid #ffcc33;
+}
+
+.zeizijerror {
+    background: #cc33ff;
+    border: 3px solid #cc33ff;
+}
+
+.henhunerror {
+    background: #002eb8;
+    border: 3px solid  #002eb8;
+}
+
+.mijikerror {
+    background: #b88a00;
+    border: 3px solid   #b88a00;
+}
+
+.ttettenerror {
+    background: #003df5;
+    border: 3px solid #003df5;
+}
+
+.beidebeidenerror {
+    background: #33ccff;
+    border: 3px solid #33ccff;
+}

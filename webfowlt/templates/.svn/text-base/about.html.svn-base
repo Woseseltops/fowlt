@@ -1,0 +1,387 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="nl" >
+    <head>
+        <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8"/>
+        <meta name="author" content="Maarten van Gompel, Antal van den Bosch" />
+        <title>VALKUIL.net Spellingcorrector :: Over VALKUIL</title>
+        <link rel="StyleSheet" href="/style/valkuil.css" type="text/css" />
+        <link rel="shortcut icon" href="/style/favicon.ico" />
+        <script type="text/javascript" src="/style/jquery-1.5.1.min.js"></script>
+        <script type="text/javascript">
+            $('#logo').click(function(){window.location='/';});
+        </script>        
+    </head>
+    <body>        
+        <div id="stage">            
+            <div id="topbar">
+                <ul>
+                    <li><a href="/">Invoerscherm</a></li>
+                    <li> <a href="http://www.facebook.com/Valkuil"><img src="/style/facebook2.jpg" alt="Valkuil.net op facebook" title="Valkuil.net op facebook!" /></a> <a href="http://www.twitter.com/valkuilnet"><img src="/style/twitter2.png" alt="Valkuil.net op twitter" title="Valkuil.net op twitter!" /></a> </li>
+                </ul>
+            </div>
+            <div id="sidebar">
+             <div id="logo"></div>
+            </div>
+                        
+            
+            <div id="mainarea">
+                <div id="pagetext">
+<!-- BEGIN TEXT -->
+
+<h1>Over valkuil.net</h1>
+
+<p>Valkuil.net is een automatische spellingcorrector voor het Nederlands
+die zowel gewone typefouten als grammaticale fouten en verwarringen
+tussen bestaande woorden opspoort.</p>
+
+<p>Valkuil.net is gebaseerd op grote hoeveelheden Nederlandse
+tekst, en niet op taalkundige kennis of een vaste woordenlijst. De
+meeste modules in valkuil.net zijn
+<i>contextgebaseerd</i> en <i>statistisch</i>: ze slaan alarm wanneer
+ze een woord tegenkomen dat ze niet verwachten op basis van de
+omgeving waarin dat woord staat. Het enthousiasme waarmee ze alarm
+slaan is instelbaar (klik op 'Toon geavanceerde opties' in het
+invoerscherm).</p>
+
+<p>Valkuil.net bevat modules voor hele specifieke verwarringen,
+zoals <i>zei</i>-<i>zij</i>, maar ook voor fouten met vervoegingen
+zoals de bekende <i>d</i>-<i>t</i>-fout. Valkuil.net doet ook zijn best om
+vergeten spaties of teveel gezette spaties op te sporen.</p>
+
+<p><b>Hoe goed is valkuil.net</b>? In het algemeen kan een
+spellingchecker twee soorten fouten maken: het systeem kan
+fouten <i>missen</i> en kan <i>vals alarm</i> slaan. Valkuil.net is,
+in tegenstelling tot de meeste andere spellingcorrectors, ingesteld om
+niet te veel valse alarmen te genereren. De keerzijde van deze
+voorzichtigheid is dat valkuil.net bij te grote onzekerheid ervoor
+kiest om geen alarm te slaan, en zo mist het systeem wel eens
+fouten. Het streven is om minder dan de helft van alle fouten te
+missen (en liefst veel minder). We komen in de buurt.</p>
+
+<table>
+<tr>
+<td>
+<p>
+We meten periodiek hoe goed valkuil.net het doet op een groeiende
+verzameling fouten in context, al meer dan 13 duizend, die door de
+vrijwilligers van <a href="http://opentaal.org"><b>OpenTaal</b></a>
+wordt verzameld. Momenteel detecteert valkuil.net het
+volgende percentage van deze fouten:
+</p>
+</td>
+
+<td>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</td>
+
+<td> <p> We meten ook hoeveel van de fouten die valkuil.net denkt te
+vinden, ook echt fouten zijn. We doen dat op basis van de
+gebruikers die op het invoerscherm 'Gevonden
+taalfouten mogen gebruikt worden voor wetenschappelijk onderzoek'
+aanvinken (bedankt!). Momenteel is het volgende percentage van door valkuil.net
+gevonden fouten ook echt een fout: </p>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+<center>
+<p>
+<font size="+2">
+44.1%
+</font>
+</p>
+<p>
+<font size="+1" color="red">
+gemist: 55.9%
+</font>
+</p>
+<p>
+<img style="float: right;" src="/style/valkuilrecall.png" width="320" />
+</p>
+</center>
+</td>
+</td>
+
+<td>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</td>
+
+<td>
+<center>
+<p>
+<font size="+2">
+64.4%
+</font>
+</p>
+<p>
+<font size="+1" color="red">
+vals alarm: 35.6%
+</font>
+</p>
+<p>
+<img style="float: right;" src="/style/valkuilscore.png" width="320" />
+</p>
+</center>
+</td>
+</td>
+
+</tr>
+
+</table>
+
+<p>
+<b>Wat leren we daarvan</b>? Spellingcorrectie is moeilijk, en is
+daarom zo'n boeiend onderzoeksonderwerp. Valkuil.net mist meer dan de
+helft van de fouten en slaat in eenderde van de gevallen vals
+alarm. De vraag is wat erger is, en of we niet wat meer valse alarmen
+moeten toelaten zodat we wat meer echte fouten vinden. Wordt vervolgd...
+</p>
+
+<p>
+<b>Wat gaat er fout</b>? Van alles, en in deze fouten zitten
+interessante patronen. Het woord 'word' wordt bijvoorbeeld vaak
+onterecht verbeterd tot 'wordt'; de andere kant op gaat veel beter,
+zoals
+psycholingu&iuml;st <a href="http://www.cnts.ua.ac.be/people/dominiek-sandra">Dominiek
+Sandra</a> ook bij mensen ziet gebeuren. Hij verklaart dat als een
+frequentie-effect: 'wordt' komt veel vaker voor dan 'word', en als we
+even niet goed opletten dan kiezen we vaak onbewust voor de
+frequentere vorm. Valkuil.net valt in dezelfde valkuil als mensen. Op
+basis van dit soort analyses kunnen we valkuil.net verbeteren, niet
+door taalregels in te voeren, maar door valkuil.net te hertrainen op
+meer of anders geselecteerde voorbeelden.
+</p>
+
+<p><b>Wat zit er onder de motorkap</b>? Data-gedreven,
+geheugengebaseerde taaltechnologie. Ondanks dat de modules zich
+baseren op honderden miljoenen woorden Nederlandse tekst zijn ze
+lichtgewicht en snel; ze maken gebruik
+van <a href="http://ilk.uvt.nl/timbl"><b>Timbl</b></a>, een open
+source softwarepakket voor geoptimaliseerde geheugengebaseerde
+classificatie, dat we sinds de jaren '90 in Tilburg
+ontwikkelen. Valkuil.net is in de basis een webservice
+(<a href="http://ilk.uvt.nl/clam"><b>CLAM</b></a>), waarboven een
+webapplicatie is ontwikkeld. Intern werkt valkuil.net met het
+XML-formaat <a href="http://ilk.uvt.nl/folia"><b>FoLiA</b></a>, dat
+geschikt is voor de representatie van gedetecteerde fouten,
+correctiesuggesties, en gekozen correcties.</p>
+
+<p><b>Kan ik valkuil.net inbouwen in mijn eigen
+webapplicatie/app/tekstverwerker</b>? Ja, graag! De webservice achter
+deze website (gebaseerd
+op <a href="http://ilk.uvt.nl/clam"><b>CLAM</b></a>) kan aangeroepen
+worden door andere software. Zie:
+</p>
+
+<p>
+<ul>
+<li><a href="http://webservices.ticc.uvt.nl/valkuil/">http://webservices.ticc.uvt.nl/valkuil/</a> - <a href="http://ilk.uvt.nl/clam">CLAM</a> interface op de webservice;
+<li><a href="http://webservices.ticc.uvt.nl/valkuil/info">http://webservices.ticc.uvt.nl/valkuil/info</a> - instructies voor het gebruik van de webservice.
+</ul>
+</p>
+
+<p>Binnen de grenzen van wat de service
+aankan bieden we valkuil.net zonder beperkingen aan; ook zonder
+garanties over uptime! We helpen je graag verder; stuur een email
+naar <a href="mailto:proycon@anaproy.nl">Maarten van Gompel</a> voor
+meer informatie.
+
+<p>&nbsp;</p>
+
+
+<p>Het gebruik van valkuil.net is vrij. Als gebruiker is het goed om
+je de volgende vragen te stellen:</p>
+
+<p>
+<ul>
+<li><b>Wat gebeurt er met mijn documenten?</b> - Valkuil.net bewaart
+geen documenten. Tot 24 uur na de laatste verbetering is de
+ingevoerde tekst beschikbaar; daarna wordt hij verwijderd.</li>
+<li><b>Wat doet de knop 'Gevonden taalfouten mogen gebruikt worden
+voor wetenschappelijk onderzoek'?</b> - Als je deze knop aanvinkt dan
+slaan we alle gevonden fouten en je eventuele verbeteringen op. Een
+fout woord wordt samen met drie woorden links en drie woorden rechts
+opgeslagen; een kleine 'snippet' dus. Je document wordt nog steeds
+niet opgeslagen en na een dag verwijderd. Met je verbeteringen
+kunnen wij valkuil.net evalueren en verbeteren.
+<li><b>Kunnen anderen mijn documenten zien?</b> - Nee, tenzij je
+tijdens je verbeter-sessie de unieke URL doorstuurt naar anderen. 24
+uur na je sessie bestaat die URL niet meer.</li>
+</ul>
+</p>
+
+<p>
+<b>Heb je een andere vraag, opmerking, of suggestie?</b> stuur een
+email
+naar <a href="mailto:a.vandenbosch@let.ru.nl?subject=Valkuil">Antal
+van den Bosch</a>.
+</p>
+
+<p>&nbsp;</p>
+
+<p>Een korte demonstratie van valkuil.net:
+</p>
+
+<iframe width="648" height="432" src="http://www.youtube.com/embed/-Q_NlWLnUvM?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>
+
+<img style="float: right;" src="/style/200x150.jpg" />
+
+<p>
+Download wallpapers van valkuil.net:
+</p>
+
+<ul>
+<li> <a href="/style/1024x768.jpg">1024x768.jpg</a></li>
+<li> <a href="/style/1280x800.jpg">1280x800.jpg</a></li>
+<li> <a href="/style/1366x768.jpg">1366x768.jpg</a></li>
+<li> <a href="/style/1440x900.jpg">1440x900.jpg</a></li>
+<li> <a href="/style/1680x1050.jpg">1680x1050.jpg</a></li>
+</ul>
+
+
+<p>&nbsp;</p>
+
+<p><b>Valkuil.net werd gemaakt en kwam tot stand door:</b></p>
+
+<p>
+<ul>
+<li><a href="http://ilk.uvt.nl/~antalb/">Antal van den Bosch</a></li>
+<li>Tanja Gaustad van Zaanen</li>
+<li><a href="http://proylt.anaproy.nl/en/home/">Maarten van Gompel</a></li>
+<li><a href="http://www.monicahajek.nl/">Monica Hajek</a></li>
+</ul>
+<p>
+
+<p>met hulp van Peter Berck, Ko van der Sloot, Martin Reynaert, Menno
+van Zaanen en Herman Stehouwer, en met de steun en suggesties van alle
+collega's van de <a href="http://ilk.uvt.nl">ILK</a> onderzoeksgroep
+van
+het <a href="http://www.tilburguniversity.edu/research/institutes-and-research-groups/ticc/">Tilburg
+center for Cognition and Communication</a>.</p>
+
+<p>Valkuil.net is tot stand gekomen dankzij financiering
+van <a href="http://www.nwo.nl">NWO</a> <a href="http://www.nwo.nl/gw">Geesteswetenschappen</a>
+in het kader van het
+Vici-project <a href="http://ilk.uvt.nl/il"><i>Implicit
+Linguistics</i></a>.</p>
+
+<p>Van <a href="http://www.opentaal.org"><b>OpenTaal</b></a> kregen we
+de beschikking over hun grote verzameling zinnen die
+zij <a href="http://www.opentaal.org/onze-zinnenoogster">op internet
+verzamelden</a> ten behoeven van hun spellingcorrector. Op dit moment
+(mei 2012) is valkuil.net getraind op zo'n 3,4 miljard woorden:</p>
+
+<p>
+<ul>
+<li> 566.261.105 woorden Nederlandse krantentekst (landelijke dagbladen);
+<li> 2.795.679.524 woorden van internet, <a href="http://www.opentaal.org/onze-zinnenoogster">verzameld door <a href="http://www.opentaal.org">OpenTaal</a>;
+<li> 129.915.730 woorden van verschillende typen teksten uit
+het <a href="http://lands.let.ru.nl/projects/SoNaR/">SoNaR</a>-project,
+zoals de Nederlandse Wikipedia en tijdschriftartikelen.
+</ul>
+</p>
+
+Opinies van anderen over
+valkuil.net vind je op <a href="http://www.s20.nl/deze-hondje-is-bruin-en-vader-trekte-aan-zijn-staart">Student
+2.0</a>, <a href="http://www.scientias.nl/nieuwe-spellingcontrole-kijkt-naar-de-context/32280">Scientias.nl</a>, <a href="http://www.dutchcowgirls.nl/online/5002">Dutch
+Cowgirls</a>, <a href="http://www.automatiseringgids.nl/nieuws/2011/22/valkuilnl-gaat-verder-dan-tikfouten-alleen">Automatiseringsgids</a>, en <a href="http://taalenrekenen.kennisnet.nl/taal/aHR0cDovL3ZhbGt1aWwubmV0Lw==/2473560230">Portaal taal en rekenen mbo</a>.
+
+<p>&nbsp;</p>
+
+<p><b>Literatuur</b></p>
+
+<p>
+<ul>
+
+<li>Stehouwer, H. and Van den Bosch, A. (2009). Putting the t where it belongs: Solving a confusion problem in Dutch. In S. Verberne, H. van Halteren, and P.-A. Coppen (Eds.), <i>Computational Linguistics in the Netherlands 2007: Selected Papers from the 18th CLIN Meeting</i>, January 22, 2009, Groningen, pp. 21-36.  [<a href="http://ilk.uvt.nl/downloads/pub/papers/CLIN07-putting-the-t.pdf">pdf</a>]</li>
+
+<li>Stehouwer, H., and Van Zaanen, M. (2009). Language models for
+contextual error detection and correction. In <i>Proceedings of the
+EACL 2009 Workshop on Computational Linguistic Aspects of Grammatical
+Inference</i>, Athens, Greece,
+pp. 41-48. [<a href="http://aclweb.org/anthology-new/W/W09/W09-1007.pdf">pdf</a>]</i>
+
+<li>Van den Bosch, A. (2006). All-words prediction as the ultimate
+confusible disambiguation. In <i>Proceedings of the HLT-NAACL Workshop
+on Computationally hard problems and joint inference in speech and
+language processing</i>, June 2006, New York City,
+NY. [<a href="http://www.cis.upenn.edu/%7Eryantm/naaclWS06/papers/vandenbosch06allword.pdf">pdf</a>]</li>
+
+<li>Van den Bosch, A. (2005). Scalable classification-based word prediction and confusible correction. <i>Traitement Automatiques des Langues</i>, <b>46:2</b>, 39-63. [<a href="http://ilk.uvt.nl/downloads/pub/papers/wordpredict-final-TAL.pdf">pdf</a>]</li>
+
+</ul>
+</p>
+
+<p>Gerelateerd werk van
+de <a href="http://ilk.uvt.nl">ILK</a>-onderzoeksgroep op het gebied
+van spellingcorrectie en statistische taalmodellering:</p>
+
+<p>
+
+<ul>
+<li>Stehouwer, H. and Van Zaanen, M. (2010). Using suffix arrays as
+language models: Scaling the n-gram. In <i>Proceedings of the 22st
+Benelux Conference on Artificial Intelligence</i> (BNAIC-2010),
+Luxembourg. [<a href="http://ilk.uvt.nl/~stehouwer/files/bnaic10.pdf">pdf</a>]</li>
+
+<li>Reynaert, M. (2010). Character confusion versus focus word-based
+correction of spelling and OCR variants in corpora. <i>International
+Journal on Document Analysis and Recognition</i>
+[<a href="http://www.springerlink.com/content/f412604k97801m15/">DOI
+10.1007/s10032-010-0133-5</a>]</li>
+
+<li>Van den Bosch, A., and Berck, P. (2009). Memory-based machine
+translation and language modeling. <i>The Prague Bulletin of
+Mathematical Linguistics</i> No. 91,
+pp. 17-26. [<a href="http://ufal.mff.cuni.cz/pbml/91/art-bosch.pdf">pdf</a>]</li>
+
+<li>Stehouwer, H., and Van Zaanen, M. (2009). Token merging in
+language model-based confusible disambiguation</a>. In T. Calders,
+K. Tuyls, and M. Pechinizkiy (Eds.), <i>Proceedings of the 21st
+Benelux Conference on Artificial Intelligence</i> (BNAIC-2009),
+pp. 241-248. [<a href="http://wwwis.win.tue.nl/bnaic2009/papers/bnaic2009_paper_76.pdf">pdf</a>]</li>
+
+<li>Reynaert, M. (2009). Parallel identification of the spelling
+variants in corpora. In <i>Proceedings of The Third Workshop on
+Analytics for Noisy Unstructured Text Data 2009</i> (AND-2009),
+Barcelona, Spain,
+pp. 77-84. [<a href="http://portal.acm.org/ft_gateway.cfm?id=1568310&type=pdf&coll=GUIDE&dl=GUIDE&CFID=45831176&CFTOKEN=42984845">pdf</a>]</li>
+
+<li>Reynaert, M. (2008). Non-interactive OCR post-correction for
+giga-scale digitization projects. In A. Gelbukh (Ed.), <i>Proceedings
+of the Computational Linguistics and Intelligent Text Processing 9th
+International Conference</i>, CICLing 2008. Lecture Notes in Computer
+Science Vol. 4919/2008, Berlin / Heidelberg: Springer,
+pp. 617-630. [<a href="http://ilk.uvt.nl/downloads/pub/papers/CICLING08.TICCL.MRE.postpublication.pdf">pdf</a>]</li>
+
+<li>Reynaert, M. (2008). All, and only, the errors: More complete and
+consistent spelling and OCR-error correction
+evaluation. In <i>Proceedings of the Sixth International Language
+Resources and Evaluation</i> (LREC'08). Marrakech,Morocco,
+2008. [<a href="http://ilk.uvt.nl/downloads/pub/papers/477_paper.pdf">pdf</a>]</li>
+
+<li>Van den Bosch, A., and Bogers, T. (2008). Efficient
+Context-Sensitive Word Completion for Mobile Devices. In <i>MobileHCI
+2008: Proceedings of the 10th International Conference on
+Human-Computer Interaction with Mobile Devices and Services, IOP-MMI
+special track</i>, pp 465-470. Amsterdam, The Netherlands, September
+2008. [<a href="http://ilk.uvt.nl/%7Etoine/publications/vandenbosch.2008.mobilehci-2008-paper.pdf">pdf</a>]</li>
+
+</ul>
+</p>
+
+<p>
+Op de 2010 European Summer School on Logic, Language, and Information in Kopenhagen gaf Antal van den Bosch een <a href="http://ilk.uvt.nl/~antalb/esslli10/">cursus over geheugengebaseerde taalmodellering</a> (Engelstalig cursusmateriaal), de technologie waarop Valkuil is gebaseerd.
+</p>
+
+<!-- END TEXT -->
+                </div>     
+            </div>
+        </div>     
+        
+    </body>
+</html>

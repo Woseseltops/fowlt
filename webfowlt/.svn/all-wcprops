@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/15184/projects/valkuil/webvalkuil
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/10307/projects/valkuil/webvalkuil/urls.py
+END
+manage.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/9037/projects/valkuil/webvalkuil/manage.py
+END
+wsgi.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/9808/projects/valkuil/webvalkuil/wsgi.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/9037/projects/valkuil/webvalkuil/__init__.py
+END
+settings.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/9937/projects/valkuil/webvalkuil/settings.py
+END

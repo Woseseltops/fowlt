@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/14960/projects/valkuil/webvalkuil/valkuil
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/14960/projects/valkuil/webvalkuil/valkuil/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/9093/projects/valkuil/webvalkuil/valkuil/__init__.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/9093/projects/valkuil/webvalkuil/valkuil/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/9093/projects/valkuil/webvalkuil/valkuil/models.py
+END
