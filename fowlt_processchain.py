@@ -213,7 +213,7 @@ class ErrorListModule(AbstractModule):
         self.errout("MODULE: " + self.NAME)
                 
         #Call module and ask it to produce output
-        self.runcmd('python ' + self.rootdir + 'errorlistchecker/errorlist_checker.py ' + self.rootdir + 'output/input.tok.txt ' + self.rootdir + 'errorlistchecker/fowlt_errorlist ' + self.outputdir + 'errorlist_checker.test.out')
+        self.runcmd('python ' + self.rootdir + 'errorlistchecker/errorlist_checker.py ' + self.outputdir + 'input.tok.txt ' + self.rootdir + 'errorlistchecker/fowlt_errorlist ' + self.outputdir + 'errorlist_checker.test.out')
 
 # --- Add new module classes here, and don't forget to declare them in the list below: ---
 
@@ -223,7 +223,7 @@ class LexiconModule(AbstractModule):
     def process_result(self):
 
 	#Load exceptions
-	exceptions = open('lexiconchecker/exceptions','r').read().strip().split('\n');
+	exceptions = open(self.rootdir+'lexiconchecker/exceptions','r').read().strip().split('\n');
 
         if self.done:
             #Reading module output and integrating in FoLiA document
@@ -676,14 +676,14 @@ except:
     threshold = 0.5
 
 #Get settings
-raw_settings = open('client_settings','r').readlines();
+raw_settings = open(rootdir+'client_settings','r').readlines();
 settings = {};
 
 for l in raw_settings:
     key, value = l.split(' ');
     settings[key] = value[:-1];
 
-lines = open('thresholds','r').readlines();
+lines = open(rootdir+'thresholds','r').readlines();
 threshold_settings = {};
 
 for l in lines:
@@ -712,9 +712,9 @@ else:
     os.system('dos2unix ' + inputfile)
     errout("Starting tokeniser...")
     if sys.argv[1] == 'clam':
-        os.system(bindir + 'ucto -c /var/www/etc/ucto/tokconfig-nl -x ' + id + ' ' + inputfile + ' > ' + outputdir + id + '.xml')
+        os.system(bindir + 'ucto -c ' + rootdir + '/ucto_config/tokconfig-fowlt -x ' + id + ' ' + inputfile + ' > ' + outputdir + id + '.xml')
     else:
-        os.system(bindir + 'ucto -c ' + os.getcwd() + '/ucto_config/tokconfig-fowlt -x ' + id + ' ' + inputfile + ' > ' + outputdir + id + '.xml')
+        os.system(bindir + 'ucto -c ' + rootdir + '/ucto_config/tokconfig-fowlt -x ' + id + ' ' + inputfile + ' > ' + outputdir + id + '.xml')
 
     errout("Tokeniser finished")
 

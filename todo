@@ -1,5 +1,5 @@
-* Zekerheden afmaken voor lexiconchecker, nog toevoegen voor wopr, runon en split
-* Clean comments processchain
+* Zekerheden toevoegen voor wopr
+* Confidence toevoegen werkt niet goed in de lexiconchecker
 * Bug: UCTO crasht als " niet matchen
 * Kopje EXPANDING in the readme verder uitwerken: hoe zit het met testen en thresholds?
 * Optie toevoegen bij confusible_trainer.py: automatisch tokenizeren.
