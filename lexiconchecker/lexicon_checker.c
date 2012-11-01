@@ -41,6 +41,8 @@ int main(int argc, char *argv[])
   FILE *context;
   unsigned long freqthres=MINFREQTHRESHOLD;
   char inlex,withe,cap,inflection;
+  float current_confidence;
+  float highest_confidence;
 
   /* allocate lexicon */
   lexicon=malloc(sizeof(char*));
@@ -233,20 +235,36 @@ int main(int argc, char *argv[])
       if (nrclosest>0)
 	{
 	  for (i=0; i<nrclosest; i++)
-	    fprintf(stdout," %s%6.3f",
-		    closestword[i],(1 - ((float)freqthres/(float)FREQFACTOR)/((float)closestfreq[i]/(float)FREQFACTOR)));
+            {
+	    fprintf(stdout," %s",
+		    closestword[i]);
+
+            current_confidence = (1 - ((float)freqthres/(float)FREQFACTOR)/((float)closestfreq[i]/(float)FREQFACTOR));
+            if (current_confidence > highest_confidence)
+                {
+                highest_confidence = current_confidence;
+                }
+            } 
 	  if (DEBUG)
 	    {
 	      fprintf(stderr,"correction suggestions for %s: ",
 		      word);
 	      for (i=0; i<nrclosest; i++)
-		fprintf(stderr," %s%6.3f",
-			closestword[i],(1 - ((float)freqthres/(float)FREQFACTOR)/((float)closestfreq[i]/(float)FREQFACTOR)));
+		fprintf(stderr," %s",
+			closestword[i]);
 	      fprintf(stderr,"\n");
 	    }
 	}
       
-      fprintf(stdout,"\n");      
+      if(highest_confidence > 0)
+          {
+          fprintf(stdout,"%6.3f\n",highest_confidence);
+          }
+      else
+          {
+          fprintf(stdout,"\n");
+          }
+      highest_confidence = 0;      
     }
   fclose(context);  
 
