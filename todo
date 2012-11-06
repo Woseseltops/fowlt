@@ -1,7 +1,6 @@
 * Zekerheden toevoegen voor wopr
-* Confidence toevoegen werkt niet goed in de lexiconchecker
-* Uitzoeken: hoe fowlt op applejack?
-* Papers lezen voor portfolio en daaraan beginnen
+* Uitzoeken: waarom werkt WOPR niet?
+* Portfolio
 * Bug: UCTO crasht als " niet matchen
 * Kopje EXPANDING in the readme verder uitwerken: hoe zit het met testen en thresholds?
 * Optie toevoegen bij confusible_trainer.py: automatisch tokenizeren.

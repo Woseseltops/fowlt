@@ -579,7 +579,7 @@ class WoprCheckerModule(AbstractModule):
             for word, fields in self.readcolumnedoutput(self.outputdir + 'wopr_checker.test.out'):
                 if len(fields) >= 2:
                     #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
-                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:]], cls='unlikely-word', annotator=self.NAME)
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:]], cls='unlikely-word', annotator=self.NAME, confidence = 1)
             f.close()                      
         
     def run(self):                

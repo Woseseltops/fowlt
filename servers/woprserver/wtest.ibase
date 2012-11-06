@@ -1,0 +1,76 @@
+# Status: pruned
+# Permutation: < 3, 4, 2, 5, 6, 1 >
+# Numeric: .
+# Bin_Size: 20
+# Version 4 (Hashed)
+#
+Classes
+1	Jip
+2	eet
+3	een
+4	koekje
+5	.
+6	<utt>
+7	taartje
+8	gebakje
+9	appel
+10	boterham
+11	donut
+12	Dit
+13	zijn
+14	hele
+15	andere
+16	woorden
+17	dan
+18	in
+19	die
+20	zin
+21	kokje
+Features
+1	_
+2	eet
+3	een
+4	koekje
+5	Jip
+6	.
+7	<utt>
+8	taartje
+9	gebakje
+10	appel
+11	boterham
+12	donut
+13	Dit
+14	zijn
+15	hele
+16	andere
+17	woorden
+18	dan
+19	in
+20	die
+21	zin
+22	kokje
+
+(5{ 1 432, 2 432, 3 432, 4 396, 5 440, 6 440, 7 8, 8 8, 9 8, 10 8, 11 8, 12 8, 13 8, 14 8, 15 16, 16 8, 17 8, 18 8, 19 8, 20 8, 21 4 }[1(1{ 1 1 })
+,2(3{ 3 432 })
+,3(4{ 4 392, 7 8, 8 8, 9 8, 10 8, 11 8 })
+,4(5{ 5 392, 17 4 }[19(17{ 17 4 })
+]
+)
+,5(2{ 2 432 })
+,6(6{ 6 440 })
+,7(1{ 1 431, 12 8 }[14(12{ 12 8 })
+]
+)
+,13(13{ 13 8 })
+,14(14{ 14 8 })
+,15(15{ 15 8 })
+,16(16{ 16 8, 20 8 }[6(20{ 20 8 })
+]
+)
+,17(4{ 4 4, 21 4 })
+,18(18{ 18 8 })
+,19(19{ 19 8 })
+,20(15{ 15 8 })
+,22(17{ 17 4 })
+]
+)
