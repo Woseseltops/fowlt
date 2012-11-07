@@ -62,7 +62,7 @@ if hostname == "aurora" or hostname == "roma": #proycon's laptop/server
     # Examples: "http://media.lawrence.com", "http://example.com/media/"
     MEDIA_URL = ''
 elif hostname == "spitfire" or hostname == "spitfire.science.ru.nl": #Nijmegen
-    ROOT_DIR = "/var/www2/fowlt/live/repo/fowlt/" #Wessel's server
+    ROOT_DIR = "/var/www2/fowlt/live/repo/fowlt/"
     DOCDIR = '/var/www2/fowlt/live/writable/userdocs'
     CLAMSERVICE = ''    
     
