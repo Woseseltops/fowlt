@@ -61,8 +61,17 @@ if hostname == "aurora" or hostname == "roma": #proycon's laptop/server
     # trailing slash if there is a path component (optional in other cases).
     # Examples: "http://media.lawrence.com", "http://example.com/media/"
     MEDIA_URL = ''
+elif hostname == "spitfire" or hostname == "spitfire.science.ru.nl": #Nijmegen
+    ROOT_DIR = "/var/www2/fowlt/live/repo/fowlt/" #Wessel's server
+    DOCDIR = '/var/www2/fowlt/live/writable/userdocs'
+    CLAMSERVICE = ''    
+    
+    # URL that handles the media served from MEDIA_ROOT. Make sure to use a
+    # trailing slash if there is a path component (optional in other cases).
+    # Examples: "http://media.lawrence.com", "http://example.com/media/"
+    MEDIA_URL = 'http://fowlt.science.ru.nl/style/'
 else:
-    ROOT_DIR = "home/wessel/Bureaublad/fowlt/"
+    ROOT_DIR = "home/wessel/Bureaublad/fowlt/" #Wessel's server
     DOCDIR = ROOT_DIR + 'userdocs/'
     CLAMSERVICE = 'http://webservices.ticc.uvt.nl/valkuil/'    
     
@@ -100,7 +109,7 @@ MIDDLEWARE_CLASSES = (
     #'django.contrib.messages.middleware.MessageMiddleware',
 )
 
-ROOT_URLCONF = 'webfowlt.urls'
+ROOT_URLCONF = 'urls'
 
 TEMPLATE_DIRS = ('templates/',
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
@@ -111,7 +120,7 @@ TEMPLATE_DIRS = ('templates/',
 INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
-    'webfowlt.fowlt',
+    'fowlt',
     #'django.contrib.sessions',
     #'django.contrib.sites',
     #'django.contrib.messages',
