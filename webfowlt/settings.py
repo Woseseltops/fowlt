@@ -1,11 +1,10 @@
-# Django settings for webvalkuil project.
+# Django settings for webfowlt project.
 from socket import gethostname
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    ('Wessel Stoop', 'stoopwessel@gmail.com'),
     ('Maarten van Gompel', 'proycon@anaproy.nl'),
 )
 
@@ -23,9 +22,6 @@ DATABASES = {
 }
 
 
-
-
-
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
 # although not all choices may be available on all operating systems.
@@ -37,7 +33,7 @@ TIME_ZONE = 'Europe/Amsterdam'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'en'
+LANGUAGE_CODE = 'nl'
 
 #SITE_ID = 1
 
@@ -50,10 +46,25 @@ USE_I18N = True
 USE_L10N = True
 
 
-
 hostname = gethostname()
-if hostname == "aurora" or hostname == "roma": #proycon's laptop/server
-    ROOT_DIR = "/home/proycon/work/valkuil/"
+if hostname in ["applejack","spitfire", "spitfire.science.ru.nl", "fowlt.net", "fowlt.science.ru.nl"]:  #Nijmegen
+    ROOT_DIR = "/var/www2/fowlt/live/repo/fowlt/"
+    DOCDIR = "/var/www2/fowlt/live/writable/userdocs/" 
+    CLAMSERVICE = 'http://webservices.ticc.uvt.nl/fowlt/'  #TODO: ADAPT, still running in Tilburg
+    
+    MEDIA_URL = 'http://fowlt.science.ru.nl/style/' #TODO: adapt to new domain            
+elif hostname == 'echo' or hostname == 'nomia' or hostname == 'echo.uvt.nl' or hostname == 'nomia.uvt.nl': #Tilburg
+    ROOT_DIR = "/var/www/fowlt/"
+    DOCDIR = ROOT_DIR + 'userdocs/'
+    CLAMSERVICE = 'http://webservices.ticc.uvt.nl/fowlt/'    
+    
+    # URL that handles the media served from MEDIA_ROOT. Make sure to use a
+    # trailing slash if there is a path component (optional in other cases).
+    # Examples: "http://media.lawrence.com", "http://example.com/media/"
+    MEDIA_URL = 'http://fowlt.net/style/'
+        
+elif hostname == "aurora" or hostname == "roma": #proycon's laptop/server
+    ROOT_DIR = "/home/proycon/work/fowlt/"
     DOCDIR = ROOT_DIR + 'userdocs/'
     CLAMSERVICE = 'http://' + hostname + ':8080'
         
@@ -61,35 +72,23 @@ if hostname == "aurora" or hostname == "roma": #proycon's laptop/server
     # trailing slash if there is a path component (optional in other cases).
     # Examples: "http://media.lawrence.com", "http://example.com/media/"
     MEDIA_URL = ''
-elif hostname == "spitfire" or hostname == "spitfire.science.ru.nl": #Nijmegen
-    ROOT_DIR = "/var/www2/fowlt/live/repo/fowlt/"
-    DOCDIR = '/var/www2/fowlt/live/writable/userdocs'
-    CLAMSERVICE = ''    
-    
-    # URL that handles the media served from MEDIA_ROOT. Make sure to use a
-    # trailing slash if there is a path component (optional in other cases).
-    # Examples: "http://media.lawrence.com", "http://example.com/media/"
-    MEDIA_URL = 'http://fowlt.science.ru.nl/style/'
-else:
-    ROOT_DIR = "home/wessel/Bureaublad/fowlt/" #Wessel's server
+elif hostname == "wessel-HP-Compaq-8200-Elite-MT-PC": #Wessel's pc
+    ROOT_DIR = "/home/wessel/Bureaublad/fowlt/"
     DOCDIR = ROOT_DIR + 'userdocs/'
-    CLAMSERVICE = 'http://webservices.ticc.uvt.nl/valkuil/'    
-    
-    # URL that handles the media served from MEDIA_ROOT. Make sure to use a
-    # trailing slash if there is a path component (optional in other cases).
-    # Examples: "http://media.lawrence.com", "http://example.com/media/"
-    MEDIA_URL = 'http://webservices.ticc.uvt.nl/style/'
+    CLAMSERVICE = 'http://' + hostname + ':8080'
+else:
+    raise Exception("Don't know where I'm running from!")
 
 
 # Absolute path to the directory that holds media.
 # Example: "/home/media/media.lawrence.com/"
-MEDIA_ROOT = 'style/'
+MEDIA_ROOT = ROOT_DIR + 'webfowlt/style/'
 
 
 # URL prefix for admin media -- CSS, JavaScript and images. Make sure to use a
 # trailing slash.
 # Examples: "http://foo.com/media/", "/media/".
-ADMIN_MEDIA_PREFIX = 'media/'
+ADMIN_MEDIA_PREFIX = '/media/'
 
 # Make this unique, and don't share it with anybody.
 SECRET_KEY = '@r&t#+-0+_v^g_+p^1s&mm-4)33ti0ys^0^$ypb@a7d6-sawxf'
@@ -111,7 +110,8 @@ MIDDLEWARE_CLASSES = (
 
 ROOT_URLCONF = 'urls'
 
-TEMPLATE_DIRS = ('templates/',
+TEMPLATE_DIRS = (
+    ROOT_DIR + "webfowlt/templates",
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.

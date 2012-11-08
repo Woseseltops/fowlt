@@ -1,7 +1,8 @@
-* Een pagina runnen op /www/valkuil
-* Zekerheden toevoegen voor wopr
+* De aboutpagina maken.
+* Verder werken aan portfolio-onderzoek
 * Uitzoeken: waarom werkt WOPR niet?
-* Portfolio
+* Zekerheden toevoegen voor wopr
+* Heel Valkuil activeren online
 * Bug: UCTO crasht als " niet matchen
 * Kopje EXPANDING in the readme verder uitwerken: hoe zit het met testen en thresholds?
 * Optie toevoegen bij confusible_trainer.py: automatisch tokenizeren.

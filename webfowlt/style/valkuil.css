@@ -1,10 +1,10 @@
 body {
-    background: #cecfb1;   
+    background: #a2c4c4;   
     font-family: Verdana;
     font-size: 12px; 
 }
 #header {
-    background: url(valkuil_logo.png) no-repeat;
+    background: url(fowlt_logo.png) no-repeat;
     width: 250px;
     height: 121px;
     margin-top: 29px;
@@ -19,7 +19,7 @@ label {
     font-family: Verdana;
     font-size: 12px;
     font-weight: bold;
-    color: #525347;
+    color: #a2c4c4;
 }
 label.top {
     display: block;
@@ -111,7 +111,7 @@ label.top {
 
 #sidebar {
     position: fixed;
-    background: #cecfb1;   
+    background: #a2c4c4;   
     top: 16px;
     width: 220px;
     height: 500px;
@@ -235,9 +235,9 @@ label.top {
     margin-bottom: 15px;
 }
 #logo {
-    background: url(valkuil_logo.png) no-repeat;
-    width: 176px;
-    height: 121px;
+    background: url(fowlt_logo.png) no-repeat;
+    width: 288px;
+    height: 159px;
     cursor: pointer;
 }
 
@@ -358,7 +358,7 @@ label.top {
     position: fixed;
     top: 0px;
     width: 1024px;
-    background: #cecfb1; 
+    background: #a2c4c4; 
     text-align: right;
     padding-top: 5px;
     padding-bottom: 5px;
