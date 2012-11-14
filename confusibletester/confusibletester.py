@@ -1,6 +1,7 @@
 from __future__ import division
 import random
 import subprocess
+import sys
 
 def command(command):
     command = command.split(' ');
@@ -32,18 +33,25 @@ def test(filename,model):
     command('timbl -t '+filename+' -i '+model+' -a1 +D +vdb');
 
 def calculate_metrics(filename,options):
-    """Calculates all metrics""";
+    """Calculates accuracy, the confusible option distribution and the confusion matrices for the data""";
 
+    confidence_list = [0, 0.05, 0.1, 0.15, 0.20, 0.25, 0.3, 0.35, 0.40, 0.45, 0.50,0.55,0.60,0.65,0.70,0.75,0.80,0.85,0.90,0.95,0.99];
     accuracies = {};
+    confusion_matrices = {};
 
-    for i in [0, 0.05, 0.1, 0.15, 0.20, 0.25, 0.3, 0.35, 0.40, 0.45, 0.50,0.55,0.60,0.65,0.70,0.75,0.80,0.85,0.90,0.95,0.99]:
+    for i in confidence_list:
         accuracies[i] = (calculate_accuracy(filename+'.test.IGTree.gr.out',i));
 
     distr = calculate_confusible_distribution(filename);
 
-    confusion_matrix = calculate_confusion_matrix(filename,0,options);
+    #Create and test a file with errors added
+    errorlines = make_error_file(filename + '.test',10,options);
+    test(filename+'.test.errors',filename+'.train.IGTree');
 
-    return accuracies, distr, confusion_matrix;
+    for i in confidence_list:
+        confusion_matrices[i] = calculate_confusion_matrix(filename+'.test.errors',errorlines,i,options);
+
+    return accuracies, distr, confusion_matrices;
 
 def calculate_accuracy(filename,threshold):
 
@@ -102,13 +110,10 @@ def calculate_confusible_distribution(filename):
 
     return confusible_options;
 
-def calculate_confusion_matrix(filename,threshold,options):
-
-    #Test an alternative test file, with errors added
-    errorlines = make_error_file(filename + '.test',10,options);
-    test(filename+'.test.errors',filename+'.train.IGTree');
-
-    f = open(filename+'.test.errors.IGTree.gr.out','r');
+def calculate_confusion_matrix(filename,errorlines,threshold,options):
+    """Calculate the cm by basically doing the test procedure again, but on a file with errors added""";
+    
+    f = open(filename+'.IGTree.gr.out','r');
 
     tp = 0;
     fp = 0;
@@ -133,17 +138,16 @@ def calculate_confusion_matrix(filename,threshold,options):
         total_confidence = max(confidences.values())/sum(confidences.values());
 
         #Add data for accuracy
-        if total_confidence > threshold:
-            if n in errorlines:
-                if not match:
-                    tp += 1;
-                else:
-                    fn += 1;
+        if n in errorlines:
+            if not match and total_confidence > threshold:
+                tp += 1;
             else:
-                if not match:
-                    fp += 1;
-                else:
-                    tn += 1;             
+                fn += 1;
+        else:
+            if not match and total_confidence > threshold:
+                fp += 1;
+            else:
+                tn += 1;             
 
     return (tp,fp,fn,tn);
 
@@ -185,9 +189,64 @@ def make_error_file(filename,error_proportion,options):
 
     return errorlines;
 
+def show_metrics(output,accuracies,distribution,confusion_matrices):
+
+    open(output,'w').write('');
+    output = open(output,'a');
+
+    output.write(' \nDISTRIBUTION PROPORTIONS\n');
+    
+    for k,v in distribution.items():
+        output.write(str(k)+' '+str(v)+'\n');
+
+    output.write(' \nPREDICTION ACCURACY\n');
+
+    output.write('Threshold\tAccuracy\tCorrect\tTotal\n');
+
+    for k,v in sorted(accuracies.items()):
+        output.write(str(k)+'\t'+str(v[0])+'\t'+str(v[1])+'\t'+str(v[2])+'\n');
+
+    output.write('\nCONFUSION MATRIX, NO ABSTAINING\n');
+    cm = confusion_matrices[0];
+
+    output.write('-True positive: '+str(cm[0])+'\n');
+    output.write('-False positive: '+str(cm[1])+'\n');
+    output.write('-False negative: '+str(cm[2])+'\n');
+    output.write('-True negative: '+str(cm[3])+'\n');
+
+    output.write('\nCONFUSION MEASURES, NO ABSTAINING\n');
+    precision = cm[0] / (cm[0]+cm[1])
+    recall = cm[0] / (cm[0]+cm[2])
+
+    output.write('\n-Detection precision: '+str(precision)+'\n');
+    output.write('-Detection recall: '+str(recall)+'\n');
+    output.write('-Detection accuracy: '+str((cm[0] + cm[3])/ (sum(cm)))+'\n');
+    output.write('-F-measure: '+ str(2 * ((precision * recall)/(precision + recall)))+'\n'); 
+
+    output.write('\nDETECTION ACCURACY, ABSTAINING\n');
+
+    output.write('Threshold\tAccuracy\n');
+
+    for k,v in sorted(confusion_matrices.items()):
+        output.write(str(k)+'\t'+str((v[0] + v[3])/ (sum(v)))+'\n');
+
+    output.write('\nDETECTION F-MEASURE (PRECISION,RECALL), ABSTAINING\n');
+
+    output.write('Threshold\tF-measure\tPrecision\tRecall\n');
+
+    for k,v in sorted(confusion_matrices.items()):
+        precision = v[0] / (v[0]+v[1])
+        recall = v[0] / (v[0]+v[2])
+        output.write(str(k)+'\t'+str(2 * ((precision * recall)/(precision + recall)))+'\t'+str(precision)+'\t'+str(recall)+'\n');
+
 #=======
 
-filename = 'advice,advise.inst';
+if len(sys.argv) != 2:
+    print('confusibletester.py [inputfile]');
+    quit();
+else:
+    filename = sys.argv[1];
+    output = sys.argv[1] + '.output';
 
 options = filename[:-5].split(',');
 
@@ -204,29 +263,7 @@ test(filename+'.test',filename+'.train.IGTree');
 print('==Done');
 
 print('==Calculating metrics');
-accuracies, distribution, cm = calculate_metrics(filename,options);
-
-print(' \n-Distribution proportions:');
-
-for k,v in distribution.items():
-    print k,v;
-
-print(' \n-Prediction accuracy');
-
-for k,v in sorted(accuracies.items()):
-    print k,v;
-
-print '\n-True positive: ',cm[0];
-print '-False positive: ',cm[1];
-print '-False negative: ',cm[2];
-print '-True negative: ',cm[3];
-
-precision = cm[0] / (cm[0]+cm[1])
-recall = cm[0] / (cm[0]+cm[2])
-
-print '\n-Detection precision: ', precision;
-print '-Detection recall: ', recall;
-print '-Detection accuracy: ', (cm[0] + cm[3])/ (sum(cm));
-print '-F-measure: ', 2 * ((precision * recall)/(precision + recall)); 
+accuracies, distribution, confusion_matrices = calculate_metrics(filename,options);
+show_metrics(output,accuracies,distribution,confusion_matrices);
 
 print('==Done');
