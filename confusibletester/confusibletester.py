@@ -134,15 +134,19 @@ def calculate_confusion_matrix(filename,errorlines,threshold,options):
             confidences[key.strip()] = float(value.strip());
 
         #Check for match, calculate confidence
-        match = prediction == actual_word;
+        match = prediction.strip().lower() == actual_word.strip().lower();
         total_confidence = max(confidences.values())/sum(confidences.values());
 
         #Add data for accuracy
         if n in errorlines:
             if not match and total_confidence > threshold:
                 tp += 1;
+		if threshold == 0:
+		    print('TP',prediction,actual_word);
             else:
                 fn += 1;
+                if threshold == 0:
+		    print('FN',prediction,actual_word);
         else:
             if not match and total_confidence > threshold:
                 fp += 1;
@@ -177,7 +181,7 @@ def make_error_file(filename,error_proportion,options):
         if n in errorlines:    
             current_line = i.split(' ');
             new_line = ' '.join(current_line[:-2]);
-            actual_word = current_line[-2];
+            actual_word = current_line[-2].strip().lower();
 
             error = '';
             while error in ['',actual_word]:
@@ -248,7 +252,10 @@ else:
     filename = sys.argv[1];
     output = sys.argv[1] + '.output';
 
-options = filename[:-5].split(',');
+if 'bal' in filename:
+    options = filename[:-9].split(',');
+else:
+    options = filename[:-5].split(',');
 
 print('==Splitting data');
 split(filename,0.1);
