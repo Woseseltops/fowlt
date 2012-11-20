@@ -394,7 +394,7 @@ function updatesidebar(wordid) {
    $.each(errors, function(i,error){                                
         if (error['wordid'] == wordid) {
             //show current error
-            $('#currenterror').val(toString(i+1)+' /total'); 
+            $('#currenterror').val(i+1+' / '+errorcount); 
             $('#errorclass').text(error['classes'][0]);
             $('#error').text(error['text']);                
                            

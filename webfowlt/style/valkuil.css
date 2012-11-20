@@ -256,14 +256,17 @@ label.top {
     color: #525347;
     margin-top: 3px;
 }
-#pager {
+
+#errortracker {
     margin-left: auto;
-    margin-right: auto;
-    width: 140px;
-    text-align: center;
+    margin-right: auto;   
+    width: 220px;
+    margin-bottom: 25px;
+}
+
+#pager {
+    margin-left: 15px;
     letter-spacing: -3px;    
-    margin-top: 15px;
-    margin-bottom: 15px;
 }
 
 #suggestions {
