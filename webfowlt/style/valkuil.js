@@ -53,11 +53,11 @@ function initerrors() {
     $('#classtoggle').click(function(){   
         if (showclasses) {
             $('#errorclass').css({'visibility':'hidden'});
-            $('#classtoggle').text('Toon fouttype');
+            $('#classtoggle').text('Show mistake type');
             showclasses = false;
         } else {
             $('#errorclass').css({'visibility':'visible'});
-            $('#classtoggle').text('Verberg fouttype');
+            $('#classtoggle').text('Hide mistake type');
             showclasses = true;
         }                    
     });
@@ -176,9 +176,9 @@ function initloader() {
 
     
     if (($.browser.msie) && (parseInt($.browser.version, 10) <= 6) ) {
-        $('#browsernotice').text("Uw browser, Internet Explorer 6 of lager is extreem oud en wordt helaas niet ondersteund door Valkuil!");
+        $('#browsernotice').text("Your browser, Internet Explorer 6 or lower, is extremely old and is not supported by Fowlt.net!");
     } else if (($.browser.msie) && (parseInt($.browser.version, 10) < 9) ) {    
-        $('#browsernotice').text("Valkuil komt beter tot zijn recht met een recentere browser dan de uwe! We bevelen Firefox of Chromium aan!");
+        $('#browsernotice').text("Fowlt works better in a newer browser than the one you're currently using! We recommend Firefox or Chrome!");
     }
     $('#veil').click(function() {
         if( $('#sharedialog').is(":visible") ) {
@@ -233,7 +233,7 @@ function processed(wordid) {
         $('#errorcount').text(errorcount);
         if (errorcount == 0) {
             $('#suggestionarea').hide();
-            $('#currenterror').val('geen');
+            $('#currenterror').val('none');
         }
     }
     if ((cursor == e) && (errorcount > 0)) {
@@ -357,8 +357,8 @@ function updatesidebar(wordid) {
    $('#ruler').show();
     
    var e = document.getElementById(wordid)
-   $('#currenterror').val('vrij');
-   $('#errorclass').text('geen fout gevonden');
+   $('#currenterror').val('free');
+   $('#errorclass').text('no errors found');
    $('#error').text($(e).text()); 
    $('#suggestions').empty(); 
    $('#correctall').hide();          
@@ -394,7 +394,7 @@ function updatesidebar(wordid) {
    $.each(errors, function(i,error){                                
         if (error['wordid'] == wordid) {
             //show current error
-            $('#currenterror').val(i+1); 
+            $('#currenterror').val(toString(i+1)+' /total'); 
             $('#errorclass').text(error['classes'][0]);
             $('#error').text(error['text']);                
                            
@@ -409,7 +409,7 @@ function updatesidebar(wordid) {
                     selectsuggestion(this);
                 });            
             } else {
-                $('#suggestions').append('<li class="msg">Geen suggesties</li>');
+                $('#suggestions').append('<li class="msg">No suggestions</li>');
             }
 
             $('#ignorebutton').show();
@@ -461,7 +461,7 @@ function correct() {
         }
      });
     } else {
-        showerror("Kies eerst een woord!");
+        showerror("Pick a word first!");
     }
        
 }
@@ -472,7 +472,7 @@ function unselect() {
         cursorindex = -1;    
         cursorid = null;    
     }
-    $('#currenterror').val('vrij');    
+    $('#currenterror').val('free');    
     $('#suggestionarea').hide();
     $('#ruler').hide();
 }
