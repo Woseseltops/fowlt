@@ -217,7 +217,7 @@ def viewer(request, id):
                      error2['occ'] += 1        
                         
         #Let XSLT do the basic conversion to HTML
-        xslt = etree.parse(settings.ROOT_DIR + '/webvalkuil/style/folia-embed.xsl')
+        xslt = etree.parse(settings.ROOT_DIR + 'webfowlt/style/folia-embed.xsl')
         transform = etree.XSLT(xslt)
         html = transform(xmldoc)
 

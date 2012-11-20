@@ -29,38 +29,9 @@
                     <li><a href="/">New input</a></li>
                     <li><span id="classtoggle">Show mistake type</span></li>
                     <li><a id="sharethis">Share this site!</a></li>
-                    <li><a href="/info">About VALKUIL.net</a></li>
+                    <li><a href="/info">About FOWLT.net</a></li>
                     <li> <a href="http://www.facebook.com/Fowlt"><img src="/style/facebook2.jpg" alt="Fowlt.net on facebook" title="Fowlt.net on facebook!" /></a> <a href="http://www.twitter.com/fowlt"><img src="/style/twitter2.png" alt="Fowlt.net on twitter" title="Fowlt.net on twitter!" /></a> </li>
-                    <!--<li><a href="/help">Help</a></li>-->
                 </ul>
-                <!--
-                <table id="expertlegenda">
-                    <tr>
-                        <td class="colcell"><div class="square spellingerror"></div></td>
-                        <td class="label">Bekende spellingsfout</td>
-                        <td class="colcell"><div class="square ddterror"></div></td>
-                        <td class="label">-d/-dt fout</td>
-                        <td class="colcell"><div class="square dterror"></div></td>
-                        <td class="label">-d/-t fout</td>
-                        <td class="colcell"><div class="square uuwerror"></div></td>
-                        <td class="label">u/uw fout</td>
-                        <td class="colcell"><div class="square joujouwerror"></div></td>
-                        <td class="label">jou/jouw fout</td>
-                    </tr>
-                    <tr>
-                        <td class="colcell"><div class="square zeizijerror"></div></td>
-                        <td class="label">Zij/zei fout</td>
-                        <td class="colcell"><div class="square henhunerror"></div></td>
-                        <td class="label">Hen/hun fout</td>
-                        <td class="colcell"><div class="square mijikerror"></div></td>
-                        <td class="label">Mij/ik fout</td>
-                        <td class="colcell"><div class="square ttettenerror"></div></td>
-                        <td class="label">-tte/-tten fout</td>
-                        <td class="colcell"><div class="square beidebeidenerror"></div></td>
-                        <td class="label">beide/beiden fout</td>
-                    </tr>                    
-                </table>
-                -->
             </div>
             <div id="sidebar">
                 <div id="logo"></div>
@@ -84,18 +55,18 @@
                     <div id="correctall">
                         <label>dezelfde fout is <span id="sameerror">x</span> keer gevonden</label>
                                             
-                        <button class="button" id="correctallbutton">verbeter alle</button>
+                        <button class="button" id="correctallbutton">correct all</button>
                     </div>
                     
-                    <button class="button" id="ignorebutton">negeer</button>
+                    <button class="button" id="ignorebutton">ignore</button>
                     
-                    <button class="button" id="freecorrectbutton">verbeter handmatig</button>
+                    <button class="button" id="freecorrectbutton">correct manually</button>
                 </div>
                         
                 
 
             
-                <label>Aantal gevonden fouten</label>
+                <label>Number of errors found</label>
                 <div id="errorcount">{{ errorcount }}</div>
                             
                 <button class="button" id="downloadbutton">download document</button>
@@ -117,18 +88,18 @@
                 <button class="button" id="dialogsubmit">verbeter</button>  
             </div>
             <div id="downloaddialog">
-                Kies het gewenste downloadformaat:
+                Which download format do you prefer?
                 <ul>
-                 <li><a href="text/">Download als platte tekst</a></li>
-                 <li><a href="xml/">Download als FoLiA XML</a></li>
+                 <li><a href="text/">Download as plaintext</a></li>
+                 <li><a href="xml/">Download as FoLiA XML</a></li>
                 </ul>
             </div>
             <div id="loaderwrapper">
                 <div id="loader"></div>
-                <div id="loadertext">De spellingcorrector draait, een ogenblik geduld...</div>
+                <div id="loadertext">The spelling correction is running, a moment please...</div>
             </div> 
             <div id="sharedialog">
-                <h3>Deel deze site!</h3>
+                <h3>Share this site!</h3>
                   <ul>
                     <li><a class="delicious" href="http://del.icio.us/post?url=valkuil.net" title="Bookmark on del.icio.us">Delicious</a>
                     <li><a class="facebook" href="http://www.facebook.com/sharer.php?u=http://valkuil.net/"  title="Share this on Facebook" >Facebook</a></li>
@@ -137,7 +108,7 @@
                   </ul>
             </div>            
             <div id="errordialog">
-                <h3>Oeps! Een fout!</h3>
+                <h3>Whoops! An error!</h3>
                 <p></p>
             </div>
         </div>     

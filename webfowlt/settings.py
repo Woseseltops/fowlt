@@ -1,10 +1,13 @@
 # Django settings for webfowlt project.
 from socket import gethostname
+from base64 import b64decode as D
+from os import environ
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
+    ('Wessel Stoop', 'wesselstoop@student.ru.nl'),
     ('Maarten van Gompel', 'proycon@anaproy.nl'),
 )
 
@@ -47,12 +50,17 @@ USE_L10N = True
 
 
 hostname = gethostname()
-if hostname in ["applejack","spitfire", "spitfire.science.ru.nl", "fowlt.net", "fowlt.science.ru.nl"]:  #Nijmegen
+if hostname == "spitfire" or hostname == "spitfire.science.ru.nl":  #Nijmegen
     ROOT_DIR = "/var/www2/fowlt/live/repo/fowlt/"
     DOCDIR = "/var/www2/fowlt/live/writable/userdocs/" 
-    CLAMSERVICE = 'http://webservices.ticc.uvt.nl/fowlt/'  #TODO: ADAPT, still running in Tilburg
+    CLAMSERVICE = 'http://webservices-lst.science.ru.nl/fowlt/'
     
-    MEDIA_URL = 'http://fowlt.science.ru.nl/style/' #TODO: adapt to new domain            
+    MEDIA_URL = 'http://fowlt.science.ru.nl/style/' #TODO: adapt to new domains
+    
+    CLAMUSER = 'internal'
+    CLAMPASS = D(open(environ['CLAMOPENER_PASSFILE']).read().strip())
+    
+    DEBUG = True #No debug in production environment            
 elif hostname == 'echo' or hostname == 'nomia' or hostname == 'echo.uvt.nl' or hostname == 'nomia.uvt.nl': #Tilburg
     ROOT_DIR = "/var/www/fowlt/"
     DOCDIR = ROOT_DIR + 'userdocs/'
@@ -72,10 +80,6 @@ elif hostname == "aurora" or hostname == "roma": #proycon's laptop/server
     # trailing slash if there is a path component (optional in other cases).
     # Examples: "http://media.lawrence.com", "http://example.com/media/"
     MEDIA_URL = ''
-elif hostname == "wessel-HP-Compaq-8200-Elite-MT-PC": #Wessel's pc
-    ROOT_DIR = "/home/wessel/Bureaublad/fowlt/"
-    DOCDIR = ROOT_DIR + 'userdocs/'
-    CLAMSERVICE = 'http://' + hostname + ':8080'
 else:
     raise Exception("Don't know where I'm running from!")
 
