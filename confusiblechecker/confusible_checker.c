@@ -10,7 +10,7 @@
 #include "sockhelp.h"
 #include<unistd.h>
 
-#define PORT "2000"
+#define PORT "2002"
 #define MACHINE argv[5]
 #define NRFEAT 7
 #define MINOCC 10.
