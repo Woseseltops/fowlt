@@ -35,8 +35,10 @@ def process(request):
     id = 'D' + hex(random.getrandbits(128))[2:-1]
     
     #create CLAM client
-    client = clam.common.client.CLAMClient(settings.CLAMSERVICE)
-    
+    if 'CLAMUSER' in dir(settings):
+        client = clam.common.client.CLAMClient(settings.CLAMSERVICE,settings.CLAMUSER, settings.CLAMPASS)
+    else:
+        client = clam.common.client.CLAMClient(settings.CLAMSERVICE)    
     #creat project
     client.create(id)
     

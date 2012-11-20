@@ -20,10 +20,11 @@ from clam.common.converters import *
 from clam.common.viewers import *
 from clam.common.data import *
 from clam.common.digestauth import pwhash
-from os import uname
+from os import uname, environ
+from base64 import b64decode as D
 import sys
 
-REQUIRE_VERSION = 0.5
+REQUIRE_VERSION = 0.7
 
 # ======== GENERAL INFORMATION ===========
 
@@ -31,17 +32,50 @@ REQUIRE_VERSION = 0.5
 SYSTEM_ID = "fowlt"
 
 #System name, the way the system is presented to the world
-SYSTEM_NAME = "fowlt"
+SYSTEM_NAME = "Fowlt"
 
 #An informative description for this system:
 SYSTEM_DESCRIPTION = "Fowlt spelling correction for English"
 
 # ======== LOCATION ===========
 host = uname()[1]
-ROOT = "/tmp/clam.projects/"
-PORT= 8080
-FOWLTDIR = '~/Bureaublad/fowlt/'
-BINDIR = '/usr/bin'
+if host == 'aurora' or host == 'roma': #proycon's laptop/server
+    CLAMDIR = "/home/proycon/work/clam"
+    ROOT = "/home/proycon/work/valkuil.clam/"
+    PORT = 9001
+    BINDIR = '/usr/local/bin/'
+    #URLPREFIX = 'ucto'
+    FOWLTDIR = '/home/proycon/work/valkuil/'
+elif host == 'applejack': #Nijmegen
+    CLAMDIR = "/scratch2/www/webservices-lst/live/repo/clam"
+    ROOT = "/scratch2/www/webservices-lst/live/writable/fowlt/"
+    HOST = "webservices-lst.science.ru.nl"
+    PORT = 80
+    URLPREFIX = "fowlt"
+    BINDIR = "/vol/customopt/uvt-ru/bin/"
+    FOWLTDIR = "/scratch2/www/webservices-lst/live/repo/fowlt/"
+    USERS_MYSQL = {
+        'host': 'mysql-clamopener.science.ru.nl', 
+        'user': 'clamopener',        
+        'password': D(open(environ['CLAMOPENER_KEYFILE']).read().strip()),
+        'database': 'clamopener',
+        'table': 'clamusers_clamusers'
+    }
+    DEBUG = True
+    REALM = "WEBSERVICES-LST"
+    #DIGESTOPAQUE = open(environ['CLAM_DIGESTOPAQUEFILE']).read().strip() 
+elif host == 'echo' or host == 'nomia' or host == 'echo.uvt.nl' or host == 'nomia.uvt.nl': #Tilburg        
+    #Assuming ILK server
+    CLAMDIR = "/var/www/clam"
+    ROOT = "/var/www/clamdata/valkuil/"
+    HOST = 'webservices.ticc.uvt.nl'
+    PORT = 80
+    URLPREFIX = 'valkuil'
+    WEBSERVICEGHOST = 'ws'
+    BINDIR = '/var/www/bin/'
+    FOWLTDIR = '/var/www/valkuil/'
+else:
+    raise Exception("I don't know where I'm running from! Got " + host)    
 
 # ======== AUTHENTICATION & SECURITY ===========
 
@@ -141,8 +175,8 @@ PARAMETERS =  [
         #BooleanParameter(id='createlexicon',name='Create Lexicon',description='Generate a separate overall lexicon?'),
         #ChoiceParameter(id='casesensitive',name='Case Sensitivity',description='Enable case sensitive behaviour?', choices=['yes','no'],default='no'),
         #StringParameter(id='author',name='Author',description='Sign output metadata with the specified author name',maxlength=255),
-        FloatParameter(id='sensitivity', name='Sensitivity',description="How sensitive should Fowlt be to flag something as an error? (0.5 - Show all possible mistakes, 1 - Never flag something as error)", minvalue=0.5, maxvalue=1.0, default=0.9, required=True),
-        BooleanParameter(id='donate', name='Donate errors',description="Donate mistakes for science?")            
+	FloatParameter(id='sensitivity', name='Sensitivity', description='This will be removed later', minvalue=0.5, maxvalue=1.0, default=0.9, required=True),
+        BooleanParameter(id='donate', name='Donate errors',description="Donate found errors for research?")            
     ] )
 ]
 
