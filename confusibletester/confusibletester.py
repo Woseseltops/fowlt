@@ -45,10 +45,11 @@ def calculate_metrics(filename,options):
     distr = calculate_confusible_distribution(filename);
 
     #Create and test a file with errors added
-    errorlines = make_error_file(filename + '.test',10,options);
+    errorlines = make_large_error_file(filename + '.test',10,options);
     test(filename+'.test.errors',filename+'.train.IGTree');
 
     for i in confidence_list:
+        print 'cm' + str(i);
         confusion_matrices[i] = calculate_confusion_matrix(filename+'.test.errors',errorlines,i,options);
 
     return accuracies, distr, confusion_matrices;
@@ -141,17 +142,21 @@ def calculate_confusion_matrix(filename,errorlines,threshold,options):
         if n in errorlines:
             if not match and total_confidence > threshold:
                 tp += 1;
-		if threshold == 0:
-		    print('TP',prediction,actual_word);
+                if threshold == 0.0:
+                    print('TP'+i);
             else:
                 fn += 1;
                 if threshold == 0:
-		    print('FN',prediction,actual_word);
+                    print('FN'+i);
         else:
             if not match and total_confidence > threshold:
                 fp += 1;
+                if threshold == 0:
+                    print('FP'+i);
             else:
-                tn += 1;             
+                tn += 1;
+                if threshold == 0:              
+                    print('TN'+i);
 
     return (tp,fp,fn,tn);
 
@@ -190,6 +195,42 @@ def make_error_file(filename,error_proportion,options):
             outputf.write(new_line + ' '+ error +'\n');
         else:
             outputf.write(i);
+
+    return errorlines;
+
+def make_large_error_file(filename,error_proportion,options):
+    """For every line, also give the error variant""";
+
+    #Grab the data  
+    lines = open(filename,'r').readlines();
+    linenr = len(lines);
+    errornr = linenr;
+
+    errorlines = [];
+
+    #Decide on which lines to add errors
+    for i in range(linenr*2):
+        if i%2 == 1:
+            errorlines.append(i);
+
+    #Add the errors
+    open(filename+'.errors','w').write('')
+    outputf = open(filename+'.errors','a'); 
+
+    for n,i in enumerate(lines):
+
+        #Write the actual 
+        outputf.write(i);
+
+        current_line = i.split(' ');
+        new_line = ' '.join(current_line[:-2]);
+        actual_word = current_line[-2].strip().lower();
+
+        error = '';
+        while error in ['',actual_word]:
+            error = random.choice(options);
+        
+        outputf.write(new_line + ' '+ error +'\n');
 
     return errorlines;
 
