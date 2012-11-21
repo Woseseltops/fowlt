@@ -61,7 +61,7 @@ def process(request):
         donate = False
         
     #start CLAM
-    client.start(id, sensitivity=request.REQUEST['sensitivity'], donate=donate)
+    client.start(id, sensitivity=0.5, donate=donate)
                 
     while clamdata.status != clam.common.status.DONE:
         clamdata = client.get(id)  

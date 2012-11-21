@@ -76,7 +76,7 @@ label.top {
 }
 
 .button {
-    background: #676758;    
+    background: #3e4949;    
     /*height: 21px;*/
     behaviour: url(border-radius.htc); /* hack for crappy IE */
     border-radius: 10px; 
@@ -179,10 +179,9 @@ label.top {
     text-align: center;
 }
 #sidebar #cursorleft {
-    background: #676758;
+    background: #3e4949;
     width: 25px;
     height: 25px;
-    background: #676758;    
     border: none;
     margin: 0px;
     padding:  0px;
@@ -201,10 +200,9 @@ label.top {
     font-weight: bold;
 }
 #sidebar #cursorright {
-    background: #676758;
+    background: #3e4949;
     width: 25px;
     height: 25px;
-    background: #676758;  
     border: none;  
     margin: 0px;
     padding:  0px;
@@ -262,6 +260,7 @@ label.top {
     margin-right: auto;   
     width: 220px;
     margin-bottom: 25px;
+    color: #3e4949;
 }
 
 #pager {
@@ -377,11 +376,11 @@ label.top {
     display: inline;
     list-style-type: none;
     padding-left: 40px;
-    color: #666;
+    color: #3e4949;
 }
 
 #topbar a {
-    color: #666;
+    color: #3e4949;
     text-decoration: none;
 }
 
