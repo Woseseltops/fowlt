@@ -24,7 +24,11 @@
 
                 $("#slider").slider(
                 { 
-                        slide: function(event, ui) {$("#value").val(ui.value);},
+                        slide: function(event, ui) 
+			{
+				$("#value").val(ui.value);
+				reflag_errors(errors,ui.value);
+			},
                        	animate: true,
                 });
 
@@ -37,7 +41,11 @@
 		        $('#slider').toggle();
 		});
 
-                $('#value').change(function() {$('#slider').slider("value", this.value);});
+                $('#value').change(function() 
+		{
+			$('#slider').slider("value", this.value);
+			reflag_errors(errors,this.value);
+		});
             } );                        
         </script>        
     </head>

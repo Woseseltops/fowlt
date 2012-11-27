@@ -155,7 +155,8 @@ def viewer(request, id):
                 
                 error['errnum'] = len(errors)
                 error['text'] = str(word)                
-                error['occ'] = 1 #number of occurences                        
+                error['occ'] = 1 #number of occurences
+		error['confidence'] = 1;	                        
                 errors.append(error)  
             else:
                     
@@ -179,7 +180,8 @@ def viewer(request, id):
                                 if not suggestion.text() in error['suggestions']:
                                     error['suggestions'].append( suggestion.text())
                             if not 'correctionid' in error:
-                                error['correctionid'] = correction.id                    
+                                error['correctionid'] = correction.id   
+				error['confidence'] = correction.confidence                 
                             
                 except folia.NoSuchAnnotation:
                     pass
@@ -207,6 +209,7 @@ def viewer(request, id):
                     error['errnum'] = len(errors)
                     error['text'] = str(word)                
                     error['occ'] = 1 #number of occurences
+			
                     errors.append(error)                         
                 
         #Compute number of occurences multiple times

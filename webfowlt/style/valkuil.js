@@ -83,7 +83,8 @@ function initerrors() {
         //select the element
         var e = document.getElementById(error['wordid'])
         //mark it as an error (simple mode)
-        $(e).addClass("error");
+	if(error['confidence'] == 1)
+        {$(e).addClass("error");}
         
         //set error classes (expert mode)
         /*$.each( error['classes'], function(j, cls) {
@@ -118,6 +119,7 @@ function initerrors() {
     
     //set click events
     $('.word').each(function(){$(this).click(clickword)});        
+
 }
 
 function clickword() {
@@ -490,4 +492,18 @@ function showerror(msg) {
     $('#errordialog').show();
 }
 
+function reflag_errors(errors,threshold) {
+	for(error in errors)
+	{
+		var e = document.getElementById(errors[error]['wordid']);
+		if(100 - threshold > errors[error]['confidence'] * 100)
+		{
+			$(e).removeClass('word error');
+		}
+		else
+		{
+			$(e).addClass('word error');
+		}	
+	}
 
+}
