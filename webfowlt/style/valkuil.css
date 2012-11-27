@@ -615,3 +615,25 @@ img {
 #optintext {
     cursor: pointer; 
 }
+
+.ui-slider-horizontal {
+	width:182px; 
+	height:24px; 
+	background: url(style/slider-bg.png); 
+	border-radius: 0; border-style: none; 
+	position: relative; left: 20px;
+}
+.ui-slider-horizontal .ui-state-default {
+	background: url(style/handle.png) no-repeat scroll 50% 50%; 
+	border-style: none; border-radius: 0;
+}
+.ui-slider-horizontal .ui-slider-handle {
+	height: 27px;
+}
+.slider-side {
+	background: #3E4949; 
+	height:24px; 
+	width:222px;
+	border-radius: 10px;
+}
+

@@ -4,10 +4,12 @@
         <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8"/>
         <meta name="author" content="Maarten van Gompel" />
         <title>FOWLT.net Spelling corrector</title>
+        <link rel="StyleSheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/themes/base/jquery-ui.css" type="text/css" />
         <link rel="StyleSheet" href="/style/valkuil.css" type="text/css" />
         <link rel="shortcut icon" href="/style/favicon.ico" />
         <script type="text/javascript" src="/style/jquery-1.5.1.min.js"></script>
-        <script type="text/javascript" src="/style/jquery.scrollTo-min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="/style/jquery.scrollTo-min.js"></script>
         <script type="text/javascript" src="/style/jQueryRotateCompressed.2.1.js"></script>
         <script type="text/javascript" src="/style/valkuil.js"></script>
         <script type="text/javascript">
@@ -19,6 +21,23 @@
                         $('#veil').show(); 
                         $('#sharedialog').slideDown();
                 });
+
+                $("#slider").slider(
+                { 
+                        slide: function(event, ui) {$("#value").val(ui.value);},
+                       	animate: true,
+                });
+
+                $('#slider').hide();
+                $('.slider-side').hide();
+
+   		$('#show_slider').click(function()
+		{
+		        $('.slider-side').toggle('slow');
+		        $('#slider').toggle();
+		});
+
+                $('#value').change(function() {$('#slider').slider("value", this.value);});
             } );                        
         </script>        
     </head>
@@ -69,8 +88,8 @@
                 
 
             
-                <label>Number of errors found</label>
-                <div id="errorcount">{{ errorcount }}</div>
+                <input id="value" value=0><button id="show_slider"><img src="images/slider"/></button>
+                <div class="slider-side"><div id="slider"></div></div>
                             
                 <button class="button" id="downloadbutton">download document</button>
             </div>
