@@ -45,7 +45,7 @@ def calculate_metrics(filename,options):
     distr = calculate_confusible_distribution(filename);
 
     #Create and test a file with errors added
-    errorlines = make_large_error_file(filename + '.test',10,options);
+    errorlines = make_error_file(filename + '.test',10,options);
     test(filename+'.test.errors',filename+'.train.IGTree');
 
     for i in confidence_list:
@@ -137,6 +137,9 @@ def calculate_confusion_matrix(filename,errorlines,threshold,options):
         #Check for match, calculate confidence
         match = prediction.strip().lower() == actual_word.strip().lower();
         total_confidence = max(confidences.values())/sum(confidences.values());
+
+        if threshold == 0.0:
+            print(errorlines);
 
         #Add data for accuracy
         if n in errorlines:
@@ -315,3 +318,5 @@ accuracies, distribution, confusion_matrices = calculate_metrics(filename,option
 show_metrics(output,accuracies,distribution,confusion_matrices);
 
 print('==Done');
+
+#False negatives kloppen niet! Er gaat ergens iets mis met het toevoegen van fouten?
