@@ -619,12 +619,12 @@ img {
 .ui-slider-horizontal {
 	width:182px; 
 	height:24px; 
-	background: url(style/slider-bg.png); 
+	background: url(slider-bg.png); 
 	border-radius: 0; border-style: none; 
 	position: relative; left: 20px;
 }
 .ui-slider-horizontal .ui-state-default {
-	background: url(style/handle.png) no-repeat scroll 50% 50%; 
+	background: url(handle.png) no-repeat scroll 50% 50%; 
 	border-style: none; border-radius: 0;
 }
 .ui-slider-horizontal .ui-slider-handle {
@@ -635,5 +635,20 @@ img {
 	height:24px; 
 	width:222px;
 	border-radius: 10px;
+}
+#value {
+	border: none;
+	width: 50px;
+	height: 22px;
+	margin: 0px;
+	padding: 0px;
+	background: white;
+	text-align: center;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
 
