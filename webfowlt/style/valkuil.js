@@ -19,6 +19,10 @@ function initerrors() {
         $('#veil').show();    
         $('#downloaddialog').slideDown();    
     });    
+    $('#infobutton').click(function(){
+        $('#veil').show();    
+        $('#infodialog').slideDown();    
+    });    
     $('#logo').click(function(){window.location='/';});
     $('#header').click(function(){window.location='/';});
     /*$('body, div, span').keyup(function(event) {
@@ -67,7 +71,9 @@ function initerrors() {
         $('#downloaddialog').slideUp();
         $('#sharedialog').slideUp();
         $('#errordialog').slideUp();
+        $('#infodialog').slideUp();
         $('#veil').hide();        
+
     });
     
     
@@ -483,4 +489,5 @@ function showerror(msg) {
     $('#veil').show();
     $('#errordialog').show();
 }
+
 

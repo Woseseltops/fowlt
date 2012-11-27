@@ -199,7 +199,7 @@ label.top {
     text-align: center;
     font-weight: bold;
 }
-#sidebar #cursorright {
+#sidebar #cursorright, #show_slider {
     background: #3e4949;
     width: 25px;
     height: 25px;
@@ -445,7 +445,7 @@ ul#hintsuggestions li {
  text-align:left; 
  z-index: 100; 
 }
-#editdialog, #downloaddialog, #sharedialog, #errordialog {
+#editdialog, #downloaddialog, #sharedialog, #errordialog, #infodialog {
     display: none;
     box-shadow: 10px 10px 5px #333;
     background: white;
@@ -616,6 +616,12 @@ img {
     cursor: pointer; 
 }
 
+#slider_area {
+	color: #3E4949;
+	margin:10px;
+	margin-left: auto;
+	margin-right: auto;
+}
 .ui-slider-horizontal {
 	width:182px; 
 	height:24px; 
@@ -639,8 +645,8 @@ img {
 #value {
 	border: none;
 	width: 50px;
-	height: 22px;
-	margin: 0px;
+	height: 24px;
+	margin-left: 10px;
 	padding: 0px;
 	background: white;
 	text-align: center;
