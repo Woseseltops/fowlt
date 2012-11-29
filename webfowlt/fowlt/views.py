@@ -156,7 +156,7 @@ def viewer(request, id):
                 error['errnum'] = len(errors)
                 error['text'] = str(word)                
                 error['occ'] = 1 #number of occurences
-		error['confidence'] = 1;	                        
+		error['confidence'] = incorrection.confidence;	                        
                 errors.append(error)  
             else:
                     

@@ -77,9 +77,9 @@ function initerrors() {
     });
     
     
-   
+   reflag_errors(errors,0);
     
-    $.each(errors, function(i,error){
+    /*$.each(errors, function(i,error){
         //select the element
         var e = document.getElementById(error['wordid'])
         //mark it as an error (simple mode)
@@ -89,7 +89,7 @@ function initerrors() {
         //set error classes (expert mode)
         /*$.each( error['classes'], function(j, cls) {
            $(e).addClass(cls)
-        });*/        
+        });      
         
         if (error['multispan']) {
             $.each(error['multispan'], function(j, multispanwordid){
@@ -113,9 +113,9 @@ function initerrors() {
         
         $(e).mouseleave(function(){
             $('#hint').hide();
-        });*/
+        });
 
-    });
+    });*/
     
     //set click events
     $('.word').each(function(){$(this).click(clickword)});        
@@ -499,10 +499,27 @@ function reflag_errors(errors,threshold) {
 		if(100 - threshold > errors[error]['confidence'] * 100)
 		{
 			$(e).removeClass('word error');
+
+        		if (errors[error]['multispan']) 
+			{
+         			$.each(errors[error]['multispan'], function(j, multispanwordid){
+			                var emultispan = document.getElementById(multispanwordid)
+			                $(emultispan).removeClass("error");
+        			    });
+        		}
 		}
 		else
 		{
 			$(e).addClass('word error');
+
+        		if (errors[error]['multispan']) 
+			{
+         			$.each(errors[error]['multispan'], function(j, multispanwordid){
+			                var emultispan = document.getElementById(multispanwordid)
+			                $(emultispan).addClass("error");
+        			    });
+        		}
+
 		}	
 	}
 
