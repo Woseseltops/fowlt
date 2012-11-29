@@ -12,5 +12,6 @@ runonchecker/runon_checker
 splitchecker/split_checker
 woprchecker/wopr_checker
 test
-confusible_trainer/*
+confusibletrainer/*
+confusibletester/*
 servers/pid

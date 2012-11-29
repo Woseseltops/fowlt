@@ -138,19 +138,16 @@ def calculate_confusion_matrix(filename,errorlines,threshold,options):
         match = prediction.strip().lower() == actual_word.strip().lower();
         total_confidence = max(confidences.values())/sum(confidences.values());
 
-        if threshold == 0.0:
-            print(errorlines);
-
         #Add data for accuracy
-        if n in errorlines:
+        if ' '.join(words[:7]).strip() in errorlines:
             if not match and total_confidence > threshold:
                 tp += 1;
-                if threshold == 0.0:
-                    print('TP'+i);
+#                if threshold == 0.0:
+#                    print('TP'+i);
             else:
                 fn += 1;
-                if threshold == 0:
-                    print('FN'+i);
+#                if threshold == 0:
+#                    print('FN'+i);
         else:
             if not match and total_confidence > threshold:
                 fp += 1;
@@ -158,8 +155,8 @@ def calculate_confusion_matrix(filename,errorlines,threshold,options):
                     print('FP'+i);
             else:
                 tn += 1;
-                if threshold == 0:              
-                    print('TN'+i);
+#                if threshold == 0:              
+#                    print('TN'+i);
 
     return (tp,fp,fn,tn);
 
@@ -171,22 +168,24 @@ def make_error_file(filename,error_proportion,options):
     linenr = len(lines);
     errornr = round(linenr / error_proportion)
 
-    errorlines = [];
+    errorline_nrs = [];
 
     #Decide on which lines to add errors
-    while len(errorlines) < errornr:
+    while len(errorline_nrs) < errornr:
         line = random.randrange(linenr);
 
-        if line not in errorlines:
-            errorlines.append(line);
+        if line not in errorline_nrs:
+            errorline_nrs.append(line);
 
     #Add the errors
     open(filename+'.errors','w').write('')
     outputf = open(filename+'.errors','a'); 
 
+    errorlines = [];
+
     for n,i in enumerate(lines):
 
-        if n in errorlines:    
+        if n in errorline_nrs:    
             current_line = i.split(' ');
             new_line = ' '.join(current_line[:-2]);
             actual_word = current_line[-2].strip().lower();
@@ -194,11 +193,16 @@ def make_error_file(filename,error_proportion,options):
             error = '';
             while error in ['',actual_word]:
                 error = random.choice(options);
-            
-            outputf.write(new_line + ' '+ error +'\n');
+
+            new_line += ' '+ error +' \n';
+
+           
+            outputf.write(new_line);
+            errorlines.append(new_line.strip());
         else:
             outputf.write(i);
 
+    print(errorlines);
     return errorlines;
 
 def make_large_error_file(filename,error_proportion,options):
@@ -318,5 +322,3 @@ accuracies, distribution, confusion_matrices = calculate_metrics(filename,option
 show_metrics(output,accuracies,distribution,confusion_matrices);
 
 print('==Done');
-
-#False negatives kloppen niet! Er gaat ergens iets mis met het toevoegen van fouten?
