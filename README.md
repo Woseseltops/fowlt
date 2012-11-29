@@ -45,13 +45,16 @@ To keep Fowlt up to date, regularly check back on GitHub for changes and obtain 
 
 **HOW TO EXPAND**
 
-If you want, you can add your own confusible checker modules to Fowlt. This is done as follows:
+If you want, you can add your own modules to Fowlt. Each module is implemented as a class in fowlt_processchain.py. This is all very straightforward, so you can probably get all info needed by simply looking at the other examples. If you want to create a confusible checker module similar to the ones Fowlt uses, but with another confusible, you need to know a little more. It is done as follows:
 
 1. __Make sure you have a file with lots of text to train Fowlt on__.
 The British National Corpus was used for the modules included in the standard Fowlt installation. You don't have to exclude the utterances that aren't relevant for what you want to train the model for; Fowlt will select all relevant material automatically.
 
 2. __Create a language model__.
-This can be done automatically by running 'confusible_trainer/confusible_trainer.py [word1,word2,word3] [corpus]'. The first argument is a comma-separated list of words you want to train your module on, the second argument is the corpus you selected. Three files will be created: and instance file (the training material), an IGTree file and IGTree.wgt file (the actual language model created by Timbl).
+This can be done automatically by running 'confusibletrainer/confusible_trainer.py [word1,word2,word3] [corpus]'. The first argument is a comma-separated list of words you want to train your module on, the second argument is the corpus you selected. Three files will be created: a .inst file (the training material), an IGTree file and IGTree.wgt file (the actual language model created by Timbl). If you want balanced material (the same amount of examples for each confusible option), please add '-balanced' to the command.
 
-3. __Add your new module to Fowlt__.
+3. __Evaluate the model__.
+Before adding your new module to Fowlt, you might want to know how good it is. This can be tested by giving the .inst file to confusibletester/confusible_tester.py. This script evaluates to what extent timbl will be able to predict words and detect errors on the basis of this training material. It generates a lot of files, but you will mainly interested in the .output file, which contains info on accuracy, precision, recall, etc. The other files are for evaluating purposes and should not be used in your module.
+
+4. __Add your new module to Fowlt__.
 You have to add your new module both to the Fowlt server and the Fowlt client. The server can be updated by adding the line 'confusible1-confusible2="-a1 +vdb +D -i timbl_servers/confusible1,confusible2.IGTree"' to servers/timblservers/confusibles.conf (and replace 'confusible1' and 'confusible2' with the actual confusibles you trained for, obviously). The client can be updated by subclassing AbstractModule in fowlt_processchain.py.
