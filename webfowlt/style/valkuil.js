@@ -128,7 +128,7 @@ function initerrors() {
 	{
 		if($(this).html() == 'alot') 
 		{
-			if(evt.ctrlKey) {alert('alot');$('.alot').toggle();}
+			if(evt.ctrlKey) {$('.alot').toggle();}
 		}
 	});
 
