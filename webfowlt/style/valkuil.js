@@ -120,6 +120,18 @@ function initerrors() {
     //set click events
     $('.word').each(function(){$(this).click(clickword)});        
 
+    //alot easter egg
+
+    $('.alot').hide();
+
+    $('span').click(function(evt)
+	{
+		if($(this).html() == 'alot') 
+		{
+			if(evt.ctrlKey) {alert('alot');$('.alot').toggle();}
+		}
+	});
+
 }
 
 function clickword() {
