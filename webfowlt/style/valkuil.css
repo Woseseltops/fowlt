@@ -618,8 +618,7 @@ img {
 
 #slider_area {
 	color: #3E4949;
-	margin:10px;
-	margin-left: auto;
+	margin-left: -8px;
 	margin-right: auto;
 }
 .ui-slider-horizontal {
