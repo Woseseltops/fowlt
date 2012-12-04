@@ -38,23 +38,23 @@
 
 <p>In its stand-alone form, Fowlt is an application that takes plaintext as input, and returns <a href="http://ilk.uvt.nl/folia"><b>FoLiA</b></a> XML with information about the detected errors and possible corrections. What happens in between is visualized below:</p> 
 
-<img src="style/fowlt chain.png"/>
+<a href="style/fowlt chain.png"><img height=300 src="style/fowlt chain.png"/></a>
 
 <p>As you can see, the text is given to various modules, which all look at the text from another point of view:<p>
 <ul><li>The errorlist module uses a large list of common typos and their corrections. The module checks for every word in the input whether it's in the errorlist, and adds the correction when it is.</li>
-<li>The lexicon module is based on a huge list of how frequent English word were on the internet in 2008. It checks for every word in the input whether there's a word on the frequencylist that is very similar to it, but much more frequent. It adds this word as correction when it is.</li>
+<li>The lexicon module is based on a huge list of how frequent English words were on the internet in 2008. It checks for every word in the input whether there's a word on the frequencylist that is very similar to it, but much more frequent. It adds this word as correction when it is.</li>
 <li>The runon module also uses this list, but uses it to check if any spaces were forgotten in the input. This is done by looking whether splitting up long words produces two words which both are much more frequent that the original word. If so, these two words are added as a correction.</li>
 <li>The split module is the exact opposite of the runon module: instead of looking whether any spaces are forgotten, it checks whether any spaces have to be added. This is done by looking whether each combination of two words produces a word which is much more frequent than the two original words. Again, it is added as a correction if this is the case.</li>
 <li>The WOPR module contacts the word prediction software <a href="http://ilk.uvt.nl/WOPR"><b>WOPR</b></a>. It gives it the context of each word, but not the words themselves. WOPR then has to predict which word it would expect, based on the language it has seen. If WOPR would predict another word, this word is given as a correction.</li>
-<li>For many well-known mistakes (<i>"than"</i> versus <i>"then"</i>, <i>"you're"</i> versus <i>"your"</i>, and <i>"two"</i> versus <i>"to"</li> versus <i>"too"</i>, to name a few), Fowlt has also has specialized modules. If we take the <i>"you're"</i> versus <i>"your"</i> case as an example, we gave the module hundreds of examples of boths contexts for both the <i>"your"</i> and the <i>"you're"</i> options. If we then encounter a new case, the module decides to which group of contexts the context of this case is more similar. If its guess doesn't match with the the actual word, but the module is very certain about it, this word is flagged as an error. For example, Fowlt thinks the context <i>"I really think ... very nice !"</i> looks a lot like contexts for the option "<i>you're</i>". If the actual text contained <i>"your"</i>, this is flagged as an error. Both the model creation and the word prediction in these modules are done by the memory-based learning software <a href="http://ilk.uvt.nl/timbl"><b>Timbl</b></a>.</li></ul>
+<li>For many well-known mistakes (<i>"than"</i> versus <i>"then"</i>, <i>"you're"</i> versus <i>"your"</i>, and <i>"two"</i> versus <i>"to"</i> versus <i>"too"</i>, to name a few), Fowlt has specialized modules. If we take the <i>"you're"</i> versus <i>"your"</i> case as an example, we gave the module hundreds of examples of contexts for both the <i>"your"</i> and the <i>"you're"</i> options. If we then encounter a new case, the module decides to which group of contexts the context of this case is more similar. If its guess doesn't match with the the actual word, but the module is very certain about it, this word is flagged as an error. For example, Fowlt thinks the context <i>"I really think ... very nice !"</i> looks a lot like contexts for the option "<i>you're</i>". If the actual text contained <i>"your"</i>, this is flagged as an error. Both the model creation and the word prediction in these modules are done by the memory-based learning software <a href="http://ilk.uvt.nl/timbl"><b>Timbl</b></a>.</li></ul>
 
-<p>To make Fowlt available as a webservice, we use <a href="http://ilk.uvt.nl/clam"><b>CLAM</b></a>.</p>.
+<p>To make Fowlt available as a webservice, we use <a href="http://ilk.uvt.nl/clam"><b>CLAM</b></a>.</p>
 
 <h1>For developers</h1>
 
-<p>We also offer Fowlt as a RESTful webservice, which means developers can integrate Fowlt in their own application easily. Info about where to find this service will be added later. This service is free and without restriction (as long as our service can handle the quantities), but also without any warranties about uptime!</p>
+<p>We also offer Fowlt as a RESTful <a href="http://webservices-lst.science.ru.nl">webservice</a>, which means developers can integrate Fowlt in their own application easily. This service is free and without restriction (as long as our service can handle the quantities), but also without any warranties about uptime!</p>
 
-<p>Whoever wants more control over Fowlt's webservice is free to set up one himself - Fowlt's source code, including installation instructions, can be at <a href="http://www.github.com/Woseseltops/fowlt">GitHub</a>. Developers are also free to fork this repository and extend Fowlt. If you would like our help and expertise while setting up Fowlt or integrating into you application, contact <a href="mailto:a.vandenbosch@let.ru.nl?subject=Fowlt">Antal van den Bosch</a> - we are probably interested!</p>
+<p>Whoever wants more control over Fowlt's webservice is free to set up a webservice himself - Fowlt's source code, including installation instructions, can be found at <a href="http://www.github.com/Woseseltops/fowlt">GitHub</a>. Developers are also free to fork this repository and extend Fowlt. If you would like our help and expertise while setting up Fowlt or integrating into you application, contact <a href="mailto:a.vandenbosch@let.ru.nl?subject=Fowlt">Antal van den Bosch</a> - we are probably interested!</p>
 
 <h1>Frequently asked questions</h1>
 
@@ -71,8 +71,6 @@
 van den Bosch</a>.
 </p>
 
-<p>&nbsp;</p>
-
 <h1>Fowlt.net was made by</h1>
 
 <p>
@@ -83,6 +81,9 @@ van den Bosch</a>.
 <li><a href="http://wesselstoop.ruhosting.nl/">Wessel Stoop</a></li>
 </ul>
 <p>Special thanks go to Peter Berck, Martin Reynaert and Sebastiaan Tesink. Fowlt.net was financed by NWO Humanities under the Vici Project Implicit Linguistics.</p>
+
+<h1>Literature</h1>
+<p>To be added.</p>
 
 <!-- END TEXT -->
                 </div>     
