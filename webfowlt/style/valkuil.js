@@ -8,6 +8,10 @@ showclasses = false;
 
 function initerrors() {    
     referenceoffset = $('#error').offset()['top'];
+
+    current_errors = get_current_errors();
+    errorcount = current_errors.length;
+
     if (errorcount == 0) {
         $('#suggestionarea').hide();
     }
@@ -303,22 +307,29 @@ function cursorright() {
 }
 
 function cursorto(index) {
-    if (errorcount == 0) return;
+
+    current_errors = get_current_errors();
+    errorcount = current_errors.length;
+
     if (cursor) $(cursor).removeClass('cursor');
-        
-    cursorindex = index;
-    cursorid = errors[cursorindex]['wordid']
-    cursor = document.getElementById(cursorid);
-    if (!cursor) { showerror("Unable to set cursor to " + cursorid + "! this shouldn't happen!"); return; }
+    if (errorcount > 0)
+    {        
+        cursorindex = index;
+        cursorid = current_errors[cursorindex]['wordid']
+        cursor = document.getElementById(cursorid);
+        if (!cursor) { showerror("Unable to set cursor to " + cursorid + "! this shouldn't happen!"); return; }
     
-    $(cursor).addClass('cursor');
-    $(cursor).fadeTo(400,0.6);
-    $(cursor).fadeTo(400,1.0);    
-    
+        $(cursor).addClass('cursor');
+        $(cursor).fadeTo(400,0.6);
+        $(cursor).fadeTo(400,1.0);    
+        aligncursor();
+    }
+    else
+    {
+       cursorid = 0;
+    }
     
     updatesidebar(cursorid);
-    
-    aligncursor();
     
 }
 
@@ -410,8 +421,10 @@ function updatesidebar(wordid) {
         });
    });
    
-   
-   $.each(errors, function(i,error){                                
+   current_errors = get_current_errors();
+   errorcount = current_errors.length;
+
+   $.each(current_errors, function(i,error){                                
         if (error['wordid'] == wordid) {
             //show current error
             $('#currenterror').val(i+1+' / '+errorcount); 
@@ -505,12 +518,13 @@ function showerror(msg) {
 }
 
 function reflag_errors(errors,threshold) {
+
 	for(error in errors)
 	{
 		var e = document.getElementById(errors[error]['wordid']);
 		if(100 - threshold > errors[error]['confidence'] * 100)
 		{
-			$(e).removeClass('word error');
+			$(e).removeClass('error');
 
         		if (errors[error]['multispan']) 
 			{
@@ -522,7 +536,7 @@ function reflag_errors(errors,threshold) {
 		}
 		else
 		{
-			$(e).addClass('word error');
+			$(e).addClass('error');
 
         		if (errors[error]['multispan']) 
 			{
@@ -535,4 +549,19 @@ function reflag_errors(errors,threshold) {
 		}	
 	}
 
+	cursorto(0);
+}
+
+function get_current_errors() {
+ 
+  current_errors = [];
+  threshold = document.getElementById('value').value;
+   for(error in errors)
+   {
+       var e = document.getElementById(errors[error]['wordid']);
+       if(errors[error]['confidence'] == 1 || 100 - threshold < errors[error]['confidence'] * 100)
+       {current_errors.push(errors[error]);}	
+   }
+
+  return current_errors;
 }
