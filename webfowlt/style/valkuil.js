@@ -156,7 +156,7 @@ function initslider() {
 
    $('#show_slider').click(function()
    {
-	$('.slider-side').toggle('slow');
+	$('.slider-side').slideToggle('slow');
         $('#slider').toggle();
    });
 
@@ -351,7 +351,7 @@ function cursorto(index) {
         $(cursor).addClass('cursor');
         $(cursor).fadeTo(400,0.6);
         $(cursor).fadeTo(400,1.0);    
-        aligncursor();
+        //aligncursor();
     }
     else
     {
@@ -359,7 +359,6 @@ function cursorto(index) {
     }
     
     updatesidebar(cursorid);
-    
 }
 
 

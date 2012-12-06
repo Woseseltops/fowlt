@@ -172,11 +172,13 @@ label.top {
 #sidebar #currenterror {
     border: none;
     width: 50px;
-    height: 22px;
+    height: 25px;
     background: white;
     margin: 0px;
     padding:  0px;
     text-align: center;
+    position: relative;
+    top: -1px;
 }
 #sidebar #cursorleft {
     background: #3e4949;
@@ -264,8 +266,19 @@ label.top {
 }
 
 #pager {
-    margin-left: 15px;
+    position: relative;
+    right: -26px;
     letter-spacing: -3px;    
+}
+
+#arrowimg {
+    position: relative;
+    top:1px;
+}
+
+#errnotext {
+    position: relative;
+    left: -18px;
 }
 
 #suggestions {
@@ -618,15 +631,16 @@ img {
 
 #slider_area {
 	color: #3E4949;
-	margin-left: -8px;
+	margin-left: -15px;
 	margin-right: auto;
 }
 .ui-slider-horizontal {
-	width:182px; 
+	width:168px; 
 	height:24px; 
 	background: url(slider-bg.png); 
 	border-radius: 0; border-style: none; 
-	position: relative; left: 20px;
+	position: relative; 
+	left: 10px;
 }
 .ui-slider-horizontal .ui-state-default {
 	background: url(handle.png) no-repeat scroll 50% 50%; 
@@ -634,13 +648,16 @@ img {
 }
 .ui-slider-horizontal .ui-slider-handle {
 	height: 27px;
+	top: -6px;
 }
 .slider-side {
 	background: #3E4949; 
 	height:24px; 
-	margin-top: -14px;
-	width:222px;
+	width:188px;
 	border-radius: 10px;
+	position: relative;
+	left: 15px;
+	top: -16px;
 }
 #value {
 	border: none;
@@ -657,7 +674,13 @@ img {
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
 }
-
+#infobutton {
+	position: relative;
+	top: -1px;
+	margin-right: -44px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
 .alot {
 	position: absolute;
 	bottom: 10px;
