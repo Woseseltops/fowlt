@@ -650,6 +650,9 @@ img {
 	height: 27px;
 	top: -6px;
 }
+.ui-slider a {
+	outline:none;
+}
 .slider-side {
 	background: #3E4949; 
 	height:24px; 
