@@ -35,6 +35,8 @@ def test(filename,model):
 def calculate_metrics(filename,options):
     """Calculates accuracy, the confusible option distribution and the confusion matrices for the data""";
 
+    amount = len(open(filename,'r').readlines());
+
     confidence_list = [0, 0.05, 0.1, 0.15, 0.20, 0.25, 0.3, 0.35, 0.40, 0.45, 0.50,0.55,0.60,0.65,0.70,0.75,0.80,0.85,0.90,0.95,0.99];
     accuracies = {};
     confusion_matrices = {};
@@ -52,7 +54,7 @@ def calculate_metrics(filename,options):
         print 'cm' + str(i);
         confusion_matrices[i] = calculate_confusion_matrix(filename+'.test.errors',errorlines,i,options);
 
-    return accuracies, distr, confusion_matrices;
+    return amount, accuracies, distr, confusion_matrices;
 
 def calculate_accuracy(filename,threshold):
 
@@ -241,10 +243,14 @@ def make_large_error_file(filename,error_proportion,options):
 
     return errorlines;
 
-def show_metrics(output,accuracies,distribution,confusion_matrices):
+def show_metrics(output,amount,accuracies,distribution,confusion_matrices):
 
     open(output,'w').write('');
     output = open(output,'a');
+
+    output.write(' \nNUMBER OF EXAMPLES\n');
+
+    output.write(str(amount)+'\n');
 
     output.write(' \nDISTRIBUTION PROPORTIONS\n');
     
@@ -318,7 +324,7 @@ test(filename+'.test',filename+'.train.IGTree');
 print('==Done');
 
 print('==Calculating metrics');
-accuracies, distribution, confusion_matrices = calculate_metrics(filename,options);
-show_metrics(output,accuracies,distribution,confusion_matrices);
+amount, accuracies, distribution, confusion_matrices = calculate_metrics(filename,options);
+show_metrics(output,amount,accuracies,distribution,confusion_matrices);
 
 print('==Done');
