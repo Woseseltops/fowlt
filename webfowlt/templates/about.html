@@ -30,9 +30,9 @@
 
 <h1>What is fowlt.net?</h1>
 
-<p>Fowlt is the English version of the Dutch spelling checker <a href="http://www.valkuil.net">Valkuil.net</a>. Both Valkuil and Fowlt are unlike most well-known spell checkers: whereas these spelling checkers mostly try to find errors by comparing all words to a built-in dictionary and flag the word as an error if they can't find a match, Valkuil and Fowlt are 'context-based'. This entails that they also take into account the context, which is the words around every word. If, for a particular word, they expected another word based on the context, and they are really certain about it, it is flagged as an error. This means, for example, that Fowlt is able to replace the incorrect <i>"there"</i> in <i>"there really nice people"</i> into <i>"they're"</i> simply because <i>"there"</i> usually isn't followed by <i>"really nice people"</i>, while <i>"they're"</i> is.</p>
+<p>Fowlt is an online, free-to-use context-sensitive English spelling checker. It follows the setup of the Dutch spelling checker <a href="http://www.valkuil.net">Valkuil.net</a>. Both Valkuil and Fowlt are unlike the typical spelling checkers: whereas the latter mostly try to find errors by comparing all words to a built-in dictionary and flag the word as an error if they can't find a match, Fowlt is <i>context sensitive</i>. This entails that it also takes into account the context, which is the words around every word. If, for a particular word, Fowlt expects another word based on the context, and it is quite certain about this, the word is flagged as an error, and Fowlt's alternative is presented as the suggested correction. This means, for example, that Fowlt is able to replace the incorrect <i>"there"</i> in <i>"there really nice people"</i> with <i>"they're"</i> simply because <i>"there"</i> usually is not followed by <i>"really nice people"</i>, while <i>"they're"</i> is.</p>
 
-<p>To be able to make these kinds of correction suggestions, Fowlt makes use of language models. These models are created by giving lots of texts to the machine learning software TiMBL and WOPR. It's on the basis of these texts the model knows <i>"there"</i> mostly is not followed by <i>"really nice people"</i>. However, this also means that if the context of a particular error is very different from what the model has seen in the training data, it won't be able to correct the error. This means users should be aware of the fact that, although Fowlt can recognize more kinds of errors than regular spell checkers, it might still miss a few - in particular when you set the tolerance slider to a low value.</p>
+<p>To be able to make these kinds of correction suggestions, Fowlt makes use of language models. These models are created by giving lots of texts to machine learning software (<a href="http://ilk.uvt.nl/timbl">TiMBL</a> and <a href="http://ilk.uvt.nl/wopr">WOPR</a>). On the basis of the 'training' texts the model knows <i>"there"</i> mostly is not followed by <i>"really nice people"</i>. However, this also means that if the context of a particular error is very different from what the model has seen in the training data, it won't be able to correct the error. This means users should be aware of the fact that, although Fowlt can recognize more kinds of errors than regular spelling checkers, it might still errors - in particular when you set the tolerance slider to a low value.</p>
 
 <h1>How does fowlt.net work?</h1>
 
@@ -40,13 +40,13 @@
 
 <a href="style/fowlt chain.png"><img height=300 src="style/fowlt chain.png"/></a>
 
-<p>As you can see, the text is given to various modules, which all look at the text from another point of view:<p>
-<ul><li>The errorlist module uses a large list of common typos and their corrections. The module checks for every word in the input whether it's in the errorlist, and adds the correction when it is.</li>
-<li>The lexicon module is based on a huge list of how frequent English words were on the internet in 2008. It checks for every word in the input whether there's a word on the frequencylist that is very similar to it, but much more frequent. It adds this word as correction when it is.</li>
-<li>The runon module also uses this list, but uses it to check if any spaces were forgotten in the input. This is done by looking whether splitting up long words produces two words which both are much more frequent that the original word. If so, these two words are added as a correction.</li>
-<li>The split module is the exact opposite of the runon module: instead of looking whether any spaces are forgotten, it checks whether any spaces have to be added. This is done by looking whether each combination of two words produces a word which is much more frequent than the two original words. Again, it is added as a correction if this is the case.</li>
-<li>The WOPR module contacts the word prediction software <a href="http://ilk.uvt.nl/WOPR"><b>WOPR</b></a>. It gives it the context of each word, but not the words themselves. WOPR then has to predict which word it would expect, based on the language it has seen. If WOPR would predict another word, this word is given as a correction.</li>
-<li>For many well-known mistakes (<i>"than"</i> versus <i>"then"</i>, <i>"you're"</i> versus <i>"your"</i>, and <i>"two"</i> versus <i>"to"</i> versus <i>"too"</i>, to name a few), Fowlt has specialized modules. If we take the <i>"you're"</i> versus <i>"your"</i> case as an example, we gave the module hundreds of examples of contexts for both the <i>"your"</i> and the <i>"you're"</i> options. If we then encounter a new case, the module decides to which group of contexts the context of this case is more similar. If its guess doesn't match with the the actual word, but the module is very certain about it, this word is flagged as an error. For example, Fowlt thinks the context <i>"I really think ... very nice !"</i> looks a lot like contexts for the option "<i>you're</i>". If the actual text contained <i>"your"</i>, this is flagged as an error. Both the model creation and the word prediction in these modules are done by the memory-based learning software <a href="http://ilk.uvt.nl/timbl"><b>Timbl</b></a>.</li></ul>
+<p>The text that is to be corrected is given to various modules, which all look at the text from another point of view:<p>
+<ul><li>The <b>errorlist module</b> simply uses a large list of common typos and their corrections. The module checks for every word in the input whether it's in the errorlist, and adds the correction when it is. This module is not context-sensitive.</li>
+<li>The <b>lexicon module</b>, which is also not context-sensitive, is based on a huge list of how frequent English words were on the internet in 2008. It checks for every word in the input whether there is a word in the frequency list that is very similar to it, but much more frequent. This word is then presented as the suggested correction.</li>
+<li>The <b>run-on module</b> also uses this list, but uses it to check if any spaces were accidentally forgotten in the text. This is done by looking whether splitting up long words produces two words which both are much more frequent that the original word. If so, these two words are suggested as a correction.</li>
+<li>The <b>split module</b> is the opposite of the run-on module: instead of looking whether any spaces are forgotten, it checks whether any spaces have to be added. This is done by testing whether each combination of two words produces a word which is much more frequent than the two original words. Again, this joined word is suggested as a correction if this is the case.</li>
+<li>The <b>WOPR module</b>, the largest of the context-sensitive modules, uses the statistical word prediction software <a href="http://ilk.uvt.nl/WOPR"><b>WOPR</b></a>. It gives it the context of each word, but not the words themselves. WOPR then has to predict which word it would expect, based on the training texts it has seen. If WOPR would predict another word that is similar to the held-out word, WOPR's prediction is suggested as a correction.</li>
+<li>For many well-known mistakes (<i>"than"</i> versus <i>"then"</i>, <i>"you're"</i> versus <i>"your"</i>, and <i>"two"</i> versus <i>"to"</i> versus <i>"too"</i>, to name a few), Fowlt employs <b>specialized modules</b>. If we take the <i>"you're"</i> versus <i>"your"</i> case as an example, we gave the module tens of thousands of examples of contexts for both the <i>"your"</i> and the <i>"you're"</i> options. If we then encounter a new case, the module decides to which group of contexts the context of this case is more similar. If its guess does not match with the the actual word, but the module is very certain about its guess, this word is flagged as an error. For example, Fowlt thinks the context <i>"I really think ... very nice !"</i> looks a lot like contexts for the option "<i>you're</i>". If the actual text contained <i>"your"</i>, this is flagged as an error. Both the model creation and the word prediction in these modules are done by the memory-based learning software <a href="http://ilk.uvt.nl/timbl"><b>Timbl</b></a>.</li></ul>
 
 <p>To make Fowlt available as a webservice, we use <a href="http://ilk.uvt.nl/clam"><b>CLAM</b></a>.</p>
 
@@ -60,9 +60,9 @@
 
 <p>
 <ul>
-<li><b>What happens to my documents?</b> - Fowlt.net doesn't save any documents permanently. The input text is available until 24 hours after the last correction, and is deleted subsequently.</li>
-<li><b>What does the button 'Found language errors can be used for scientific research' do?</b> - If you check this box, Fowlt saves all errors and its own corrections. An error is saved in context, which is the three words to its left and the three words to its right. The complete document isn't saved. We use your corrections to evaluate and improve Fowlt.net.</li>
-<li><b>Can other people see my documents?</b> - No, unless you send its unique URL to others. This URL only exists for 24 hours.
+<li><b>What happens to my documents?</b> - Fowlt.net doesn't save any documents permanently. The input text is available until maximally 24 hours after the last correction, and is deleted subsequently.</li>
+<li><b>What does the button 'Found language errors can be used for scientific research' do?</b> - If you check this box, Fowlt saves all errors and its own corrections. An error is saved in context, which is the three words to its left and the three words to its right. The complete document is not saved. We use your corrections to evaluate and improve Fowlt.net.</li>
+<li><b>Can other people see my documents?</b> - No, unless you send its unique URL to others. This URL only exists for maximally 24 hours.
 </ul>
 </p>
 
@@ -71,19 +71,49 @@
 van den Bosch</a>.
 </p>
 
-<h1>Fowlt.net was made by</h1>
+<h1>Fowlt.net was developed by</h1>
 
 <p>
 <ul>
+<li><a href="http://wesselstoop.ruhosting.nl/">Wessel Stoop</a></li>
 <li><a href="http://ilk.uvt.nl/~antalb/">Antal van den Bosch</a></li>
 <li><a href="http://proylt.anaproy.nl/en/home/">Maarten van Gompel</a></li>
 <li><a href="http://www.monicahajek.nl/">Monica Hajek</a></li>
-<li><a href="http://wesselstoop.ruhosting.nl/">Wessel Stoop</a></li>
 </ul>
 <p>Special thanks go to Peter Berck, Martin Reynaert and Sebastiaan Tesink.</p>
 
 <h1>Literature</h1>
-<p>To be added.</p>
+
+<p>
+<ul>
+
+<li>Stehouwer, H. and Van den Bosch, A. (2009). Putting the t where it belongs: Solving a confusion problem in Dutch. In S. Verberne, H. van Halteren, and P.-A. Coppen (Eds.), <i>Computational Linguistics in the Netherlands 2007: Selected Papers from the 18th CLIN Meeting</i>, January 22, 2009, Groningen, pp. 21-36.  [<a href="http://ilk.uvt.nl/downloads/pub/papers/CLIN07-putting-the-t.pdf">pdf</a>]</li>
+
+<li>Stehouwer, H., and Van Zaanen, M. (2009). Language models for
+contextual error detection and correction. In <i>Proceedings of the
+EACL 2009 Workshop on Computational Linguistic Aspects of Grammatical
+Inference</i>, Athens, Greece,
+pp. 41-48. [<a href="http://aclweb.org/anthology-new/W/W09/W09-1007.pdf">pdf</a>]</i>
+
+<li>Van den Bosch, A. (2006). All-words prediction as the ultimate
+confusible disambiguation. In <i>Proceedings of the HLT-NAACL Workshop
+on Computationally hard problems and joint inference in speech and
+language processing</i>, June 2006, New York City,
+NY. [<a href="http://www.cis.upenn.edu/%7Eryantm/naaclWS06/papers/vandenbosch06allword.pdf">pdf</a>]</li>
+
+<li>Van den Bosch, A. (2005). Scalable classification-based word prediction and confusible correction. <i>Traitement Automatiques des Langues</i>, <b>46:2</b>, 39-63. [<a href="http://ilk.uvt.nl/downloads/pub/papers/wordpredict-final-TAL.pdf">pdf</a>]</li>
+
+<li>Van den Bosch, A., and Berck, P. (2009). Memory-based machine
+translation and language modeling. <i>The Prague Bulletin of
+Mathematical Linguistics</i> No. 91,
+pp. 17-26. [<a href="http://ufal.mff.cuni.cz/pbml/91/art-bosch.pdf">pdf</a>]</li>
+
+</ul>
+</p>
+
+<p>
+At the 2010 European Summer School on Logic, Language, and Information in Copenhagen, Antal van den Bosch gave a course on <a href="http://ilk.uvt.nl/~antalb/esslli10/">memory-based models of language</a>, the technology on which Fowlt is based.
+</p>
 
 <!-- END TEXT -->
                 </div>     
