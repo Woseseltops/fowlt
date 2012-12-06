@@ -124,7 +124,7 @@ function initerrors() {
     //set click events
     $('.word').each(function(){$(this).click(clickword)});        
 
-    //alot easter egg
+    //alot easter egg (works with middle mouse button, ctrl+click and alt+click)
 
     $('.alot').hide();
 
@@ -132,7 +132,8 @@ function initerrors() {
 	{
 		if($(this).html() == 'alot') 
 		{
-			if(evt.ctrlKey) {$('.alot').toggle();}
+			if(evt.which == 2 || evt.ctrlKey || evt.altKey || evt.shiftKey) 
+			{$('.alot').toggle();}
 		}
 	});
 

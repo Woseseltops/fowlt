@@ -205,7 +205,7 @@ class ErrorListModule(AbstractModule):
                         self.addcorrection(word, suggestions=suggs, cls='Frequent-mistake', annotator=self.NAME, confidence = 1)
 
                     if len(splits) > 0:
-                        self.splitcorrection(word, splits, cls='Frequent-mistake', annotator=self.NAME)
+                        self.splitcorrection(word, splits, cls='Frequent-mistake', annotator=self.NAME, confidence = 1)
 
             f.close()        
             
