@@ -638,6 +638,7 @@ img {
 .slider-side {
 	background: #3E4949; 
 	height:24px; 
+	margin-top: -14px;
 	width:222px;
 	border-radius: 10px;
 }

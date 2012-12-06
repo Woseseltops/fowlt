@@ -139,6 +139,34 @@ function initerrors() {
 
 }
 
+function initslider() {
+   $("#slider").slider(
+   { 
+      slide: function(event, ui) 
+      {
+         $("#value").val(ui.value);
+	 reflag_errors(errors,ui.value);
+      },
+         animate: true,
+   });
+
+
+   $('#slider').hide();
+   $('.slider-side').hide();
+
+   $('#show_slider').click(function()
+   {
+	$('.slider-side').toggle('slow');
+        $('#slider').toggle();
+   });
+
+   $('#value').change(function() 
+   {
+	$('#slider').slider("value", this.value);
+	reflag_errors(errors,this.value);
+   });
+}
+
 function clickword() {
     //determine id            
     var wordid = $(this).attr('id');  
