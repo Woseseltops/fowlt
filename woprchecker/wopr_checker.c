@@ -170,16 +170,6 @@ int main(int argc, char *argv[])
 			  (((part[strlen(part)-1]!='s')&&
 			    (word[strlen(word)-1]=='s'))))
 			inflection=1;
-		      if ((((part[strlen(part)-1]=='e')&&
-			    (word[strlen(word)-1]!='e')))||
-			  (((part[strlen(part)-1]!='e')&&
-			    (word[strlen(word)-1]=='e'))))
-			inflection=1;
-		      if ((((part[strlen(part)-1]=='n')&&
-			    (word[strlen(word)-1]=='t')))||
-			  (((part[strlen(part)-1]=='t')&&
-			    (word[strlen(word)-1]=='n'))))
-			inflection=1;
 		    }
 		  if ((!inflection)&&
 		      (!exception))
