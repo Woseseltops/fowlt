@@ -267,7 +267,7 @@ label.top {
 
 #pager {
     position: relative;
-    right: -26px;
+    right: -16px;
     letter-spacing: -3px;    
 }
 
@@ -278,7 +278,7 @@ label.top {
 
 #errnotext {
     position: relative;
-    left: -18px;
+    left: -7px;
 }
 
 #suggestions {
@@ -660,12 +660,16 @@ img {
 	border-radius: 10px;
 	position: relative;
 	left: 15px;
-	top: -16px;
+	top: -14px;
+}
+#toleranceinput {
+	position: relative;
+	left: -12px;
 }
 #value {
 	border: none;
 	width: 50px;
-	height: 24px;
+	height: 25px;
 	margin-left: 10px;
 	padding: 0px;
 	background: white;
@@ -679,7 +683,7 @@ img {
 }
 #infobutton {
 	position: relative;
-	top: -1px;
+	left: -12px;
 	margin-right: -44px;
 	padding-left: 10px;
 	padding-right: 10px;
