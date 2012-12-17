@@ -2,7 +2,7 @@ from django.conf.urls.defaults import *
 from django.conf import settings
 
 urlpatterns = patterns('',    
-    (r'^$','fowlt.views.under_construction'),
+    (r'^$','fowlt.views.start'),
     (r'^early/?$','fowlt.views.start'),
     (r'^info/?$','fowlt.views.about'),
     (r'^help/?$','fowlt.views.help'),
