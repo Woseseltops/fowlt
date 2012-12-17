@@ -81,7 +81,7 @@ function initerrors() {
     });
     
     
-   reflag_errors(errors,0);
+   reflag_errors(errors,10);
     
     /*$.each(errors, function(i,error){
         //select the element
