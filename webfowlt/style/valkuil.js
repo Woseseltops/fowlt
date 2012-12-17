@@ -153,6 +153,7 @@ function initslider() {
 
    $('#slider').hide();
    $('.slider-side').hide();
+   $('#slider').slider("value", 10);
 
    $('#show_slider').click(function()
    {
