@@ -315,7 +315,7 @@ class ItsItsModule(AbstractModule):
             for word, fields in self.readcolumnedoutput(self.outputdir + 'itsits.test.out'):
                 if len(fields) >= 2:
                     #Add correction suggestion and confidence (two last fields)
-                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-confusion', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
     
@@ -332,7 +332,7 @@ class YoureYourModule(AbstractModule):
             for word, fields in self.readcolumnedoutput(self.outputdir + 'youreyour.test.out'):
                 if len(fields) >= 2:
                     #Add correction suggestion and confidence (two last fields)
-                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-confusion', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
     
@@ -349,7 +349,7 @@ class ThanThenModule(AbstractModule):
             for word, fields in self.readcolumnedoutput(self.outputdir + 'thanthen.test.out'):
                 if len(fields) >= 2:
                     #Add correction suggestion and confidence (two last fields)
-                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-confusion', annotator=self.NAME, confidence = fields[-1])
             f.close()                         
     
     def run(self):                
@@ -365,7 +365,7 @@ class LoseLooseModule(AbstractModule):
             for word, fields in self.readcolumnedoutput(self.outputdir + 'loseloose.test.out'):
                 if len(fields) >= 2:
                     #Add correction suggestion and confidence (two last fields)
-                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-confusion', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
     
@@ -382,7 +382,7 @@ class EffectAffectModule(AbstractModule):
             for word, fields in self.readcolumnedoutput(self.outputdir + 'effectaffect.test.out'):
                 if len(fields) >= 2:
                     #Add correction suggestion and confidence (two last fields)
-                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-confusion', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
     
@@ -399,7 +399,7 @@ class LieLayModule(AbstractModule):
             for word, fields in self.readcolumnedoutput(self.outputdir + 'lielay.test.out'):
                 if len(fields) >= 2:
                     #Add correction suggestion and confidence (two last fields)
-                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-confusion', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
     
@@ -416,7 +416,7 @@ class WhetherWeatherModule(AbstractModule):
             for word, fields in self.readcolumnedoutput(self.outputdir + 'whetherweather.test.out'):
                 if len(fields) >= 2:
                     #Add correction suggestion and confidence (two last fields)
-                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-confusion', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
     
@@ -433,7 +433,7 @@ class WhoWhichThatModule(AbstractModule):
             for word, fields in self.readcolumnedoutput(self.outputdir + 'whowhichthat.test.out'):
                 if len(fields) >= 2:
                     #Add correction suggestion and confidence (two last fields)
-                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-confusion', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
     
@@ -450,7 +450,7 @@ class TheyreTheirThereModule(AbstractModule):
             for word, fields in self.readcolumnedoutput(self.outputdir + 'theyretheirthere.test.out'):
                 if len(fields) >= 2:
                     #Add correction suggestion and confidence (two last fields)
-                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-confusion', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
     
@@ -467,7 +467,7 @@ class DontDoesntModule(AbstractModule):
             for word, fields in self.readcolumnedoutput(self.outputdir + 'dontdoesnt.test.out'):
                 if len(fields) >= 2:
                     #Add correction suggestion and confidence (two last fields)
-                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-confusion', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
     def run(self):                
@@ -483,7 +483,7 @@ class ToTooTwoModule(AbstractModule):
             for word, fields in self.readcolumnedoutput(self.outputdir + 'totootwo.test.out'):
                 if len(fields) >= 2:
                     #Add correction suggestion and confidence (two last fields)
-                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-confusion', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
     def run(self):                
@@ -499,7 +499,7 @@ class AdviceAdviseModule(AbstractModule):
             for word, fields in self.readcolumnedoutput(self.outputdir + 'adviceadvise.test.out'):
                 if len(fields) >= 2:
                     #Add correction suggestion and confidence (two last fields)
-                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-confusion', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
     def run(self):                
@@ -515,7 +515,7 @@ class AnySomeModule(AbstractModule):
             for word, fields in self.readcolumnedoutput(self.outputdir + 'anysome.test.out'):
                 if len(fields) >= 2:
                     #Add correction suggestion and confidence (two last fields)
-                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-confusion', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
     def run(self):                
@@ -531,7 +531,7 @@ class LessFewerModule(AbstractModule):
             for word, fields in self.readcolumnedoutput(self.outputdir + 'lessfewer.test.out'):
                 if len(fields) >= 2:
                     #Add correction suggestion and confidence (two last fields)
-                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-confusion', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
     def run(self):                
@@ -547,7 +547,7 @@ class PracticePractiseModule(AbstractModule):
             for word, fields in self.readcolumnedoutput(self.outputdir + 'practicepractise.test.out'):
                 if len(fields) >= 2:
                     #Add correction suggestion and confidence (two last fields)
-                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-mistake', annotator=self.NAME, confidence = fields[-1])
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-confusion', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
     def run(self):                
@@ -563,7 +563,7 @@ class ChoseChooseModule(AbstractModule):
             for word, fields in self.readcolumnedoutput(self.outputdir + 'chosechoose.test.out'):
                 if len(fields) >= 2:
                     #Add correction suggestion and confidence (two last fields)
-                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-confusible', annotator=self.NAME, confidence = fields[-1])
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-confusion', annotator=self.NAME, confidence = fields[-1])
             f.close()                      
     
     def run(self):                
@@ -579,7 +579,7 @@ class WoprCheckerModule(AbstractModule):
             for word, fields in self.readcolumnedoutput(self.outputdir + 'wopr_checker.test.out'):
                 if len(fields) >= 2:
                     #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
-                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:]], cls='unlikely-word', annotator=self.NAME, confidence = 0.9)
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:]], cls='unlikely-word', annotator=self.NAME, confidence = 0.91)
             f.close()                      
         
     def run(self):                
