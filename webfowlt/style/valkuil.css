@@ -75,8 +75,12 @@ label.top {
     color: #555;
 }
 
+button {
+    background: #3e4949;
+}
+
 .button {
-    background: #3e4949;    
+    /*background: #3e4949;*/    
     /*height: 21px;*/
     behaviour: url(border-radius.htc); /* hack for crappy IE */
     border-radius: 10px; 
@@ -93,14 +97,14 @@ label.top {
     padding-top: 5px;
     padding-bottom: 5px;
 }
-.button:hover {
+button:hover{
     background: black;
     cursor: pointer;
 } 
 
-/*#freecorrectbutton {
-    font-size: 10px;
-}*/
+#freecorrectbutton {
+    width: 153px;
+}
 
 
 #startbutton {
@@ -181,7 +185,6 @@ label.top {
     top: -1px;
 }
 #sidebar #cursorleft {
-    background: #3e4949;
     width: 25px;
     height: 25px;
     border: none;
@@ -202,7 +205,7 @@ label.top {
     font-weight: bold;
 }
 #sidebar #cursorright, #show_slider {
-    background: #3e4949;
+    /*background: #3e4949;*/
     width: 25px;
     height: 25px;
     border: none;  
@@ -215,12 +218,6 @@ label.top {
     -moz-border-radius-bottomright: 10px;
     -webkit-border-top-right-radius: 10px;
     -webkit-border-bottom-right-radius: 10px;
-}
-#cursorleft:hover {
-    background: black;
-}
-#cursorright:hover {
-    background: black;
 }
 #sidebar label, #suggestionarea #correctall label {
     display: block;
@@ -624,6 +621,8 @@ img {
     margin-top: -35px;
     color: #444;
     font-size: 10px;
+    position: relative;
+    left: 14px;
 }
 #optintext {
     cursor: pointer; 
@@ -635,12 +634,12 @@ img {
 	margin-right: auto;
 }
 .ui-slider-horizontal {
-	width:168px; 
+	width:162px; 
 	height:24px; 
 	background: url(slider-bg.png); 
 	border-radius: 0; border-style: none; 
 	position: relative; 
-	left: 10px;
+	left: 13px;
 }
 .ui-slider-horizontal .ui-state-default {
 	background: url(handle.png) no-repeat scroll 50% 50%; 

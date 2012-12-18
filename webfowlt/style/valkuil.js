@@ -292,7 +292,7 @@ function processed(wordid) {
     }
     if ((cursor == e) && (errorcount > 0)) {
         if (cursorindex >= errorcount) cursorindex = errorcount - 1;
-        cursorto(cursorindex);
+        cursorto(cursorindex,false);
     }
 }
 
@@ -322,7 +322,7 @@ function cursorleft() {
         cursorindex = cursorindex - 1;
     }
     if (cursorindex < 0) cursorindex = errorcount - 1;
-    cursorto(cursorindex)
+    cursorto(cursorindex,false)
 }
 
 function cursorright() {    
@@ -333,10 +333,10 @@ function cursorright() {
         cursorindex = cursorindex + 1;
     }
     if (cursorindex >= errorcount) cursorindex = 0;
-    cursorto(cursorindex)    
+    cursorto(cursorindex,false)    
 }
 
-function cursorto(index) {
+function cursorto(index,moving_slider) {
 
     current_errors = get_current_errors();
     errorcount = current_errors.length;
@@ -352,7 +352,10 @@ function cursorto(index) {
         $(cursor).addClass('cursor');
         $(cursor).fadeTo(400,0.6);
         $(cursor).fadeTo(400,1.0);    
-        //aligncursor();
+        if (!moving_slider)
+        {
+           aligncursor();
+        }
     }
     else
     {
@@ -578,7 +581,7 @@ function reflag_errors(errors,threshold) {
 		}	
 	}
 
-	cursorto(0);
+	cursorto(0,true);
 }
 
 function get_current_errors() {
