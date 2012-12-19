@@ -385,7 +385,8 @@ function aligncursor() {
     $('#ruler').top =referenceoffset;
     
     //offset =  $('#error').offset()['top'] - $('#textarea').offset()['top'];
-        
+
+    if(delta < 0) {delta = 0;}
     $(document).scrollTo(delta, 200 );
 }
 
