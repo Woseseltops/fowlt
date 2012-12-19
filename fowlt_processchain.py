@@ -578,8 +578,16 @@ class WoprCheckerModule(AbstractModule):
             #Reading module output and integrating in FoLiA document
             for word, fields in self.readcolumnedoutput(self.outputdir + 'wopr_checker.test.out'):
                 if len(fields) >= 2:
+		    #Filter suggestions
+		    suggs = [];
+
+		    for x in fields[1:]:
+			if raw(x) != raw(str(word)):
+			    suggs.append(x);
+
                     #Add correction suggestion (The last field holds the suggestion? (assumption, may differ per module))
-                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:]], cls='unlikely-word', annotator=self.NAME, confidence = 0.91)
+		    if len(suggs) > 0:
+                    	self.addcorrection(word, suggestions=suggs, cls='unlikely-word', annotator=self.NAME, confidence = 0.91)
             f.close()                      
         
     def run(self):                
