@@ -238,7 +238,7 @@ class LexiconModule(AbstractModule):
                             suggs.append(x.strip());
                         
                     if len(suggs) > 0:
-                        self.addcorrection(word, suggestions=suggs, cls='Looked-like-frequent-word', annotator=self.NAME, confidence = fields[-1])
+                        self.addcorrection(word, suggestions=suggs, cls='Looks-like-frequent-word', annotator=self.NAME, confidence = fields[-1])
             f.close()                  
     
     def run(self):                
@@ -597,8 +597,8 @@ class WoprCheckerModule(AbstractModule):
 #################### FUNCTIONS  #################################
 
 def raw(word):
-    """Returns the lowercase, stripped and dashless version of a word"""
-    return word.strip().lower().replace('-','');
+    """Returns the lowercase, stripped, quoteless and dashless version of a word"""
+    return word.strip().lower().replace('-','').replace('\'','').replace('`','');
 
 ###################### MODULE DECLARATION  ###############################################
 
