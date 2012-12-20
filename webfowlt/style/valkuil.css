@@ -175,7 +175,7 @@ button:hover{
 
 #sidebar #currenterror {
     border: none;
-    width: 50px;
+    width: 65px;
     height: 25px;
     background: white;
     margin: 0px;
@@ -264,7 +264,7 @@ button:hover{
 
 #pager {
     position: relative;
-    right: -16px;
+    right: -8px;
     letter-spacing: -3px;    
 }
 
@@ -275,7 +275,12 @@ button:hover{
 
 #errnotext {
     position: relative;
-    left: -7px;
+    left: 2px;
+}
+
+#errtoltext {
+    position: relative;
+    left: -8px;
 }
 
 #suggestions {
