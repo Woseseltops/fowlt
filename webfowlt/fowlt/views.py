@@ -342,7 +342,7 @@ def correct(request, id):
             c.datetime = datetime.datetime.now()
             s = w.sentence()
             
-            s.mergewords( folia.Word(foliadoc, generate_id_in=s, text=new), *c.current(), reuse=reuse, datetime=datetime.datetime.now()  )
+#            s.mergewords( folia.Word(foliadoc, generate_id_in=s, text=new), *c.current(), reuse=reuse, datetime=datetime.datetime.now()  )
             changed = True                                
         elif new.strip() == '': #deletion
             s.deleteword(w)
@@ -351,10 +351,10 @@ def correct(request, id):
             
             s = w.sentence()
             newwords = []
-            for newword in new.strip().split(' '):
-                newwords.append(folia.Word(foliadoc, generate_id_in=s, text=newword))
+#            for newword in new.strip().split(' '):
+#                newwords.append(folia.Word(foliadoc, generate_id_in=s, text=newword))
                 
-            w.split( *newwords,datetime=datetime.datetime.now(), reuse=reuse )                                
+#            w.split( *newwords,datetime=datetime.datetime.now(), reuse=reuse )                                
             changed = True
         else:
             q = [] #queue of all words to be corrected
