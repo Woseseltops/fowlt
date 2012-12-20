@@ -171,6 +171,8 @@ function initslider() {
 function clickword() {
     //determine id            
     var wordid = $(this).attr('id');  
+
+    errors = get_current_errors();
     
     //is this word part of a multispan? then grab the wordid of the first of the span
     abort = false;
