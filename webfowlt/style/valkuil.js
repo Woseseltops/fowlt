@@ -513,7 +513,7 @@ function correct() {
     if ((cursorindex >= 0) && (cursorid) && (correction)) {
      var e = document.getElementById(cursorid)
      var correctid = cursorid;
-     $(e).text("(bezig)");
+     $(e).text("(busy)");
      $.ajax({ 
         type: "POST", 
         url:  "correct/",
@@ -525,7 +525,7 @@ function correct() {
             processed(correctid);
         },
         error: function(){
-            showerror("Er is een fout opgetreden bij het corrigeren, misschien is er nog een correctie gaande?");
+            showerror("An error occurred during correcting, maybe there's another correction going on?");
         }
      });
     } else {
