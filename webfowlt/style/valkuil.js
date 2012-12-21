@@ -441,7 +441,7 @@ function updatesidebar(wordid) {
         $('#dialogsubmit').click(function(){
              $('#editdialog').slideUp();
              $('#veil').hide();                            
-             $(e).text("(bezig)");
+             $(e).text("(busy)");
              $.ajax({ 
                 type: "POST", 
                 url:  "correct/",
