@@ -341,8 +341,11 @@ def correct(request, id):
             c = w.incorrection()
             c.datetime = datetime.datetime.now()
             s = w.sentence()
-            
-#            s.mergewords( folia.Word(foliadoc, generate_id_in=s, text=new), *c.current(), reuse=reuse, datetime=datetime.datetime.now()  )
+            beginnum = c.current()[0].id.split('.')[-1]
+            endnum = c.current()[-1].id.split('.')[-1]
+            newid = '.'.join(c.current()[0].id.split('.')[:-1]) + '.' + beginnum + '-' + endnum
+            s.mergewords( folia.Word(foliadoc,id=newid, text=new), *c.current(), reuse=reuse, datetime=datetime.datetime.now()  )            
+            #s.mergewords( folia.Word(foliadoc, generate_id_in=s, text=new), *c.current(), reuse=reuse, datetime=datetime.datetime.now()  )
             changed = True                                
         elif new.strip() == '': #deletion
             s.deleteword(w)
