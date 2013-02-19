@@ -598,7 +598,11 @@ class WoprCheckerModule(AbstractModule):
 
 def raw(word):
     """Returns the lowercase, stripped, quoteless and dashless version of a word"""
-    return word.strip().lower().replace('-','').replace('\'','').replace('`','');
+
+    try:
+        return word.strip().lower().replace('-','').replace('\'','').replace('`','').replace('’','');
+    except:
+        return word.strip().lower().replace('-','').replace('\'','').replace('`','');
 
 ###################### MODULE DECLARATION  ###############################################
 
