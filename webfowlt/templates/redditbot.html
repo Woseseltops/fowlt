@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="nl" >
+    <head>
+        <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8"/>
+        <meta name="author" content="Maarten van Gompel, Antal van den Bosch" />
+        <title>FOWLT.net Spelling corrector :: About FOWLT</title>
+        <link rel="StyleSheet" href="/style/valkuil.css" type="text/css" />
+        <link rel="shortcut icon" href="/style/favicon.ico" />
+        <script type="text/javascript" src="/style/jquery-1.5.1.min.js"></script>
+        <script type="text/javascript">
+            $('#logo').click(function(){window.location='/';});
+        </script>        
+    </head>
+    <body>        
+        <div id="stage">            
+            <div id="topbar">
+                <ul>
+                    <li><a href="/">Input screen</a></li>
+                    <li> <a href="http://www.facebook.com/Fowlt"><img src="/style/facebook2.jpg" alt="Fowlt.net on facebook" title="Fowlt.net on facebook!" /></a> <a href="http://www.twitter.com/fowltnet"><img src="/style/twitter2.png" alt="Fowlt.net on twitter" title="Fowlt.net on twitter!" /></a> </li>
+                </ul>
+            </div>
+            <div id="sidebar">
+            <a href="/"><div id="logo"></div></a>
+            </div>
+                        
+            
+            <div id="mainarea">
+                <div id="pagetext">
+<!-- BEGIN TEXT -->
+
+<h2>About the Fowlt Reddit bot</h2>
+<p>The Fowlt Reddit bot is a synthesis of three observations:</p>
+<ul>
+<li>On Reddit, comments correcting common language problems (like <em>then</em> instead of <em>than</em> and <em>your</em> instead of <em>you're</em>) often get a lot of upvotes.</li>
+<li>Spelling checker <a href="http://www.fowlt.net/">Fowlt</a> is really good at identifying exactly these language problems automatically.</li>
+<li>Reddit bots can be really useful.</li>
+</ul>
+
+<p>The result is a Reddit bot that automatically corrects Reddit thread titles and comments. A few times a day, it asks for the most popular threads and their comments, gives them to Fowlt, and generates a reply out of Fowlt's results. We also have a <a href="http://www.twitter.com/fowltnet">Twitter bot</a> that uses a similar approach.</p>
+
+<p></p>
+
+<h2>About Fowlt</h2>
+
+<p><a href="http://www.fowlt.net">Fowlt</a> is an online, free-to-use context-sensitive English spelling checker. It follows the setup of the Dutch spelling checker <a href="http://www.valkuil.net">Valkuil.net</a>. Both Valkuil and Fowlt are unlike the typical spelling checkers: whereas the latter mostly try to find errors by comparing all words to a built-in dictionary and flag the word as an error if they can't find a match, Fowlt is <i>context sensitive</i>. This means that it also takes into account the context, which is the words around every word. For example, the context for the word <i>"account"</i> in the previous sentence is <i>"also takes into _ the context ,"</i>. If, for a particular word, Fowlt expects another word based on the context, and it is quite certain about this, the word is flagged as an error, and Fowlt's alternative is presented as the suggested correction. This means, for example, that Fowlt is able to replace the incorrect <i>"there"</i> in <i>"there really nice people"</i> with <i>"they're"</i> simply because <i>"there"</i> usually is not followed by <i>"really nice people"</i>, while <i>"they're"</i> is. To be able to make these kinds of correction suggestions, Fowlt makes use of language models. These models are created by giving lots of texts to machine learning software (<a href="http://ilk.uvt.nl/timbl">TiMBL</a> and <a href="http://ilk.uvt.nl/wopr">WOPR</a>). On the basis of the 'training' texts the model knows <i>"there"</i> mostly is not followed by <i>"really nice people"</i>. See <a href="http://www.fowlt.net/info">this page</a> for more info.</p>
+
+<h2>I don't want the Fowlt Reddit bot on my subreddit!</h2>
+
+<p>The Fowlt Reddit bot can be added to any subreddit for free, by everyone. This might mean we added to a subreddit where it does not belong... sorry if that happened. For now, please send an email to stoopwessel [at] gmail.com, and he will fix it immediately.</p>
+
+<h2>Add the Fowlt Reddit bot to your subreddit</h2>
+
+<p>We would love to add the bot to more subreddits, so please contact us if you're interested! For now, requests for new subreddits to be added can be sent to stoopwessel [at] gmail.com. Thanks!</p>
+
+<!-- END TEXT -->
+                </div>     
+            </div>
+        </div>     
+        
+    </body>
+</html>

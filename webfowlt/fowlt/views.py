@@ -98,6 +98,9 @@ def process(request):
 
 def about(request):
     return render_to_response('about.html') 
+
+def redditbot(request):
+    return render_to_response('redditbot.html') 
     
 def under_construction(request):
     return render_to_response('under_construction.html') 
