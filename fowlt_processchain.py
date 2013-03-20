@@ -594,6 +594,22 @@ class WoprCheckerModule(AbstractModule):
         #Call module and ask it to produce output
         self.runcmd(self.rootdir + 'woprchecker/wopr_checker ' + self.rootdir + 'woprchecker/wopr_exceptions ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'wopr_checker.test.out ' + self.settings['wopr_address'])
 
+class AspellModule(AbstractModule):
+    NAME = "aspellmodule"
+    
+    def process_result(self):
+        if self.done:
+            #Reading module output and integrating in FoLiA document
+            for word, fields in self.readcolumnedoutput(self.outputdir + 'aspell_checker.test.out'):
+                if len(fields) >= 2:
+                    #Add correction suggestion
+                    #(The last field holds the suggestion? (assumption, may differ per module))
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Looks-like-frequent-word', annotator=self.NAME, confidence = fields[-1])
+        
+    def run(self):
+        #Call module and ask it to produce output
+        self.runcmd(self.rootdir + 'aspellchecker/aspell_checker ' + self.rootdir + 'lexiconchecker/freqlist_google_formatted ' + self.outputdir + 'input.tok.txt > ' + self.outputdir + 'aspell_checker.test.out')
+
 #################### FUNCTIONS  #################################
 
 def raw(word):
@@ -608,11 +624,11 @@ def raw(word):
 
 #Add all desired modules classes here here:
 
-modules = [WoprCheckerModule,ErrorListModule,LexiconModule,ItsItsModule,YoureYourModule,ThanThenModule,
-           LoseLooseModule,WhoWhichThatModule,WhetherWeatherModule,LieLayModule,EffectAffectModule,
-           TheyreTheirThereModule,DontDoesntModule,ToTooTwoModule,AdviceAdviseModule,AnySomeModule,
-           LessFewerModule,PracticePractiseModule,ChoseChooseModule,
-           SplitCheckerModule,RunOnCheckerModule]
+modules = [WoprCheckerModule,ErrorListModule,LexiconModule,AspellModule,ItsItsModule,YoureYourModule,
+           ThanThenModule,LoseLooseModule,WhoWhichThatModule,WhetherWeatherModule,LieLayModule,
+           EffectAffectModule,TheyreTheirThereModule,DontDoesntModule,ToTooTwoModule,AdviceAdviseModule,
+           AnySomeModule,LessFewerModule,PracticePractiseModule,ChoseChooseModule,SplitCheckerModule,
+           RunOnCheckerModule]
 
 ##########################################################################################
 
