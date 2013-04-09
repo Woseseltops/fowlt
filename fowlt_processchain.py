@@ -570,6 +570,22 @@ class ChoseChooseModule(AbstractModule):
         #Call module and ask it to produce output
         self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker chose choose ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'chosechoose.test.out ' + self.settings['timblserver_address'])
 
+class QuiteQuietModule(AbstractModule):
+    NAME = "quitequietmodule"
+
+    def process_result(self):
+        if self.done:
+            #Reading module output and integrating in FoLiA document
+            for word, fields in self.readcolumnedoutput(self.outputdir + 'quitequiet.test.out'):
+                if len(fields) >= 2:
+                    #Add correction suggestion and confidence (two last fields)
+                    self.addcorrection(word, suggestions=[x.strip() for x in fields[1:-1]], cls='Well-known-confusion', annotator=self.NAME, confidence = fields[-1])
+            f.close()                      
+    
+    def run(self):                
+        #Call module and ask it to produce output
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker quite quiet ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'quitequiet.test.out ' + self.settings['timblserver_address'])
+
 class WoprCheckerModule(AbstractModule):
     NAME = "woprcheckermodule"
 
@@ -627,8 +643,8 @@ def raw(word):
 modules = [WoprCheckerModule,ErrorListModule,LexiconModule,AspellModule,ItsItsModule,YoureYourModule,
            ThanThenModule,LoseLooseModule,WhoWhichThatModule,WhetherWeatherModule,LieLayModule,
            EffectAffectModule,TheyreTheirThereModule,DontDoesntModule,ToTooTwoModule,AdviceAdviseModule,
-           AnySomeModule,LessFewerModule,PracticePractiseModule,ChoseChooseModule,SplitCheckerModule,
-           RunOnCheckerModule]
+           AnySomeModule,LessFewerModule,PracticePractiseModule,ChoseChooseModule,QuiteQuietModule,
+           SplitCheckerModule,RunOnCheckerModule]
 
 ##########################################################################################
 
