@@ -28,7 +28,7 @@ def process(request):
     elif 'uploadfile' in request.FILES:
         text = request.FILES['uploadfile'].read()
     else:
-        return render_to_response('error.html',{'errormessage': "Er is geen geldige tekst ingevoerd!"} ) 
+        return render_to_response('error.html',{'errormessage': "Did not receive any valid text!"} ) 
         
     
     #generate a random ID for this project
@@ -53,7 +53,7 @@ def process(request):
             client.delete(id)
         except:
             pass
-        return render_to_response('error.html',{'errormessage': "Kon het gekozen bestand niet toevoegen. Dit kan meerdere oorzaken hebben. Valkuil accepteert momenteel alleen platte UTF-8 gecodeerde tekst-bestanden. Met name Microsoft Word bestanden zijn nog niet ondersteund in dit stadium!",'debugmessage':str(e)} ) 
+        return render_to_response('error.html',{'errormessage': "Could not add the file. This can have multiple causes. At the moment, Fowlt only accepts only plain UTF-8 textfiles. Microsoft Word files are not supported at this stage!",'debugmessage':str(e)} ) 
         
     if 'donate' in request.REQUEST and request.REQUEST['donate'] == 'yes':
         donate = True
