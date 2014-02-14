@@ -77,7 +77,7 @@ def add_three_words_left(lines,nl):
         
     return previous_line;
 
-def provide_window(position,words_around,error_as_feature):
+def provide_window(position,words_around,error_as_feature,swap_confusible):
     new_position = position + 3;
     left = words_around[new_position-3:new_position];
     right = words_around[new_position+1:new_position+4];
@@ -86,7 +86,10 @@ def provide_window(position,words_around,error_as_feature):
     if not error_as_feature:
         error = '';
     else:
-        error = words_around[new_position] + ' ';
+        if not swap_confusible:
+            error = words_around[new_position] + ' ';
+        else:
+            error = swap_confusible + ' ';
 
     return ' '.join(left) + ' ' + error + ' '.join(right);
 
@@ -120,11 +123,15 @@ except:
 
 lines = ['_ _ _'] + open(corpus,'r').readlines() + ['_ _ _'];
 
+#Parameters
+switch = 10; #swap every 10th correct word for its confusible
+
 #Prepare output
 outputfile = sys.argv[1];
 output = '';
 
 sentence_buffer = Buff(searchstrings);
+c = 0;
 
 #Walk through the lines
 for nl, l in enumerate(lines):
@@ -141,13 +148,23 @@ for nl, l in enumerate(lines):
                 previous_line = add_three_words_left(lines,nl);
                 next_line = add_three_words_right(lines,nl);
                 words_around = previous_line + words + next_line;
+            
+                if error_as_feature and c%10 == 1:
+                    if ss == searchstrings[0]:
+                        swap_confusible = searchstrings[1];
+                    elif ss == searchstrings[1]:
+                        swap_confusible = searchstrings[0];
+                else:
+                    swap_confusible = False;
 
-                window = provide_window(nw,words_around,error_as_feature);
+                window = provide_window(nw,words_around,error_as_feature,swap_confusible);
 
                 if not balanced:
                     output += window + ' ' + w + ' ' + '\n';
                 else:
                     output += sentence_buffer.add_output(window + ' ' + w + ' ' + '\n',ss.lower());
+
+                c += 1;
 
 #Save the instances
 open(outputfile+'.inst','w').write(output);
