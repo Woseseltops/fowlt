@@ -77,12 +77,18 @@ def add_three_words_left(lines,nl):
         
     return previous_line;
 
-def provide_window(position,words_around):
+def provide_window(position,words_around,error_as_feature):
     new_position = position + 3;
     left = words_around[new_position-3:new_position];
     right = words_around[new_position+1:new_position+4];
 
-    return ' '.join(left) + ' ' + ' '.join(right);
+    #Normally don't display the error
+    if not error_as_feature:
+        error = '';
+    else:
+        error = words_around[new_position] + ' ';
+
+    return ' '.join(left) + ' ' + error + ' '.join(right);
 
 ###### Script starts here #######
     
@@ -96,21 +102,20 @@ try:
 
     corpus = sys.argv[2];
 
-    try:
-        if sys.argv[3] == '-balanced':
-            balanced = True;
-        else:
-            balanced = False;
-    except:
-            balanced = False;
-
-    if balanced:
+    if '-balanced' in sys.argv:
+        balanced = True;
         print('Creating a balanced instance file with '+str(searchstrings));
     else:
+        balanced = False;
         print('Creating a non-balanced instance file with '+str(searchstrings));    
+
+    if '-error_as_feature' in sys.argv:
+        error_as_feature = True;
+    else:
+        error_as_feature = False;
     
 except:
-    print('confusible.py [searchstring1,searchstring2,searchstring3] [corpus] [[-balanced]]');
+    print('confusible.py searchstring1,searchstring2,searchstring3 corpus [-balanced] [-error_as_feature]');
     quit();
 
 lines = ['_ _ _'] + open(corpus,'r').readlines() + ['_ _ _'];
@@ -137,7 +142,7 @@ for nl, l in enumerate(lines):
                 next_line = add_three_words_right(lines,nl);
                 words_around = previous_line + words + next_line;
 
-                window = provide_window(nw,words_around);
+                window = provide_window(nw,words_around,error_as_feature);
 
                 if not balanced:
                     output += window + ' ' + w + ' ' + '\n';
@@ -149,6 +154,6 @@ open(outputfile+'.inst','w').write(output);
 print('Instance file saved');
 
 #Train with Timbl
-print('Starting up Timbl');
-command('timbl -f '+outputfile+'.inst -a1 +D +vdb -I '+outputfile+'.IGTree');
-print('Done');
+#print('Starting up Timbl');
+#command('timbl -f '+outputfile+'.inst -a1 +D +vdb -I '+outputfile+'.IGTree');
+#print('Done');
