@@ -108,8 +108,7 @@ int main(int argc, char *argv[])
 	      strcpy(classifyline,"c ");
 	      for (j=0; j<NRFEAT; j++)
 		{
-		  if (j!=mid)
-		    strcat(classifyline,feats[j]);
+     	  strcat(classifyline,feats[j]);
 		  strcat(classifyline," ");
 		}
 	      strcat(classifyline,"?\n");

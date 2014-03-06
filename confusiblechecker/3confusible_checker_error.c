@@ -11,7 +11,7 @@
 #include<unistd.h>
 
 #define PORT "3030"
-#define MACHINE argv[5]
+#define MACHINE argv[6]
 #define NRFEAT 7
 #define MINOCC 10.
 #define DEBUG 1
@@ -24,6 +24,8 @@ int main(int argc, char *argv[])
   char capword1[1024];
   char word2[1024];
   char capword2[1024];
+  char word3[1024];
+  char capword3[1024];
   float total,max,threshold;
   int  i,j,mid,sock,connected,nrdist,maxnr;
   char classifyline[32768];
@@ -43,7 +45,11 @@ int main(int argc, char *argv[])
   strcpy(capword2,word2);
   capword2[0]-=32;
 
-  sscanf(argv[3],"%f",&threshold);
+  strcpy(word3,argv[3]);
+  strcpy(capword3,word3);
+  capword3[0]-=32;
+
+  sscanf(argv[4],"%f",&threshold);
   if ((threshold<0.5)||
       (threshold>1.0))
     {
@@ -70,16 +76,16 @@ int main(int argc, char *argv[])
   // cut off the Timbl base message
   sock_gets(sock,buff,sizeof(buff)-1); 
 
-  // tell the Timbl server to use the word1-word2 base
-  sprintf(buffer,"base %s-%s\n",
-	  word1,word2);
+  // tell the Timbl server to use the word1-word2-word3 base
+  sprintf(buffer,"base %s-%s-%s\n",
+	  word1,word2,word3);
   sock_puts(sock,buffer);
 
   // cut off the Timbl acknowledgement
   sock_gets(sock,buff,sizeof(buff)-1); 
   
   mid=NRFEAT/2;
-  bron=fopen(argv[4],"r");
+  bron=fopen(argv[5],"r");
   fgets(line,32768,bron);
   while (!feof(bron))
     {
@@ -96,7 +102,9 @@ int main(int argc, char *argv[])
 	  if ((strcmp(feats[mid],word1)==0)||
 	      (strcmp(feats[mid],capword1)==0)||
 	      (strcmp(feats[mid],word2)==0)||
-	      (strcmp(feats[mid],capword2)==0))
+	      (strcmp(feats[mid],capword2)==0)||
+	      (strcmp(feats[mid],word3)==0)||
+              (strcmp(feats[mid],capword3)==0))
 	    match=1;
 	  
 	  fprintf(stdout,"%s",
@@ -108,8 +116,7 @@ int main(int argc, char *argv[])
 	      strcpy(classifyline,"c ");
 	      for (j=0; j<NRFEAT; j++)
 		{
-		  if (j!=mid)
-		    strcat(classifyline,feats[j]);
+        	  strcat(classifyline,feats[j]);
 		  strcat(classifyline," ");
 		}
 	      strcat(classifyline,"?\n");

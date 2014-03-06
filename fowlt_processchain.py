@@ -321,7 +321,7 @@ class ItsItsModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker it\\\'s its ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'itsits.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker_error it\\\'s its ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'itsits.test.out ' + self.settings['timblserver_address'])
 
 class YoureYourModule(AbstractModule):
     NAME = "you'reyourmodule"
@@ -338,7 +338,7 @@ class YoureYourModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker you\\\'re your ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'youreyour.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker_error you\\\'re your ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'youreyour.test.out ' + self.settings['timblserver_address'])
 
 class ThanThenModule(AbstractModule):
     NAME = "thanthenmodule"
@@ -354,7 +354,7 @@ class ThanThenModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker than then ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'thanthen.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker_error than then ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'thanthen.test.out ' + self.settings['timblserver_address'])
 
 class LoseLooseModule(AbstractModule):
     NAME = "loseloosemodule"
@@ -371,7 +371,7 @@ class LoseLooseModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker lose loose ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'loseloose.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker_error lose loose ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'loseloose.test.out ' + self.settings['timblserver_address'])
 
 class EffectAffectModule(AbstractModule):
     NAME = "effectaffectmodule"
@@ -388,7 +388,7 @@ class EffectAffectModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker effect affect ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'effectaffect.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker_error effect affect ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'effectaffect.test.out ' + self.settings['timblserver_address'])
 
 class LieLayModule(AbstractModule):
     NAME = "lielaymodule"
@@ -405,7 +405,7 @@ class LieLayModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker lie lay ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'lielay.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker_error lie lay ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'lielay.test.out ' + self.settings['timblserver_address'])
 
 class WhetherWeatherModule(AbstractModule):
     NAME = "whetherweathermodule"
@@ -422,7 +422,7 @@ class WhetherWeatherModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker whether weather ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'whetherweather.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker_error whether weather ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'whetherweather.test.out ' + self.settings['timblserver_address'])
 
 class WhoWhichThatModule(AbstractModule):
     NAME = "whowhichthatmodule"
@@ -439,7 +439,7 @@ class WhoWhichThatModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/3confusible_checker who which that ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'whowhichthat.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/3confusible_checker_error who which that ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'whowhichthat.test.out ' + self.settings['timblserver_address'])
 
 class TheyreTheirThereModule(AbstractModule):
     NAME = "they'retheirtheremodule"
@@ -456,7 +456,7 @@ class TheyreTheirThereModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/3confusible_checker they\\\'re their there ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'theyretheirthere.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/3confusible_checker_error they\\\'re their there ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'theyretheirthere.test.out ' + self.settings['timblserver_address'])
 
 class DontDoesntModule(AbstractModule):
     NAME = "don'tdoesn'tmodule"
@@ -472,7 +472,7 @@ class DontDoesntModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker don\\\'t doesn\\\'t ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'dontdoesnt.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker_error don\\\'t doesn\\\'t ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'dontdoesnt.test.out ' + self.settings['timblserver_address'])
 
 class ToTooTwoModule(AbstractModule):
     NAME = "totootwomodule"
@@ -488,7 +488,7 @@ class ToTooTwoModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/3confusible_checker to too two ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'totootwo.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/3confusible_checker_error to too two ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'totootwo.test.out ' + self.settings['timblserver_address'])
 
 class AdviceAdviseModule(AbstractModule):
     NAME = "adviceadvisemodule"
@@ -504,7 +504,7 @@ class AdviceAdviseModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker advice advise ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'adviceadvise.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker_error advice advise ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'adviceadvise.test.out ' + self.settings['timblserver_address'])
 
 class AnySomeModule(AbstractModule):
     NAME = "anysomemodule"
@@ -520,7 +520,7 @@ class AnySomeModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker any some ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'anysome.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker_error any some ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'anysome.test.out ' + self.settings['timblserver_address'])
 
 class LessFewerModule(AbstractModule):
     NAME = "lessfewermodule"
@@ -536,7 +536,7 @@ class LessFewerModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker less fewer ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'lessfewer.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker_error less fewer ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'lessfewer.test.out ' + self.settings['timblserver_address'])
 
 class PracticePractiseModule(AbstractModule):
     NAME = "practicepractisemodule"
@@ -552,7 +552,7 @@ class PracticePractiseModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker practice practise ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'practicepractise.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker_error practice practise ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'practicepractise.test.out ' + self.settings['timblserver_address'])
 
 class ChoseChooseModule(AbstractModule):
     NAME = "chosechoosemodule"
@@ -568,7 +568,7 @@ class ChoseChooseModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker chose choose ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'chosechoose.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker_error chose choose ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'chosechoose.test.out ' + self.settings['timblserver_address'])
 
 class QuiteQuietModule(AbstractModule):
     NAME = "quitequietmodule"
@@ -584,7 +584,7 @@ class QuiteQuietModule(AbstractModule):
     
     def run(self):                
         #Call module and ask it to produce output
-        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker quite quiet ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'quitequiet.test.out ' + self.settings['timblserver_address'])
+        self.runcmd(self.rootdir + 'confusiblechecker/confusible_checker_error quite quiet ' + str(self.get_threshold()) + ' ' + self.outputdir + 'agreement_checker.test.inst > ' + self.outputdir + 'quitequiet.test.out ' + self.settings['timblserver_address'])
 
 class WoprCheckerModule(AbstractModule):
     NAME = "woprcheckermodule"
