@@ -1,5 +1,6 @@
 import sys
 import subprocess
+import random
 
 class Buff():
     def __init__(self,searchstrings):
@@ -36,6 +37,8 @@ def clean(string):
     
     if string[-1] == ' ':
         string = string[:-1];
+
+    string = string.replace('{','[').replace('}',']');
 
     return string.replace('\n','');
 
@@ -150,10 +153,11 @@ for nl, l in enumerate(lines):
                 words_around = previous_line + words + next_line;
             
                 if error_as_feature and c%10 == 1:
-                    if ss == searchstrings[0]:
-                        swap_confusible = searchstrings[1];
-                    elif ss == searchstrings[1]:
-                        swap_confusible = searchstrings[0];
+                    swap_confusible = random.choice(searchstrings).lower();
+
+                    while ss.lower() == swap_confusible:
+                        swap_confusible = random.choice(searchstrings).lower();
+
                 else:
                     swap_confusible = False;
 
@@ -171,6 +175,6 @@ open(outputfile+'.inst','w').write(output);
 print('Instance file saved');
 
 #Train with Timbl
-#print('Starting up Timbl');
-#command('timbl -f '+outputfile+'.inst -a1 +D +vdb -I '+outputfile+'.IGTree');
-#print('Done');
+print('Starting up Timbl');
+command('timbl -f '+outputfile+'.inst -a1 +D +vdb -I '+outputfile+'.IGTree');
+print('Done');
