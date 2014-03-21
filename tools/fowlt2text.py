@@ -59,10 +59,10 @@ for paragraph in doc.paragraphs():
 
             #Don't handle the same correction twice (happens with merges)
             if suggestion.parent.id not in corrections_handled:
-                current_paragraph += ' '+str(suggestion);
+                current_paragraph += ' '+unicode(suggestion).encode('utf-8');
                 corrections_handled.append(suggestion.parent.id);
         else:
-            current_paragraph += ' '+str(word);
+            current_paragraph += ' '+unicode(suggestion).encode('utf-8');
 
     output_paragraphs.append(current_paragraph.strip());
 
