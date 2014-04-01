@@ -46,6 +46,8 @@ function initloader() {
         $('#sharedialog').slideDown();
     });    
     $('#startbutton').click(function() {        
+        var d = new Date();
+        $('#checksum').val(d.getFullYear() + d.getMonth() + d.getDate())
         showloader();        
         window.setTimeout(function(){$('#inputform').submit()}, 10);
         return false;
