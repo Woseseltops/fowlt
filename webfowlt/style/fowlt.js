@@ -47,7 +47,7 @@ function initloader() {
     });    
     $('#startbutton').click(function() {        
         var d = new Date();
-        $('#checksum').val(d.getFullYear() + d.getMonth() + d.getDate())
+        $('#checksum').val(d.getFullYear() + d.getMonth() + 1 + d.getDate());
         showloader();        
         window.setTimeout(function(){$('#inputform').submit()}, 10);
         return false;
