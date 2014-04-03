@@ -90,7 +90,7 @@ class AbstractModule(object): #Do not modify
 
     def addcorrection(self, word, **kwargs  ):                
     
-        self.errout("Adding correction for " + word.id + " " + unicode(word).encode('utf-8')
+        self.errout("Adding correction for " + word.id + " " + unicode(word).encode('utf-8'))
         
         #Determine an ID for the next correction    
         correction_id = word.generate_id(folia.Correction)        
@@ -124,7 +124,7 @@ class AbstractModule(object): #Do not modify
             
 
     def adderrordetection(self, word, **kwargs):
-        self.errout("Adding correction for " + word.id + " " + unicode(word).encode('utf-8')
+        self.errout("Adding correction for " + word.id + " " + unicode(word).encode('utf-8'))
         
         #add the correction
         word.append(         
@@ -768,6 +768,7 @@ if not standalone:
 doc = folia.Document(file=outputdir + id + '.xml')
 doc.declare(folia.Correction, 'fowltset' )
 doc.declare(folia.ErrorDetection, 'fowltset' )
+doc.language(value='eng');
 
 if not standalone and doc.metadatatype == folia.MetaDataType.NATIVE:
     if 'donate' in clamdata and clamdata['donate']:
