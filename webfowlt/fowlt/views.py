@@ -33,9 +33,12 @@ def process(request):
 
     #Verify checkum and other measures to counter spammers
     d = datetime.datetime.now()
-    if int(request.REQUEST['checksum']) != d.year + d.month + d.day:
+    try:
+        if int(request.REQUEST['checksum']) != d.year + d.month + d.day:
+            return render_to_response('error.html',{'errormessage': "Invalid checksum, are you sure you are human? If not, begone!"} )
+    except:
         return render_to_response('error.html',{'errormessage': "Invalid checksum, are you sure you are human? If not, begone!"} )
-    elif text.find("href=") != -1 or text.find("<iframe") != -1 or text.find("<img") != -1:
+    if text.find("href=") != -1 or text.find("<iframe") != -1 or text.find("<img") != -1:
         return render_to_response('error.html',{'errormessage': "Your input must consist of plain text, HTML elements were detected but can not be processed"} )
     elif text.find("[url=") != -1 or text.find("[img]") != -1:
         return render_to_response('error.html',{'errormessage': "Your input must consist of plain text, BBCode elements were detected but can not be processed"} )
