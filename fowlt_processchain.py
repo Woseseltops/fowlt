@@ -755,9 +755,9 @@ else:
     os.system('dos2unix ' + inputfile)
     errout("Starting tokeniser...")
     if sys.argv[1] == 'clam':
-        os.system(bindir + 'ucto -c ' + rootdir + '/ucto_config/tokconfig-fowlt -x ' + id + ' ' + inputfile + ' -Q > ' + outputdir + id + '.xml')
+        os.system(bindir + 'ucto -c ' + rootdir + '/ucto_config/tokconfig-fowlt -x ' + id + ' ' + inputfile + ' > ' + outputdir + id + '.xml')
     else:
-        os.system(bindir + 'ucto -c ' + rootdir + 'ucto_config/tokconfig-fowlt -x ' + id + ' ' + inputfile + ' -Q > ' + outputdir + id + '.xml')
+        os.system(bindir + 'ucto -c ' + rootdir + 'ucto_config/tokconfig-fowlt -x ' + id + ' ' + inputfile + ' > ' + outputdir + id + '.xml')
 
     errout("Tokeniser finished")
 
