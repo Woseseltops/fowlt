@@ -45,12 +45,13 @@ def get_classes(inputfile):
 #=================================
 
 #Parameters
-inputfile = 'src_data/than,then.err.inst';
-outputfile_prefix = 'manipulated_data/than,then';
 classes = ['than','then'];
 testtrain_ratio = 0.1;
 trainerror_ratio = 0.1;
 testerror_ratio = 0.1;
+
+inputfile = 'src_data/'+','.join(classes)+'.inst';
+outputfile_prefix = 'manipulated_data/'+','.join(classes);
 
 #Create the various outputfiles
 output = {};
