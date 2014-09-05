@@ -1,3 +1,4 @@
+from __future__ import division
 import subprocess
 import os.path
 
@@ -89,13 +90,45 @@ def analyze_data(outputpath,nr_features):
 			words = line.split();	
 			distr = parse_distribution(words[nr_features+2:]);
 			confidence = max(distr.values()) / sum(distr.values());
-		
+
 			if words[nr_features] == words[nr_features+1] or confidence < threshold:
 				confusion_matrices[threshold]['negative'][no_error] += 1;
 			else:
 				confusion_matrices[threshold]['positive'][error] += 1;
 
-	print confusion_matrices;
+	#Reorder the resulting dictionary
+	confusion_matrices = sorted(confusion_matrices.items(),key=lambda x: x[0]);
+
+	#For each of the resulting matrices, calculate measures and print them
+	print(outputpath);
+	for threshold,matrix in confusion_matrices:
+		p = calculate_precision(matrix);
+		r = calculate_recall(matrix);
+		f = calculate_f1(p,r);
+
+		line = '\t'.join([str(x) for x in [threshold,p,r,f]]);
+		print(line);
+
+def calculate_precision(matrix):
+
+	try:
+		return matrix['positive'][True] / (matrix['positive'][True]+matrix['positive'][False]);
+	except ZeroDivisionError:
+		return 0;
+
+def calculate_recall(matrix):
+
+	try:
+		return matrix['positive'][True] / (matrix['positive'][True]+matrix['negative'][False]);
+	except ZeroDivisionError:
+		return 0;
+
+def calculate_f1(precision,recall):
+
+	try:
+		return 2 * (precision*recall/(precision+recall));
+	except ZeroDivisionError:
+		return 0;
 
 #=================================
 # Script starts here
