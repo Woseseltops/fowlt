@@ -40,7 +40,7 @@ SYSTEM_NAME = "Fowlt"
 SYSTEM_DESCRIPTION = "Fowlt spelling correction for English"
 
 # ======== LOCATION ===========
-host = uname()[1]
+host = os.uname()[1]
 if 'VIRTUAL_ENV' in os.environ:
     ROOT = os.environ['VIRTUAL_ENV'] + "/fowlt.clam/"
     PORT = 8080
