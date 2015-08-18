@@ -22,8 +22,8 @@ from clam.common.converters import *
 from clam.common.viewers import *
 from clam.common.data import *
 from clam.common.digestauth import pwhash
-from os import uname, environ
 from base64 import b64decode as D
+import os
 import sys
 
 REQUIRE_VERSION = 0.9
@@ -51,7 +51,7 @@ if 'VIRTUAL_ENV' in os.environ:
         HOST = "webservices-lst.science.ru.nl"
         URLPREFIX = 'fowlt'
 
-        if not 'CLAMTEST' in environ:
+        if not 'CLAMTEST' in os.environ:
             ROOT = "/scratch2/www/webservices-lst/live/writable/fowlt/"
             PORT = 80
         else:
@@ -61,13 +61,13 @@ if 'VIRTUAL_ENV' in os.environ:
         USERS_MYSQL = {
             'host': 'mysql-clamopener.science.ru.nl',
             'user': 'clamopener',
-            'password': D(open(environ['CLAMOPENER_KEYFILE']).read().strip()),
+            'password': D(open(os.environ['CLAMOPENER_KEYFILE']).read().strip()),
             'database': 'clamopener',
             'table': 'clamusers_clamusers'
         }
         DEBUG = False
         REALM = "WEBSERVICES-LST"
-        DIGESTOPAQUE = open(environ['CLAM_DIGESTOPAQUEFILE']).read().strip()
+        DIGESTOPAQUE = open(os.environ['CLAM_DIGESTOPAQUEFILE']).read().strip()
         SECRETKEY = open(os.environ['CLAM_SECRETKEYFILE']).read().strip()
         FOWLTDIR = "/scratch2/www/webservices-lst/live/repo/fowlt/"
         ADMINS = ['proycon','antalb','wstoop']
