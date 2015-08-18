@@ -14,6 +14,8 @@
 #
 ###############################################################
 
+from __future__ import print_function, unicode_literals, division, absolute_import
+
 from clam.common.parameters import *
 from clam.common.formats import *
 from clam.common.converters import *
@@ -24,7 +26,7 @@ from os import uname, environ
 from base64 import b64decode as D
 import sys
 
-REQUIRE_VERSION = 0.7
+REQUIRE_VERSION = 0.9
 
 # ======== GENERAL INFORMATION ===========
 
@@ -39,42 +41,36 @@ SYSTEM_DESCRIPTION = "Fowlt spelling correction for English"
 
 # ======== LOCATION ===========
 host = uname()[1]
-if host == 'aurora' or host == 'roma': #proycon's laptop/server
-    CLAMDIR = "/home/proycon/work/clam"
-    ROOT = "/home/proycon/work/valkuil.clam/"
-    PORT = 9001
-    BINDIR = '/usr/local/bin/'
-    #URLPREFIX = 'ucto'
-    FOWLTDIR = '/home/proycon/work/valkuil/'
-elif host == 'applejack': #Nijmegen
-    CLAMDIR = "/scratch2/www/webservices-lst/live/repo/clam"
-    ROOT = "/scratch2/www/webservices-lst/live/writable/fowlt/"
-    HOST = "webservices-lst.science.ru.nl"
-    PORT = 80
-    URLPREFIX = "fowlt"
-    BINDIR = "/vol/customopt/uvt-ru/bin/"
-    FOWLTDIR = "/scratch2/www/webservices-lst/live/repo/fowlt/"
-    USERS_MYSQL = {
-        'host': 'mysql-clamopener.science.ru.nl',
-        'user': 'clamopener',
-        'password': D(open(environ['CLAMOPENER_KEYFILE']).read().strip()),
-        'database': 'clamopener',
-        'table': 'clamusers_clamusers'
-    }
-    DEBUG = True
-    REALM = "WEBSERVICES-LST"
-    ADMINS = ['proycon','antalb','wstoop']
-    #DIGESTOPAQUE = open(environ['CLAM_DIGESTOPAQUEFILE']).read().strip()
-elif host == 'echo' or host == 'nomia' or host == 'echo.uvt.nl' or host == 'nomia.uvt.nl': #Tilburg
-    #Assuming ILK server
-    CLAMDIR = "/var/www/clam"
-    ROOT = "/var/www/clamdata/valkuil/"
-    HOST = 'webservices.ticc.uvt.nl'
-    PORT = 80
-    URLPREFIX = 'valkuil'
-    WEBSERVICEGHOST = 'ws'
-    BINDIR = '/var/www/bin/'
-    FOWLTDIR = '/var/www/valkuil/'
+if 'VIRTUAL_ENV' in os.environ:
+    ROOT = os.environ['VIRTUAL_ENV'] + "/fowlt.clam/"
+    PORT = 8080
+    BINDIR = os.environ['VIRTUAL_ENV'] + '/bin/'
+    FOWLTDIT = os.environ['VIRTUAL_ENV'] + '/fowlt/'
+
+    if host == 'applejack': #configuration for server in Nijmegen
+        HOST = "webservices-lst.science.ru.nl"
+        URLPREFIX = 'fowlt'
+
+        if not 'CLAMTEST' in environ:
+            ROOT = "/scratch2/www/webservices-lst/live/writable/fowlt/"
+            PORT = 80
+        else:
+            ROOT = "/scratch2/www/webservices-lst/test/writable/fowlt/"
+            PORT = 81
+
+        USERS_MYSQL = {
+            'host': 'mysql-clamopener.science.ru.nl',
+            'user': 'clamopener',
+            'password': D(open(environ['CLAMOPENER_KEYFILE']).read().strip()),
+            'database': 'clamopener',
+            'table': 'clamusers_clamusers'
+        }
+        DEBUG = False
+        REALM = "WEBSERVICES-LST"
+        DIGESTOPAQUE = open(environ['CLAM_DIGESTOPAQUEFILE']).read().strip()
+        SECRETKEY = open(os.environ['CLAM_SECRETKEYFILE']).read().strip()
+        FOWLTDIR = "/scratch2/www/webservices-lst/live/repo/fowlt/"
+        ADMINS = ['proycon','antalb','wstoop']
 else:
     raise Exception("I don't know where I'm running from! Got " + host)
 
