@@ -45,7 +45,7 @@ if 'VIRTUAL_ENV' in os.environ:
     ROOT = os.environ['VIRTUAL_ENV'] + "/fowlt.clam/"
     PORT = 8080
     BINDIR = os.environ['VIRTUAL_ENV'] + '/bin/'
-    FOWLTDIT = os.environ['VIRTUAL_ENV'] + '/fowlt/'
+    FOWLTDIR = os.environ['VIRTUAL_ENV'] + '/fowlt/'
 
     if host == 'applejack': #configuration for server in Nijmegen
         HOST = "webservices-lst.science.ru.nl"
