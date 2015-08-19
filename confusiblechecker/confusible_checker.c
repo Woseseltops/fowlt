@@ -10,7 +10,7 @@
 #include "sockhelp.h"
 #include<unistd.h>
 
-#define PORT "3000"
+#define PORT "3030"
 #define MACHINE argv[5]
 #define NRFEAT 7
 #define MINOCC 10.
@@ -202,3 +202,4 @@ int main(int argc, char *argv[])
 
   return 0;
 }
+
