@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #-*- coding:utf-8 -*-
 
 #----------------------------------------------
@@ -96,7 +96,7 @@ class AbstractModule(object): #Do not modify
 
     def addcorrection(self, word, **kwargs  ):
 
-        self.errout("Adding correction for " + word.id + " " + u(word).encode('utf-8'))
+        self.errout("Adding correction for " + word.id + " " + str(word))
 
         #Determine an ID for the next correction
         correction_id = word.generate_id(folia.Correction)
@@ -130,7 +130,7 @@ class AbstractModule(object): #Do not modify
 
 
     def adderrordetection(self, word, **kwargs):
-        self.errout("Adding correction for " + word.id + " " + u(word).encode('utf-8'))
+        self.errout("Adding correction for " + word.id + " " + str(word))
 
         #add the correction
         word.append(
@@ -151,7 +151,7 @@ class AbstractModule(object): #Do not modify
         for nw in newwords:
             str_newwords += str(nw)+' '
 
-        self.errout("Splitting " + u(word).encode('utf-8') + " into " + str_newwords)
+        self.errout("Splitting " + str(word) + " into " + str_newwords)
 
         sentence = word.sentence()
         newwords = [ folia.Word(self.doc, generate_id_in=sentence, text=w) for w in newwords ]
