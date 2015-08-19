@@ -68,7 +68,7 @@ if 'VIRTUAL_ENV' in os.environ:
         DEBUG = False
         REALM = "WEBSERVICES-LST"
         DIGESTOPAQUE = open(os.environ['CLAM_DIGESTOPAQUEFILE']).read().strip()
-        SECRETKEY = open(os.environ['CLAM_SECRETKEYFILE']).read().strip()
+        SECRET_KEY = open(os.environ['CLAM_SECRETKEYFILE']).read().strip()
         FOWLTDIR = "/scratch2/www/webservices-lst/live/repo/fowlt/"
         ADMINS = ['proycon','antalb','wstoop']
 else:
