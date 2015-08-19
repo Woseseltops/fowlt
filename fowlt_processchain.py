@@ -236,13 +236,13 @@ class LexiconModule(AbstractModule):
                 if len(fields) >= 2 and str(word).lower() not in exceptions:
                     #Add correction suggestion and confidence (two last fields)
                     suggs = []
-            for x in fields[1:-1]:
-                #Make sure the suggestion isn't equal to a uppercase, dashed, etc. version of the word
-                if raw(str(x)) != raw(str(word)):
-                    suggs.append(x.strip())
+                    for x in fields[1:-1]:
+                        #Make sure the suggestion isn't equal to a uppercase, dashed, etc. version of the word
+                        if raw(str(x)) != raw(str(word)):
+                            suggs.append(x.strip())
 
-            if len(suggs) > 0:
-                self.addcorrection(word, suggestions=suggs, cls='Looks-like-frequent-word', annotator=self.NAME, confidence = fields[-1])
+                if len(suggs) > 0:
+                    self.addcorrection(word, suggestions=suggs, cls='Looks-like-frequent-word', annotator=self.NAME, confidence = fields[-1])
             f.close()
 
     def run(self):
