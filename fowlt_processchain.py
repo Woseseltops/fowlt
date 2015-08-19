@@ -791,18 +791,12 @@ if not standalone:
 
 f = open(outputdir + 'input.tok.txt','w')
 for currentword in doc.words():
-    try:
-        f.write( str(currentword).replace('’','\'') + ' ')
-    except UnicodeEncodeError:
-        f.write('%unicodeerror% ')
+    f.write( str(currentword).replace('’','\'') + ' ')
 f.close()
 
 f = open(outputdir + 'agreement_checker.test.inst','w')
 for prevword3, prevword2, prevword, currentword, nextword, nextword2, nextword3 in Windower(doc.words(),7):
-    try:
-        f.write( str(prevword3) + ' ' + str(prevword2) + ' ' + str(prevword) + ' ' + str(currentword) + ' ' + str(nextword) + ' ' + str(nextword2) + ' ' + str(nextword3) + ' ' + str(currentword) + '\n')
-    except UnicodeEncodeError:
-        f.write('%unicodeerror% \n')
+    f.write( str(prevword3) + ' ' + str(prevword2) + ' ' + str(prevword) + ' ' + str(currentword) + ' ' + str(nextword) + ' ' + str(nextword2) + ' ' + str(nextword3) + ' ' + str(currentword) + '\n')
 f.close()
 
 
