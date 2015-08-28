@@ -241,8 +241,8 @@ class LexiconModule(AbstractModule):
                         if raw(str(x)) != raw(str(word)):
                             suggs.append(x.strip())
 
-                if len(suggs) > 0:
-                    self.addcorrection(word, suggestions=suggs, cls='Looks-like-frequent-word', annotator=self.NAME, confidence = fields[-1])
+                    if len(suggs) > 0:
+                        self.addcorrection(word, suggestions=suggs, cls='Looks-like-frequent-word', annotator=self.NAME, confidence = fields[-1])
             f.close()
 
     def run(self):

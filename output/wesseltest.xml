@@ -1,26 +1,28 @@
 <?xml version='1.0' encoding='utf-8'?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="wesseltest" version="0.8.2" generator="pynlpl.formats.folia-v0.8.2.25">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="wesseltest" version="0.10.0" generator="pynlpl.formats.folia-v0.10.0.41">
   <metadata type="native">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" set="ucto_config/tokconfig-fowlt"/>
+      <token-annotation annotator="ucto" datetime="2013-11-14T08:59:22" annotatortype="auto" set="ucto_config/tokconfig-fowlt"/>
       <correction-annotation set="fowltset"/>
       <errordetection-annotation set="fowltset"/>
     </annotations>
   </metadata>
   <text xml:id="wesseltest.text">
     <p xml:id="wesseltest.p.1">
+      <t>I've made alot of largeerrors . I somet imes also forget to give the textf ile some space . I like you're pretty pictures. I don't know weather he will come. He don't go often. We doesn't go often. They like there stuff. There really nice. Their really nice. Are you going there to? I really want too go myself. Maybe we to could go together! Hey said: 'Hey, why don't you stay at Wessel's house'! I advice you to stay home, and listen to my advise! I don't have some friends. I do have any computers, though. I have less friends than my brother. I have fewer beer than I wanted. I have fewer time than I need. I have less things to do. I really need practise to do this properly. I promise I will practice a lot! I hope you will chose me today. I think he choose me yesterday.</t>
       <s xml:id="wesseltest.p.1.s.1">
+        <t>I've made alot of largeerrors .</t>
         <w xml:id="wesseltest.p.1.s.1.w.1" class="WORD">
           <t>I've</t>
         </w>
         <w xml:id="wesseltest.p.1.s.1.w.2" class="WORD">
           <t>made</t>
         </w>
-        <correction xml:id="wesseltest.p.1.s.1.correction.1" annotator="errorlistmodule" class="Frequent-mistake" datetime="2012-11-06T10:39:26">
+        <correction xml:id="wesseltest.p.1.s.1.correction.1" datetime="2013-11-14T08:59:27" class="Frequent-mistake" confidence="1.0" annotator="errorlistmodule">
           <current>
             <w xml:id="wesseltest.p.1.s.1.w.3" class="WORD">
               <t>alot</t>
-              <correction xml:id="wesseltest.p.1.s.1.w.3.correction.1" annotator="errorlistmodule" annotatortype="auto" class="Frequent-mistake" confidence="1.0" datetime="2012-11-06T10:39:26">
+              <correction xml:id="wesseltest.p.1.s.1.w.3.correction.1" class="Frequent-mistake" confidence="1.0" annotator="errorlistmodule" datetime="2013-11-14T08:59:27" annotatortype="auto">
                 <suggestion auth="no">
                   <t>allot</t>
                 </suggestion>
@@ -39,7 +41,7 @@
         <w xml:id="wesseltest.p.1.s.1.w.4" class="WORD">
           <t>of</t>
         </w>
-        <correction xml:id="wesseltest.p.1.s.1.correction.2" annotator="runoncheckermodule" class="space-error" confidence="0.986" datetime="2012-11-06T10:39:26">
+        <correction xml:id="wesseltest.p.1.s.1.correction.2" datetime="2013-11-14T08:59:27" class="space-error" confidence="0.986" annotator="runoncheckermodule">
           <current>
             <w xml:id="wesseltest.p.1.s.1.w.5" class="WORD">
               <t>largeerrors</t>
@@ -59,13 +61,19 @@
         </w>
       </s>
       <s xml:id="wesseltest.p.1.s.2">
+        <t>I somet imes also forget to give the textf ile some space .</t>
         <w xml:id="wesseltest.p.1.s.2.w.1" class="WORD">
           <t>I</t>
         </w>
-        <correction xml:id="wesseltest.p.1.s.2.correction.1" annotator="splitcheckermodule" class="space-error" confidence="1.0" datetime="2012-11-06T10:39:26">
+        <correction xml:id="wesseltest.p.1.s.2.correction.1" datetime="2013-11-14T08:59:27" class="space-error" confidence="1.0" annotator="splitcheckermodule">
           <current>
             <w xml:id="wesseltest.p.1.s.2.w.2" class="WORD">
               <t>somet</t>
+              <correction xml:id="wesseltest.p.1.s.2.w.2.correction.1" class="Looks-like-frequent-word" confidence="0.6" annotator="aspellmodule" datetime="2013-11-14T08:59:27" annotatortype="auto">
+                <suggestion auth="no">
+                  <t>comet</t>
+                </suggestion>
+              </correction>
             </w>
             <w xml:id="wesseltest.p.1.s.2.w.3" class="WORD">
               <t>imes</t>
@@ -92,11 +100,19 @@
         <w xml:id="wesseltest.p.1.s.2.w.8" class="WORD">
           <t>the</t>
         </w>
-        <correction xml:id="wesseltest.p.1.s.2.correction.2" annotator="splitcheckermodule" class="space-error" confidence="0.399" datetime="2012-11-06T10:39:26">
+        <correction xml:id="wesseltest.p.1.s.2.correction.2" datetime="2013-11-14T08:59:27" class="space-error" confidence="0.399" annotator="splitcheckermodule">
           <current>
             <w xml:id="wesseltest.p.1.s.2.w.9" class="WORD">
               <t>textf</t>
-              <correction xml:id="wesseltest.p.1.s.2.w.9.correction.1" annotator="lexiconmodule" annotatortype="auto" class="Looked-like-frequent-word" confidence="0.882" datetime="2012-11-06T10:39:26">
+              <correction xml:id="wesseltest.p.1.s.2.w.9.correction.1" class="Looks-like-frequent-word" confidence="0.882" annotator="lexiconmodule" datetime="2013-11-14T08:59:27" annotatortype="auto">
+                <suggestion auth="no">
+                  <t>text</t>
+                </suggestion>
+              </correction>
+              <correction xml:id="wesseltest.p.1.s.2.w.9.correction.2" class="Looks-like-frequent-word" confidence="0.6" annotator="aspellmodule" datetime="2013-11-14T08:59:27" annotatortype="auto">
+                <suggestion auth="no">
+                  <t>text'</t>
+                </suggestion>
                 <suggestion auth="no">
                   <t>text</t>
                 </suggestion>
@@ -123,6 +139,7 @@
         </w>
       </s>
       <s xml:id="wesseltest.p.1.s.3">
+        <t>I like you're pretty pictures.</t>
         <w xml:id="wesseltest.p.1.s.3.w.1" class="WORD">
           <t>I</t>
         </w>
@@ -131,18 +148,24 @@
         </w>
         <w xml:id="wesseltest.p.1.s.3.w.3" class="WORD">
           <t>you're</t>
+          <correction xml:id="wesseltest.p.1.s.3.w.3.correction.1" class="Well-known-confusion" confidence="0.714" annotator="you'reyourmodule" datetime="2013-11-14T08:59:27" annotatortype="auto">
+            <suggestion auth="no">
+              <t>your</t>
+            </suggestion>
+          </correction>
         </w>
         <w xml:id="wesseltest.p.1.s.3.w.4" class="WORD">
           <t>pretty</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.3.w.5" class="WORD">
+        <w xml:id="wesseltest.p.1.s.3.w.5" space="no" class="WORD">
           <t>pictures</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.3.w.6" space="no" class="PUNCTUATION">
+        <w xml:id="wesseltest.p.1.s.3.w.6" class="PUNCTUATION">
           <t>.</t>
         </w>
       </s>
       <s xml:id="wesseltest.p.1.s.4">
+        <t>I don't know weather he will come.</t>
         <w xml:id="wesseltest.p.1.s.4.w.1" class="WORD">
           <t>I</t>
         </w>
@@ -154,6 +177,11 @@
         </w>
         <w xml:id="wesseltest.p.1.s.4.w.4" class="WORD">
           <t>weather</t>
+          <correction xml:id="wesseltest.p.1.s.4.w.4.correction.1" class="Well-known-confusion" confidence="0.997" annotator="whetherweathermodule" datetime="2013-11-14T08:59:27" annotatortype="auto">
+            <suggestion auth="no">
+              <t>whether</t>
+            </suggestion>
+          </correction>
         </w>
         <w xml:id="wesseltest.p.1.s.4.w.5" class="WORD">
           <t>he</t>
@@ -161,31 +189,38 @@
         <w xml:id="wesseltest.p.1.s.4.w.6" class="WORD">
           <t>will</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.4.w.7" class="WORD">
+        <w xml:id="wesseltest.p.1.s.4.w.7" space="no" class="WORD">
           <t>come</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.4.w.8" space="no" class="PUNCTUATION">
+        <w xml:id="wesseltest.p.1.s.4.w.8" class="PUNCTUATION">
           <t>.</t>
         </w>
       </s>
       <s xml:id="wesseltest.p.1.s.5">
+        <t>He don't go often.</t>
         <w xml:id="wesseltest.p.1.s.5.w.1" class="WORD">
           <t>He</t>
         </w>
         <w xml:id="wesseltest.p.1.s.5.w.2" class="WORD">
           <t>don't</t>
+          <correction xml:id="wesseltest.p.1.s.5.w.2.correction.1" class="Well-known-confusion" confidence="0.988" annotator="don'tdoesn'tmodule" datetime="2013-11-14T08:59:27" annotatortype="auto">
+            <suggestion auth="no">
+              <t>doesn't</t>
+            </suggestion>
+          </correction>
         </w>
         <w xml:id="wesseltest.p.1.s.5.w.3" class="WORD">
           <t>go</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.5.w.4" class="WORD">
+        <w xml:id="wesseltest.p.1.s.5.w.4" space="no" class="WORD">
           <t>often</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.5.w.5" space="no" class="PUNCTUATION">
+        <w xml:id="wesseltest.p.1.s.5.w.5" class="PUNCTUATION">
           <t>.</t>
         </w>
       </s>
       <s xml:id="wesseltest.p.1.s.6">
+        <t>We doesn't go often.</t>
         <w xml:id="wesseltest.p.1.s.6.w.1" class="WORD">
           <t>We</t>
         </w>
@@ -195,14 +230,15 @@
         <w xml:id="wesseltest.p.1.s.6.w.3" class="WORD">
           <t>go</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.6.w.4" class="WORD">
+        <w xml:id="wesseltest.p.1.s.6.w.4" space="no" class="WORD">
           <t>often</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.6.w.5" space="no" class="PUNCTUATION">
+        <w xml:id="wesseltest.p.1.s.6.w.5" class="PUNCTUATION">
           <t>.</t>
         </w>
       </s>
       <s xml:id="wesseltest.p.1.s.7">
+        <t>They like there stuff.</t>
         <w xml:id="wesseltest.p.1.s.7.w.1" class="WORD">
           <t>They</t>
         </w>
@@ -211,43 +247,61 @@
         </w>
         <w xml:id="wesseltest.p.1.s.7.w.3" class="WORD">
           <t>there</t>
+          <correction xml:id="wesseltest.p.1.s.7.w.3.correction.1" class="Well-known-confusion" confidence="0.85" annotator="they'retheirtheremodule" datetime="2013-11-14T08:59:27" annotatortype="auto">
+            <suggestion auth="no">
+              <t>their</t>
+            </suggestion>
+          </correction>
         </w>
-        <w xml:id="wesseltest.p.1.s.7.w.4" class="WORD">
+        <w xml:id="wesseltest.p.1.s.7.w.4" space="no" class="WORD">
           <t>stuff</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.7.w.5" space="no" class="PUNCTUATION">
+        <w xml:id="wesseltest.p.1.s.7.w.5" class="PUNCTUATION">
           <t>.</t>
         </w>
       </s>
       <s xml:id="wesseltest.p.1.s.8">
+        <t>There really nice.</t>
         <w xml:id="wesseltest.p.1.s.8.w.1" class="WORD">
           <t>There</t>
+          <correction xml:id="wesseltest.p.1.s.8.w.1.correction.1" class="Well-known-confusion" confidence="0.848" annotator="they'retheirtheremodule" datetime="2013-11-14T08:59:27" annotatortype="auto">
+            <suggestion auth="no">
+              <t>They're</t>
+            </suggestion>
+          </correction>
         </w>
         <w xml:id="wesseltest.p.1.s.8.w.2" class="WORD">
           <t>really</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.8.w.3" class="WORD">
+        <w xml:id="wesseltest.p.1.s.8.w.3" space="no" class="WORD">
           <t>nice</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.8.w.4" space="no" class="PUNCTUATION">
+        <w xml:id="wesseltest.p.1.s.8.w.4" class="PUNCTUATION">
           <t>.</t>
         </w>
       </s>
       <s xml:id="wesseltest.p.1.s.9">
+        <t>Their really nice.</t>
         <w xml:id="wesseltest.p.1.s.9.w.1" class="WORD">
           <t>Their</t>
+          <correction xml:id="wesseltest.p.1.s.9.w.1.correction.1" class="Well-known-confusion" confidence="0.848" annotator="they'retheirtheremodule" datetime="2013-11-14T08:59:27" annotatortype="auto">
+            <suggestion auth="no">
+              <t>They're</t>
+            </suggestion>
+          </correction>
         </w>
         <w xml:id="wesseltest.p.1.s.9.w.2" class="WORD">
           <t>really</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.9.w.3" class="WORD">
+        <w xml:id="wesseltest.p.1.s.9.w.3" space="no" class="WORD">
           <t>nice</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.9.w.4" space="no" class="PUNCTUATION">
+        <w xml:id="wesseltest.p.1.s.9.w.4" class="PUNCTUATION">
           <t>.</t>
         </w>
       </s>
       <s xml:id="wesseltest.p.1.s.10">
+        <t>Are you going there to?</t>
         <w xml:id="wesseltest.p.1.s.10.w.1" class="WORD">
           <t>Are</t>
         </w>
@@ -260,14 +314,20 @@
         <w xml:id="wesseltest.p.1.s.10.w.4" class="WORD">
           <t>there</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.10.w.5" class="WORD">
+        <w xml:id="wesseltest.p.1.s.10.w.5" space="no" class="WORD">
           <t>to</t>
+          <correction xml:id="wesseltest.p.1.s.10.w.5.correction.1" class="Well-known-confusion" confidence="0.696" annotator="totootwomodule" datetime="2013-11-14T08:59:27" annotatortype="auto">
+            <suggestion auth="no">
+              <t>too</t>
+            </suggestion>
+          </correction>
         </w>
-        <w xml:id="wesseltest.p.1.s.10.w.6" space="no" class="PUNCTUATION">
+        <w xml:id="wesseltest.p.1.s.10.w.6" class="PUNCTUATION">
           <t>?</t>
         </w>
       </s>
       <s xml:id="wesseltest.p.1.s.11">
+        <t>I really want too go myself.</t>
         <w xml:id="wesseltest.p.1.s.11.w.1" class="WORD">
           <t>I</t>
         </w>
@@ -279,18 +339,24 @@
         </w>
         <w xml:id="wesseltest.p.1.s.11.w.4" class="WORD">
           <t>too</t>
+          <correction xml:id="wesseltest.p.1.s.11.w.4.correction.1" class="Well-known-confusion" confidence="0.97" annotator="totootwomodule" datetime="2013-11-14T08:59:27" annotatortype="auto">
+            <suggestion auth="no">
+              <t>to</t>
+            </suggestion>
+          </correction>
         </w>
         <w xml:id="wesseltest.p.1.s.11.w.5" class="WORD">
           <t>go</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.11.w.6" class="WORD">
+        <w xml:id="wesseltest.p.1.s.11.w.6" space="no" class="WORD">
           <t>myself</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.11.w.7" space="no" class="PUNCTUATION">
+        <w xml:id="wesseltest.p.1.s.11.w.7" class="PUNCTUATION">
           <t>.</t>
         </w>
       </s>
       <s xml:id="wesseltest.p.1.s.12">
+        <t>Maybe we to could go together!</t>
         <w xml:id="wesseltest.p.1.s.12.w.1" class="WORD">
           <t>Maybe</t>
         </w>
@@ -299,6 +365,11 @@
         </w>
         <w xml:id="wesseltest.p.1.s.12.w.3" class="WORD">
           <t>to</t>
+          <correction xml:id="wesseltest.p.1.s.12.w.3.correction.1" class="Well-known-confusion" confidence="0.722" annotator="totootwomodule" datetime="2013-11-14T08:59:27" annotatortype="auto">
+            <suggestion auth="no">
+              <t>too</t>
+            </suggestion>
+          </correction>
         </w>
         <w xml:id="wesseltest.p.1.s.12.w.4" class="WORD">
           <t>could</t>
@@ -306,53 +377,56 @@
         <w xml:id="wesseltest.p.1.s.12.w.5" class="WORD">
           <t>go</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.12.w.6" class="WORD">
+        <w xml:id="wesseltest.p.1.s.12.w.6" space="no" class="WORD">
           <t>together</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.12.w.7" space="no" class="PUNCTUATION">
+        <w xml:id="wesseltest.p.1.s.12.w.7" class="PUNCTUATION">
           <t>!</t>
         </w>
       </s>
       <s xml:id="wesseltest.p.1.s.13">
+        <t>Hey said: 'Hey, why don't you stay at Wessel's house'!</t>
         <w xml:id="wesseltest.p.1.s.13.w.1" class="WORD">
           <t>Hey</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.13.w.2" class="WORD">
+        <w xml:id="wesseltest.p.1.s.13.w.2" space="no" class="WORD">
           <t>said</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.13.w.3" space="no" class="PUNCTUATION">
+        <w xml:id="wesseltest.p.1.s.13.w.3" class="PUNCTUATION">
           <t>:</t>
         </w>
         <w xml:id="wesseltest.p.1.s.13.w.4" space="no" class="PUNCTUATION">
           <t>'</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.13.w.5" class="WORD">
-          <t>Hey</t>
-        </w>
-        <w xml:id="wesseltest.p.1.s.13.w.6" space="no" class="PUNCTUATION">
-          <t>,</t>
-        </w>
-        <w xml:id="wesseltest.p.1.s.13.w.7" class="WORD">
-          <t>why</t>
-        </w>
-        <w xml:id="wesseltest.p.1.s.13.w.8" class="WORD">
-          <t>don't</t>
-        </w>
-        <w xml:id="wesseltest.p.1.s.13.w.9" class="WORD">
-          <t>you</t>
-        </w>
-        <w xml:id="wesseltest.p.1.s.13.w.10" class="WORD">
-          <t>stay</t>
-        </w>
-        <w xml:id="wesseltest.p.1.s.13.w.11" class="WORD">
-          <t>at</t>
-        </w>
-        <w xml:id="wesseltest.p.1.s.13.w.12" class="WORD">
-          <t>Wessel's</t>
-        </w>
-        <w xml:id="wesseltest.p.1.s.13.w.13" class="WORD">
-          <t>house</t>
-        </w>
+        <quote xml:id="wesseltest.p.1.s.13.quote.1">
+          <w xml:id="wesseltest.p.1.s.13.w.5" space="no" class="WORD">
+            <t>Hey</t>
+          </w>
+          <w xml:id="wesseltest.p.1.s.13.w.6" class="PUNCTUATION">
+            <t>,</t>
+          </w>
+          <w xml:id="wesseltest.p.1.s.13.w.7" class="WORD">
+            <t>why</t>
+          </w>
+          <w xml:id="wesseltest.p.1.s.13.w.8" class="WORD">
+            <t>don't</t>
+          </w>
+          <w xml:id="wesseltest.p.1.s.13.w.9" class="WORD">
+            <t>you</t>
+          </w>
+          <w xml:id="wesseltest.p.1.s.13.w.10" class="WORD">
+            <t>stay</t>
+          </w>
+          <w xml:id="wesseltest.p.1.s.13.w.11" class="WORD">
+            <t>at</t>
+          </w>
+          <w xml:id="wesseltest.p.1.s.13.w.12" class="WORD">
+            <t>Wessel's</t>
+          </w>
+          <w xml:id="wesseltest.p.1.s.13.w.13" space="no" class="WORD">
+            <t>house</t>
+          </w>
+        </quote>
         <w xml:id="wesseltest.p.1.s.13.w.14" space="no" class="PUNCTUATION">
           <t>'</t>
         </w>
@@ -361,6 +435,7 @@
         </w>
       </s>
       <s xml:id="wesseltest.p.1.s.14">
+        <t>I advice you to stay home, and listen to my advise!</t>
         <w xml:id="wesseltest.p.1.s.14.w.1" class="WORD">
           <t>I</t>
         </w>
@@ -376,10 +451,10 @@
         <w xml:id="wesseltest.p.1.s.14.w.5" class="WORD">
           <t>stay</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.14.w.6" class="WORD">
+        <w xml:id="wesseltest.p.1.s.14.w.6" space="no" class="WORD">
           <t>home</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.14.w.7" space="no" class="PUNCTUATION">
+        <w xml:id="wesseltest.p.1.s.14.w.7" class="PUNCTUATION">
           <t>,</t>
         </w>
         <w xml:id="wesseltest.p.1.s.14.w.8" class="WORD">
@@ -394,14 +469,15 @@
         <w xml:id="wesseltest.p.1.s.14.w.11" class="WORD">
           <t>my</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.14.w.12" class="WORD">
+        <w xml:id="wesseltest.p.1.s.14.w.12" space="no" class="WORD">
           <t>advise</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.14.w.13" space="no" class="PUNCTUATION">
+        <w xml:id="wesseltest.p.1.s.14.w.13" class="PUNCTUATION">
           <t>!</t>
         </w>
       </s>
       <s xml:id="wesseltest.p.1.s.15">
+        <t>I don't have some friends.</t>
         <w xml:id="wesseltest.p.1.s.15.w.1" class="WORD">
           <t>I</t>
         </w>
@@ -413,15 +489,21 @@
         </w>
         <w xml:id="wesseltest.p.1.s.15.w.4" class="WORD">
           <t>some</t>
+          <correction xml:id="wesseltest.p.1.s.15.w.4.correction.1" class="Well-known-confusion" confidence="0.733" annotator="anysomemodule" datetime="2013-11-14T08:59:27" annotatortype="auto">
+            <suggestion auth="no">
+              <t>any</t>
+            </suggestion>
+          </correction>
         </w>
-        <w xml:id="wesseltest.p.1.s.15.w.5" class="WORD">
+        <w xml:id="wesseltest.p.1.s.15.w.5" space="no" class="WORD">
           <t>friends</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.15.w.6" space="no" class="PUNCTUATION">
+        <w xml:id="wesseltest.p.1.s.15.w.6" class="PUNCTUATION">
           <t>.</t>
         </w>
       </s>
       <s xml:id="wesseltest.p.1.s.16">
+        <t>I do have any computers, though.</t>
         <w xml:id="wesseltest.p.1.s.16.w.1" class="WORD">
           <t>I</t>
         </w>
@@ -434,20 +516,21 @@
         <w xml:id="wesseltest.p.1.s.16.w.4" class="WORD">
           <t>any</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.16.w.5" class="WORD">
+        <w xml:id="wesseltest.p.1.s.16.w.5" space="no" class="WORD">
           <t>computers</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.16.w.6" space="no" class="PUNCTUATION">
+        <w xml:id="wesseltest.p.1.s.16.w.6" class="PUNCTUATION">
           <t>,</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.16.w.7" class="WORD">
+        <w xml:id="wesseltest.p.1.s.16.w.7" space="no" class="WORD">
           <t>though</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.16.w.8" space="no" class="PUNCTUATION">
+        <w xml:id="wesseltest.p.1.s.16.w.8" class="PUNCTUATION">
           <t>.</t>
         </w>
       </s>
       <s xml:id="wesseltest.p.1.s.17">
+        <t>I have less friends than my brother.</t>
         <w xml:id="wesseltest.p.1.s.17.w.1" class="WORD">
           <t>I</t>
         </w>
@@ -466,14 +549,15 @@
         <w xml:id="wesseltest.p.1.s.17.w.6" class="WORD">
           <t>my</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.17.w.7" class="WORD">
+        <w xml:id="wesseltest.p.1.s.17.w.7" space="no" class="WORD">
           <t>brother</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.17.w.8" space="no" class="PUNCTUATION">
+        <w xml:id="wesseltest.p.1.s.17.w.8" class="PUNCTUATION">
           <t>.</t>
         </w>
       </s>
       <s xml:id="wesseltest.p.1.s.18">
+        <t>I have fewer beer than I wanted.</t>
         <w xml:id="wesseltest.p.1.s.18.w.1" class="WORD">
           <t>I</t>
         </w>
@@ -492,14 +576,15 @@
         <w xml:id="wesseltest.p.1.s.18.w.6" class="WORD">
           <t>I</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.18.w.7" class="WORD">
+        <w xml:id="wesseltest.p.1.s.18.w.7" space="no" class="WORD">
           <t>wanted</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.18.w.8" space="no" class="PUNCTUATION">
+        <w xml:id="wesseltest.p.1.s.18.w.8" class="PUNCTUATION">
           <t>.</t>
         </w>
       </s>
       <s xml:id="wesseltest.p.1.s.19">
+        <t>I have fewer time than I need.</t>
         <w xml:id="wesseltest.p.1.s.19.w.1" class="WORD">
           <t>I</t>
         </w>
@@ -508,6 +593,11 @@
         </w>
         <w xml:id="wesseltest.p.1.s.19.w.3" class="WORD">
           <t>fewer</t>
+          <correction xml:id="wesseltest.p.1.s.19.w.3.correction.1" class="Well-known-confusion" confidence="0.935" annotator="lessfewermodule" datetime="2013-11-14T08:59:27" annotatortype="auto">
+            <suggestion auth="no">
+              <t>less</t>
+            </suggestion>
+          </correction>
         </w>
         <w xml:id="wesseltest.p.1.s.19.w.4" class="WORD">
           <t>time</t>
@@ -518,14 +608,15 @@
         <w xml:id="wesseltest.p.1.s.19.w.6" class="WORD">
           <t>I</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.19.w.7" class="WORD">
+        <w xml:id="wesseltest.p.1.s.19.w.7" space="no" class="WORD">
           <t>need</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.19.w.8" space="no" class="PUNCTUATION">
+        <w xml:id="wesseltest.p.1.s.19.w.8" class="PUNCTUATION">
           <t>.</t>
         </w>
       </s>
       <s xml:id="wesseltest.p.1.s.20">
+        <t>I have less things to do.</t>
         <w xml:id="wesseltest.p.1.s.20.w.1" class="WORD">
           <t>I</t>
         </w>
@@ -541,14 +632,15 @@
         <w xml:id="wesseltest.p.1.s.20.w.5" class="WORD">
           <t>to</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.20.w.6" class="WORD">
+        <w xml:id="wesseltest.p.1.s.20.w.6" space="no" class="WORD">
           <t>do</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.20.w.7" space="no" class="PUNCTUATION">
+        <w xml:id="wesseltest.p.1.s.20.w.7" class="PUNCTUATION">
           <t>.</t>
         </w>
       </s>
       <s xml:id="wesseltest.p.1.s.21">
+        <t>I really need practise to do this properly.</t>
         <w xml:id="wesseltest.p.1.s.21.w.1" class="WORD">
           <t>I</t>
         </w>
@@ -570,14 +662,15 @@
         <w xml:id="wesseltest.p.1.s.21.w.7" class="WORD">
           <t>this</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.21.w.8" class="WORD">
+        <w xml:id="wesseltest.p.1.s.21.w.8" space="no" class="WORD">
           <t>properly</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.21.w.9" space="no" class="PUNCTUATION">
+        <w xml:id="wesseltest.p.1.s.21.w.9" class="PUNCTUATION">
           <t>.</t>
         </w>
       </s>
       <s xml:id="wesseltest.p.1.s.22">
+        <t>I promise I will practice a lot!</t>
         <w xml:id="wesseltest.p.1.s.22.w.1" class="WORD">
           <t>I</t>
         </w>
@@ -596,14 +689,15 @@
         <w xml:id="wesseltest.p.1.s.22.w.6" class="WORD">
           <t>a</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.22.w.7" class="WORD">
+        <w xml:id="wesseltest.p.1.s.22.w.7" space="no" class="WORD">
           <t>lot</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.22.w.8" space="no" class="PUNCTUATION">
+        <w xml:id="wesseltest.p.1.s.22.w.8" class="PUNCTUATION">
           <t>!</t>
         </w>
       </s>
       <s xml:id="wesseltest.p.1.s.23">
+        <t>I hope you will chose me today.</t>
         <w xml:id="wesseltest.p.1.s.23.w.1" class="WORD">
           <t>I</t>
         </w>
@@ -618,18 +712,24 @@
         </w>
         <w xml:id="wesseltest.p.1.s.23.w.5" class="WORD">
           <t>chose</t>
+          <correction xml:id="wesseltest.p.1.s.23.w.5.correction.1" class="Well-known-confusion" confidence="0.925" annotator="chosechoosemodule" datetime="2013-11-14T08:59:27" annotatortype="auto">
+            <suggestion auth="no">
+              <t>choose</t>
+            </suggestion>
+          </correction>
         </w>
         <w xml:id="wesseltest.p.1.s.23.w.6" class="WORD">
           <t>me</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.23.w.7" class="WORD">
+        <w xml:id="wesseltest.p.1.s.23.w.7" space="no" class="WORD">
           <t>today</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.23.w.8" space="no" class="PUNCTUATION">
+        <w xml:id="wesseltest.p.1.s.23.w.8" class="PUNCTUATION">
           <t>.</t>
         </w>
       </s>
       <s xml:id="wesseltest.p.1.s.24">
+        <t>I think he choose me yesterday.</t>
         <w xml:id="wesseltest.p.1.s.24.w.1" class="WORD">
           <t>I</t>
         </w>
@@ -641,14 +741,19 @@
         </w>
         <w xml:id="wesseltest.p.1.s.24.w.4" class="WORD">
           <t>choose</t>
+          <correction xml:id="wesseltest.p.1.s.24.w.4.correction.1" class="Well-known-confusion" confidence="0.959" annotator="chosechoosemodule" datetime="2013-11-14T08:59:27" annotatortype="auto">
+            <suggestion auth="no">
+              <t>chose</t>
+            </suggestion>
+          </correction>
         </w>
         <w xml:id="wesseltest.p.1.s.24.w.5" class="WORD">
           <t>me</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.24.w.6" class="WORD">
+        <w xml:id="wesseltest.p.1.s.24.w.6" space="no" class="WORD">
           <t>yesterday</t>
         </w>
-        <w xml:id="wesseltest.p.1.s.24.w.7" space="no" class="PUNCTUATION">
+        <w xml:id="wesseltest.p.1.s.24.w.7" class="PUNCTUATION">
           <t>.</t>
         </w>
       </s>
