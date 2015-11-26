@@ -53,7 +53,10 @@ if 'VIRTUAL_ENV' in os.environ:
 
         if not 'CLAMTEST' in os.environ:
             ROOT = "/scratch2/www/webservices-lst/live/writable/fowlt/"
-            PORT = 80
+            if 'CLAMSSL' in os.environ:
+                PORT = 443
+            else:
+                PORT = 80
         else:
             ROOT = "/scratch2/www/webservices-lst/test/writable/fowlt/"
             PORT = 81
