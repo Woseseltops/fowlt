@@ -3,7 +3,7 @@ from socket import gethostname
 from base64 import b64decode as D
 from os import environ
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
@@ -60,7 +60,11 @@ if hostname == "spitfire" or hostname == "spitfire.science.ru.nl":  #Nijmegen
     CLAMUSER = 'internal'
     CLAMPASS = D(open(environ['CLAMOPENER_PASSFILE']).read().strip())
     
-    DEBUG = True #No debug in production environment            
+    DEBUG = False #No debug in production environment            
+    ALLOWED_HOSTS = [
+        '.fowlt.net',
+        '.fowlt.net.',
+    ]
 elif hostname == 'echo' or hostname == 'nomia' or hostname == 'echo.uvt.nl' or hostname == 'nomia.uvt.nl': #Tilburg
     ROOT_DIR = "/var/www/fowlt/"
     DOCDIR = ROOT_DIR + 'userdocs/'
